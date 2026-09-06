@@ -1,0 +1,12 @@
+{
+  "name": "abc-guide",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Best-rated spirits actually in stock at your Virginia ABC store",
+  "scripts": {
+    "catalog": "node scripts/build-catalog.mjs",
+    "shelf": "node scripts/merge-shelf.mjs",
+    "stores": "node scripts/build-stores.mjs"
+  }
+}
