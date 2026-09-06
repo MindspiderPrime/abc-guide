@@ -1,15 +1,21 @@
-// Builds public/shelf.json — the single file the phone downloads.
+// Builds what the phone downloads.
 //
-// catalog.json (generated, disposable) + ratings.json (Jeff's, irreplaceable)
-//   -> one flat list of rated bottles, smallest useful shape.
+//   public/shelf.json          rated bottles only + stores + categories.
+//                              Small, cached, loaded on every visit.
+//   public/shelf/<cat>.json    every bottle in one category, rated or not.
+//                              Fetched only when you tap "show everything".
+//
+// The split exists because the rated set is a few hundred rows and the full
+// catalog is tens of thousands. Shipping the whole thing on every page load
+// would break the one property that matters in a store: the ranked list appears
+// before any network request finishes.
 //
 // Ratings key on labelId, not product code: "Tanqueray Gin" is one opinion that
-// applies to all five of its bottle sizes. Rating each code separately would be
-// triple the work and would silently go stale whenever ABC changes the lineup.
+// applies to all five of its bottle sizes.
 //
 // Run: node scripts/merge-shelf.mjs
 
-import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
+import { readFileSync, writeFileSync, mkdirSync, rmSync, existsSync } from 'node:fs';
 
 const catalog = JSON.parse(readFileSync('data/catalog.json', 'utf8'));
 const ratings = existsSync('data/ratings.json')
@@ -42,20 +48,22 @@ function shortAddress(a) {
 const titleCase = (s) =>
   s.replace(/\w\S*/g, (w) => w[0].toUpperCase() + w.slice(1).toLowerCase());
 
-const rated = [];
-const unrated = new Map(); // labelId -> name, for the "what still needs rating" report
+const slug = (c) => c.toLowerCase().replace(/[^a-z0-9]+/g, '-');
 
-for (const p of catalog.products) {
-  const r = ratings[p.labelId];
-  if (!r) {
-    if (!unrated.has(p.labelId)) unrated.set(p.labelId, p.name);
-    continue;
-  }
-  if (p.allocated) continue; // lottery/allocated bottles aren't a shelf you can shop
+/**
+ * Where a category has no hand-authored style tags, fall back to ABC's own type
+ * field — Silver/Reposado/Anejo for tequila, Fruit/Cream/Herbal for cordials.
+ * It's already a real style vocabulary there. It is not for gin ("Regular") or
+ * bourbon ("Bourbon"), which is why those are hand-authored in ratings.json.
+ */
+const styleFor = (p, rating) =>
+  rating?.style || (p.type && p.type !== p.category ? p.type.toLowerCase() : '');
 
-  rated.push({
+/** One product row, trimmed to what the page actually reads. */
+function row(p, rating) {
+  const r = {
     c: p.code,
-    n: r.name || p.name,
+    n: rating?.name || p.name,
     cat: p.category,
     ml: p.ml,
     p: p.price,
@@ -63,14 +71,53 @@ for (const p of catalog.products) {
     // compared honestly against a standard bottle
     p750: Math.round(p.perMl * 750 * 100) / 100,
     pf: p.proof,
-    s: r.score,
-    st: r.style,
-    note: r.note || '',
-    src: r.source || 'draft',
-  });
+    st: styleFor(p, rating),
+  };
+  if (p.virginia) r.va = 1;
+  if (rating) {
+    r.s = rating.score;
+    r.note = rating.note || '';
+    r.src = rating.source || 'draft';
+  }
+  return r;
+}
+
+const rated = [];
+const byCategory = new Map();
+const unrated = new Map(); // labelId -> name, for the "what still needs rating" report
+
+for (const p of catalog.products) {
+  if (p.allocated) continue; // lottery/allocated bottles aren't a shelf you can shop
+  const rating = ratings[p.labelId];
+
+  if (!byCategory.has(p.category)) byCategory.set(p.category, []);
+  byCategory.get(p.category).push(row(p, rating));
+
+  if (rating) rated.push(row(p, rating));
+  else if (!unrated.has(p.labelId)) unrated.set(p.labelId, `${p.category} · ${p.name}`);
 }
 
 rated.sort((a, b) => b.s - a.s || a.p - b.p);
+
+// Categories the picker offers, ordered by how much rated depth they have —
+// a shelf with two ratings shouldn't sit above one with sixty.
+const categories = [...byCategory.keys()]
+  .map((cat) => ({
+    cat,
+    rated: rated.filter((r) => r.cat === cat).length,
+    total: byCategory.get(cat).length,
+  }))
+  .sort((a, b) => b.rated - a.rated || a.cat.localeCompare(b.cat));
+
+// Rebuild the directory from scratch so a renamed or dropped shelf doesn't
+// leave a stale file behind that the page could still fetch.
+rmSync('public/shelf', { recursive: true, force: true });
+mkdirSync('public/shelf', { recursive: true });
+
+for (const [cat, products] of byCategory) {
+  products.sort((a, b) => (b.s ?? -1) - (a.s ?? -1) || a.p - b.p);
+  writeFileSync(`public/shelf/${slug(cat)}.json`, JSON.stringify({ cat, products }));
+}
 
 const shelf = {
   builtAt: new Date().toISOString(),
@@ -81,24 +128,24 @@ const shelf = {
     label: `#${s.storeNumber} · ${shortAddress(s.address)}, ${titleCase(s.city)}`,
     miles: s.miles,
   })),
-  styles: [...new Set(rated.map((r) => r.st))].filter(Boolean).sort(),
-  categories: [...new Set(rated.map((r) => r.cat))].sort(),
+  categories,
   products: rated,
 };
 
-mkdirSync('public', { recursive: true });
 writeFileSync('public/shelf.json', JSON.stringify(shelf));
 
-const kb = (JSON.stringify(shelf).length / 1024).toFixed(1);
-console.log(`rated bottles   ${rated.length}`);
-console.log(`  750 ml        ${rated.filter((r) => r.ml === 750).length}`);
+const kb = (n) => (n / 1024).toFixed(1) + ' KB';
+console.log(`rated bottles   ${rated.length}  of ${catalog.products.length} in the catalog`);
 console.log(`  confirmed by you ${rated.filter((r) => r.src === 'jeff').length}  (rest are my drafts)`);
 console.log(`stores          ${shelf.stores.length}`);
-console.log(`styles          ${shelf.styles.join(', ') || '(none)'}`);
-console.log(`\nwrote public/shelf.json  (${kb} KB — this is what the phone downloads)`);
+console.log(`\nshelf.json      ${kb(JSON.stringify(shelf).length)}  <- every visit`);
 
-if (unrated.size) {
-  console.log(`\n${unrated.size} labels in the catalog have no rating yet:`);
-  for (const [id, name] of [...unrated].slice(0, 15)) console.log(`  ${id}  ${name}`);
-  if (unrated.size > 15) console.log(`  ... and ${unrated.size - 15} more`);
+console.log('\ncategory                rated / total   file');
+for (const c of categories) {
+  const size = JSON.stringify({ cat: c.cat, products: byCategory.get(c.cat) }).length;
+  console.log(
+    `  ${c.cat.padEnd(20)} ${String(c.rated).padStart(5)} / ${String(c.total).padEnd(6)} ${kb(size).padStart(9)}`
+  );
 }
+
+console.log(`\n${unrated.size} labels still unrated (they appear only under "show everything")`);
