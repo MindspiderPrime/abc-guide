@@ -13,6 +13,13 @@
     "note": "Rye-based, with actual character. Pricey.",
     "source": "draft"
   },
+  "362": {
+    "name": "Black Velvet Portable",
+    "score": 3,
+    "style": "value",
+    "note": "Rock-bottom Canadian whisky. Buy it for the price, not the flavor.",
+    "source": "draft"
+  },
   "402": {
     "name": "Bombay Sapphire Gin",
     "score": 7,
@@ -387,6 +394,13 @@
     "note": "The softer Wild Turkey. Perfectly good; the 101 is better for five dollars more.",
     "source": "draft"
   },
+  "7393": {
+    "name": "Caribou Crossing SB Canadian",
+    "score": 7.5,
+    "style": "single barrel",
+    "note": "Rare single-barrel Canadian whisky. More character than any blend on this shelf.",
+    "source": "draft"
+  },
   "7450": {
     "name": "Remy Martin VSOP",
     "score": 7.5,
@@ -447,6 +461,13 @@
     "note": "More smoke and pepper than the 10, no age statement. Good value.",
     "source": "draft"
   },
+  "8905": {
+    "name": "Crown Royal XO",
+    "score": 7,
+    "style": "blended",
+    "note": "Cognac-cask finished. Fruitier and richer than Reserve — pick whichever finish you prefer.",
+    "source": "draft"
+  },
   "9067": {
     "name": "Jose Cuervo Especial Silver Tequila",
     "score": 3.5,
@@ -498,6 +519,13 @@
     "score": 5.5,
     "style": "flavored",
     "note": "Sweet lemon. Does one job.",
+    "source": "draft"
+  },
+  "10324": {
+    "name": "Senator's Club Whiskey (plastic)",
+    "score": 3,
+    "style": "budget",
+    "note": "As basic as it gets. Buy it for the price.",
     "source": "draft"
   },
   "10350": {
@@ -644,6 +672,13 @@
     "note": "Honey plus pepper. A novelty.",
     "source": "draft"
   },
+  "11088": {
+    "name": "Filibuster Boondoggler",
+    "score": 5.5,
+    "style": "craft",
+    "note": "Virginia-distilled blend, light and easy. A local curiosity more than a standout.",
+    "source": "draft"
+  },
   "11096": {
     "name": "Kopper Kettle Golden Gin",
     "score": 6.5,
@@ -695,6 +730,13 @@
     "score": 6.5,
     "style": "fruit",
     "note": "Rich black raspberry. Sweet, useful in small amounts.",
+    "source": "draft"
+  },
+  "11606": {
+    "name": "Rich & Rare Whisky",
+    "score": 3,
+    "style": "value",
+    "note": "As basic as Canadian whisky gets. A mixer, nothing more.",
     "source": "draft"
   },
   "11657": {
@@ -947,6 +989,13 @@
     "note": "Harsh neat, fine in a highball.",
     "source": "draft"
   },
+  "12275": {
+    "name": "Breckenridge Distiller's High Proof Blend",
+    "score": 7,
+    "style": "blended",
+    "note": "High-proof Colorado blend. Spicier and more assertive than most blended whiskey.",
+    "source": "draft"
+  },
   "12359": {
     "name": "Lunazul Tequila Blanco",
     "score": 6.5,
@@ -1012,11 +1061,25 @@
     "note": "Reliable, a bit sweet.",
     "source": "draft"
   },
+  "13142": {
+    "name": "Canadian Mist Whisky (plastic)",
+    "score": 3.5,
+    "style": "value",
+    "note": "Thin and neutral. Fine for a well pour, forgettable everywhere else.",
+    "source": "draft"
+  },
   "13183": {
     "name": "Old Overholt Bonded",
     "score": 7.5,
     "style": "bottled-in-bond",
     "note": "The 100-proof bonded Overholt, not the 80. Far better and only three dollars more.",
+    "source": "draft"
+  },
+  "13255": {
+    "name": "Old Elk Blended Straight Bourbon Whiskey",
+    "score": 7,
+    "style": "blended",
+    "note": "A blend of straight bourbons, not neutral spirit. Smooth and well-reviewed for the price.",
     "source": "draft"
   },
   "13310": {
@@ -1105,6 +1168,13 @@
     "note": "Charcoal-mellowed and sweet. Consistent, unexciting, everywhere.",
     "source": "draft"
   },
+  "13615": {
+    "name": "Seagram's 7 Crown Whiskey (plastic)",
+    "score": 5,
+    "style": "blended",
+    "note": "Same blend as the glass bottle, cheaper plastic. Fine for mixing.",
+    "source": "draft"
+  },
   "13646": {
     "name": "Two Fingers Silver Tequila",
     "score": 3,
@@ -1127,6 +1197,13 @@
     "name": "Corralejo Silver Tequila",
     "score": 7,
     "note": "Distinctive, slightly floral. The tall blue bottle.",
+    "source": "draft"
+  },
+  "13801": {
+    "name": "Pendleton Canadian Whisky",
+    "score": 6.5,
+    "style": "blended",
+    "note": "Smooth, mellow, a little sweet. The rodeo-branding whisky, and it holds up.",
     "source": "draft"
   },
   "13860": {
@@ -1276,6 +1353,13 @@
     "score": 7,
     "style": "dark",
     "note": "Sweet, rich, dessert-in-a-glass. Rum enthusiasts roll their eyes; everyone else loves it.",
+    "source": "draft"
+  },
+  "15220": {
+    "name": "Kentucky Gentleman Whiskey (bourbon & Blend)",
+    "score": 3,
+    "style": "budget",
+    "note": "Bottom-shelf blend. A well pour, not a sipper.",
     "source": "draft"
   },
   "15233": {
@@ -1536,6 +1620,13 @@
     "note": "Bright yellow, Arctic botanicals. Novel; the novelty wears off.",
     "source": "draft"
   },
+  "16686": {
+    "name": "High West Campfire Whiskey",
+    "score": 8,
+    "style": "blended",
+    "note": "A blend of bourbon, rye and scotch — genuinely unusual and well-executed. One of the more interesting bottles here.",
+    "source": "draft"
+  },
   "16710": {
     "name": "Appleton Estate 8 Year Old Reserve",
     "score": 8,
@@ -1655,6 +1746,13 @@
     "note": "Higher proof Crown. More body, still sweet.",
     "source": "draft"
   },
+  "17371": {
+    "name": "Crown Royal Whisky",
+    "score": 6.5,
+    "style": "blended",
+    "note": "The default Canadian whisky. Soft and easy — inoffensive rather than exciting.",
+    "source": "draft"
+  },
   "17408": {
     "name": "Elijah Craig Straight Rye",
     "score": 7.5,
@@ -1674,6 +1772,13 @@
     "score": 3,
     "style": "flavored",
     "note": "Not bourbon and never was. Sweet fruit liqueur.",
+    "source": "draft"
+  },
+  "17450": {
+    "name": "Alberta Premium Rye Cask Strength",
+    "score": 9,
+    "style": "rye",
+    "note": "Cask-strength 100% rye. One of the most acclaimed whiskies in the store, Canadian or otherwise.",
     "source": "draft"
   },
   "17566": {
@@ -1789,6 +1894,13 @@
     "score": 6,
     "style": "contemporary",
     "note": "Norfolk-made. Solid local pour.",
+    "source": "draft"
+  },
+  "18505": {
+    "name": "Alberta Premium Rye",
+    "score": 8,
+    "style": "rye",
+    "note": "100% rye, unusually spicy and bold for the price. A cult favorite among whiskey people, and it's right here for fifteen dollars.",
     "source": "draft"
   },
   "18566": {
@@ -2015,6 +2127,13 @@
     "note": "Coastal and honeyed. Good, priced high.",
     "source": "draft"
   },
+  "20113": {
+    "name": "Whistlepig Farmstock - Statestock VA Edition",
+    "score": 7.5,
+    "style": "rye",
+    "note": "A regional Whistlepig release. Distinctive and worth seeking out for that alone.",
+    "source": "draft"
+  },
   "20166": {
     "name": "Malfy Gin Con Limone",
     "score": 6,
@@ -2044,6 +2163,13 @@
     "name": "Familia Camarena Reposado Tequila",
     "score": 6,
     "note": "Same, lightly aged.",
+    "source": "draft"
+  },
+  "20280": {
+    "name": "Five Trail Blended American Whiskey",
+    "score": 7,
+    "style": "blended",
+    "note": "Jon Pardi's blend of bourbon, rye and single malt. Better than most celebrity whiskey.",
     "source": "draft"
   },
   "20312": {
@@ -2134,6 +2260,13 @@
     "note": "Willett’s budget label. Quietly good.",
     "source": "draft"
   },
+  "20740": {
+    "name": "Whistlepig 10 Year Single Barrel Rye",
+    "score": 8,
+    "style": "rye",
+    "note": "Vermont-finished Canadian rye, single barrel. Excellent, if pricey for the category.",
+    "source": "draft"
+  },
   "20899": {
     "name": "Rebel 100 Straight Rye",
     "score": 6,
@@ -2148,10 +2281,24 @@
     "note": "Soft wheated pour. Pleasant, not memorable.",
     "source": "draft"
   },
+  "21200": {
+    "name": "Traveller Whiskey Blend #40",
+    "score": 7,
+    "style": "blended",
+    "note": "Chris Stapleton's blend with Buffalo Trace. Smooth and well-made — better than the celebrity tie-in suggests.",
+    "source": "draft"
+  },
   "21252": {
     "name": "El Jimador Tequila Reposado",
     "score": 6.5,
     "note": "Same, lightly oaked.",
+    "source": "draft"
+  },
+  "21348": {
+    "name": "Crown Royal Single Malt",
+    "score": 7,
+    "style": "single malt",
+    "note": "Canada's answer to a single malt. Different animal from the blends — worth trying once.",
     "source": "draft"
   },
   "21489": {
@@ -2281,6 +2428,13 @@
     "note": "Seasonal Beam. Fine.",
     "source": "draft"
   },
+  "22193": {
+    "name": "Crown Royal Reserve 12yr",
+    "score": 7,
+    "style": "blended",
+    "note": "More oak and depth than the base bottle. A real step up for the extra twenty-two dollars.",
+    "source": "draft"
+  },
   "22256": {
     "name": "Black Tot Finest Caribbean Rum",
     "score": 7.5,
@@ -2312,6 +2466,13 @@
     "score": 3,
     "style": "flavored",
     "note": "Sweet, artificial, pineapple.",
+    "source": "draft"
+  },
+  "22789": {
+    "name": "High West Cask Strength Barrel Select Whiskey",
+    "score": 7.5,
+    "style": "blended",
+    "note": "Cask-strength High West blend. Bold and well-regarded among whiskey enthusiasts.",
     "source": "draft"
   },
   "22846": {
@@ -2362,6 +2523,13 @@
     "note": "A lighter Beam variant. Skippable.",
     "source": "draft"
   },
+  "23160": {
+    "name": "Breckenridge Cognac Cask Finished Whiskey",
+    "score": 7,
+    "style": "blended",
+    "note": "Cognac-cask finish adds fruit and richness. A solid gift bottle.",
+    "source": "draft"
+  },
   "23445": {
     "name": "Aviation Gin (gift set)",
     "score": 7,
@@ -2374,6 +2542,13 @@
     "score": 8,
     "style": "island",
     "note": "Heather-honey with a wisp of smoke. Beautifully balanced, and sixty dollars.",
+    "source": "draft"
+  },
+  "23486": {
+    "name": "Bardstown Bourbon Collaborative Ferrand",
+    "score": 8,
+    "style": "blended",
+    "note": "A genuine collaboration with a French cognac house. One of the more ambitious blends on the shelf.",
     "source": "draft"
   },
   "23631": {
@@ -2389,11 +2564,25 @@
     "note": "Made for cocktails and excellent in them. The thinking sazerac.",
     "source": "draft"
   },
+  "23733": {
+    "name": "Wyoming Whiskey Outryder Whiskey",
+    "score": 7.5,
+    "style": "blended",
+    "note": "A blend of bourbons from a well-regarded craft distillery. Rich and worth the price.",
+    "source": "draft"
+  },
   "23833": {
     "name": "Aviation Cranberry & Blood Orange",
     "score": 5,
     "style": "flavored",
     "note": "A flavored spinoff. Skip it and buy the standard bottle.",
+    "source": "draft"
+  },
+  "23862": {
+    "name": "J. P. Wisers 15 Year Blended Canadian Whisky",
+    "score": 7.5,
+    "style": "blended",
+    "note": "Fifteen years in the bottle for sixty dollars. Genuinely excellent value for aged Canadian whisky.",
     "source": "draft"
   },
   "23902": {
@@ -2416,11 +2605,25 @@
     "note": "100% rye, bold and spicy. The best Canadian whisky on the shelf.",
     "source": "draft"
   },
+  "24114": {
+    "name": "Pike Creek 10 Year Canadian Whisky",
+    "score": 7,
+    "style": "blended",
+    "note": "Rum-cask finished, a little sweeter and rounder than standard Crown Royal. Underrated.",
+    "source": "draft"
+  },
   "24145": {
     "name": "Benchmark Rye",
     "score": 6,
     "style": "kentucky-rye",
     "note": "100 proof for seventeen dollars. Rough but honest.",
+    "source": "draft"
+  },
+  "24147": {
+    "name": "Traveller Full Proof Whiskey",
+    "score": 7.5,
+    "style": "blended",
+    "note": "Barrel-proof version of the Stapleton blend. Bolder and more interesting than the standard bottling.",
     "source": "draft"
   },
   "24224": {
@@ -2435,6 +2638,13 @@
     "score": 6.5,
     "style": "contemporary",
     "note": "Italian, organic, sold in a motor-oil can. Light and citrusy; the can is half the appeal.",
+    "source": "draft"
+  },
+  "24426": {
+    "name": "Penelope Riviera Cask Finish",
+    "score": 7,
+    "style": "blended",
+    "note": "Cognac-and-rum cask finished blend. Sweet and approachable.",
     "source": "draft"
   },
   "24539": {
@@ -2454,6 +2664,13 @@
     "score": 6.5,
     "style": "contemporary",
     "note": "Austin, Texas. Lavender and pecan, gentle.",
+    "source": "draft"
+  },
+  "24863": {
+    "name": "Bulleit 87 Blended Whiskey",
+    "score": 6,
+    "style": "blended",
+    "note": "Lighter and thinner than Bulleit's bourbon. A step down from the brand's usual quality.",
     "source": "draft"
   },
   "24923": {
