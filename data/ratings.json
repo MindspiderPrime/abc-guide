@@ -76,6 +76,13 @@
     "note": "The orange liqueur worth the money. Cleaner and drier than triple sec.",
     "source": "draft"
   },
+  "796": {
+    "name": "Cruzan Dark Rum",
+    "score": 5.5,
+    "style": "dark",
+    "note": "A little molasses depth. Fine for cooking and dark-and-stormies.",
+    "source": "draft"
+  },
   "822": {
     "name": "Cynar",
     "score": 7,
@@ -207,6 +214,13 @@
     "note": "Four botanicals, 94.6 proof, nothing wasted. The one to beat under thirty dollars.",
     "source": "draft"
   },
+  "3866": {
+    "name": "Zaya Rum",
+    "score": 6.5,
+    "style": "dark",
+    "note": "Trinidad blend, smooth and a little vanilla-sweet. A good gift bottle.",
+    "source": "draft"
+  },
   "4034": {
     "name": "Margaritaville Silver Tequila",
     "score": 2.5,
@@ -281,6 +295,13 @@
     "note": "The yellow label. Light, floral, forgiving — good for someone new to bourbon.",
     "source": "draft"
   },
+  "5800": {
+    "name": "Sailor Jerry Spiced Rum",
+    "score": 6.5,
+    "style": "spiced",
+    "note": "Spicier and less candied than Captain Morgan. The better spiced rum for nearly the same money.",
+    "source": "draft"
+  },
   "5963": {
     "name": "Wild Turkey 101 Rye",
     "score": 8,
@@ -300,6 +321,13 @@
     "score": 6.5,
     "style": "contemporary",
     "note": "Loudoun County. Smooth, mildly floral.",
+    "source": "draft"
+  },
+  "6560": {
+    "name": "Kraken Black Spiced Rum",
+    "score": 6.5,
+    "style": "spiced",
+    "note": "Black, thick, cinnamon-forward. Great in a dark cocktail, a bit much on its own.",
     "source": "draft"
   },
   "6648": {
@@ -498,6 +526,20 @@
     "note": "Sweet. Everywhere for a reason that is not quality.",
     "source": "draft"
   },
+  "10401": {
+    "name": "El Dorado Special Reserve 15 Year Rum",
+    "score": 8.5,
+    "style": "dark",
+    "note": "One of the best rums in the store at any price. Deep, complex, worth the splurge.",
+    "source": "draft"
+  },
+  "10402": {
+    "name": "Pyrat Reserve XO Rum",
+    "score": 6,
+    "style": "gold",
+    "note": "Orange-forward and sweet. Divisive — great in a punch, odd on its own.",
+    "source": "draft"
+  },
   "10451": {
     "name": "Seagram's 7 Crown Whiskey",
     "score": 4.5,
@@ -530,6 +572,27 @@
     "score": 7.5,
     "style": "london-dry",
     "note": "The original, not Sapphire. More juniper, less perfume, seven dollars cheaper.",
+    "source": "draft"
+  },
+  "10585": {
+    "name": "Mount Gay Eclipse Rum",
+    "score": 7,
+    "style": "gold",
+    "note": "Barbados's everyday rum. Balanced and well-made for twenty-two dollars.",
+    "source": "draft"
+  },
+  "10589": {
+    "name": "Bacardi Gold Rum",
+    "score": 5,
+    "style": "gold",
+    "note": "Slightly rounder than Superior. Not worth seeking out over it.",
+    "source": "draft"
+  },
+  "10593": {
+    "name": "Bacardi Superior Rum",
+    "score": 5.5,
+    "style": "white",
+    "note": "The default well rum for a reason. Clean, neutral, forgettable — exactly what a mojito wants.",
     "source": "draft"
   },
   "10605": {
@@ -607,6 +670,13 @@
     "note": "Twice-barreled Beam. More oak, still Beam.",
     "source": "draft"
   },
+  "11561": {
+    "name": "Havana Club Anejo Clasico",
+    "score": 6.5,
+    "style": "gold",
+    "note": "The Bacardi-made 'Havana Club' sold stateside, not the Cuban original. Pleasant, light, unremarkable.",
+    "source": "draft"
+  },
   "11571": {
     "name": "Jim Beam Devil's Cut",
     "score": 6,
@@ -666,6 +736,13 @@
     "note": "Light and thin. Highballs only.",
     "source": "draft"
   },
+  "11797": {
+    "name": "Castillo White Rum",
+    "score": 3,
+    "style": "white",
+    "note": "Bottom-shelf white rum. The only argument for it is the price.",
+    "source": "draft"
+  },
   "11801": {
     "name": "Cazadores Tequila Blanco",
     "score": 6.5,
@@ -701,6 +778,13 @@
     "name": "Courvoisier VS Cognac",
     "score": 6.5,
     "note": "Soft and sweet. Fine mixed.",
+    "source": "draft"
+  },
+  "11854": {
+    "name": "Cruzan Light Rum",
+    "score": 5,
+    "style": "white",
+    "note": "Interchangeable with Bacardi Superior. Buy whichever's cheaper that week.",
     "source": "draft"
   },
   "11862": {
@@ -915,6 +999,13 @@
     "note": "Bottom of the Buffalo Trace family tree. Mixer only.",
     "source": "draft"
   },
+  "12735": {
+    "name": "El Dorado 5-year Rum",
+    "score": 7.5,
+    "style": "dark",
+    "note": "Demerara rum's best cheap entry point. Rich, sweet, real depth for twenty-five dollars.",
+    "source": "draft"
+  },
   "12751": {
     "name": "Sauza Hornitos Tequila Reposado",
     "score": 6.5,
@@ -928,10 +1019,24 @@
     "note": "The 100-proof bonded Overholt, not the 80. Far better and only three dollars more.",
     "source": "draft"
   },
+  "13310": {
+    "name": "Bacardi Gran Reserva Diez",
+    "score": 7.5,
+    "style": "dark",
+    "note": "Ten-year Bacardi done properly. Better than the price suggests.",
+    "source": "draft"
+  },
   "13340": {
     "name": "Martell VS Single Distillery Cognac",
     "score": 6.5,
     "note": "Lighter style. Pleasant.",
+    "source": "draft"
+  },
+  "13421": {
+    "name": "Santa Teresa 1796 Rum",
+    "score": 7.5,
+    "style": "dark",
+    "note": "Venezuelan solera, dried fruit and baking spice. A well-regarded sipper.",
     "source": "draft"
   },
   "13432": {
@@ -1024,6 +1129,13 @@
     "note": "Distinctive, slightly floral. The tall blue bottle.",
     "source": "draft"
   },
+  "13860": {
+    "name": "Leblon Cachaca",
+    "score": 7,
+    "style": "cachaca",
+    "note": "Brazilian sugarcane spirit, not aged rum. The standard for a proper caipirinha.",
+    "source": "draft"
+  },
   "14042": {
     "name": "Gran Centenario Tequila Plata",
     "score": 6.5,
@@ -1042,6 +1154,13 @@
     "score": 8,
     "style": "london-dry",
     "note": "The benchmark. If a recipe says 'gin', it means this. Hard to beat at $22.",
+    "source": "draft"
+  },
+  "14194": {
+    "name": "Wray & Nephew White Overproof Rum",
+    "score": 8,
+    "style": "overproof",
+    "note": "126-proof Jamaican funk. The backbone of serious tiki drinks — don't sip it neat.",
     "source": "draft"
   },
   "14203": {
@@ -1084,6 +1203,13 @@
     "note": "Everywhere and adequate. Noilly Prat costs the same and is better.",
     "source": "draft"
   },
+  "14552": {
+    "name": "Bacardi 8 Year Rum",
+    "score": 7,
+    "style": "dark",
+    "note": "A genuine step up from Bacardi's white rums. Oaky and worth the extra fifteen dollars.",
+    "source": "draft"
+  },
   "14765": {
     "name": "Nikka From The Barrel",
     "score": 8,
@@ -1104,6 +1230,13 @@
     "note": "Sweet, artificial.",
     "source": "draft"
   },
+  "15033": {
+    "name": "English Harbour 5 Year Rum",
+    "score": 7,
+    "style": "dark",
+    "note": "Antigua, sherry-cask sweetness. Overlooked and worth a look at this price.",
+    "source": "draft"
+  },
   "15092": {
     "name": "Battle Standard 142 Navy Strength",
     "score": 7,
@@ -1118,6 +1251,13 @@
     "note": "Rowan berry and apple, crisp and dry. Excellent with a slice of red apple.",
     "source": "draft"
   },
+  "15127": {
+    "name": "Captain Morgan Original Spiced Rum",
+    "score": 5.5,
+    "style": "spiced",
+    "note": "Vanilla-and-caramel spiced rum everyone already knows. Sweet, simple, does the job.",
+    "source": "draft"
+  },
   "15136": {
     "name": "Catoctin Creek Watershed Gin",
     "score": 7.5,
@@ -1129,6 +1269,13 @@
     "name": "Del Maguey Vida Mezcal",
     "score": 8,
     "note": "The mezcal to learn on. Smoky but balanced, and it works in cocktails.",
+    "source": "draft"
+  },
+  "15160": {
+    "name": "Diplomatico Reserva Exclusiva Rum",
+    "score": 7,
+    "style": "dark",
+    "note": "Sweet, rich, dessert-in-a-glass. Rum enthusiasts roll their eyes; everyone else loves it.",
     "source": "draft"
   },
   "15233": {
@@ -1177,6 +1324,13 @@
     "note": "Bright and busy, as the name promises.",
     "source": "draft"
   },
+  "15486": {
+    "name": "Don Q 151",
+    "score": 6.5,
+    "style": "overproof",
+    "note": "151-proof Puerto Rican overproof for tiki drinks and flaming presentations. Handle carefully.",
+    "source": "draft"
+  },
   "15495": {
     "name": "Sutler's Gin",
     "score": 7,
@@ -1204,6 +1358,13 @@
     "note": "Rye-forward and peppery. Holds its own in a cocktail.",
     "source": "draft"
   },
+  "15531": {
+    "name": "Appleton Estate Signature Blend Rum",
+    "score": 7.5,
+    "style": "dark",
+    "note": "Real Jamaican pot-still character for well under bourbon money. Excellent value.",
+    "source": "draft"
+  },
   "15533": {
     "name": "Bowman Brothers Virginia",
     "score": 7,
@@ -1223,6 +1384,13 @@
     "score": 3,
     "style": "flavored",
     "note": "Black cherry Beam. Dated.",
+    "source": "draft"
+  },
+  "15628": {
+    "name": "Old Mr. Boston Dark Rum",
+    "score": 3,
+    "style": "dark",
+    "note": "Cooking rum. Fine for banana bread, not your glass.",
     "source": "draft"
   },
   "15636": {
@@ -1368,6 +1536,13 @@
     "note": "Bright yellow, Arctic botanicals. Novel; the novelty wears off.",
     "source": "draft"
   },
+  "16710": {
+    "name": "Appleton Estate 8 Year Old Reserve",
+    "score": 8,
+    "style": "dark",
+    "note": "Excellent value Jamaican. Rich, dried-fruit depth for well under bourbon prices.",
+    "source": "draft"
+  },
   "16907": {
     "name": "Mi Campo Tequila Blanco",
     "score": 6.5,
@@ -1411,11 +1586,39 @@
     "note": "Orange Tanqueray. Better than most flavored gins, still a sidestep.",
     "source": "draft"
   },
+  "17171": {
+    "name": "Bumbu XO Rum",
+    "score": 5.5,
+    "style": "dark",
+    "note": "Heavily sweetened and spiced — closer to a rum liqueur than a rum. Great bottle design, polarizing juice.",
+    "source": "draft"
+  },
+  "17177": {
+    "name": "El Dorado 12 Year Rum",
+    "score": 8,
+    "style": "dark",
+    "note": "Rich Demerara rum, real complexity. Punches well above its price.",
+    "source": "draft"
+  },
+  "17234": {
+    "name": "Don Q Reserva 7",
+    "score": 7,
+    "style": "gold",
+    "note": "Underrated Puerto Rican sipper. Smooth for the price, quietly good.",
+    "source": "draft"
+  },
   "17235": {
     "name": "Evan Williams 1783 Small Batch",
     "score": 7,
     "style": "traditional",
     "note": "A real step up from Evan Williams Black for nine more dollars.",
+    "source": "draft"
+  },
+  "17252": {
+    "name": "Smith & Cross Jamaica Rum",
+    "score": 8,
+    "style": "dark",
+    "note": "High-ester pot-still Jamaican, funky and intense. Essential for tiki, too much to sip neat.",
     "source": "draft"
   },
   "17281": {
@@ -1478,6 +1681,13 @@
     "score": 6,
     "style": "kentucky-rye",
     "note": "Cheap, decent, mixes fine.",
+    "source": "draft"
+  },
+  "17573": {
+    "name": "Foursquare Probitas White Rum",
+    "score": 8,
+    "style": "white",
+    "note": "Blended pot-and-column-still white built for serious cocktails. A rum-nerd favorite.",
     "source": "draft"
   },
   "17610": {
@@ -1587,6 +1797,20 @@
     "note": "Sweet and soft. Sold entirely on the name.",
     "source": "draft"
   },
+  "18594": {
+    "name": "Zacapa No. 23 Rum",
+    "score": 7.5,
+    "style": "dark",
+    "note": "Guatemalan solera, sweet and syrupy. The rum most people mean when they say they like rum.",
+    "source": "draft"
+  },
+  "18595": {
+    "name": "Zacapa Edicion Negra Rum",
+    "score": 7.5,
+    "style": "dark",
+    "note": "More balanced and less sweet than the No. 23. The better Zacapa if you can find the extra twenty-five dollars.",
+    "source": "draft"
+  },
   "18637": {
     "name": "Revel Stoke Nutcrusher",
     "score": 2,
@@ -1605,6 +1829,13 @@
     "score": 6,
     "style": "high-rye",
     "note": "Easy and light. Unremarkable.",
+    "source": "draft"
+  },
+  "18742": {
+    "name": "Appleton Estate 15 Year",
+    "score": 8.5,
+    "style": "dark",
+    "note": "Excellent aged Jamaican. Complex without losing the funk that makes Appleton distinctive.",
     "source": "draft"
   },
   "18860": {
@@ -1670,6 +1901,34 @@
     "name": "George Dickel Bourbon Whisky 8yr",
     "score": 7.5,
     "note": "Dickel’s bourbon, eight years old, thirty dollars. Quietly excellent.",
+    "source": "draft"
+  },
+  "19339": {
+    "name": "Mount Gay Black Barrel Rum",
+    "score": 8,
+    "style": "dark",
+    "note": "Bourbon-cask finished. More character than Eclipse for fifteen dollars more, and it shows.",
+    "source": "draft"
+  },
+  "19340": {
+    "name": "Flor De Cana Grand Reserve 7 Year Rum",
+    "score": 7,
+    "style": "gold",
+    "note": "Nicaraguan, caramel-forward, reliably good. A safe sipping choice.",
+    "source": "draft"
+  },
+  "19343": {
+    "name": "Brugal Anejo Rum",
+    "score": 6.5,
+    "style": "dark",
+    "note": "Dominican, light-bodied, easy. A step above well rum without costing much more.",
+    "source": "draft"
+  },
+  "19345": {
+    "name": "Appleton Estate Rare Blend 12 Year Rum",
+    "score": 8,
+    "style": "dark",
+    "note": "Complex, dried-fruit-and-spice Jamaican. One of the better bottles in the store at any price.",
     "source": "draft"
   },
   "19347": {
@@ -1902,6 +2161,13 @@
     "note": "Wheated and mild. Fine mixer.",
     "source": "draft"
   },
+  "21490": {
+    "name": "Angostura 5 Year Superior Rum",
+    "score": 7,
+    "style": "gold",
+    "note": "Trinidad, balanced and easy-drinking. Made by the bitters people.",
+    "source": "draft"
+  },
   "21497": {
     "name": "Scratch Blackberry",
     "score": 3,
@@ -1919,6 +2185,13 @@
     "name": "George Dickel Bottled In Bond Tenn Whiskey 12 Year",
     "score": 8,
     "note": "Twelve years, bonded, forty-five dollars. One of the best deals in the store.",
+    "source": "draft"
+  },
+  "21626": {
+    "name": "Planteray Xaymaca Special Dry Rum",
+    "score": 7.5,
+    "style": "dark",
+    "note": "Funky Jamaican pot-still rum built for tiki. Punchier than most rum at this price.",
     "source": "draft"
   },
   "21660": {
@@ -2008,6 +2281,13 @@
     "note": "Seasonal Beam. Fine.",
     "source": "draft"
   },
+  "22256": {
+    "name": "Black Tot Finest Caribbean Rum",
+    "score": 7.5,
+    "style": "dark",
+    "note": "A tribute blend to the old Royal Navy tot. Rich and historic, priced like it.",
+    "source": "draft"
+  },
   "22416": {
     "name": "Pasote Blanco Tequila",
     "score": 7.5,
@@ -2046,6 +2326,13 @@
     "score": 2.5,
     "style": "flavored",
     "note": "65 proof peach. Sweet.",
+    "source": "draft"
+  },
+  "22917": {
+    "name": "Foursquare Convocation Rum",
+    "score": 9,
+    "style": "dark",
+    "note": "Foursquare's Exceptional Cask Series. As good as Barbados rum gets; priced for the serious collector.",
     "source": "draft"
   },
   "22978": {
@@ -2134,6 +2421,13 @@
     "score": 6,
     "style": "kentucky-rye",
     "note": "100 proof for seventeen dollars. Rough but honest.",
+    "source": "draft"
+  },
+  "24224": {
+    "name": "Diplomatico Mantuano",
+    "score": 7,
+    "style": "dark",
+    "note": "Venezuelan, sweet and rounded — a crowd-pleaser more than a connoisseur's pour.",
     "source": "draft"
   },
   "24323": {
