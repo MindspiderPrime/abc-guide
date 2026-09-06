@@ -34,6 +34,13 @@
     "note": "No citrus botanicals at all — pure juniper, nutmeg, sage. A martini gin.",
     "source": "draft"
   },
+  "440": {
+    "name": "Branca Menta",
+    "score": 7,
+    "style": "herbal",
+    "note": "Mint version of Fernet-Branca. Cooling and intensely herbal — a love-it-or-hate-it digestif.",
+    "source": "draft"
+  },
   "447": {
     "name": "Broker's Gin",
     "score": 8,
@@ -104,6 +111,13 @@
     "note": "Artichoke amaro. Odd on paper, excellent in a drink.",
     "source": "draft"
   },
+  "864": {
+    "name": "Dekuyper Blue Curacao",
+    "score": 4,
+    "style": "fruit",
+    "note": "Mostly food coloring and orange flavor. Fun for a blue drink, nothing more.",
+    "source": "draft"
+  },
   "1001": {
     "name": "Drambuie",
     "score": 7,
@@ -132,11 +146,32 @@
     "note": "Soft and clean. You are paying for the marketing.",
     "source": "draft"
   },
+  "1621": {
+    "name": "Jagermeister",
+    "score": 5.5,
+    "style": "herbal",
+    "note": "The German herbal digestif everyone's tried as a shot. Polarizing, but a genuine flavor, not neutral spirit.",
+    "source": "draft"
+  },
   "1929": {
     "name": "Luksusowa Vodka",
     "score": 6.5,
     "style": "potato",
     "note": "Polish potato vodka. More body and character than the wheat vodkas twice its price.",
+    "source": "draft"
+  },
+  "2018": {
+    "name": "Massenez Creme De Cassis De Dijon",
+    "score": 7,
+    "style": "fruit",
+    "note": "French blackcurrant liqueur, real depth. What a kir royale should actually taste like.",
+    "source": "draft"
+  },
+  "2102": {
+    "name": "Midori Melon",
+    "score": 5,
+    "style": "fruit",
+    "note": "Bright green melon liqueur. A novelty mixer more than a sipper.",
     "source": "draft"
   },
   "2130": {
@@ -180,6 +215,20 @@
     "note": "The 80-proof version. Get the bonded instead.",
     "source": "draft"
   },
+  "2320": {
+    "name": "Ouzo 12",
+    "score": 6,
+    "style": "herbal",
+    "note": "Greek anise spirit. Turns milky over ice, classic with seafood.",
+    "source": "draft"
+  },
+  "2391": {
+    "name": "Pimm's No. 1 Cup",
+    "score": 6.5,
+    "style": "fruit",
+    "note": "British gin-based fruit cup. Made for a Pimm's Cup on a summer afternoon, little use otherwise.",
+    "source": "draft"
+  },
   "2827": {
     "name": "Svedka Vodka",
     "score": 5,
@@ -213,6 +262,13 @@
     "score": 5,
     "style": "traditional",
     "note": "The Virginia standby. Sentimental value exceeds flavor value.",
+    "source": "draft"
+  },
+  "3175": {
+    "name": "Yukon Jack",
+    "score": 5,
+    "style": "honey",
+    "note": "Whisky-based honey liqueur. Sweet and simple, a dated party staple.",
     "source": "draft"
   },
   "3218": {
@@ -256,6 +312,13 @@
     "note": "Four botanicals, 94.6 proof, nothing wasted. The one to beat under thirty dollars.",
     "source": "draft"
   },
+  "3589": {
+    "name": "Caravella Limoncello",
+    "score": 6.5,
+    "style": "fruit",
+    "note": "Italian lemon liqueur, bright and sweet. A good summer sipper, chilled.",
+    "source": "draft"
+  },
   "3773": {
     "name": "Stolichnaya Elit",
     "score": 7.5,
@@ -280,6 +343,13 @@
     "name": "Margaritaville Gold Tequila",
     "score": 2.5,
     "note": "Sold on the same song.",
+    "source": "draft"
+  },
+  "4125": {
+    "name": "Ramazzotti Amaro",
+    "score": 7,
+    "style": "herbal",
+    "note": "Classic Italian amaro, slightly sweeter and syrupy. A good introduction to the category.",
     "source": "draft"
   },
   "4154": {
@@ -351,6 +421,13 @@
     "note": "Organic corn vodka, smooth and neutral. Solid everyday choice.",
     "source": "draft"
   },
+  "5255": {
+    "name": "Domaine De Canton",
+    "score": 7,
+    "style": "herbal",
+    "note": "French ginger liqueur, real ginger heat and depth. Excellent in cocktails.",
+    "source": "draft"
+  },
   "5738": {
     "name": "Four Roses Bourbon",
     "score": 7.5,
@@ -386,6 +463,20 @@
     "note": "Loudoun County. Smooth, mildly floral.",
     "source": "draft"
   },
+  "6337": {
+    "name": "RumChata",
+    "score": 6,
+    "style": "cream",
+    "note": "Cinnamon-horchata cream liqueur. Sweet and easy — a crowd favorite at parties.",
+    "source": "draft"
+  },
+  "6493": {
+    "name": "Luxardo Amaretto",
+    "score": 7,
+    "style": "nut",
+    "note": "A more almond-forward amaretto than Disaronno. Worth trying if you like the style.",
+    "source": "draft"
+  },
   "6560": {
     "name": "Kraken Black Spiced Rum",
     "score": 6.5,
@@ -409,6 +500,13 @@
     "name": "Tres Agaves Blanco",
     "score": 6.5,
     "note": "Organic and clean. Made for margaritas.",
+    "source": "draft"
+  },
+  "6800": {
+    "name": "Montenegro Amaro",
+    "score": 7.5,
+    "style": "herbal",
+    "note": "Balanced, citrus-and-herb Italian amaro. One of the most approachable amari for someone new to the category.",
     "source": "draft"
   },
   "6860": {
@@ -470,6 +568,13 @@
     "note": "A blend of young and old rye. Peppery, complex for thirty dollars.",
     "source": "draft"
   },
+  "7514": {
+    "name": "Linie Aquavit",
+    "score": 6.5,
+    "style": "herbal",
+    "note": "Norwegian caraway spirit, aged at sea. Distinctive and worth trying if you like herbal spirits.",
+    "source": "draft"
+  },
   "8317": {
     "name": "Templeton Rye",
     "score": 6.5,
@@ -524,6 +629,13 @@
     "note": "Cognac-cask finished. Fruitier and richer than Reserve — pick whichever finish you prefer.",
     "source": "draft"
   },
+  "9007": {
+    "name": "Bols Elderflower Liqueur",
+    "score": 6,
+    "style": "floral",
+    "note": "A cheaper elderflower liqueur than St-Germain. Good enough for a spritz.",
+    "source": "draft"
+  },
   "9067": {
     "name": "Jose Cuervo Especial Silver Tequila",
     "score": 3.5,
@@ -556,6 +668,13 @@
     "score": 6.5,
     "style": "nut",
     "note": "Almond and marzipan. Better than the cheap amarettos by a distance.",
+    "source": "draft"
+  },
+  "9444": {
+    "name": "Romana Sambuca",
+    "score": 6,
+    "style": "herbal",
+    "note": "Classic anise liqueur. Sweet, licorice-forward, best iced or in coffee.",
     "source": "draft"
   },
   "9474": {
@@ -813,6 +932,13 @@
     "name": "1800 Tequila Reposado",
     "score": 6,
     "note": "Smooth, unremarkable.",
+    "source": "draft"
+  },
+  "11668": {
+    "name": "Absente Absinthe",
+    "score": 6.5,
+    "style": "herbal",
+    "note": "American-made wormwood absinthe. Real anise punch, milder than the European originals.",
     "source": "draft"
   },
   "11682": {
@@ -1102,6 +1228,13 @@
     "score": 3,
     "style": "flavored",
     "note": "Vanilla syrup with a whiskey accent.",
+    "source": "draft"
+  },
+  "12654": {
+    "name": "Meletti Amaro",
+    "score": 7,
+    "style": "herbal",
+    "note": "Saffron-tinted, herbal and citrusy. Well-balanced Italian amaro.",
     "source": "draft"
   },
   "12710": {
@@ -1405,6 +1538,20 @@
     "note": "Antigua, sherry-cask sweetness. Overlooked and worth a look at this price.",
     "source": "draft"
   },
+  "15074": {
+    "name": "Ancho Reyes Chile Liqueur",
+    "score": 7,
+    "style": "other",
+    "note": "Ancho chile liqueur, smoky heat. A genuinely useful cocktail ingredient, not a novelty.",
+    "source": "draft"
+  },
+  "15085": {
+    "name": "Baileys Original Irish Cream",
+    "score": 6.5,
+    "style": "cream",
+    "note": "The standard cream liqueur everyone knows. Reliable, sweet, exactly what it says on the label.",
+    "source": "draft"
+  },
   "15092": {
     "name": "Battle Standard 142 Navy Strength",
     "score": 7,
@@ -1643,6 +1790,13 @@
     "note": "Belvedere's higher-end rye-based bottling. More character than the standard bottle.",
     "source": "draft"
   },
+  "16329": {
+    "name": "St. George Spirits Absinthe",
+    "score": 7.5,
+    "style": "herbal",
+    "note": "A genuinely well-made craft absinthe. Complex rather than just intensely anise.",
+    "source": "draft"
+  },
   "16338": {
     "name": "Jim Beam with Highball Glass",
     "score": 5.5,
@@ -1753,6 +1907,13 @@
     "note": "Excellent value Jamaican. Rich, dried-fruit depth for well under bourbon prices.",
     "source": "draft"
   },
+  "16757": {
+    "name": "Luxardo Limoncello",
+    "score": 7,
+    "style": "fruit",
+    "note": "A step up in citrus intensity from the cheaper limoncellos.",
+    "source": "draft"
+  },
   "16907": {
     "name": "Mi Campo Tequila Blanco",
     "score": 6.5,
@@ -1808,6 +1969,13 @@
     "score": 8,
     "style": "dark",
     "note": "Rich Demerara rum, real complexity. Punches well above its price.",
+    "source": "draft"
+  },
+  "17204": {
+    "name": "Select Aperitivo Pilla",
+    "score": 6.5,
+    "style": "herbal",
+    "note": "Venetian aperitivo, similar lane to Aperol but earthier.",
     "source": "draft"
   },
   "17234": {
@@ -2008,6 +2176,13 @@
     "note": "Mixto, not 100% agave. It shows.",
     "source": "draft"
   },
+  "18290": {
+    "name": "Vecchio Amaro Del Capo",
+    "score": 7.5,
+    "style": "herbal",
+    "note": "Calabrian amaro, bold and spiced. A favorite among bartenders.",
+    "source": "draft"
+  },
   "18367": {
     "name": "Howler Head Banana",
     "score": 2.5,
@@ -2141,6 +2316,13 @@
     "score": 6,
     "style": "contemporary",
     "note": "Perfectly decent, nothing to argue about.",
+    "source": "draft"
+  },
+  "19131": {
+    "name": "Tia Maria Cold Brew",
+    "score": 6,
+    "style": "coffee",
+    "note": "Jamaican coffee liqueur, lighter and less sweet than Kahlua.",
     "source": "draft"
   },
   "19175": {
@@ -2682,6 +2864,13 @@
     "score": 7,
     "style": "blended",
     "note": "Cognac-cask finish adds fruit and richness. A solid gift bottle.",
+    "source": "draft"
+  },
+  "23161": {
+    "name": "Patron Citronge Orange",
+    "score": 6,
+    "style": "fruit",
+    "note": "Tequila brand's orange liqueur. Fine in a margarita, not distinctive on its own.",
     "source": "draft"
   },
   "23445": {
