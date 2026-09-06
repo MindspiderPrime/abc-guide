@@ -1,4 +1,11 @@
 {
+  "166": {
+    "name": "Asbach Uralt Brandy",
+    "score": 6.5,
+    "style": "standard",
+    "note": "German brandy, dry and oaky. More restrained than the sweet French entry-level brandies.",
+    "source": "draft"
+  },
   "293": {
     "name": "Barton Gin",
     "score": 2.5,
@@ -298,6 +305,13 @@
     "note": "Rock-bottom vodka. Buy it for the price.",
     "source": "draft"
   },
+  "3357": {
+    "name": "Christian Brothers Brandy",
+    "score": 4,
+    "style": "budget",
+    "note": "Cheap American brandy. A mixer, not a sipper.",
+    "source": "draft"
+  },
   "3445": {
     "name": "Skyy Vodka",
     "score": 5.5,
@@ -385,6 +399,13 @@
     "score": 7.5,
     "style": "floral",
     "note": "Elderflower — floral and versatile. Easy to overuse.",
+    "source": "draft"
+  },
+  "5078": {
+    "name": "E & J VSOP Brandy",
+    "score": 5,
+    "style": "budget",
+    "note": "A small step above E&J VS. Still mostly a well pour.",
     "source": "draft"
   },
   "5084": {
@@ -575,6 +596,13 @@
     "note": "Norwegian caraway spirit, aged at sea. Distinctive and worth trying if you like herbal spirits.",
     "source": "draft"
   },
+  "7981": {
+    "name": "Cardenal Mendoza Black Carton",
+    "score": 7.5,
+    "style": "standard",
+    "note": "Spanish brandy de Jerez, aged in sherry casks. One of the best brandies in the store outside of cognac.",
+    "source": "draft"
+  },
   "8317": {
     "name": "Templeton Rye",
     "score": 6.5,
@@ -661,6 +689,13 @@
     "score": 6.5,
     "style": "grape",
     "note": "Made from grapes, not grain — noticeably different texture. Popular for a reason beyond the marketing.",
+    "source": "draft"
+  },
+  "9433": {
+    "name": "Catoctin Creek 1757 Virginia Brandy",
+    "score": 7,
+    "style": "standard",
+    "note": "A Virginia-distilled brandy. Distinctive and worth a look for that alone.",
     "source": "draft"
   },
   "9438": {
@@ -928,6 +963,13 @@
     "note": "As basic as Canadian whisky gets. A mixer, nothing more.",
     "source": "draft"
   },
+  "11614": {
+    "name": "Copper& Kings American Craft Brandy",
+    "score": 7,
+    "style": "standard",
+    "note": "Kentucky craft brandy, pot-distilled like bourbon. Bold and different from French style.",
+    "source": "draft"
+  },
   "11657": {
     "name": "1800 Tequila Reposado",
     "score": 6,
@@ -1016,6 +1058,13 @@
     "name": "Courvoisier VS Cognac",
     "score": 6.5,
     "note": "Soft and sweet. Fine mixed.",
+    "source": "draft"
+  },
+  "11842": {
+    "name": "Courvoisier VSOP Cognac",
+    "score": 7,
+    "style": "cognac",
+    "note": "A real step up from VS. Smoother, more dried fruit, worth the extra money.",
     "source": "draft"
   },
   "11854": {
@@ -1192,6 +1241,13 @@
     "note": "High-proof Colorado blend. Spicier and more assertive than most blended whiskey.",
     "source": "draft"
   },
+  "12352": {
+    "name": "Larressingle XO Armagnac",
+    "score": 7.5,
+    "style": "armagnac",
+    "note": "Aged armagnac with real rustic depth. Underrated next to XO cognac at a similar price.",
+    "source": "draft"
+  },
   "12359": {
     "name": "Lunazul Tequila Blanco",
     "score": 6.5,
@@ -1296,6 +1352,13 @@
     "name": "Martell VS Single Distillery Cognac",
     "score": 6.5,
     "note": "Lighter style. Pleasant.",
+    "source": "draft"
+  },
+  "13348": {
+    "name": "Martell Cordon Bleu",
+    "score": 8.5,
+    "style": "cognac",
+    "note": "A legendary blend, more spice-forward than Hennessy’s XO. Connoisseurs often prefer it.",
     "source": "draft"
   },
   "13421": {
@@ -1409,11 +1472,25 @@
     "note": "Distinctive, slightly floral. The tall blue bottle.",
     "source": "draft"
   },
+  "13737": {
+    "name": "Metaxa 5 Stars Greek Brandy",
+    "score": 6,
+    "style": "standard",
+    "note": "Greek brandy blended with wine and botanicals. Sweet and distinct — not trying to be cognac.",
+    "source": "draft"
+  },
   "13801": {
     "name": "Pendleton Canadian Whisky",
     "score": 6.5,
     "style": "blended",
     "note": "Smooth, mellow, a little sweet. The rodeo-branding whisky, and it holds up.",
+    "source": "draft"
+  },
+  "13856": {
+    "name": "Hennessy XO Cognac",
+    "score": 8.5,
+    "style": "cognac",
+    "note": "The benchmark XO cognac. Rich, complex, worth the splurge for a special occasion.",
     "source": "draft"
   },
   "13860": {
@@ -1593,6 +1670,13 @@
     "note": "Sweet, rich, dessert-in-a-glass. Rum enthusiasts roll their eyes; everyone else loves it.",
     "source": "draft"
   },
+  "15199": {
+    "name": "Hennessy VSOP Privilege",
+    "score": 7,
+    "style": "cognac",
+    "note": "Hennessy's mid-tier. Balanced and reliable, the cognac most people actually drink.",
+    "source": "draft"
+  },
   "15220": {
     "name": "Kentucky Gentleman Whiskey (bourbon & Blend)",
     "score": 3,
@@ -1637,6 +1721,13 @@
     "score": 7,
     "style": "high-rye",
     "note": "Straightforward MGP rye. Reliable in cocktails.",
+    "source": "draft"
+  },
+  "15295": {
+    "name": "Remy Martin 1738 Accord Royal",
+    "score": 7.5,
+    "style": "cognac",
+    "note": "Rich, oaky cognac between VSOP and XO in style. A favorite among cognac drinkers.",
     "source": "draft"
   },
   "15332": {
@@ -1694,6 +1785,13 @@
     "note": "Made in Fredericksburg from Buffalo Trace distillate. The Virginia one worth buying.",
     "source": "draft"
   },
+  "15556": {
+    "name": "Busnel Calvados Vieille Reserve VSOP",
+    "score": 7,
+    "style": "calvados",
+    "note": "French apple brandy from Normandy. Real orchard character, distinct from grape brandy.",
+    "source": "draft"
+  },
   "15566": {
     "name": "Commonwealth Gin",
     "score": 6.5,
@@ -1701,11 +1799,25 @@
     "note": "Virginia-made, coriander-forward. Good value at seventeen dollars.",
     "source": "draft"
   },
+  "15573": {
+    "name": "D'usse VSOP",
+    "score": 7,
+    "style": "cognac",
+    "note": "Jay-Z's cognac brand. Smooth and citrusy, genuinely well-made beyond the celebrity tie-in.",
+    "source": "draft"
+  },
   "15610": {
     "name": "Jim Beam Red Stag",
     "score": 3,
     "style": "flavored",
     "note": "Black cherry Beam. Dated.",
+    "source": "draft"
+  },
+  "15622": {
+    "name": "Macchu Pisco",
+    "score": 6.5,
+    "style": "pisco",
+    "note": "Well-regarded Peruvian pisco, floral and smooth.",
     "source": "draft"
   },
   "15628": {
@@ -1914,6 +2026,13 @@
     "note": "A step up in citrus intensity from the cheaper limoncellos.",
     "source": "draft"
   },
+  "16762": {
+    "name": "Torres 10 Imperial Reserve Brandy",
+    "score": 6.5,
+    "style": "standard",
+    "note": "Spanish brandy de Jerez, sherry-cask aged. Real depth for the price.",
+    "source": "draft"
+  },
   "16907": {
     "name": "Mi Campo Tequila Blanco",
     "score": 6.5,
@@ -2038,6 +2157,13 @@
     "score": 6.5,
     "style": "blended",
     "note": "The default Canadian whisky. Soft and easy — inoffensive rather than exciting.",
+    "source": "draft"
+  },
+  "17401": {
+    "name": "St. Remy Authentic XO",
+    "score": 6,
+    "style": "standard",
+    "note": "French brandy, caramel-sweet. Decent for the price, not real cognac.",
     "source": "draft"
   },
   "17408": {
@@ -2422,6 +2548,13 @@
     "name": "Montelobos Espadin Mezcal",
     "score": 7.5,
     "note": "Organic espadín, herbal and restrained.",
+    "source": "draft"
+  },
+  "19891": {
+    "name": "Remy Martin XO Excellence",
+    "score": 8,
+    "style": "cognac",
+    "note": "Remy's XO tier. Silky and rich, built for sipping neat.",
     "source": "draft"
   },
   "19906": {
@@ -2873,6 +3006,13 @@
     "note": "Tequila brand's orange liqueur. Fine in a margarita, not distinctive on its own.",
     "source": "draft"
   },
+  "23366": {
+    "name": "Torres 20 Brandy",
+    "score": 7.5,
+    "style": "standard",
+    "note": "Twenty years in sherry casks. Rich and complex — Spain's answer to XO cognac.",
+    "source": "draft"
+  },
   "23445": {
     "name": "Aviation Gin (gift set)",
     "score": 7,
@@ -2919,6 +3059,20 @@
     "score": 5,
     "style": "flavored",
     "note": "A flavored spinoff. Skip it and buy the standard bottle.",
+    "source": "draft"
+  },
+  "23842": {
+    "name": "Kelt Cognac Cask Strength",
+    "score": 7.5,
+    "style": "cognac",
+    "note": "Barrel-proof cognac, unusual for the category. Bold and intense.",
+    "source": "draft"
+  },
+  "23845": {
+    "name": "Castarede VSOP Armagnac",
+    "score": 7.5,
+    "style": "armagnac",
+    "note": "Armagnac is rougher and more rustic than cognac — this is a great entry point.",
     "source": "draft"
   },
   "23862": {
@@ -3002,6 +3156,13 @@
     "note": "The real Cuervo — 100% agave, unlike the gold. Fine and cheap.",
     "source": "draft"
   },
+  "24749": {
+    "name": "Lairds 13 Year Old Apple Brandy",
+    "score": 8,
+    "style": "apple",
+    "note": "American apple brandy, aged well past the usual bottlings. The high end of a category most people don’t know exists.",
+    "source": "draft"
+  },
   "24793": {
     "name": "Waterloo No. 9 Gin",
     "score": 6.5,
@@ -3021,6 +3182,13 @@
     "score": 6,
     "style": "traditional",
     "note": "Colorado-cut Indiana whiskey. Easy, unremarkable.",
+    "source": "draft"
+  },
+  "24958": {
+    "name": "Caravedo Puro Quebranta Pisco ( Peru)",
+    "score": 6.5,
+    "style": "pisco",
+    "note": "Peruvian pisco, clean and grape-forward. The real thing for a proper pisco sour.",
     "source": "draft"
   },
   "24981": {
