@@ -1,0 +1,568 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#12271F">
+<title>Best Under — Virginia ABC</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+/* ── Palette: juniper, shelf tag, signal ────────────────────────────────
+   Derived from the subject — bottle glass, printed price tag, aisle light.
+   Light is the default because the store is fluorescent-bright; dark is
+   respected because the drive home isn't.                                */
+:root {
+  --juniper:   #12271F;
+  --juniper-2: #1E3D31;
+  --berry:     #46527A;
+  --tag:       #FBFAF6;
+  --tag-edge:  #E2DFD4;
+  --shelf:     #6E7269;
+  --ink:       #12271F;
+  --ink-soft:  #5A6259;
+  --stock:     #2C7A52;
+  --low:       #B4601A;
+  --none:      #A8A69C;
+  --bg:        #EFEDE4;
+  --surface:   var(--tag);
+  --hairline:  var(--tag-edge);
+  --focus:     #B4601A;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --tag:      #17211C;
+    --tag-edge: #2C3A32;
+    --ink:      #E8EDE7;
+    --ink-soft: #9AA69B;
+    --shelf:    #7E8A80;
+    --bg:       #0D1613;
+    --surface:  var(--tag);
+    --hairline: var(--tag-edge);
+    --stock:    #4FB07C;
+    --low:      #D98A3D;
+    --none:     #5C6660;
+    --berry:    #8E9AC4;
+  }
+}
+:root[data-theme="dark"] {
+  --tag:      #17211C;
+  --tag-edge: #2C3A32;
+  --ink:      #E8EDE7;
+  --ink-soft: #9AA69B;
+  --shelf:    #7E8A80;
+  --bg:       #0D1613;
+  --surface:  var(--tag);
+  --hairline: var(--tag-edge);
+  --stock:    #4FB07C;
+  --low:      #D98A3D;
+  --none:     #5C6660;
+  --berry:    #8E9AC4;
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: Archivo, system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+  padding-bottom: env(safe-area-inset-bottom);
+}
+:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+
+/* ── Masthead ─────────────────────────────────────────────────────────── */
+.masthead {
+  background: var(--juniper);
+  color: #EFEDE4;
+  padding: 14px 16px 12px;
+  padding-top: calc(14px + env(safe-area-inset-top));
+}
+.wordmark {
+  font-weight: 800;
+  font-size: 15px;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  margin: 0;
+}
+.wordmark span { color: #8FBFA4; }
+.storepick {
+  margin-top: 6px;
+  width: 100%;
+  max-width: 100%;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid rgba(239,237,228,.32);
+  color: #EFEDE4;
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 12.5px;
+  padding: 6px 0;
+  min-height: 38px;
+  appearance: none;
+  text-overflow: ellipsis;
+}
+.storepick option { color: #12271F; background: #FBFAF6; }
+
+/* ── Status strip ─────────────────────────────────────────────────────── */
+.status {
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 11.5px;
+  letter-spacing: .04em;
+  padding: 8px 16px;
+  border-bottom: 1px solid var(--hairline);
+  color: var(--ink-soft);
+  background: var(--surface);
+}
+.status[data-tone="warn"] { color: var(--low); }
+.status[data-tone="bad"]  { background: var(--low); color: #fff; }
+
+/* ── Results ──────────────────────────────────────────────────────────── */
+.results { list-style: none; margin: 0; padding: 0 0 220px; }
+
+/* The signature: each result is a printed shelf tag. */
+.tag {
+  background: var(--surface);
+  border-bottom: 1px solid var(--hairline);
+  padding: 12px 16px 14px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 2px 12px;
+  transition: opacity .18s ease;
+}
+.tag[data-state="checking"] { opacity: .5; }
+.tag[data-state="out"] { display: none; }
+.showout .tag[data-state="out"] { display: grid; opacity: .45; }
+
+.tag-code {
+  grid-column: 1;
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 11px;
+  letter-spacing: .1em;
+  color: var(--shelf);
+}
+.tag-name {
+  grid-column: 1;
+  font-weight: 800;
+  font-size: 19px;
+  line-height: 1.15;
+  letter-spacing: -.01em;
+  margin: 1px 0 3px;
+}
+.tag-meta {
+  grid-column: 1;
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 12px;
+  color: var(--ink-soft);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 10px;
+  align-items: baseline;
+}
+.tag-style { color: var(--berry); text-transform: uppercase; letter-spacing: .09em; font-size: 10.5px; font-weight: 600; }
+.tag-per { color: var(--shelf); }
+.tag-note {
+  grid-column: 1 / -1;
+  font-size: 13.5px;
+  line-height: 1.42;
+  color: var(--ink-soft);
+  margin-top: 7px;
+  max-width: 54ch;
+}
+.tag-draft {
+  display: inline-block;
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 9.5px;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--shelf);
+  border: 1px solid var(--hairline);
+  border-radius: 2px;
+  padding: 1px 4px;
+  vertical-align: 1px;
+}
+
+/* Score, stamped. */
+.tag-score {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -.03em;
+  text-align: right;
+  align-self: start;
+  padding-top: 2px;
+}
+.tag-price {
+  grid-column: 2;
+  grid-row: 3;
+  text-align: right;
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 15px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Stock as tally pips — readable in an aisle without parsing a number. */
+.tag-stock {
+  grid-column: 2;
+  grid-row: 4;
+  text-align: right;
+  margin-top: 6px;
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 11px;
+  letter-spacing: .05em;
+  color: var(--stock);
+  white-space: nowrap;
+}
+.pips { display: inline-flex; gap: 2px; vertical-align: -1px; margin-right: 5px; }
+.pip { width: 5px; height: 12px; background: var(--stock); border-radius: .5px; }
+.tag-stock[data-level="low"] { color: var(--low); }
+.tag-stock[data-level="low"] .pip { background: var(--low); }
+.tag-stock[data-level="none"] { color: var(--none); }
+.tag-stock[data-level="unknown"] { color: var(--shelf); }
+
+/* ── Bottom controls — where the thumb is ─────────────────────────────── */
+/* Kept deliberately short: in a store the list is the point, so the controls
+   get one compact band and the chips scroll sideways rather than wrapping to
+   three rows and eating half the screen. */
+.controls {
+  position: fixed;
+  left: 0; right: 0; bottom: 0;
+  background: var(--surface);
+  border-top: 1px solid var(--hairline);
+  box-shadow: 0 -8px 24px rgba(0,0,0,.10);
+  padding: 9px 16px calc(9px + env(safe-area-inset-bottom));
+  display: grid;
+  gap: 7px;
+}
+.row { display: flex; gap: 10px; align-items: center; }
+.field { flex: 1; min-width: 0; }
+.label {
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 10px;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--shelf);
+  display: block;
+  margin-bottom: 3px;
+}
+select.control {
+  width: 100%;
+  min-height: 44px;
+  background: var(--bg);
+  color: var(--ink);
+  border: 1px solid var(--hairline);
+  border-radius: 3px;
+  font-family: Archivo, system-ui, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 0 10px;
+  appearance: none;
+}
+.ceiling {
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 21px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  min-width: 62px;
+  text-align: right;
+}
+input[type="range"] {
+  width: 100%;
+  height: 44px;
+  accent-color: var(--juniper-2);
+  background: transparent;
+}
+.chips {
+  display: flex;
+  gap: 6px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+  margin: 0 -16px;
+  padding: 1px 16px 2px;
+}
+.chips::-webkit-scrollbar { display: none; }
+.chip {
+  flex: 0 0 auto;
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 11px;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  padding: 7px 11px;
+  min-height: 32px;
+  border: 1px solid var(--hairline);
+  border-radius: 3px;
+  background: transparent;
+  color: var(--ink-soft);
+  cursor: pointer;
+}
+.chip[aria-pressed="true"] {
+  background: var(--juniper);
+  border-color: var(--juniper);
+  color: #EFEDE4;
+}
+
+.empty {
+  padding: 44px 24px;
+  text-align: center;
+  color: var(--ink-soft);
+  font-size: 15px;
+  line-height: 1.5;
+}
+.empty strong { display: block; color: var(--ink); font-size: 17px; margin-bottom: 6px; font-weight: 800; }
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: none !important; }
+}
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <h1 class="wordmark">Best Under <span>/ VA ABC</span></h1>
+  <select class="storepick" id="store" aria-label="Store"></select>
+</header>
+
+<p class="status" id="status">Loading the shelf…</p>
+
+<ul class="results" id="results"></ul>
+
+<div class="controls">
+  <div class="row">
+    <div class="field">
+      <label class="label" for="category">Category</label>
+      <select class="control" id="category"></select>
+    </div>
+    <div class="field">
+      <label class="label" for="size">Size</label>
+      <select class="control" id="size">
+        <option value="750" selected>750 ml</option>
+        <option value="any">Any size</option>
+      </select>
+    </div>
+  </div>
+  <div class="row">
+    <div class="field">
+      <label class="label" for="price">Price ceiling</label>
+      <input type="range" id="price" min="10" max="80" step="1" value="30">
+    </div>
+    <div class="ceiling" id="ceiling">$30</div>
+  </div>
+  <div class="chips" id="styles"></div>
+</div>
+
+<script>
+const MAX_CHECK = 30; // matches the fan-out cap in api/stock.js
+
+const el = {
+  status: document.getElementById('status'),
+  results: document.getElementById('results'),
+  store: document.getElementById('store'),
+  category: document.getElementById('category'),
+  size: document.getElementById('size'),
+  price: document.getElementById('price'),
+  ceiling: document.getElementById('ceiling'),
+  styles: document.getElementById('styles'),
+};
+
+let shelf = null;
+let activeStyles = new Set();
+let showOut = false;
+let requestSeq = 0;
+
+const money = (n) => '$' + n.toFixed(2);
+
+function setStatus(text, tone) {
+  el.status.textContent = text;
+  if (tone) el.status.dataset.tone = tone;
+  else delete el.status.dataset.tone;
+}
+
+// ── Load the shelf, preferring the network but surviving without it ──────
+async function loadShelf() {
+  try {
+    const res = await fetch('shelf.json', { cache: 'no-cache' });
+    if (!res.ok) throw new Error('shelf ' + res.status);
+    const data = await res.json();
+    try { localStorage.setItem('shelf', JSON.stringify(data)); } catch {}
+    return { data, cached: false };
+  } catch {
+    try {
+      const raw = localStorage.getItem('shelf');
+      if (raw) return { data: JSON.parse(raw), cached: true };
+    } catch {}
+    return null;
+  }
+}
+
+function buildControls() {
+  el.store.innerHTML = shelf.stores
+    .map((s) => `<option value="${s.id}"${s.id === shelf.homeStore ? ' selected' : ''}>${s.label}${s.miles ? ` · ${s.miles} mi` : ''}</option>`)
+    .join('');
+
+  el.category.innerHTML = shelf.categories.map((c) => `<option value="${c}">${c}</option>`).join('');
+
+  el.styles.innerHTML =
+    shelf.styles
+      .map((s) => `<button class="chip" type="button" data-style="${s}" aria-pressed="false">${s.replace('-', ' ')}</button>`)
+      .join('') +
+    `<button class="chip" type="button" id="toggleOut" aria-pressed="false">show out of stock</button>`;
+
+  el.styles.addEventListener('click', (e) => {
+    const b = e.target.closest('.chip');
+    if (!b) return;
+    if (b.id === 'toggleOut') {
+      showOut = !showOut;
+      b.setAttribute('aria-pressed', String(showOut));
+      document.body.classList.toggle('showout', showOut);
+      return;
+    }
+    const s = b.dataset.style;
+    if (activeStyles.has(s)) activeStyles.delete(s);
+    else activeStyles.add(s);
+    b.setAttribute('aria-pressed', String(activeStyles.has(s)));
+    run();
+  });
+}
+
+// ── Rank locally. No network involved — this is why the list is instant. ─
+function candidates() {
+  const cat = el.category.value;
+  const max = Number(el.price.value);
+  const size = el.size.value;
+  return shelf.products
+    .filter((p) => p.cat === cat)
+    .filter((p) => p.p <= max)
+    .filter((p) => (size === '750' ? p.ml === 750 : true))
+    .filter((p) => (activeStyles.size ? activeStyles.has(p.st) : true))
+    .sort((a, b) => b.s - a.s || a.p - b.p);
+}
+
+function pips(n) {
+  const shown = Math.min(n, 10);
+  return `<span class="pips">${'<i class="pip"></i>'.repeat(shown)}</span>${n > 10 ? '10+' : n}`;
+}
+
+function render(list) {
+  if (!list.length) {
+    el.results.innerHTML = `<li class="empty"><strong>Nothing rated at this price.</strong>Raise the ceiling, or switch to any size.</li>`;
+    return;
+  }
+  el.results.innerHTML = list
+    .map(
+      (p) => `
+    <li class="tag" data-code="${p.c}" data-state="checking">
+      <div class="tag-code">${p.c}</div>
+      <div class="tag-name">${p.n}</div>
+      <div class="tag-meta">
+        <span class="tag-style">${p.st.replace('-', ' ')}</span>
+        <span>${p.ml} ml</span>
+        ${p.pf ? `<span>${p.pf}°</span>` : ''}
+        ${p.ml !== 750 ? `<span class="tag-per">${money(p.p750)}/750</span>` : ''}
+        ${p.src === 'draft' ? '<span class="tag-draft">draft</span>' : ''}
+      </div>
+      <div class="tag-score">${p.s.toFixed(1)}</div>
+      <div class="tag-price">${money(p.p)}</div>
+      <div class="tag-stock" data-level="unknown">checking…</div>
+      ${p.note ? `<p class="tag-note">${p.note}</p>` : ''}
+    </li>`
+    )
+    .join('');
+}
+
+function paintStock(code, qty) {
+  const row = el.results.querySelector(`.tag[data-code="${code}"]`);
+  if (!row) return;
+  const cell = row.querySelector('.tag-stock');
+  if (qty === undefined || qty === null) {
+    row.dataset.state = 'unknown';
+    cell.dataset.level = 'unknown';
+    cell.textContent = 'no data';
+    return;
+  }
+  if (qty <= 0) {
+    row.dataset.state = 'out';
+    cell.dataset.level = 'none';
+    cell.textContent = 'out of stock';
+    return;
+  }
+  row.dataset.state = 'in';
+  cell.dataset.level = qty <= 2 ? 'low' : 'ok';
+  cell.innerHTML = pips(qty);
+}
+
+// ── Then ask about stock, best-first, bounded. ───────────────────────────
+async function checkStock(list) {
+  const seq = ++requestSeq;
+  const codes = list.slice(0, MAX_CHECK).map((p) => p.c);
+  if (!codes.length) return;
+
+  try {
+    const res = await fetch(`/api/stock?store=${el.store.value}&codes=${codes.join(',')}`);
+    const data = await res.json();
+    if (seq !== requestSeq) return; // a newer query superseded this one
+
+    if (res.status === 503 && data.error === 'rate_limited') {
+      setStatus('Virginia ABC asked us to slow down. Try again in a moment.', 'warn');
+    } else if (!res.ok) {
+      setStatus("Can't reach Virginia ABC. Showing ratings only — no stock counts.", 'warn');
+      list.forEach((p) => paintStock(p.c, null));
+      return;
+    } else {
+      const when = new Date(data.asOf).toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' });
+      const n = Object.values(data.stock || {}).filter((q) => q > 0).length;
+      setStatus(
+        `${n} in stock at #${data.store} · checked ${when}${data.partial ? ' · partial' : ''}`,
+        data.partial ? 'warn' : null
+      );
+    }
+
+    // Anything past the fan-out cap, or that came back with no record, stays
+    // "no data" — which is deliberately not the same as "out of stock".
+    const checked = new Set(codes);
+    for (const p of list) {
+      paintStock(p.c, checked.has(p.c) ? data.stock?.[p.c] ?? null : null);
+    }
+  } catch {
+    if (seq !== requestSeq) return;
+    setStatus("Can't reach Virginia ABC. Showing ratings only — no stock counts.", 'warn');
+    list.forEach((p) => paintStock(p.c, null));
+  }
+}
+
+function run() {
+  const list = candidates();
+  render(list);
+  if (list.length) checkStock(list);
+}
+
+el.price.addEventListener('input', () => {
+  el.ceiling.textContent = '$' + el.price.value;
+});
+el.price.addEventListener('change', run);
+el.category.addEventListener('change', run);
+el.size.addEventListener('change', run);
+el.store.addEventListener('change', run);
+
+(async function init() {
+  const loaded = await loadShelf();
+  if (!loaded) {
+    setStatus('Could not load the shelf, and nothing is cached on this phone.', 'bad');
+    return;
+  }
+  shelf = loaded.data;
+  buildControls();
+  el.ceiling.textContent = '$' + el.price.value;
+  if (loaded.cached) setStatus('Offline — using the copy saved on this phone.', 'warn');
+  run();
+})();
+</script>
+</body>
+</html>
