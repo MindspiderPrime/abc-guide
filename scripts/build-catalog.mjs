@@ -21,7 +21,23 @@
 import { writeFileSync, mkdirSync } from 'node:fs';
 import { searchCategory, F, one, many, pad6 } from '../lib/abc.mjs';
 
-const SHELVES = (process.argv.slice(2).length ? process.argv.slice(2) : ['Gin']).map((arg) => {
+// The full shelf list. Whiskey splits into separate shelves because bourbon and
+// scotch are different shopping trips; everything else stays one shelf and uses
+// ABC's own type field as its style vocabulary (Silver/Reposado/Anejo for
+// tequila, Fruit/Cream/Herbal for cordials). Non-drink categories — Mixers,
+// Rimmers, Gift Bag/Box, Reusable Bag — are deliberately absent.
+const ALL_SHELVES = [
+  'Whiskey:Bourbon', 'Whiskey:Rye', 'Whiskey:Scotch', 'Whiskey:Irish',
+  'Whiskey:Tennessee', 'Whiskey:Canadian', 'Whiskey:Japanese', 'Whiskey:Blended',
+  'Whiskey:Moonshine',
+  'Gin', 'Vodka', 'Tequila', 'Rum', 'Brandy',
+  'Cordials', 'Vermouth', 'Schnapps', 'Cocktails',
+];
+
+const argv = process.argv.slice(2);
+const requested = argv.includes('--all') ? ALL_SHELVES : argv.length ? argv : ['Gin'];
+
+const SHELVES = requested.map((arg) => {
   const [category, type] = arg.split(':');
   return { category, type, name: type || category }; // "Whiskey:Bourbon" shelves as "Bourbon"
 });
@@ -77,6 +93,11 @@ for (const shelf of SHELVES) {
       const type = one(raw[F.type]);
       const allocated =
         one(raw[F.lottery]) === '1' || one(raw[F.limited]) === '1';
+      const virginia = one(raw[F.virginia]) === '1';
+
+      // "Combo" is ABC's marker for gift sets and multi-bottle packs. They are
+      // not a bottle you can compare on price, so they never reach the shelf.
+      if (type === 'Combo') continue;
 
       for (let i = 0; i < skus.length; i++) {
         const code = pad6(one(skus[i]));
@@ -106,6 +127,7 @@ for (const shelf of SHELVES) {
           perMl: Math.round((price / ml) * 100000) / 100000,
           proof,
           allocated,
+          virginia,
         });
       }
     }

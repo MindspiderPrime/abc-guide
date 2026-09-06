@@ -171,6 +171,20 @@ body {
   margin-top: 7px;
   max-width: 54ch;
 }
+.tag[data-rated="no"] { opacity: .74; }
+.tag[data-rated="no"] .tag-name { font-weight: 600; }
+.tag-unrated {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  align-self: start;
+  text-align: right;
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 10px;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--shelf);
+  padding-top: 6px;
+}
 .tag-draft {
   display: inline-block;
   font-family: "IBM Plex Mono", ui-monospace, monospace;
@@ -351,7 +365,7 @@ input[type="range"] {
   <div class="row">
     <div class="field">
       <label class="label" for="price">Price ceiling</label>
-      <input type="range" id="price" min="10" max="80" step="1" value="30">
+      <input type="range" id="price" min="10" max="150" step="5" value="30">
     </div>
     <div class="ceiling" id="ceiling">$30</div>
   </div>
@@ -359,7 +373,7 @@ input[type="range"] {
 </div>
 
 <script>
-const MAX_CHECK = 30; // matches the fan-out cap in api/stock.js
+const MAX_CHECK = 30; // matches the fan-out cap in api/stock.js; also the render cap
 
 const el = {
   status: document.getElementById('status'),
@@ -375,9 +389,15 @@ const el = {
 let shelf = null;
 let activeStyles = new Set();
 let showOut = false;
+let showAll = false;   // include bottles with no rating yet
+let vaOnly = false;    // Virginia-made only
 let requestSeq = 0;
 
+/** Full per-category lists, fetched only when "everything on the shelf" is on. */
+const fullCats = new Map();
+
 const money = (n) => '$' + n.toFixed(2);
+const slug = (c) => c.toLowerCase().replace(/[^a-z0-9]+/g, '-');
 
 function setStatus(text, tone) {
   el.status.textContent = text;
@@ -402,52 +422,111 @@ async function loadShelf() {
   }
 }
 
+/**
+ * The full list for one category — every bottle, rated or not. Deliberately not
+ * kept in localStorage: these run to a few hundred KB each and would crowd out
+ * the small file that has to survive for offline use. The HTTP cache is enough,
+ * and this only loads when you ask for it.
+ */
+async function loadCategory(cat) {
+  if (fullCats.has(cat)) return true;
+  try {
+    const res = await fetch('shelf/' + slug(cat) + '.json');
+    if (!res.ok) throw new Error('cat ' + res.status);
+    const data = await res.json();
+    fullCats.set(cat, data.products);
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+/** Rated-only by default; the whole shelf once it has been loaded. */
+function sourceProducts() {
+  const cat = el.category.value;
+  if (showAll && fullCats.has(cat)) return fullCats.get(cat);
+  return shelf.products;
+}
+
 function buildControls() {
   el.store.innerHTML = shelf.stores
     .map((s) => `<option value="${s.id}"${s.id === shelf.homeStore ? ' selected' : ''}>${s.label}${s.miles ? ` · ${s.miles} mi` : ''}</option>`)
     .join('');
 
-  el.category.innerHTML = shelf.categories.map((c) => `<option value="${c}">${c}</option>`).join('');
+  el.category.innerHTML = shelf.categories
+    .map((c) => `<option value="${c.cat}">${c.cat}${c.rated ? '' : ' (unrated)'}</option>`)
+    .join('');
 
-  el.styles.addEventListener('click', (e) => {
+  el.styles.addEventListener('click', async (e) => {
     const b = e.target.closest('.chip');
     if (!b) return;
+
     if (b.id === 'toggleOut') {
       showOut = !showOut;
       b.setAttribute('aria-pressed', String(showOut));
       document.body.classList.toggle('showout', showOut);
       return;
     }
-    const s = b.dataset.style;
-    if (activeStyles.has(s)) activeStyles.delete(s);
-    else activeStyles.add(s);
-    b.setAttribute('aria-pressed', String(activeStyles.has(s)));
+
+    if (b.id === 'toggleAll') {
+      showAll = !showAll;
+      b.setAttribute('aria-pressed', String(showAll));
+      if (showAll) {
+        b.textContent = 'loading…';
+        const ok = await loadCategory(el.category.value);
+        b.textContent = 'everything on the shelf';
+        if (!ok) {
+          showAll = false;
+          b.setAttribute('aria-pressed', 'false');
+          setStatus("Couldn't load the full shelf for this category.", 'warn');
+          return;
+        }
+      }
+      renderStyles();
+      run();
+      return;
+    }
+
+    if (b.id === 'toggleVa') {
+      vaOnly = !vaOnly;
+      b.setAttribute('aria-pressed', String(vaOnly));
+      run();
+      return;
+    }
+
+    const st = b.dataset.style;
+    if (activeStyles.has(st)) activeStyles.delete(st);
+    else activeStyles.add(st);
+    b.setAttribute('aria-pressed', String(activeStyles.has(st)));
     run();
   });
 }
 
 /**
  * Style vocabularies don't cross categories — "wheated" means nothing to gin,
- * "london dry" means nothing to bourbon — so the chips are rebuilt from
- * whatever styles actually exist in the selected category.
+ * "reposado" nothing to bourbon — so the chips are rebuilt from whatever styles
+ * actually exist in the selected category.
  */
 function renderStyles() {
   const cat = el.category.value;
-  const present = [...new Set(shelf.products.filter((p) => p.cat === cat).map((p) => p.st))]
-    .filter(Boolean)
-    .sort();
+  const pool = sourceProducts().filter((p) => p.cat === cat);
+  const present = [...new Set(pool.map((p) => p.st))].filter(Boolean).sort();
+  const anyVa = pool.some((p) => p.va);
 
-  // drop any active filter that the new category has no use for
-  for (const s of [...activeStyles]) if (!present.includes(s)) activeStyles.delete(s);
+  // drop any active filter the new category has no use for
+  for (const st of [...activeStyles]) if (!present.includes(st)) activeStyles.delete(st);
+  if (!anyVa) vaOnly = false;
 
   el.styles.innerHTML =
     present
       .map(
-        (s) =>
-          `<button class="chip" type="button" data-style="${s}" aria-pressed="${activeStyles.has(s)}">${s.replaceAll('-', ' ')}</button>`
+        (st) =>
+          `<button class="chip" type="button" data-style="${st}" aria-pressed="${activeStyles.has(st)}">${st.replaceAll('-', ' ')}</button>`
       )
       .join('') +
-    `<button class="chip" type="button" id="toggleOut" aria-pressed="${showOut}">show out of stock</button>`;
+    (anyVa ? `<button class="chip" type="button" id="toggleVa" aria-pressed="${vaOnly}">virginia made</button>` : '') +
+    `<button class="chip" type="button" id="toggleOut" aria-pressed="${showOut}">show out of stock</button>` +
+    `<button class="chip" type="button" id="toggleAll" aria-pressed="${showAll}">everything on the shelf</button>`;
 }
 
 // ── Rank locally. No network involved — this is why the list is instant. ─
@@ -455,12 +534,14 @@ function candidates() {
   const cat = el.category.value;
   const max = Number(el.price.value);
   const size = el.size.value;
-  return shelf.products
+  return sourceProducts()
     .filter((p) => p.cat === cat)
     .filter((p) => p.p <= max)
     .filter((p) => (size === '750' ? p.ml === 750 : true))
+    .filter((p) => (vaOnly ? p.va : true))
     .filter((p) => (activeStyles.size ? activeStyles.has(p.st) : true))
-    .sort((a, b) => b.s - a.s || a.p - b.p);
+    // unrated bottles have no score and sort below everything rated
+    .sort((a, b) => (b.s ?? -1) - (a.s ?? -1) || a.p - b.p);
 }
 
 function pips(n) {
@@ -468,31 +549,41 @@ function pips(n) {
   return `<span class="pips">${'<i class="pip"></i>'.repeat(shown)}</span>${n > 10 ? '10+' : n}`;
 }
 
-function render(list) {
+function render(list, total) {
   if (!list.length) {
-    el.results.innerHTML = `<li class="empty"><strong>Nothing rated at this price.</strong>Raise the ceiling, or switch to any size.</li>`;
+    el.results.innerHTML =
+      `<li class="empty"><strong>Nothing here at this price.</strong>Raise the ceiling, switch to any size, or turn on "everything on the shelf".</li>`;
     return;
   }
-  el.results.innerHTML = list
-    .map(
-      (p) => `
-    <li class="tag" data-code="${p.c}" data-state="checking">
+  el.results.innerHTML =
+    list
+      .map((p) => {
+        const isRated = typeof p.s === 'number';
+        return `
+    <li class="tag" data-code="${p.c}" data-state="checking" data-rated="${isRated ? 'yes' : 'no'}">
       <div class="tag-code">${p.c}</div>
       <div class="tag-name">${p.n}</div>
       <div class="tag-meta">
-        <span class="tag-style">${p.st.replaceAll('-', ' ')}</span>
+        ${p.st ? `<span class="tag-style">${p.st.replaceAll('-', ' ')}</span>` : ''}
         <span>${p.ml} ml</span>
         ${p.pf ? `<span>${p.pf}°</span>` : ''}
         ${p.ml !== 750 ? `<span class="tag-per">${money(p.p750)}/750</span>` : ''}
-        ${p.src === 'draft' ? '<span class="tag-draft">draft</span>' : ''}
+        ${isRated && p.src === 'draft' ? '<span class="tag-draft">draft</span>' : ''}
       </div>
-      <div class="tag-score">${p.s.toFixed(1)}</div>
+      ${isRated
+        ? `<div class="tag-score">${p.s.toFixed(1)}</div>`
+        : `<div class="tag-unrated">not<br>rated</div>`}
       <div class="tag-price">${money(p.p)}</div>
       <div class="tag-stock" data-level="unknown">checking…</div>
       ${p.note ? `<p class="tag-note">${p.note}</p>` : ''}
-    </li>`
-    )
-    .join('');
+    </li>`;
+      })
+      .join('') +
+    // Stock costs one upstream request per bottle, so the list stops where the
+    // fan-out does rather than showing rows we could never fill in.
+    (total > list.length
+      ? `<li class="empty">Showing the top ${list.length} of ${total}. Narrow the price or style to see further down the shelf.</li>`
+      : '');
 }
 
 function paintStock(code, qty) {
@@ -519,7 +610,7 @@ function paintStock(code, qty) {
 // ── Then ask about stock, best-first, bounded. ───────────────────────────
 async function checkStock(list) {
   const seq = ++requestSeq;
-  const codes = list.slice(0, MAX_CHECK).map((p) => p.c);
+  const codes = list.map((p) => p.c);
   if (!codes.length) return;
 
   try {
@@ -542,12 +633,9 @@ async function checkStock(list) {
       );
     }
 
-    // Anything past the fan-out cap, or that came back with no record, stays
-    // "no data" — which is deliberately not the same as "out of stock".
-    const checked = new Set(codes);
-    for (const p of list) {
-      paintStock(p.c, checked.has(p.c) ? data.stock?.[p.c] ?? null : null);
-    }
+    // Anything that came back with no record stays "no data" — deliberately
+    // not the same as "out of stock".
+    for (const p of list) paintStock(p.c, data.stock?.[p.c] ?? null);
   } catch {
     if (seq !== requestSeq) return;
     setStatus("Can't reach Virginia ABC. Showing ratings only — no stock counts.", 'warn');
@@ -557,18 +645,11 @@ async function checkStock(list) {
 
 function run() {
   savePrefs();
-  const list = candidates();
-  render(list);
+  const all = candidates();
+  const list = all.slice(0, MAX_CHECK);
+  render(list, all.length);
   if (list.length) checkStock(list);
 }
-
-el.price.addEventListener('input', () => {
-  el.ceiling.textContent = '$' + el.price.value;
-});
-el.price.addEventListener('change', run);
-el.category.addEventListener('change', () => { renderStyles(); run(); });
-el.size.addEventListener('change', run);
-el.store.addEventListener('change', run);
 
 /**
  * Reopen where you left off. You're usually in the same store looking for the
@@ -604,6 +685,19 @@ function restorePrefs() {
     el.price.value = String(price);
   }
 }
+
+el.price.addEventListener('input', () => {
+  el.ceiling.textContent = '$' + el.price.value;
+});
+el.price.addEventListener('change', run);
+el.size.addEventListener('change', run);
+el.store.addEventListener('change', run);
+el.category.addEventListener('change', async () => {
+  // "everything" is per-category, so switching categories has to fetch again
+  if (showAll) await loadCategory(el.category.value);
+  renderStyles();
+  run();
+});
 
 (async function init() {
   const loaded = await loadShelf();
