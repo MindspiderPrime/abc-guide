@@ -48,6 +48,13 @@
     "note": "The reference point for what bourbon should cost and taste like. Grab it when you see it.",
     "source": "draft"
   },
+  "471": {
+    "name": "Burnett's Vodka",
+    "score": 3.5,
+    "style": "budget",
+    "note": "Cheap and neutral. Better than the true bottom shelf, still just a mixer.",
+    "source": "draft"
+  },
   "514": {
     "name": "Campari Aperitivo",
     "score": 8.5,
@@ -123,6 +130,13 @@
     "score": 6.5,
     "style": "neutral",
     "note": "Soft and clean. You are paying for the marketing.",
+    "source": "draft"
+  },
+  "1929": {
+    "name": "Luksusowa Vodka",
+    "score": 6.5,
+    "style": "potato",
+    "note": "Polish potato vodka. More body and character than the wheat vodkas twice its price.",
     "source": "draft"
   },
   "2130": {
@@ -201,6 +215,13 @@
     "note": "The Virginia standby. Sentimental value exceeds flavor value.",
     "source": "draft"
   },
+  "3218": {
+    "name": "Effen Vodka",
+    "score": 6,
+    "style": "standard",
+    "note": "French wheat vodka, a bit sweeter than most. Solid, unremarkable.",
+    "source": "draft"
+  },
   "3250": {
     "name": "Milagro Silver Tequila",
     "score": 6.5,
@@ -214,11 +235,32 @@
     "note": "Perfectly good, faintly sweet. The default.",
     "source": "draft"
   },
+  "3325": {
+    "name": "Aristocrat Vodka",
+    "score": 2.5,
+    "style": "budget",
+    "note": "Rock-bottom vodka. Buy it for the price.",
+    "source": "draft"
+  },
+  "3445": {
+    "name": "Skyy Vodka",
+    "score": 5.5,
+    "style": "standard",
+    "note": "Clean and neutral. A step up from the bottom shelf, nothing more.",
+    "source": "draft"
+  },
   "3451": {
     "name": "Tanqueray Gin",
     "score": 9,
     "style": "london-dry",
     "note": "Four botanicals, 94.6 proof, nothing wasted. The one to beat under thirty dollars.",
+    "source": "draft"
+  },
+  "3773": {
+    "name": "Stolichnaya Elit",
+    "score": 7.5,
+    "style": "standard",
+    "note": "Stoli's flagship, freeze-filtered. The best version of a brand mostly known for its cheap flavored line.",
     "source": "draft"
   },
   "3866": {
@@ -293,6 +335,20 @@
     "score": 4.5,
     "style": "contemporary",
     "note": "Almost no juniper — closer to citrus vodka. Popular, not good.",
+    "source": "draft"
+  },
+  "5197": {
+    "name": "Hangar One Vodka",
+    "score": 6.5,
+    "style": "standard",
+    "note": "American craft vodka, grape-and-grain blend. Smooth, well-regarded among craft options.",
+    "source": "draft"
+  },
+  "5208": {
+    "name": "Prairie Organic Vodka",
+    "score": 6.5,
+    "style": "organic",
+    "note": "Organic corn vodka, smooth and neutral. Solid everyday choice.",
     "source": "draft"
   },
   "5738": {
@@ -488,6 +544,13 @@
     "note": "Twenty-two Islay botanicals, layered and herbal. The most interesting bottle under thirty.",
     "source": "draft"
   },
+  "9352": {
+    "name": "Ciroc Vodka",
+    "score": 6.5,
+    "style": "grape",
+    "note": "Made from grapes, not grain — noticeably different texture. Popular for a reason beyond the marketing.",
+    "source": "draft"
+  },
   "9438": {
     "name": "Disaronno Amaretto",
     "score": 6.5,
@@ -663,6 +726,13 @@
     "score": 6.5,
     "style": "blended",
     "note": "A real step up from White Label. Decent value.",
+    "source": "draft"
+  },
+  "10729": {
+    "name": "Gordon's Vodka 80 Proof",
+    "score": 3.5,
+    "style": "budget",
+    "note": "Basic well vodka. Fine in a Bloody Mary, nowhere else.",
     "source": "draft"
   },
   "10783": {
@@ -1121,6 +1191,13 @@
     "note": "Cheap mixto. Mixing only, and barely.",
     "source": "draft"
   },
+  "13485": {
+    "name": "Wheatley Vodka",
+    "score": 6.5,
+    "style": "standard",
+    "note": "Buffalo Trace's vodka. Clean and well-made, made by people who know what they're doing.",
+    "source": "draft"
+  },
   "13546": {
     "name": "Kahlua Coffee Liqueur",
     "score": 6,
@@ -1287,6 +1364,13 @@
     "note": "A genuine step up from Bacardi's white rums. Oaky and worth the extra fifteen dollars.",
     "source": "draft"
   },
+  "14761": {
+    "name": "Bowman's Vodka",
+    "score": 2.5,
+    "style": "budget",
+    "note": "As cheap as vodka gets. A well pour, nothing more.",
+    "source": "draft"
+  },
   "14765": {
     "name": "Nikka From The Barrel",
     "score": 8,
@@ -1298,6 +1382,13 @@
     "score": 3,
     "style": "flavored",
     "note": "Apple candy at 70 proof.",
+    "source": "draft"
+  },
+  "14827": {
+    "name": "Haku Vodka",
+    "score": 7,
+    "style": "rice",
+    "note": "Suntory's rice vodka. Silky texture, very clean — a genuinely different style.",
     "source": "draft"
   },
   "14894": {
@@ -1524,6 +1615,13 @@
     "note": "Bonded five-year apple brandy. Superb and still under forty.",
     "source": "draft"
   },
+  "16136": {
+    "name": "Zu Zubrowka Bison Grass Vodka",
+    "score": 7,
+    "style": "standard",
+    "note": "Polish bison-grass vodka, herbal and distinctive. Actually tastes like something, unlike most of this shelf.",
+    "source": "draft"
+  },
   "16185": {
     "name": "James E. Pepper 1776 Rye",
     "score": 7.5,
@@ -1538,6 +1636,13 @@
     "note": "Sweet and thin.",
     "source": "draft"
   },
+  "16269": {
+    "name": "Belvedere Heritage 176",
+    "score": 7,
+    "style": "standard",
+    "note": "Belvedere's higher-end rye-based bottling. More character than the standard bottle.",
+    "source": "draft"
+  },
   "16338": {
     "name": "Jim Beam with Highball Glass",
     "score": 5.5,
@@ -1550,6 +1655,13 @@
     "score": 7,
     "style": "bottled-in-bond",
     "note": "Unfiltered bonded Beam. Rougher and more interesting than the white label.",
+    "source": "draft"
+  },
+  "16390": {
+    "name": "Barr Hill Vodka",
+    "score": 7,
+    "style": "honey",
+    "note": "Raw honey vodka from Vermont. Distinctly sweet-edged and different from anything else on this shelf.",
     "source": "draft"
   },
   "16393": {
@@ -1576,6 +1688,13 @@
     "name": "Teremana Reposado Tequila",
     "score": 6,
     "note": "Soft and sweet. Fine.",
+    "source": "draft"
+  },
+  "16416": {
+    "name": "American Harvest Organic Vodka",
+    "score": 6.5,
+    "style": "organic",
+    "note": "Organic wheat vodka, smooth. A reliable mid-tier choice.",
     "source": "draft"
   },
   "16456": {
@@ -1863,6 +1982,13 @@
     "note": "Young and a little rough.",
     "source": "draft"
   },
+  "17968": {
+    "name": "Crystal Head Vodka Pride Bottle",
+    "score": 6.5,
+    "style": "standard",
+    "note": "Dan Aykroyd's skull-bottle vodka. Smooth and unremarkable — you're paying for the bottle.",
+    "source": "draft"
+  },
   "17977": {
     "name": "Hornitos Tequila Anejo",
     "score": 6.5,
@@ -1943,6 +2069,13 @@
     "note": "Easy and light. Unremarkable.",
     "source": "draft"
   },
+  "18730": {
+    "name": "Broken Shed Vodka",
+    "score": 6.5,
+    "style": "standard",
+    "note": "New Zealand whey-based vodka. Silky and well-reviewed, an interesting change of pace.",
+    "source": "draft"
+  },
   "18742": {
     "name": "Appleton Estate 15 Year",
     "score": 8.5,
@@ -1980,6 +2113,13 @@
     "score": 3,
     "style": "flavored",
     "note": "Cinnamon and brown sugar at 103 proof. Loud and sweet.",
+    "source": "draft"
+  },
+  "19053": {
+    "name": "Nikka Coffey Vodka",
+    "score": 7,
+    "style": "standard",
+    "note": "From the Japanese whisky maker. Distinctly creamy and rich for a vodka.",
     "source": "draft"
   },
   "19079": {
@@ -2087,6 +2227,13 @@
     "score": 6.5,
     "style": "flavored",
     "note": "Stone fruit version. Nice, but the standard Citadelle is the better bottle.",
+    "source": "draft"
+  },
+  "19757": {
+    "name": "Chopin Family Reserve Vodka",
+    "score": 8,
+    "style": "potato",
+    "note": "Chopin's top bottling, aged in oak. The most distinctive potato vodka in the store.",
     "source": "draft"
   },
   "19809": {
@@ -2299,6 +2446,13 @@
     "score": 7,
     "style": "single malt",
     "note": "Canada's answer to a single malt. Different animal from the blends — worth trying once.",
+    "source": "draft"
+  },
+  "21479": {
+    "name": "Dingle Vodka",
+    "score": 6.5,
+    "style": "standard",
+    "note": "Irish craft vodka. Clean and well-made, priced for the craft-distillery premium.",
     "source": "draft"
   },
   "21489": {
@@ -2685,6 +2839,13 @@
     "score": 8,
     "style": "high-rye",
     "note": "The yellow label with the volume turned up. Floral, high-rye, very good.",
+    "source": "draft"
+  },
+  "24999": {
+    "name": "Beluga Noble Vodka",
+    "score": 7,
+    "style": "standard",
+    "note": "Russian, milk-thistle filtered. A genuine step up in texture from the mass brands.",
     "source": "draft"
   },
   "25003": {
