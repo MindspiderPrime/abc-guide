@@ -272,6 +272,12 @@ body {
 }
 .style { color: var(--slate); }
 .va { color: var(--copper); }
+.value {
+  color: #fff;
+  background: var(--in-stock);
+  border-radius: 3px;
+  padding: 1px 6px;
+}
 .per { color: var(--ink-3); }
 .draft {
   font-family: "IBM Plex Mono", ui-monospace, monospace;
@@ -737,6 +743,28 @@ function render(list, total) {
   const rated = list.filter((p) => typeof p.s === 'number');
   const allDraft = rated.length > 0 && rated.every((p) => p.src === 'draft');
 
+  // "Great value" = notably cheaper than its tier-mates, not just cheap in
+  // isolation — a $9 vodka means nothing until you know what a 6.5 usually
+  // costs. Compares p750 (not the sticker price) so a mini doesn't look like
+  // a bargain next to a 750, and needs at least one tier-mate to compare
+  // against, so a lone bottle in its own band never qualifies.
+  const tierPrices = new Map();
+  for (const p of rated) {
+    if (!tierPrices.has(p.s)) tierPrices.set(p.s, []);
+    tierPrices.get(p.s).push(p.p750);
+  }
+  const tierMedian = new Map();
+  for (const [score, prices] of tierPrices) {
+    if (prices.length < 2) continue;
+    const sorted = [...prices].sort((a, b) => a - b);
+    const mid = sorted.length >> 1;
+    tierMedian.set(score, sorted.length % 2 ? sorted[mid] : (sorted[mid - 1] + sorted[mid]) / 2);
+  }
+  const isGreatValue = (p) => {
+    const med = tierMedian.get(p.s);
+    return med != null && p.p750 <= med * 0.7;
+  };
+
   let html = '';
   let tier = null;
   let tierId = 0;
@@ -760,6 +788,7 @@ function render(list, total) {
         <span class="price">${money(p.p)}</span>
       </div>
       <div class="meta">
+        ${isRated && isGreatValue(p) ? `<span class="value">Great value</span>` : ''}
         ${p.st ? `<span class="style">${p.st.replaceAll('-', ' ')}</span>` : ''}
         ${p.va ? `<span class="va">Virginia</span>` : ''}
         <span class="dat">${p.ml} ml</span>
