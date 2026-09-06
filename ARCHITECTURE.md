@@ -1,7 +1,7 @@
 # Architecture: "Best Under $X" — Virginia ABC In-Store Finder
 
 Successor to `abc-best-under-x-handoff.md`. That document set the goal and the
-shape; this one commits to how it gets built, and corrects three things in it
+shape; this one commits to how it gets built, and corrects several things in it
 that turn out not to be true.
 
 Written for someone who doesn't write code. Jargon gets defined the first time
@@ -12,7 +12,8 @@ it appears.
 ## Part 1 — What I verified, and what changed
 
 Before designing anything I made real requests to Virginia ABC's endpoints and
-read the `rnwolfe/vabc` source. Four findings; the first one is load-bearing.
+read the `rnwolfe/vabc` source. Findings 1-4 came from that pass; 5 and 6 turned
+up during the build. The first one is load-bearing.
 
 ### Finding 1 — There is no "what's in this store" endpoint (this changes the design)
 
@@ -227,9 +228,53 @@ Behavior that matters in a store:
 
 ---
 
-## Part 3 — The two decisions I need from you
+### Finding 5 — Cloudflare splits exactly along the offline/online seam (found during the build)
 
-Everything else I can pick myself. These two change what gets built.
+The two endpoint families behave differently, and conveniently so:
+
+| Route | Node's `fetch` | curl | Used |
+|---|---|---|---|
+| `/webapi/inventory/*` | **200 OK** | 200 OK | at runtime, by `api/stock.js` |
+| `/coveo/rest/search/v2` | 403 challenge | 200 OK | offline only, by the catalog builder |
+
+The route the deployed app depends on answers cleanly. The challenged route runs
+only on a desk, a few times a year. So `lib/abc.mjs` sends the catalog build over
+curl and keeps everything else on `fetch` — a change of HTTP client, not a
+disguise: same honest `User-Agent`, same throttle, no challenge solving. If curl
+starts getting challenged too, the fallback is ABC's officially published
+quarterly price list, not escalation.
+
+### Finding 6 — Bogus product codes return `0`, not an error
+
+The inventory endpoint doesn't validate codes. Ask it about a code that doesn't
+exist and it cheerfully answers "quantity 0" — indistinguishable from a real
+product that's sold out. I hit this by accidentally passing label IDs instead of
+product codes and got a plausible-looking screen of zeros.
+
+Two consequences: every code the app sends must come from the catalog (never
+constructed), and `api/stock.js` reports "no inventory record" as `null`, kept
+distinct from a genuine `0`. The page renders that as *no data*, never as *out of
+stock*.
+
+---
+
+## Part 3 — Decisions (settled 2026-09-05)
+
+**A. Where it lives → GitHub + Vercel.** Public repo at
+`MindspiderPrime/abc-guide`, deployed from `public/` with one function in
+`api/`, region pinned to `iad1` because ABC's own servers answer from IAD.
+No build step, no framework.
+
+**B. Size normalization → 750 ml default, with price-per-750 shown.** The size
+picker defaults to 750 ml so a $29 handle of bottom-shelf gin can't outrank a
+$28 bottle of good gin; "any size" is one tap away, and off-standard sizes carry
+a `$/750` line so the comparison stays honest.
+
+**C. Home store → #270, 809 E Parham Rd, Richmond.** 38 more stores within 15
+miles are in the picker, sorted by distance.
+
+<details>
+<summary>Original framing of decision A, kept for the record</summary>
 
 ### Decision A — Where it lives
 
@@ -259,10 +304,10 @@ where you actually want the handle.
 
 This costs nothing to build and you can flip it after using it once.
 
+</details>
+
 ### Still open, lower stakes
 
-- **Which store is the default?** I need the store number. (Store 219 is
-  Tysons — I used it for testing because `vabc`'s docs do.)
 - **Which categories after gin, in what order?** Bourbon and rye are the obvious
   next two, but this is the whole point of the tool, so it should be your call.
 
