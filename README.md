@@ -5,7 +5,12 @@ It shows the best-rated bottles **actually on the shelf in that store right
 now**, best first.
 
 Home store: **#270, 809 E Parham Rd, Richmond**. 38 other stores within 15 miles
-are in the picker.
+are in the picker. Gin, bourbon, and rye are rated so far.
+
+Style filters are per category — london dry and navy strength for gin, wheated
+and bottled-in-bond for bourbon — because "best" means something different in
+each. ABC files a lot of flavored whiskey under Bourbon, so `flavored` is a chip
+you can switch off.
 
 ## How it works
 
@@ -49,16 +54,22 @@ Full reasoning in [ARCHITECTURE.md](ARCHITECTURE.md).
 
 ```bash
 node scripts/build-stores.mjs 15     # stores within 15 mi -> data/stores.json
-node scripts/build-catalog.mjs Gin   # catalog for a category -> data/catalog.json
+node scripts/build-catalog.mjs Gin Whiskey:Bourbon Whiskey:Rye   # -> data/catalog.json
 node scripts/merge-shelf.mjs         # catalog + ratings -> public/shelf.json
 node scripts/dev.mjs                 # local server on :3000
 ```
 
+A shelf is `Category` or `Category:Type`. Bourbon and rye are not categories
+upstream — ABC files all 4,393 whiskeys under `Whiskey` and splits them with a
+type field — so they're requested as `Whiskey:Bourbon` and `Whiskey:Rye` and
+stored under the name people actually use. `Whiskey:Scotch` and `Whiskey:Irish`
+are there for the taking.
+
 Edit `data/ratings.json`, re-run `merge-shelf`, push. That's the whole loop.
 
 Ratings key on **label ID**, not product code — "Tanqueray Gin" is one opinion
-that covers all five of its bottle sizes. 53 gin ratings currently cover 91
-bottles. Anything still marked `"source": "draft"` is Claude's first pass from
+that covers all five of its bottle sizes. 163 ratings currently cover 299
+bottles across gin, bourbon, and rye. Anything still marked `"source": "draft"` is Claude's first pass from
 general consensus; change it to `"jeff"` once you've confirmed or overridden it,
 and the `draft` tag disappears from the page.
 

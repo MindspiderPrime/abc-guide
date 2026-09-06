@@ -1,57 +1,1144 @@
 {
-  "_readme": "Jeff's ratings. Keyed on labelId (a product family, e.g. all five sizes of Tanqueray). score 0-10. style: london-dry | contemporary | navy-strength | barrel-aged | flavored | genever. source 'draft' = Claude's first pass from general consensus; change to 'jeff' once you've confirmed or overridden it. This file is the only thing here that can't be regenerated.",
-
-  "293":   { "name": "Barton Gin",                          "score": 2.5, "style": "london-dry",     "note": "Bottom shelf and tastes it. Mixer of last resort.", "source": "draft" },
-  "10579": { "name": "Seagram's Extra Dry Gin",             "score": 5.0, "style": "contemporary",   "note": "Rested in oak, faintly sweet. Fine in a tall drink, dull in a martini.", "source": "draft" },
-  "10350": { "name": "Seagram's Extra Dry Gin (plastic)",   "score": 5.0, "style": "contemporary",   "note": "Same gin, plastic bottle. Buy it for the cooler, not the bar cart.", "source": "draft" },
-  "10464": { "name": "Seagram's Lime Twisted Gin",          "score": 3.5, "style": "flavored",       "note": "Candied lime. Does the work of a gin and a mixer, badly.", "source": "draft" },
-  "4154":  { "name": "Seagram's Distiller's Reserve Gin",   "score": 6.0, "style": "contemporary",   "note": "A real step up from standard Seagram's for two dollars more.", "source": "draft" },
-  "5167":  { "name": "New Amsterdam Straight Gin",          "score": 4.5, "style": "contemporary",   "note": "Almost no juniper — closer to citrus vodka. Popular, not good.", "source": "draft" },
-  "15566": { "name": "Commonwealth Gin",                    "score": 6.5, "style": "contemporary",   "note": "Virginia-made, coriander-forward. Good value at seventeen dollars.", "source": "draft" },
-  "11096": { "name": "Kopper Kettle Golden Gin",            "score": 6.5, "style": "barrel-aged",    "note": "Virginia, oak-rested. Try it where you'd use a light whiskey.", "source": "draft" },
-  "447":   { "name": "Broker's Gin",                        "score": 8.0, "style": "london-dry",     "note": "The value pick of the whole list. 94 proof, proper juniper, eighteen dollars.", "source": "draft" },
-  "22846": { "name": "Greenalls London Dry Gin",            "score": 6.5, "style": "london-dry",     "note": "Honest, unfussy London dry. Nothing to complain about.", "source": "draft" },
-  "9157":  { "name": "Bulldog Gin",                         "score": 6.0, "style": "contemporary",   "note": "Smooth and a bit anonymous. Poppy and dragon eye don't announce themselves.", "source": "draft" },
-  "14159": { "name": "Beefeater London Dry Gin",            "score": 8.0, "style": "london-dry",     "note": "The benchmark. If a recipe says 'gin', it means this. Hard to beat at $22.", "source": "draft" },
-  "10581": { "name": "Bombay Dry Gin",                      "score": 7.5, "style": "london-dry",     "note": "The original, not Sapphire. More juniper, less perfume, seven dollars cheaper.", "source": "draft" },
-  "16493": { "name": "Prairie Organic Gin",                 "score": 6.0, "style": "contemporary",   "note": "Soft and clean. Pleasant, forgettable.", "source": "draft" },
-  "16394": { "name": "Battle Standard 142 Gin",             "score": 6.5, "style": "contemporary",   "note": "Virginia craft, competent across the range.", "source": "draft" },
-  "15332": { "name": "Tinkerman's Gin",                     "score": 6.5, "style": "contemporary",   "note": "Bright and busy, as the name promises.", "source": "draft" },
-  "23833": { "name": "Aviation Cranberry & Blood Orange",   "score": 5.0, "style": "flavored",       "note": "A flavored spinoff. Skip it and buy the standard bottle.", "source": "draft" },
-  "8509":  { "name": "Aviation Gin",                        "score": 7.0, "style": "contemporary",   "note": "Soft, lavender-and-sarsaparilla, juniper way in the back. Good in sours.", "source": "draft" },
-  "23445": { "name": "Aviation Gin (gift set)",             "score": 7.0, "style": "contemporary",   "note": "Same gin as standard Aviation, with a scarf. Pay for the gin, not the scarf.", "source": "draft" },
-  "16462": { "name": "Malfy Con Arancia",                   "score": 6.0, "style": "flavored",       "note": "Sicilian blood orange, quite sweet. Works in a spritz.", "source": "draft" },
-  "20166": { "name": "Malfy Gin Con Limone",                "score": 6.0, "style": "flavored",       "note": "Lemon-forward and easy. Basically a head start on a tom collins.", "source": "draft" },
-  "16463": { "name": "Malfy Rosa Pink Grapefruit",          "score": 6.0, "style": "flavored",       "note": "Grapefruit, gentle. Pretty, not serious.", "source": "draft" },
-  "21991": { "name": "Highlands Dragon Navy Strength",      "score": 7.0, "style": "navy-strength",  "note": "114 proof. Stands up to strong mixers and doesn't vanish in a negroni.", "source": "draft" },
-  "14443": { "name": "Schlichte Steinhager Gin",            "score": 6.5, "style": "genever",        "note": "German steinhäger — malty, closer to genever than London dry. An oddity worth trying once.", "source": "draft" },
-  "15136": { "name": "Catoctin Creek Watershed Gin",        "score": 7.5, "style": "contemporary",   "note": "Loudoun County rye base, spicy and distinctive. Best Virginia gin here.", "source": "draft" },
-  "15092": { "name": "Battle Standard 142 Navy Strength",   "score": 7.0, "style": "navy-strength",  "note": "114 proof Virginia. Punchy, holds its own in a cocktail.", "source": "draft" },
-  "406":   { "name": "Boodles Gin",                         "score": 7.5, "style": "london-dry",     "note": "No citrus botanicals at all — pure juniper, nutmeg, sage. A martini gin.", "source": "draft" },
-  "686":   { "name": "Citadelle Gin",                       "score": 7.5, "style": "contemporary",   "note": "French, nineteen botanicals, floral but the juniper still shows up. Versatile.", "source": "draft" },
-  "19677": { "name": "Citadelle Jardin d'Été",              "score": 6.5, "style": "flavored",       "note": "Stone fruit version. Nice, but the standard Citadelle is the better bottle.", "source": "draft" },
-  "24323": { "name": "Engine Gin",                          "score": 6.5, "style": "contemporary",   "note": "Italian, organic, sold in a motor-oil can. Light and citrusy; the can is half the appeal.", "source": "draft" },
-  "16457": { "name": "Fourth Handle Coastal American Gin",  "score": 6.0, "style": "contemporary",   "note": "Mild and coastal-herbal. Fine.", "source": "draft" },
-  "15253": { "name": "Murlarkey Imagination Gin",           "score": 6.0, "style": "contemporary",   "note": "Virginia craft, soft profile.", "source": "draft" },
-  "17610": { "name": "Reverend Spirits Gin",                "score": 6.5, "style": "contemporary",   "note": "Clean and well-made.", "source": "draft" },
-  "16393": { "name": "Battle Standard 142 Barrel Finished", "score": 6.5, "style": "barrel-aged",    "note": "Oak-finished. Interesting neat, muddy in a G&T.", "source": "draft" },
-  "17978": { "name": "Bombay Sapphire Bramble Gin",         "score": 5.5, "style": "flavored",       "note": "Blackberry Sapphire. Sweet and a bit thin.", "source": "draft" },
-  "3451":  { "name": "Tanqueray Gin",                       "score": 9.0, "style": "london-dry",     "note": "Four botanicals, 94.6 proof, nothing wasted. The one to beat under thirty dollars.", "source": "draft" },
-  "17144": { "name": "Tanqueray Sevilla Orange",            "score": 6.5, "style": "flavored",       "note": "Orange Tanqueray. Better than most flavored gins, still a sidestep.", "source": "draft" },
-  "10465": { "name": "Tanqueray Rangpur Gin",               "score": 7.0, "style": "flavored",       "note": "Rangpur lime built in. Genuinely good in a gin and tonic.", "source": "draft" },
-  "23902": { "name": "Catoctin Creek Shenandoah Pink Gin",  "score": 6.5, "style": "flavored",       "note": "Rose-tinted and floral. Pleasant, less serious than the Watershed.", "source": "draft" },
-  "4737":  { "name": "Bluecoat Gin",                        "score": 7.0, "style": "contemporary",   "note": "Philadelphia, 94 proof, big organic citrus. Assertive.", "source": "draft" },
-  "19094": { "name": "Bo & Ivy Distillers Gin",             "score": 6.0, "style": "contemporary",   "note": "Perfectly decent, nothing to argue about.", "source": "draft" },
-  "402":   { "name": "Bombay Sapphire Gin",                 "score": 7.0, "style": "contemporary",   "note": "Vapor-infused and gentle. Famous, but Bombay Dry has more character for less.", "source": "draft" },
-  "22999": { "name": "Caiseal Gin",                         "score": 6.0, "style": "contemporary",   "note": "Mild and inoffensive.", "source": "draft" },
-  "15117": { "name": "Caorunn Small Batch Scottish Gin",    "score": 7.5, "style": "contemporary",   "note": "Rowan berry and apple, crisp and dry. Excellent with a slice of red apple.", "source": "draft" },
-  "22629": { "name": "Fid Street Hawaiian Gin",             "score": 6.5, "style": "contemporary",   "note": "Maui, light and tropical-leaning.", "source": "draft" },
-  "16456": { "name": "Fords Gin",                           "score": 8.5, "style": "london-dry",     "note": "Built by a bartender for cocktails and it shows. Best all-purpose bottle here after Tanqueray.", "source": "draft" },
-  "21662": { "name": "Las Californias Gin Citrico",         "score": 7.0, "style": "contemporary",   "note": "Baja botanicals, bright citrus. Distinctive.", "source": "draft" },
-  "18424": { "name": "Seven Cities Gin",                    "score": 6.0, "style": "contemporary",   "note": "Norfolk-made. Solid local pour.", "source": "draft" },
-  "6208":  { "name": "Sunset Hills Gin",                    "score": 6.5, "style": "contemporary",   "note": "Loudoun County. Smooth, mildly floral.", "source": "draft" },
-  "15495": { "name": "Sutler's Gin",                        "score": 7.0, "style": "contemporary",   "note": "Winston-Salem. Well-balanced, a little peppery.", "source": "draft" },
-  "9263":  { "name": "The Botanist Islay Dry Gin",          "score": 8.5, "style": "contemporary",   "note": "Twenty-two Islay botanicals, layered and herbal. The most interesting bottle under thirty.", "source": "draft" },
-  "16511": { "name": "Ungava Gin",                          "score": 6.0, "style": "contemporary",   "note": "Bright yellow, Arctic botanicals. Novel; the novelty wears off.", "source": "draft" },
-  "24793": { "name": "Waterloo No. 9 Gin",                  "score": 6.5, "style": "contemporary",   "note": "Austin, Texas. Lavender and pecan, gentle.", "source": "draft" }
+  "293": {
+    "name": "Barton Gin",
+    "score": 2.5,
+    "style": "london-dry",
+    "note": "Bottom shelf and tastes it. Mixer of last resort.",
+    "source": "draft"
+  },
+  "402": {
+    "name": "Bombay Sapphire Gin",
+    "score": 7,
+    "style": "contemporary",
+    "note": "Vapor-infused and gentle. Famous, but Bombay Dry has more character for less.",
+    "source": "draft"
+  },
+  "406": {
+    "name": "Boodles Gin",
+    "score": 7.5,
+    "style": "london-dry",
+    "note": "No citrus botanicals at all — pure juniper, nutmeg, sage. A martini gin.",
+    "source": "draft"
+  },
+  "447": {
+    "name": "Broker's Gin",
+    "score": 8,
+    "style": "london-dry",
+    "note": "The value pick of the whole list. 94 proof, proper juniper, eighteen dollars.",
+    "source": "draft"
+  },
+  "453": {
+    "name": "Buffalo Trace Bourbon",
+    "score": 8,
+    "style": "traditional",
+    "note": "The reference point for what bourbon should cost and taste like. Grab it when you see it.",
+    "source": "draft"
+  },
+  "686": {
+    "name": "Citadelle Gin",
+    "score": 7.5,
+    "style": "contemporary",
+    "note": "French, nineteen botanicals, floral but the juniper still shows up. Versatile.",
+    "source": "draft"
+  },
+  "2265": {
+    "name": "Old Grand Dad 80",
+    "score": 6.5,
+    "style": "high-rye",
+    "note": "The 80-proof version. Fine, but the 100 is two dollars more and much better.",
+    "source": "draft"
+  },
+  "2266": {
+    "name": "Old Grand Dad 100",
+    "score": 7.5,
+    "style": "bottled-in-bond",
+    "note": "Bonded, high-rye, twenty-five dollars. The thinking person’s cheap bourbon.",
+    "source": "draft"
+  },
+  "2267": {
+    "name": "Old Grand Dad 114",
+    "score": 8,
+    "style": "high-rye",
+    "note": "High-rye and 114 proof for thirty dollars. Spicy, hot, excellent in an old fashioned.",
+    "source": "draft"
+  },
+  "2281": {
+    "name": "Old Overholt",
+    "score": 6,
+    "style": "kentucky-rye",
+    "note": "The 80-proof version. Get the bonded instead.",
+    "source": "draft"
+  },
+  "3073": {
+    "name": "Virginia Gentleman",
+    "score": 5,
+    "style": "traditional",
+    "note": "The Virginia standby. Sentimental value exceeds flavor value.",
+    "source": "draft"
+  },
+  "3451": {
+    "name": "Tanqueray Gin",
+    "score": 9,
+    "style": "london-dry",
+    "note": "Four botanicals, 94.6 proof, nothing wasted. The one to beat under thirty dollars.",
+    "source": "draft"
+  },
+  "4154": {
+    "name": "Seagram's Distiller's Reserve Gin",
+    "score": 6,
+    "style": "contemporary",
+    "note": "A real step up from standard Seagram's for two dollars more.",
+    "source": "draft"
+  },
+  "4532": {
+    "name": "Wild Turkey American Honey",
+    "score": 4,
+    "style": "flavored",
+    "note": "Honey liqueur at 71 proof. Sweet, and not really whiskey any more.",
+    "source": "draft"
+  },
+  "4737": {
+    "name": "Bluecoat Gin",
+    "score": 7,
+    "style": "contemporary",
+    "note": "Philadelphia, 94 proof, big organic citrus. Assertive.",
+    "source": "draft"
+  },
+  "5167": {
+    "name": "New Amsterdam Straight Gin",
+    "score": 4.5,
+    "style": "contemporary",
+    "note": "Almost no juniper — closer to citrus vodka. Popular, not good.",
+    "source": "draft"
+  },
+  "5738": {
+    "name": "Four Roses Bourbon",
+    "score": 7.5,
+    "style": "high-rye",
+    "note": "The yellow label. Light, floral, forgiving — good for someone new to bourbon.",
+    "source": "draft"
+  },
+  "5963": {
+    "name": "Wild Turkey 101 Rye",
+    "score": 8,
+    "style": "kentucky-rye",
+    "note": "101 proof and full of baking spice. A manhattan built for it.",
+    "source": "draft"
+  },
+  "6169": {
+    "name": "Jim Beam Bourbon",
+    "score": 5.5,
+    "style": "traditional",
+    "note": "The white label. It is everywhere for a reason, and that reason is not flavor.",
+    "source": "draft"
+  },
+  "6208": {
+    "name": "Sunset Hills Gin",
+    "score": 6.5,
+    "style": "contemporary",
+    "note": "Loudoun County. Smooth, mildly floral.",
+    "source": "draft"
+  },
+  "7355": {
+    "name": "Wild Turkey 81",
+    "score": 6.5,
+    "style": "traditional",
+    "note": "The softer Wild Turkey. Perfectly good; the 101 is better for five dollars more.",
+    "source": "draft"
+  },
+  "7507": {
+    "name": "High West Double Rye",
+    "score": 7.5,
+    "style": "high-rye",
+    "note": "A blend of young and old rye. Peppery, complex for thirty dollars.",
+    "source": "draft"
+  },
+  "8317": {
+    "name": "Templeton Rye",
+    "score": 6.5,
+    "style": "high-rye",
+    "note": "Good whiskey wrapped in a fictional Prohibition story. Priced for the story.",
+    "source": "draft"
+  },
+  "8337": {
+    "name": "Larceny Bourbon",
+    "score": 7,
+    "style": "wheated",
+    "note": "Wheated and easy-drinking. A gentler cousin to Weller.",
+    "source": "draft"
+  },
+  "8509": {
+    "name": "Aviation Gin",
+    "score": 7,
+    "style": "contemporary",
+    "note": "Soft, lavender-and-sarsaparilla, juniper way in the back. Good in sours.",
+    "source": "draft"
+  },
+  "9157": {
+    "name": "Bulldog Gin",
+    "score": 6,
+    "style": "contemporary",
+    "note": "Smooth and a bit anonymous. Poppy and dragon eye don't announce themselves.",
+    "source": "draft"
+  },
+  "9263": {
+    "name": "The Botanist Islay Dry Gin",
+    "score": 8.5,
+    "style": "contemporary",
+    "note": "Twenty-two Islay botanicals, layered and herbal. The most interesting bottle under thirty.",
+    "source": "draft"
+  },
+  "9491": {
+    "name": "Fighting Cock 103",
+    "score": 6,
+    "style": "traditional",
+    "note": "103 proof and unsubtle. Cheap heat, some charm.",
+    "source": "draft"
+  },
+  "10350": {
+    "name": "Seagram's Extra Dry Gin (plastic)",
+    "score": 5,
+    "style": "contemporary",
+    "note": "Same gin, plastic bottle. Buy it for the cooler, not the bar cart.",
+    "source": "draft"
+  },
+  "10364": {
+    "name": "Jim Beam (plastic)",
+    "score": 5.5,
+    "style": "traditional",
+    "note": "White label in plastic. Mixing only.",
+    "source": "draft"
+  },
+  "10464": {
+    "name": "Seagram's Lime Twisted Gin",
+    "score": 3.5,
+    "style": "flavored",
+    "note": "Candied lime. Does the work of a gin and a mixer, badly.",
+    "source": "draft"
+  },
+  "10465": {
+    "name": "Tanqueray Rangpur Gin",
+    "score": 7,
+    "style": "flavored",
+    "note": "Rangpur lime built in. Genuinely good in a gin and tonic.",
+    "source": "draft"
+  },
+  "10579": {
+    "name": "Seagram's Extra Dry Gin",
+    "score": 5,
+    "style": "contemporary",
+    "note": "Rested in oak, faintly sweet. Fine in a tall drink, dull in a martini.",
+    "source": "draft"
+  },
+  "10581": {
+    "name": "Bombay Dry Gin",
+    "score": 7.5,
+    "style": "london-dry",
+    "note": "The original, not Sapphire. More juniper, less perfume, seven dollars cheaper.",
+    "source": "draft"
+  },
+  "10605": {
+    "name": "Jim Beam Black",
+    "score": 6.5,
+    "style": "traditional",
+    "note": "Older, rounder Beam. The white label with the corners sanded off.",
+    "source": "draft"
+  },
+  "10783": {
+    "name": "Wild Turkey American Honey Sting",
+    "score": 3.5,
+    "style": "flavored",
+    "note": "Honey plus pepper. A novelty.",
+    "source": "draft"
+  },
+  "11096": {
+    "name": "Kopper Kettle Golden Gin",
+    "score": 6.5,
+    "style": "barrel-aged",
+    "note": "Virginia, oak-rested. Try it where you'd use a light whiskey.",
+    "source": "draft"
+  },
+  "11510": {
+    "name": "Jim Beam Double Oak",
+    "score": 6,
+    "style": "traditional",
+    "note": "Twice-barreled Beam. More oak, still Beam.",
+    "source": "draft"
+  },
+  "11571": {
+    "name": "Jim Beam Devil's Cut",
+    "score": 6,
+    "style": "traditional",
+    "note": "Extra barrel character. A bit hot and hollow.",
+    "source": "draft"
+  },
+  "11719": {
+    "name": "Benchmark No. 8",
+    "score": 5,
+    "style": "traditional",
+    "note": "Thin, but it is thirteen dollars and it is not offensive.",
+    "source": "draft"
+  },
+  "11896": {
+    "name": "Evan Williams Black",
+    "score": 6.5,
+    "style": "traditional",
+    "note": "The value benchmark under fifteen dollars. Genuinely good for what it costs.",
+    "source": "draft"
+  },
+  "11900": {
+    "name": "Evan Williams Honey",
+    "score": 3.5,
+    "style": "flavored",
+    "note": "Sweet and simple. Fine as a shot, wrong for a cocktail.",
+    "source": "draft"
+  },
+  "11901": {
+    "name": "Evan Williams Peach",
+    "score": 3,
+    "style": "flavored",
+    "note": "Peach candy. Mixes with lemonade, if you must.",
+    "source": "draft"
+  },
+  "11903": {
+    "name": "Evan Williams White Label",
+    "score": 7.5,
+    "style": "bottled-in-bond",
+    "note": "Bottled-in-bond at 100 proof for twenty-one dollars. One of the best deals in the store.",
+    "source": "draft"
+  },
+  "11922": {
+    "name": "George Dickel Rye",
+    "score": 7.5,
+    "style": "high-rye",
+    "note": "95% rye from Indiana, charcoal-filtered in Tennessee. Consistently good.",
+    "source": "draft"
+  },
+  "11951": {
+    "name": "Henry McKenna Bourbon",
+    "score": 5.5,
+    "style": "traditional",
+    "note": "The cheap McKenna, not the 10-year bonded. Thin but honest at thirteen dollars.",
+    "source": "draft"
+  },
+  "11989": {
+    "name": "Jim Beam Apple",
+    "score": 3,
+    "style": "flavored",
+    "note": "Green apple candy.",
+    "source": "draft"
+  },
+  "11990": {
+    "name": "Jim Beam Honey",
+    "score": 3.5,
+    "style": "flavored",
+    "note": "Candied and thin.",
+    "source": "draft"
+  },
+  "11991": {
+    "name": "Jim Beam Kentucky Fire",
+    "score": 2.5,
+    "style": "flavored",
+    "note": "Cinnamon. Skip.",
+    "source": "draft"
+  },
+  "11993": {
+    "name": "Jim Beam Rye",
+    "score": 6,
+    "style": "kentucky-rye",
+    "note": "The yellow-label rye. A fine well pour.",
+    "source": "draft"
+  },
+  "12528": {
+    "name": "Jim Beam Vanilla",
+    "score": 3,
+    "style": "flavored",
+    "note": "Vanilla syrup with a whiskey accent.",
+    "source": "draft"
+  },
+  "12710": {
+    "name": "Kopper Kettle Virginia Bourbon",
+    "score": 6,
+    "style": "traditional",
+    "note": "Virginia-made, lightly sweet.",
+    "source": "draft"
+  },
+  "12713": {
+    "name": "Ancient Age (plastic)",
+    "score": 4.5,
+    "style": "traditional",
+    "note": "Bottom of the Buffalo Trace family tree. Mixer only.",
+    "source": "draft"
+  },
+  "13183": {
+    "name": "Old Overholt Bonded",
+    "score": 7.5,
+    "style": "bottled-in-bond",
+    "note": "The 100-proof bonded Overholt, not the 80. Far better and only three dollars more.",
+    "source": "draft"
+  },
+  "13432": {
+    "name": "Wild Turkey 101 Bourbon",
+    "score": 8,
+    "style": "traditional",
+    "note": "101 proof, big vanilla and char. Punches far above twenty-eight dollars.",
+    "source": "draft"
+  },
+  "13575": {
+    "name": "Evan Williams Cherry Reserve",
+    "score": 3,
+    "style": "flavored",
+    "note": "Cough-syrup cherry.",
+    "source": "draft"
+  },
+  "13597": {
+    "name": "Jack Daniel's Tennessee Rye",
+    "score": 6.5,
+    "style": "kentucky-rye",
+    "note": "Softer and sweeter than most rye. Fine, unexciting.",
+    "source": "draft"
+  },
+  "13601": {
+    "name": "Old Forester 86",
+    "score": 7,
+    "style": "traditional",
+    "note": "The everyday Old Forester. Solid, banana-and-oak, nothing to prove.",
+    "source": "draft"
+  },
+  "13604": {
+    "name": "Old Forester Signature 100",
+    "score": 8,
+    "style": "traditional",
+    "note": "Bottled at 100 proof and priced like it is not. Best straight-shelf value here.",
+    "source": "draft"
+  },
+  "14060": {
+    "name": "Evan Williams Black (plastic)",
+    "score": 6.5,
+    "style": "traditional",
+    "note": "Same whiskey, plastic bottle. For the cooler, not the cabinet.",
+    "source": "draft"
+  },
+  "14159": {
+    "name": "Beefeater London Dry Gin",
+    "score": 8,
+    "style": "london-dry",
+    "note": "The benchmark. If a recipe says 'gin', it means this. Hard to beat at $22.",
+    "source": "draft"
+  },
+  "14203": {
+    "name": "Wild Turkey 101 (plastic)",
+    "score": 8,
+    "style": "traditional",
+    "note": "Same whiskey as the glass bottle. Buy this one and pocket the difference.",
+    "source": "draft"
+  },
+  "14443": {
+    "name": "Schlichte Steinhager Gin",
+    "score": 6.5,
+    "style": "genever",
+    "note": "German steinhäger — malty, closer to genever than London dry. An oddity worth trying once.",
+    "source": "draft"
+  },
+  "14807": {
+    "name": "Evan Williams Apple",
+    "score": 3,
+    "style": "flavored",
+    "note": "Apple candy at 70 proof.",
+    "source": "draft"
+  },
+  "14894": {
+    "name": "Jim Beam Peach",
+    "score": 3,
+    "style": "flavored",
+    "note": "Sweet, artificial.",
+    "source": "draft"
+  },
+  "15092": {
+    "name": "Battle Standard 142 Navy Strength",
+    "score": 7,
+    "style": "navy-strength",
+    "note": "114 proof Virginia. Punchy, holds its own in a cocktail.",
+    "source": "draft"
+  },
+  "15117": {
+    "name": "Caorunn Small Batch Scottish Gin",
+    "score": 7.5,
+    "style": "contemporary",
+    "note": "Rowan berry and apple, crisp and dry. Excellent with a slice of red apple.",
+    "source": "draft"
+  },
+  "15136": {
+    "name": "Catoctin Creek Watershed Gin",
+    "score": 7.5,
+    "style": "contemporary",
+    "note": "Loudoun County rye base, spicy and distinctive. Best Virginia gin here.",
+    "source": "draft"
+  },
+  "15253": {
+    "name": "Murlarkey Imagination Gin",
+    "score": 6,
+    "style": "contemporary",
+    "note": "Virginia craft, soft profile.",
+    "source": "draft"
+  },
+  "15286": {
+    "name": "Ragged Branch Signature",
+    "score": 7,
+    "style": "traditional",
+    "note": "Charlottesville, estate-grown grain. The best of the small Virginia bourbons here.",
+    "source": "draft"
+  },
+  "15293": {
+    "name": "Redemption Rye",
+    "score": 7,
+    "style": "high-rye",
+    "note": "Straightforward MGP rye. Reliable in cocktails.",
+    "source": "draft"
+  },
+  "15332": {
+    "name": "Tinkerman's Gin",
+    "score": 6.5,
+    "style": "contemporary",
+    "note": "Bright and busy, as the name promises.",
+    "source": "draft"
+  },
+  "15495": {
+    "name": "Sutler's Gin",
+    "score": 7,
+    "style": "contemporary",
+    "note": "Winston-Salem. Well-balanced, a little peppery.",
+    "source": "draft"
+  },
+  "15499": {
+    "name": "Yellowstone Select",
+    "score": 7,
+    "style": "traditional",
+    "note": "Well-made and a bit overlooked at this price.",
+    "source": "draft"
+  },
+  "15522": {
+    "name": "1792 Small Batch",
+    "score": 7.5,
+    "style": "high-rye",
+    "note": "Rye-forward and peppery. Holds its own in a cocktail.",
+    "source": "draft"
+  },
+  "15533": {
+    "name": "Bowman Brothers Virginia",
+    "score": 7,
+    "style": "traditional",
+    "note": "Made in Fredericksburg from Buffalo Trace distillate. The Virginia one worth buying.",
+    "source": "draft"
+  },
+  "15566": {
+    "name": "Commonwealth Gin",
+    "score": 6.5,
+    "style": "contemporary",
+    "note": "Virginia-made, coriander-forward. Good value at seventeen dollars.",
+    "source": "draft"
+  },
+  "15610": {
+    "name": "Jim Beam Red Stag",
+    "score": 3,
+    "style": "flavored",
+    "note": "Black cherry Beam. Dated.",
+    "source": "draft"
+  },
+  "15636": {
+    "name": "Old Forester Rye 100",
+    "score": 7.5,
+    "style": "high-rye",
+    "note": "100 proof, bright and grassy. Excellent value.",
+    "source": "draft"
+  },
+  "15902": {
+    "name": "Virgin Bourbon 101",
+    "score": 6,
+    "style": "traditional",
+    "note": "Obscure, 101 proof, eighteen dollars. Worth trying once.",
+    "source": "draft"
+  },
+  "16185": {
+    "name": "James E. Pepper 1776 Rye",
+    "score": 7.5,
+    "style": "high-rye",
+    "note": "100 proof, big rye spice. Underrated.",
+    "source": "draft"
+  },
+  "16263": {
+    "name": "Wolf Moon Whiskey",
+    "score": 3,
+    "style": "flavored",
+    "note": "Sweet and thin.",
+    "source": "draft"
+  },
+  "16338": {
+    "name": "Jim Beam with Highball Glass",
+    "score": 5.5,
+    "style": "traditional",
+    "note": "White label plus a glass. Buy it for the glass.",
+    "source": "draft"
+  },
+  "16379": {
+    "name": "Old Tub",
+    "score": 7,
+    "style": "bottled-in-bond",
+    "note": "Unfiltered bonded Beam. Rougher and more interesting than the white label.",
+    "source": "draft"
+  },
+  "16393": {
+    "name": "Battle Standard 142 Barrel Finished",
+    "score": 6.5,
+    "style": "barrel-aged",
+    "note": "Oak-finished. Interesting neat, muddy in a G&T.",
+    "source": "draft"
+  },
+  "16394": {
+    "name": "Battle Standard 142 Gin",
+    "score": 6.5,
+    "style": "contemporary",
+    "note": "Virginia craft, competent across the range.",
+    "source": "draft"
+  },
+  "16456": {
+    "name": "Fords Gin",
+    "score": 8.5,
+    "style": "london-dry",
+    "note": "Built by a bartender for cocktails and it shows. Best all-purpose bottle here after Tanqueray.",
+    "source": "draft"
+  },
+  "16457": {
+    "name": "Fourth Handle Coastal American Gin",
+    "score": 6,
+    "style": "contemporary",
+    "note": "Mild and coastal-herbal. Fine.",
+    "source": "draft"
+  },
+  "16462": {
+    "name": "Malfy Con Arancia",
+    "score": 6,
+    "style": "flavored",
+    "note": "Sicilian blood orange, quite sweet. Works in a spritz.",
+    "source": "draft"
+  },
+  "16463": {
+    "name": "Malfy Rosa Pink Grapefruit",
+    "score": 6,
+    "style": "flavored",
+    "note": "Grapefruit, gentle. Pretty, not serious.",
+    "source": "draft"
+  },
+  "16493": {
+    "name": "Prairie Organic Gin",
+    "score": 6,
+    "style": "contemporary",
+    "note": "Soft and clean. Pleasant, forgettable.",
+    "source": "draft"
+  },
+  "16511": {
+    "name": "Ungava Gin",
+    "score": 6,
+    "style": "contemporary",
+    "note": "Bright yellow, Arctic botanicals. Novel; the novelty wears off.",
+    "source": "draft"
+  },
+  "17144": {
+    "name": "Tanqueray Sevilla Orange",
+    "score": 6.5,
+    "style": "flavored",
+    "note": "Orange Tanqueray. Better than most flavored gins, still a sidestep.",
+    "source": "draft"
+  },
+  "17235": {
+    "name": "Evan Williams 1783 Small Batch",
+    "score": 7,
+    "style": "traditional",
+    "note": "A real step up from Evan Williams Black for nine more dollars.",
+    "source": "draft"
+  },
+  "17281": {
+    "name": "American Born Bourbon",
+    "score": 5,
+    "style": "traditional",
+    "note": "Young and sweet. Mixes fine.",
+    "source": "draft"
+  },
+  "17295": {
+    "name": "Creek Water Whiskey",
+    "score": 3.5,
+    "style": "flavored",
+    "note": "100 proof and rough. More attitude than whiskey.",
+    "source": "draft"
+  },
+  "17339": {
+    "name": "Leadslingers Napalm Cinnamon",
+    "score": 2,
+    "style": "flavored",
+    "note": "Cinnamon, aggressively. Not a sipping decision.",
+    "source": "draft"
+  },
+  "17350": {
+    "name": "Old Cavalier Bourbon Cream",
+    "score": 4,
+    "style": "flavored",
+    "note": "Virginia bourbon cream. Sweet, seasonal.",
+    "source": "draft"
+  },
+  "17408": {
+    "name": "Elijah Craig Straight Rye",
+    "score": 7.5,
+    "style": "kentucky-rye",
+    "note": "Softer, wheat-adjacent style of rye. Very drinkable.",
+    "source": "draft"
+  },
+  "17431": {
+    "name": "Redneck Riviera Whiskey",
+    "score": 3.5,
+    "style": "flavored",
+    "note": "Sweet and soft. Sold on the label, not the liquid.",
+    "source": "draft"
+  },
+  "17438": {
+    "name": "Southern Comfort 80",
+    "score": 3,
+    "style": "flavored",
+    "note": "Not bourbon and never was. Sweet fruit liqueur.",
+    "source": "draft"
+  },
+  "17566": {
+    "name": "Ezra Brooks Straight Rye",
+    "score": 6,
+    "style": "kentucky-rye",
+    "note": "Cheap, decent, mixes fine.",
+    "source": "draft"
+  },
+  "17610": {
+    "name": "Reverend Spirits Gin",
+    "score": 6.5,
+    "style": "contemporary",
+    "note": "Clean and well-made.",
+    "source": "draft"
+  },
+  "17690": {
+    "name": "Buffalo Trace Bourbon Cream",
+    "score": 4.5,
+    "style": "flavored",
+    "note": "A cream liqueur, not a bourbon. Good over ice or in coffee.",
+    "source": "draft"
+  },
+  "17724": {
+    "name": "Rebel 100",
+    "score": 6,
+    "style": "wheated",
+    "note": "Wheated at 100 proof for twenty-two dollars. Serviceable.",
+    "source": "draft"
+  },
+  "17792": {
+    "name": "Very Old Barton 100 Proof",
+    "score": 6.5,
+    "style": "bottled-in-bond",
+    "note": "Seventeen dollars for bonded bourbon. Rough edges, real value.",
+    "source": "draft"
+  },
+  "17840": {
+    "name": "Jim Beam Orange",
+    "score": 3,
+    "style": "flavored",
+    "note": "Orange candy.",
+    "source": "draft"
+  },
+  "17855": {
+    "name": "Ezra Brooks 99 Proof",
+    "score": 6.5,
+    "style": "traditional",
+    "note": "Bold for the money. A decent well bourbon.",
+    "source": "draft"
+  },
+  "17881": {
+    "name": "Brough Brothers Bourbon",
+    "score": 5.5,
+    "style": "traditional",
+    "note": "Young and a little rough.",
+    "source": "draft"
+  },
+  "17978": {
+    "name": "Bombay Sapphire Bramble Gin",
+    "score": 5.5,
+    "style": "flavored",
+    "note": "Blackberry Sapphire. Sweet and a bit thin.",
+    "source": "draft"
+  },
+  "18367": {
+    "name": "Howler Head Banana",
+    "score": 2.5,
+    "style": "flavored",
+    "note": "Banana bourbon. Exactly as advertised.",
+    "source": "draft"
+  },
+  "18424": {
+    "name": "Seven Cities Gin",
+    "score": 6,
+    "style": "contemporary",
+    "note": "Norfolk-made. Solid local pour.",
+    "source": "draft"
+  },
+  "18637": {
+    "name": "Revel Stoke Nutcrusher",
+    "score": 2,
+    "style": "flavored",
+    "note": "Peanut butter whiskey. It exists.",
+    "source": "draft"
+  },
+  "18703": {
+    "name": "Tincup Rye",
+    "score": 6,
+    "style": "high-rye",
+    "note": "Easy and light. Unremarkable.",
+    "source": "draft"
+  },
+  "18860": {
+    "name": "Evan Williams Spiced Cider",
+    "score": 2.5,
+    "style": "flavored",
+    "note": "34 proof. Barely a spirit.",
+    "source": "draft"
+  },
+  "19052": {
+    "name": "Brown Sugar Bourbon 103",
+    "score": 3,
+    "style": "flavored",
+    "note": "Cinnamon and brown sugar at 103 proof. Loud and sweet.",
+    "source": "draft"
+  },
+  "19079": {
+    "name": "Evan Williams Fire",
+    "score": 2.5,
+    "style": "flavored",
+    "note": "Cinnamon heat. Rough.",
+    "source": "draft"
+  },
+  "19085": {
+    "name": "Kurvball Whiskey",
+    "score": 2,
+    "style": "flavored",
+    "note": "Barbecue-flavored whiskey. Genuinely strange.",
+    "source": "draft"
+  },
+  "19094": {
+    "name": "Bo & Ivy Distillers Gin",
+    "score": 6,
+    "style": "contemporary",
+    "note": "Perfectly decent, nothing to argue about.",
+    "source": "draft"
+  },
+  "19514": {
+    "name": "Rittenhouse Rye Private Barrel",
+    "score": 8.5,
+    "style": "bottled-in-bond",
+    "note": "Rittenhouse from a single barrel. Same excellence, slightly more varied.",
+    "source": "draft"
+  },
+  "19677": {
+    "name": "Citadelle Jardin d'Été",
+    "score": 6.5,
+    "style": "flavored",
+    "note": "Stone fruit version. Nice, but the standard Citadelle is the better bottle.",
+    "source": "draft"
+  },
+  "19906": {
+    "name": "Cutwater Black Skimmer Rye",
+    "score": 6,
+    "style": "high-rye",
+    "note": "Competent, a little thin for thirty dollars.",
+    "source": "draft"
+  },
+  "20166": {
+    "name": "Malfy Gin Con Limone",
+    "score": 6,
+    "style": "flavored",
+    "note": "Lemon-forward and easy. Basically a head start on a tom collins.",
+    "source": "draft"
+  },
+  "20312": {
+    "name": "Penelope Bourbon Four Grain",
+    "score": 7,
+    "style": "traditional",
+    "note": "Four-grain blend, honeyed and approachable. Popular for a reason.",
+    "source": "draft"
+  },
+  "20389": {
+    "name": "Rittenhouse Rye",
+    "score": 8.5,
+    "style": "bottled-in-bond",
+    "note": "Bonded 100-proof rye for twenty-four dollars. The best cocktail whiskey in the store, full stop.",
+    "source": "draft"
+  },
+  "20432": {
+    "name": "Benchmark Single Barrel",
+    "score": 6.5,
+    "style": "traditional",
+    "note": "Pleasant and inoffensive. Varies barrel to barrel.",
+    "source": "draft"
+  },
+  "20447": {
+    "name": "Benchmark Bonded",
+    "score": 6.5,
+    "style": "bottled-in-bond",
+    "note": "Bonded Buffalo Trace-adjacent bourbon for twenty-two dollars. Better than Benchmark No. 8.",
+    "source": "draft"
+  },
+  "20448": {
+    "name": "Benchmark Full Proof",
+    "score": 7,
+    "style": "barrel-proof",
+    "note": "125 proof from the Buffalo Trace mashbill for twenty-five dollars. Loud and cheap.",
+    "source": "draft"
+  },
+  "20553": {
+    "name": "Green River Kentucky Bourbon",
+    "score": 6.5,
+    "style": "traditional",
+    "note": "Newer Kentucky distillery finding its feet. Decent.",
+    "source": "draft"
+  },
+  "20584": {
+    "name": "Kopper Kettle Bonded Rye",
+    "score": 6.5,
+    "style": "bottled-in-bond",
+    "note": "Virginia bonded rye. Solid local pour.",
+    "source": "draft"
+  },
+  "20589": {
+    "name": "Stellum Rye",
+    "score": 7.5,
+    "style": "barrel-proof",
+    "note": "116 proof, uncut. A lot of whiskey for thirty dollars.",
+    "source": "draft"
+  },
+  "20590": {
+    "name": "Stellum Bourbon",
+    "score": 7.5,
+    "style": "barrel-proof",
+    "note": "Uncut at 116 proof for thirty dollars. Blended from good stock; add water.",
+    "source": "draft"
+  },
+  "20721": {
+    "name": "Old Bardstown",
+    "score": 6.5,
+    "style": "traditional",
+    "note": "Willett’s budget label. Quietly good.",
+    "source": "draft"
+  },
+  "20899": {
+    "name": "Rebel 100 Straight Rye",
+    "score": 6,
+    "style": "kentucky-rye",
+    "note": "Serviceable at 100 proof.",
+    "source": "draft"
+  },
+  "21100": {
+    "name": "Green River Wheated",
+    "score": 6.5,
+    "style": "wheated",
+    "note": "Soft wheated pour. Pleasant, not memorable.",
+    "source": "draft"
+  },
+  "21489": {
+    "name": "Rebel Small Batch Reserve",
+    "score": 6.5,
+    "style": "wheated",
+    "note": "Wheated and mild. Fine mixer.",
+    "source": "draft"
+  },
+  "21497": {
+    "name": "Scratch Blackberry",
+    "score": 3,
+    "style": "flavored",
+    "note": "Sweet, low proof.",
+    "source": "draft"
+  },
+  "21662": {
+    "name": "Las Californias Gin Citrico",
+    "score": 7,
+    "style": "contemporary",
+    "note": "Baja botanicals, bright citrus. Distinctive.",
+    "source": "draft"
+  },
+  "21699": {
+    "name": "Virginia Gentleman (plastic)",
+    "score": 5,
+    "style": "traditional",
+    "note": "Same, in plastic.",
+    "source": "draft"
+  },
+  "21776": {
+    "name": "Green River Rye",
+    "score": 6.5,
+    "style": "high-rye",
+    "note": "Young but competent.",
+    "source": "draft"
+  },
+  "21887": {
+    "name": "Ole Smoky Blackberry",
+    "score": 3,
+    "style": "flavored",
+    "note": "Sweet, low proof.",
+    "source": "draft"
+  },
+  "21914": {
+    "name": "Larceny Private Barrel",
+    "score": 7.5,
+    "style": "wheated",
+    "note": "Single-barrel Larceny at 92 proof. Better than the standard bottle when you find it.",
+    "source": "draft"
+  },
+  "21949": {
+    "name": "W L Weller Special Reserve",
+    "score": 8,
+    "style": "wheated",
+    "note": "Wheated and soft. Genuinely hard to find at shelf price — take it if the count says any.",
+    "source": "draft"
+  },
+  "21991": {
+    "name": "Highlands Dragon Navy Strength",
+    "score": 7,
+    "style": "navy-strength",
+    "note": "114 proof. Stands up to strong mixers and doesn't vanish in a negroni.",
+    "source": "draft"
+  },
+  "22032": {
+    "name": "Very Old Barton 80",
+    "score": 5.5,
+    "style": "traditional",
+    "note": "Cheap and passable. The 100 proof is the one to get.",
+    "source": "draft"
+  },
+  "22137": {
+    "name": "Jim Beam Winter Reserve",
+    "score": 6,
+    "style": "traditional",
+    "note": "Seasonal Beam. Fine.",
+    "source": "draft"
+  },
+  "22629": {
+    "name": "Fid Street Hawaiian Gin",
+    "score": 6.5,
+    "style": "contemporary",
+    "note": "Maui, light and tropical-leaning.",
+    "source": "draft"
+  },
+  "22756": {
+    "name": "Jim Beam Pineapple",
+    "score": 3,
+    "style": "flavored",
+    "note": "Sweet, artificial, pineapple.",
+    "source": "draft"
+  },
+  "22846": {
+    "name": "Greenalls London Dry Gin",
+    "score": 6.5,
+    "style": "london-dry",
+    "note": "Honest, unfussy London dry. Nothing to complain about.",
+    "source": "draft"
+  },
+  "22885": {
+    "name": "Buckhorn Peach",
+    "score": 2.5,
+    "style": "flavored",
+    "note": "65 proof peach. Sweet.",
+    "source": "draft"
+  },
+  "22999": {
+    "name": "Caiseal Gin",
+    "score": 6,
+    "style": "contemporary",
+    "note": "Mild and inoffensive.",
+    "source": "draft"
+  },
+  "23077": {
+    "name": "Jim Beam US Soccer Label",
+    "score": 5.5,
+    "style": "traditional",
+    "note": "White label with a different sticker. Same whiskey.",
+    "source": "draft"
+  },
+  "23102": {
+    "name": "Jim Beam Sunshine Blend",
+    "score": 5,
+    "style": "traditional",
+    "note": "A lighter Beam variant. Skippable.",
+    "source": "draft"
+  },
+  "23445": {
+    "name": "Aviation Gin (gift set)",
+    "score": 7,
+    "style": "contemporary",
+    "note": "Same gin as standard Aviation, with a scarf. Pay for the gin, not the scarf.",
+    "source": "draft"
+  },
+  "23833": {
+    "name": "Aviation Cranberry & Blood Orange",
+    "score": 5,
+    "style": "flavored",
+    "note": "A flavored spinoff. Skip it and buy the standard bottle.",
+    "source": "draft"
+  },
+  "23902": {
+    "name": "Catoctin Creek Shenandoah Pink Gin",
+    "score": 6.5,
+    "style": "flavored",
+    "note": "Rose-tinted and floral. Pleasant, less serious than the Watershed.",
+    "source": "draft"
+  },
+  "23977": {
+    "name": "Evan Williams Blackberry",
+    "score": 3,
+    "style": "flavored",
+    "note": "Sweet blackberry. Not a whiskey decision.",
+    "source": "draft"
+  },
+  "24145": {
+    "name": "Benchmark Rye",
+    "score": 6,
+    "style": "kentucky-rye",
+    "note": "100 proof for seventeen dollars. Rough but honest.",
+    "source": "draft"
+  },
+  "24323": {
+    "name": "Engine Gin",
+    "score": 6.5,
+    "style": "contemporary",
+    "note": "Italian, organic, sold in a motor-oil can. Light and citrusy; the can is half the appeal.",
+    "source": "draft"
+  },
+  "24793": {
+    "name": "Waterloo No. 9 Gin",
+    "score": 6.5,
+    "style": "contemporary",
+    "note": "Austin, Texas. Lavender and pecan, gentle.",
+    "source": "draft"
+  },
+  "24923": {
+    "name": "Tincup 4 Year",
+    "score": 6,
+    "style": "traditional",
+    "note": "Colorado-cut Indiana whiskey. Easy, unremarkable.",
+    "source": "draft"
+  },
+  "24981": {
+    "name": "Four Roses Bourbon 100 Proof",
+    "score": 8,
+    "style": "high-rye",
+    "note": "The yellow label with the volume turned up. Floral, high-rye, very good.",
+    "source": "draft"
+  },
+  "25023": {
+    "name": "Boondocks 6 Year",
+    "score": 6.5,
+    "style": "traditional",
+    "note": "Six-year age statement at thirty dollars. Fair.",
+    "source": "draft"
+  },
+  "_readme": "Jeff's ratings. Keyed on labelId (a product family, e.g. all five sizes of Tanqueray). score 0-10. style: london-dry | contemporary | navy-strength | barrel-aged | flavored | genever. source 'draft' = Claude's first pass from general consensus; change to 'jeff' once you've confirmed or overridden it. This file is the only thing here that can't be regenerated."
 }

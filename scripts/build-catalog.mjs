@@ -11,12 +11,20 @@
 // reference client does) would file a 50 ml airplane bottle at $2.79 under
 // "Tanqueray Gin" — see ARCHITECTURE.md, Finding 4.
 //
-// Run: node scripts/build-catalog.mjs [Category ...]     (default: Gin)
+// Shelves are named "Category" or "Category:Type". Bourbon and rye are not
+// categories upstream — the index files them under "Whiskey" and splits them
+// with hierarchy_type — so they're requested as Whiskey:Bourbon / Whiskey:Rye
+// and stored under the name people actually use.
+//
+// Run: node scripts/build-catalog.mjs [Shelf ...]     (default: Gin)
 
 import { writeFileSync, mkdirSync } from 'node:fs';
 import { searchCategory, F, one, many, pad6 } from '../lib/abc.mjs';
 
-const CATEGORIES = process.argv.slice(2).length ? process.argv.slice(2) : ['Gin'];
+const SHELVES = (process.argv.slice(2).length ? process.argv.slice(2) : ['Gin']).map((arg) => {
+  const [category, type] = arg.split(':');
+  return { category, type, name: type || category }; // "Whiskey:Bourbon" shelves as "Bourbon"
+});
 const PAGE = 100;
 
 /** "1.75 L" -> 1750, "750 ml" -> 750. Returns null if unparseable. */
@@ -32,15 +40,16 @@ const rows = [];
 const seen = new Set();
 const stats = { labels: 0, noSkus: 0, mismatched: 0, badSize: 0, dupeCodes: 0 };
 
-for (const category of CATEGORIES) {
+for (const shelf of SHELVES) {
+  const { category, type: shelfType, name: shelfName } = shelf;
   let offset = 0;
   let total = Infinity;
 
   while (offset < total) {
-    const { total: t, results } = await searchCategory(category, { limit: PAGE, offset });
+    const { total: t, results } = await searchCategory(category, { limit: PAGE, offset, type: shelfType });
     total = t;
     if (!results.length) break;
-    process.stdout.write(`\r${category}: ${Math.min(offset + results.length, total)}/${total} labels`);
+    process.stdout.write(`\r${shelfName}: ${Math.min(offset + results.length, total)}/${total} labels`);
 
     for (const r of results) {
       const raw = r.raw ?? {};
@@ -89,7 +98,7 @@ for (const category of CATEGORIES) {
           code,
           labelId,
           name,
-          category,
+          category: shelfName,
           type,
           ml,
           size: one(sizes[i]),
@@ -113,7 +122,7 @@ mkdirSync('data', { recursive: true });
 writeFileSync(
   'data/catalog.json',
   JSON.stringify(
-    { categories: CATEGORIES, builtAt: new Date().toISOString(), count: rows.length, products: rows },
+    { categories: SHELVES.map((s) => s.name), builtAt: new Date().toISOString(), count: rows.length, products: rows },
     null,
     2
   )

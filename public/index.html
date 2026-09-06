@@ -409,12 +409,6 @@ function buildControls() {
 
   el.category.innerHTML = shelf.categories.map((c) => `<option value="${c}">${c}</option>`).join('');
 
-  el.styles.innerHTML =
-    shelf.styles
-      .map((s) => `<button class="chip" type="button" data-style="${s}" aria-pressed="false">${s.replace('-', ' ')}</button>`)
-      .join('') +
-    `<button class="chip" type="button" id="toggleOut" aria-pressed="false">show out of stock</button>`;
-
   el.styles.addEventListener('click', (e) => {
     const b = e.target.closest('.chip');
     if (!b) return;
@@ -430,6 +424,30 @@ function buildControls() {
     b.setAttribute('aria-pressed', String(activeStyles.has(s)));
     run();
   });
+}
+
+/**
+ * Style vocabularies don't cross categories — "wheated" means nothing to gin,
+ * "london dry" means nothing to bourbon — so the chips are rebuilt from
+ * whatever styles actually exist in the selected category.
+ */
+function renderStyles() {
+  const cat = el.category.value;
+  const present = [...new Set(shelf.products.filter((p) => p.cat === cat).map((p) => p.st))]
+    .filter(Boolean)
+    .sort();
+
+  // drop any active filter that the new category has no use for
+  for (const s of [...activeStyles]) if (!present.includes(s)) activeStyles.delete(s);
+
+  el.styles.innerHTML =
+    present
+      .map(
+        (s) =>
+          `<button class="chip" type="button" data-style="${s}" aria-pressed="${activeStyles.has(s)}">${s.replaceAll('-', ' ')}</button>`
+      )
+      .join('') +
+    `<button class="chip" type="button" id="toggleOut" aria-pressed="${showOut}">show out of stock</button>`;
 }
 
 // ── Rank locally. No network involved — this is why the list is instant. ─
@@ -462,7 +480,7 @@ function render(list) {
       <div class="tag-code">${p.c}</div>
       <div class="tag-name">${p.n}</div>
       <div class="tag-meta">
-        <span class="tag-style">${p.st.replace('-', ' ')}</span>
+        <span class="tag-style">${p.st.replaceAll('-', ' ')}</span>
         <span>${p.ml} ml</span>
         ${p.pf ? `<span>${p.pf}°</span>` : ''}
         ${p.ml !== 750 ? `<span class="tag-per">${money(p.p750)}/750</span>` : ''}
@@ -538,6 +556,7 @@ async function checkStock(list) {
 }
 
 function run() {
+  savePrefs();
   const list = candidates();
   render(list);
   if (list.length) checkStock(list);
@@ -547,9 +566,44 @@ el.price.addEventListener('input', () => {
   el.ceiling.textContent = '$' + el.price.value;
 });
 el.price.addEventListener('change', run);
-el.category.addEventListener('change', run);
+el.category.addEventListener('change', () => { renderStyles(); run(); });
 el.size.addEventListener('change', run);
 el.store.addEventListener('change', run);
+
+/**
+ * Reopen where you left off. You're usually in the same store looking for the
+ * same thing, so making you re-pick every time is just friction in an aisle.
+ * Purely a convenience — if storage is unavailable the defaults still work.
+ */
+function savePrefs() {
+  try {
+    localStorage.setItem(
+      'prefs',
+      JSON.stringify({
+        store: el.store.value,
+        category: el.category.value,
+        size: el.size.value,
+        price: el.price.value,
+      })
+    );
+  } catch {}
+}
+
+function restorePrefs() {
+  let p;
+  try {
+    p = JSON.parse(localStorage.getItem('prefs') || 'null');
+  } catch {}
+  if (!p) return;
+  const has = (sel, v) => [...sel.options].some((o) => o.value === v);
+  if (p.store && has(el.store, p.store)) el.store.value = p.store;
+  if (p.category && has(el.category, p.category)) el.category.value = p.category;
+  if (p.size && has(el.size, p.size)) el.size.value = p.size;
+  const price = Number(p.price);
+  if (Number.isFinite(price) && price >= Number(el.price.min) && price <= Number(el.price.max)) {
+    el.price.value = String(price);
+  }
+}
 
 (async function init() {
   const loaded = await loadShelf();
@@ -559,6 +613,8 @@ el.store.addEventListener('change', run);
   }
   shelf = loaded.data;
   buildControls();
+  restorePrefs();
+  renderStyles(); // after restore, so the chips match the remembered category
   el.ceiling.textContent = '$' + el.price.value;
   if (loaded.cached) setStatus('Offline — using the copy saved on this phone.', 'warn');
   run();
