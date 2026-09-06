@@ -6,7 +6,7 @@ import { extname, join } from 'node:path';
 import handler from '../api/stock.js';
 
 const TYPES = { '.html': 'text/html; charset=utf-8', '.json': 'application/json', '.js': 'text/javascript', '.css': 'text/css' };
-const PORT = 3000;
+const PORT = Number(process.env.PORT) || 3000;
 
 createServer(async (req, res) => {
   const url = new URL(req.url, `http://localhost:${PORT}`);
