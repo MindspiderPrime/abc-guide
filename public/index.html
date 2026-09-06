@@ -3,294 +3,398 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="theme-color" content="#12271F">
+<meta name="theme-color" content="#143028" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0B1411" media="(prefers-color-scheme: dark)">
 <title>Best Under — Virginia ABC</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=IBM+Plex+Mono:wght@400;500;600&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
-/* ── Palette: juniper, shelf tag, signal ────────────────────────────────
-   Derived from the subject — bottle glass, printed price tag, aisle light.
-   Light is the default because the store is fluorescent-bright; dark is
-   respected because the drive home isn't.                                */
+/* ── Palette ─────────────────────────────────────────────────────────────
+   Bottle green, store white, copper. The ground is a cool green-grey rather
+   than a warm cream: an ABC store is lit by fluorescent tubes, and a cool
+   ground keeps the rows reading as printed shelf labels, not stationery.  */
 :root {
-  --juniper:   #12271F;
-  --juniper-2: #1E3D31;
-  --berry:     #46527A;
-  --tag:       #FBFAF6;
-  --tag-edge:  #E2DFD4;
-  --shelf:     #6E7269;
-  --ink:       #12271F;
-  --ink-soft:  #5A6259;
-  --stock:     #2C7A52;
-  --low:       #B4601A;
-  --none:      #A8A69C;
-  --bg:        #EFEDE4;
-  --surface:   var(--tag);
-  --hairline:  var(--tag-edge);
-  --focus:     #B4601A;
+  --juniper:    #143028;
+  --juniper-up: #1F4A3C;
+  --ground:     #E7EBE5;
+  --paper:      #FFFEFB;
+  --rule:       #DCE1DA;
+  --rule-soft:  #E8ECE5;
+  --ink:        #14201B;
+  --ink-2:      #55605A;
+  --ink-3:      #6E7872;
+  --copper:     #A9541B;
+  --slate:      #4A5578;
+  --in-stock:   #1C7048;
+  --track:      #DDE2DB;
+  --head-ink:   #E9EFE9;
+  --head-dim:   #93B7A5;
+  --focus:      #A9541B;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --tag:      #17211C;
-    --tag-edge: #2C3A32;
-    --ink:      #E8EDE7;
-    --ink-soft: #9AA69B;
-    --shelf:    #7E8A80;
-    --bg:       #0D1613;
-    --surface:  var(--tag);
-    --hairline: var(--tag-edge);
-    --stock:    #4FB07C;
-    --low:      #D98A3D;
-    --none:     #5C6660;
-    --berry:    #8E9AC4;
+    --juniper:    #16302A;
+    --juniper-up: #2A6252;
+    --ground:     #0B1411;
+    --paper:      #141F1A;
+    --rule:       #26332C;
+    --rule-soft:  #1D2923;
+    --ink:        #E9EFE9;
+    --ink-2:      #A2AEA5;
+    --ink-3:      #7C8A81;
+    --copper:     #E09A5A;
+    --slate:      #9DA9D4;
+    --in-stock:   #59BC8D;
+    --track:      #24322B;
+    --head-ink:   #E9EFE9;
+    --head-dim:   #86AF9B;
+    --focus:      #E09A5A;
   }
 }
 :root[data-theme="dark"] {
-  --tag:      #17211C;
-  --tag-edge: #2C3A32;
-  --ink:      #E8EDE7;
-  --ink-soft: #9AA69B;
-  --shelf:    #7E8A80;
-  --bg:       #0D1613;
-  --surface:  var(--tag);
-  --hairline: var(--tag-edge);
-  --stock:    #4FB07C;
-  --low:      #D98A3D;
-  --none:     #5C6660;
-  --berry:    #8E9AC4;
+  --juniper:#16302A; --juniper-up:#2A6252; --ground:#0B1411; --paper:#141F1A;
+  --rule:#26332C; --rule-soft:#1D2923; --ink:#E9EFE9; --ink-2:#A2AEA5;
+  --ink-3:#7C8A81; --copper:#E09A5A; --slate:#9DA9D4; --in-stock:#59BC8D;
+  --track:#24322B; --head-ink:#E9EFE9; --head-dim:#86AF9B;
+  --focus:#E09A5A;
 }
 
-* { box-sizing: border-box; }
+*, *::before, *::after { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; }
 body {
   margin: 0;
-  background: var(--bg);
+  background: var(--ground);
   color: var(--ink);
-  font-family: Archivo, system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-family: "Instrument Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
   font-size: 16px;
-  line-height: 1.4;
-  padding-bottom: env(safe-area-inset-bottom);
+  line-height: 1.45;
+  -webkit-font-smoothing: antialiased;
 }
-:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+:focus-visible { outline: 2.5px solid var(--focus); outline-offset: 2px; border-radius: 3px; }
 
 /* ── Masthead ─────────────────────────────────────────────────────────── */
 .masthead {
   background: var(--juniper);
-  color: #EFEDE4;
-  padding: 14px 16px 12px;
-  padding-top: calc(14px + env(safe-area-inset-top));
+  color: var(--head-ink);
+  padding: 13px 16px 14px;
+  padding-top: calc(13px + env(safe-area-inset-top));
+}
+.brandline {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
 }
 .wordmark {
+  font-family: "Bricolage Grotesque", system-ui, sans-serif;
+  font-variation-settings: "opsz" 24;
   font-weight: 800;
-  font-size: 15px;
-  letter-spacing: .16em;
+  font-size: 16px;
+  letter-spacing: .1em;
   text-transform: uppercase;
   margin: 0;
 }
-.wordmark span { color: #8FBFA4; }
-.storepick {
-  margin-top: 6px;
-  width: 100%;
-  max-width: 100%;
-  background: transparent;
-  border: 0;
-  border-bottom: 1px solid rgba(239,237,228,.32);
-  color: #EFEDE4;
+.origin {
   font-family: "IBM Plex Mono", ui-monospace, monospace;
-  font-size: 12.5px;
-  padding: 6px 0;
-  min-height: 38px;
+  font-size: 10px;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--head-dim);
+  white-space: nowrap;
+}
+.storefield { margin-top: 11px; }
+.storefield::after { border-right-color: var(--head-dim); border-bottom-color: var(--head-dim); }
+.storepick {
+  width: 100%;
+  min-height: 46px;
+  background: rgba(255,255,255,.07);
+  border: 1px solid rgba(233,239,233,.22);
+  border-radius: 8px;
+  color: var(--head-ink);
+  font-family: "Instrument Sans", system-ui, sans-serif;
+  font-size: 14.5px;
+  font-weight: 500;
+  padding: 0 36px 0 13px;
   appearance: none;
   text-overflow: ellipsis;
 }
-.storepick option { color: #12271F; background: #FBFAF6; }
+.storepick option { color: #14201B; background: #FFFEFB; }
 
-/* ── Status strip ─────────────────────────────────────────────────────── */
-.status {
-  font-family: "IBM Plex Mono", ui-monospace, monospace;
-  font-size: 11.5px;
-  letter-spacing: .04em;
-  padding: 8px 16px;
-  border-bottom: 1px solid var(--hairline);
-  color: var(--ink-soft);
-  background: var(--surface);
+/* Chevrons. `appearance: none` strips the native arrow, so every select has
+   to bring its own or it stops looking tappable. */
+.select { position: relative; }
+.select::after {
+  content: "";
+  position: absolute;
+  right: 13px; top: 50%;
+  width: 8px; height: 8px;
+  margin-top: -6px;
+  border-right: 1.8px solid var(--ink-3);
+  border-bottom: 1.8px solid var(--ink-3);
+  transform: rotate(45deg);
+  pointer-events: none;
 }
-.status[data-tone="warn"] { color: var(--low); }
-.status[data-tone="bad"]  { background: var(--low); color: #fff; }
 
-/* ── Results ──────────────────────────────────────────────────────────── */
-.results { list-style: none; margin: 0; padding: 0 0 220px; }
-
-/* The signature: each result is a printed shelf tag. */
-.tag {
-  background: var(--surface);
-  border-bottom: 1px solid var(--hairline);
-  padding: 12px 16px 14px;
-  display: grid;
-  grid-template-columns: 1fr auto;
-  gap: 2px 12px;
-  transition: opacity .18s ease;
-}
-.tag[data-state="checking"] { opacity: .5; }
-.tag[data-state="out"] { display: none; }
-.showout .tag[data-state="out"] { display: grid; opacity: .45; }
-
-.tag-code {
-  grid-column: 1;
-  font-family: "IBM Plex Mono", ui-monospace, monospace;
-  font-size: 11px;
-  letter-spacing: .1em;
-  color: var(--shelf);
-}
-.tag-name {
-  grid-column: 1;
-  font-weight: 800;
-  font-size: 19px;
-  line-height: 1.15;
-  letter-spacing: -.01em;
-  margin: 1px 0 3px;
-}
-.tag-meta {
-  grid-column: 1;
-  font-family: "IBM Plex Mono", ui-monospace, monospace;
-  font-size: 12px;
-  color: var(--ink-soft);
+/* ── Sticky strip: what you're looking at, and how fresh it is ───────────
+   One line doing both jobs. Two stacked chrome bars would cost more of the
+   screen than the information is worth. */
+.strip {
+  position: sticky;
+  top: 0;
+  z-index: 5;
   display: flex;
-  flex-wrap: wrap;
-  gap: 4px 10px;
-  align-items: baseline;
-}
-.tag-style { color: var(--berry); text-transform: uppercase; letter-spacing: .09em; font-size: 10.5px; font-weight: 600; }
-.tag-per { color: var(--shelf); }
-.tag-note {
-  grid-column: 1 / -1;
-  font-size: 13.5px;
-  line-height: 1.42;
-  color: var(--ink-soft);
-  margin-top: 7px;
-  max-width: 54ch;
-}
-.tag[data-rated="no"] { opacity: .74; }
-.tag[data-rated="no"] .tag-name { font-weight: 600; }
-.tag-unrated {
-  grid-column: 2;
-  grid-row: 1 / span 2;
-  align-self: start;
-  text-align: right;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 8px 16px;
+  background: var(--ground);
+  border-bottom: 1px solid var(--rule);
   font-family: "IBM Plex Mono", ui-monospace, monospace;
-  font-size: 10px;
-  letter-spacing: .1em;
-  text-transform: uppercase;
-  color: var(--shelf);
-  padding-top: 6px;
-}
-.tag-draft {
-  display: inline-block;
-  font-family: "IBM Plex Mono", ui-monospace, monospace;
-  font-size: 9.5px;
-  letter-spacing: .12em;
-  text-transform: uppercase;
-  color: var(--shelf);
-  border: 1px solid var(--hairline);
-  border-radius: 2px;
-  padding: 1px 4px;
-  vertical-align: 1px;
-}
-
-/* Score, stamped. */
-.tag-score {
-  grid-column: 2;
-  grid-row: 1 / span 2;
-  font-weight: 800;
-  font-size: 30px;
-  line-height: 1;
   font-variant-numeric: tabular-nums;
-  letter-spacing: -.03em;
-  text-align: right;
-  align-self: start;
-  padding-top: 2px;
-}
-.tag-price {
-  grid-column: 2;
-  grid-row: 3;
-  text-align: right;
-  font-family: "IBM Plex Mono", ui-monospace, monospace;
-  font-size: 15px;
-  font-weight: 600;
-  font-variant-numeric: tabular-nums;
-}
-
-/* Stock as tally pips — readable in an aisle without parsing a number. */
-.tag-stock {
-  grid-column: 2;
-  grid-row: 4;
-  text-align: right;
-  margin-top: 6px;
-  font-family: "IBM Plex Mono", ui-monospace, monospace;
   font-size: 11px;
   letter-spacing: .05em;
-  color: var(--stock);
-  white-space: nowrap;
+  text-transform: uppercase;
+  color: var(--ink-3);
 }
-.pips { display: inline-flex; gap: 2px; vertical-align: -1px; margin-right: 5px; }
-.pip { width: 5px; height: 12px; background: var(--stock); border-radius: .5px; }
-.tag-stock[data-level="low"] { color: var(--low); }
-.tag-stock[data-level="low"] .pip { background: var(--low); }
-.tag-stock[data-level="none"] { color: var(--none); }
-.tag-stock[data-level="unknown"] { color: var(--shelf); }
+.strip b { color: var(--ink); font-weight: 500; }
+.strip-right { text-align: right; white-space: nowrap; }
+.strip[data-tone="warn"] .strip-right { color: var(--copper); }
+.strip[data-tone="bad"] { background: var(--copper); border-color: var(--copper); color: #fff; }
+.strip[data-tone="bad"] b, .strip[data-tone="bad"] .strip-right { color: #fff; }
 
-/* ── Bottom controls — where the thumb is ─────────────────────────────── */
-/* Kept deliberately short: in a store the list is the point, so the controls
-   get one compact band and the chips scroll sideways rather than wrapping to
-   three rows and eating half the screen. */
-.controls {
-  position: fixed;
-  left: 0; right: 0; bottom: 0;
-  background: var(--surface);
-  border-top: 1px solid var(--hairline);
-  box-shadow: 0 -8px 24px rgba(0,0,0,.10);
-  padding: 9px 16px calc(9px + env(safe-area-inset-bottom));
-  display: grid;
-  gap: 7px;
+/* ── The list ─────────────────────────────────────────────────────────── */
+.results {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 var(--dock, 220px);
 }
-.row { display: flex; gap: 10px; align-items: center; }
-.field { flex: 1; min-width: 0; }
-.label {
+
+/* The signature: sticky score tiers. Ratings land on half-points, so ties are
+   the rule, not the exception — printing "7.0" thirty times down a rail says
+   nothing. Banding the list by score says the true thing instead (these six
+   are the same call), gives every row the full width, and pinning the band
+   means you always know which tier you're standing in. */
+.tier {
+  position: sticky;
+  top: var(--strip-h, 29px);
+  z-index: 4;
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  padding: 6px 16px 7px;
+  background: var(--ground);
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+}
+.tier[hidden] { display: none; }
+.tier-score {
+  font-family: "Bricolage Grotesque", system-ui, sans-serif;
+  font-variation-settings: "opsz" 24;
+  font-weight: 800;
+  font-size: 17px;
+  line-height: 1.2;
+  letter-spacing: -.03em;
+  font-variant-numeric: tabular-nums;
+}
+.tier-score.unrated {
   font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-weight: 500;
+  font-size: 10.5px;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+}
+.tier-rule { flex: 1; height: 1px; background: var(--rule); }
+.tier-count {
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-variant-numeric: tabular-nums;
   font-size: 10px;
   letter-spacing: .12em;
   text-transform: uppercase;
-  color: var(--shelf);
+  color: var(--ink-3);
+  white-space: nowrap;
+}
+
+.tag {
   display: block;
-  margin-bottom: 3px;
+  background: var(--paper);
+  border-bottom: 1px solid var(--rule-soft);
+  padding: 12px 16px 13px;
+  transition: opacity .16s ease;
+}
+.tag[data-state="checking"] { opacity: .58; }
+.tag[data-state="out"] { display: none; }
+.showout .tag[data-state="out"] { display: block; }
+.showout .tag[data-state="out"] .name { color: var(--ink-2); font-weight: 600; }
+
+.head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+}
+.name {
+  font-family: "Bricolage Grotesque", system-ui, sans-serif;
+  font-variation-settings: "opsz" 24;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.22;
+  letter-spacing: -.012em;
+  margin: 0;
+  min-width: 0;
+}
+.tag[data-rated="no"] .name { font-weight: 600; color: var(--ink-2); }
+.price {
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-variant-numeric: tabular-nums;
+  font-size: 15.5px;
+  font-weight: 600;
+  letter-spacing: -.01em;
+  white-space: nowrap;
+}
+
+.meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 3px 8px;
+  margin-top: 4px;
+  font-size: 12px;
+  color: var(--ink-2);
+}
+.dat + .dat::before { content: "·"; color: var(--ink-3); margin-right: 8px; }
+.style, .va {
+  font-weight: 600;
+  font-size: 10.5px;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+.style { color: var(--slate); }
+.va { color: var(--copper); }
+.per { color: var(--ink-3); }
+.draft {
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 9.5px;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  padding: 1px 5px;
+}
+
+.note {
+  margin: 6px 0 0;
+  font-size: 13.5px;
+  line-height: 1.5;
+  color: var(--ink-2);
+  max-width: 58ch;
+}
+
+.foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 8px;
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-variant-numeric: tabular-nums;
+  font-size: 11.5px;
+  letter-spacing: .03em;
+}
+.stock { display: flex; align-items: center; gap: 7px; color: var(--ink-3); }
+.dot { width: 7px; height: 7px; border-radius: 50%; background: currentColor; flex: 0 0 auto; }
+.stock[data-level="ok"]   { color: var(--in-stock); }
+.stock[data-level="low"]  { color: var(--copper); }
+.stock[data-level="none"] .dot,
+.stock[data-level="unknown"] .dot { background: transparent; box-shadow: inset 0 0 0 1.5px currentColor; }
+.code { color: var(--ink-3); letter-spacing: .1em; white-space: nowrap; }
+
+/* ── The dock: category, ceiling, styles. Where the thumb already is. ──── */
+.dock {
+  position: fixed;
+  left: 0; right: 0; bottom: 0;
+  z-index: 10;
+  background: var(--paper);
+  border-top: 1px solid var(--rule);
+  box-shadow: 0 -10px 28px rgba(15,32,26,.10);
+  padding: 10px 16px calc(10px + env(safe-area-inset-bottom));
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 10px;
+}
+.row { display: flex; gap: 10px; align-items: flex-end; }
+.field { min-width: 0; }
+.field.cat { flex: 1.35; }
+.field.size { flex: 1; }
+.label {
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 9.5px;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+  display: block;
+  margin-bottom: 5px;
 }
 select.control {
   width: 100%;
-  min-height: 44px;
-  background: var(--bg);
+  min-height: 46px;
+  background: var(--ground);
   color: var(--ink);
-  border: 1px solid var(--hairline);
-  border-radius: 3px;
-  font-family: Archivo, system-ui, sans-serif;
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  font-family: "Instrument Sans", system-ui, sans-serif;
   font-size: 15px;
   font-weight: 600;
-  padding: 0 10px;
+  padding: 0 32px 0 11px;
   appearance: none;
+  text-overflow: ellipsis;
 }
+
+.ceilinghead { display: flex; align-items: baseline; justify-content: space-between; }
 .ceiling {
   font-family: "IBM Plex Mono", ui-monospace, monospace;
-  font-size: 21px;
-  font-weight: 600;
   font-variant-numeric: tabular-nums;
-  min-width: 62px;
-  text-align: right;
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: -.01em;
 }
 input[type="range"] {
   width: 100%;
-  height: 44px;
-  accent-color: var(--juniper-2);
+  height: 30px;
+  margin: 0;
+  display: block;
   background: transparent;
+  appearance: none;
+}
+input[type="range"]::-webkit-slider-runnable-track { height: 4px; border-radius: 2px; background: var(--track); }
+input[type="range"]::-webkit-slider-thumb {
+  appearance: none;
+  width: 24px; height: 24px;
+  margin-top: -10px;
+  border-radius: 50%;
+  background: var(--juniper-up);
+  border: 3px solid var(--paper);
+  box-shadow: 0 1px 4px rgba(15,32,26,.32);
+}
+input[type="range"]::-moz-range-track { height: 4px; border-radius: 2px; background: var(--track); }
+input[type="range"]::-moz-range-thumb {
+  width: 18px; height: 18px; border-radius: 50%;
+  background: var(--juniper-up); border: 3px solid var(--paper);
+  box-shadow: 0 1px 4px rgba(15,32,26,.32);
+}
+
+/* Chips scroll sideways rather than wrapping to three rows and eating half
+   the screen. The mask on the right edge is the only cue that they do. */
+.chipwrap { position: relative; min-width: 0; margin: 0 -16px; }
+.chipwrap::after {
+  content: "";
+  position: absolute;
+  top: 0; bottom: 0; right: 0;
+  width: 34px;
+  pointer-events: none;
+  background: linear-gradient(to right, transparent, var(--paper) 80%);
 }
 .chips {
   display: flex;
@@ -298,86 +402,143 @@ input[type="range"] {
   overflow-x: auto;
   scrollbar-width: none;
   -webkit-overflow-scrolling: touch;
-  margin: 0 -16px;
   padding: 1px 16px 2px;
 }
 .chips::-webkit-scrollbar { display: none; }
 .chip {
   flex: 0 0 auto;
-  font-family: "IBM Plex Mono", ui-monospace, monospace;
-  font-size: 11px;
-  letter-spacing: .06em;
-  text-transform: uppercase;
+  font-family: "Instrument Sans", system-ui, sans-serif;
+  font-size: 12.5px;
+  font-weight: 500;
   white-space: nowrap;
-  padding: 7px 11px;
-  min-height: 32px;
-  border: 1px solid var(--hairline);
-  border-radius: 3px;
-  background: transparent;
-  color: var(--ink-soft);
+  padding: 0 13px;
+  min-height: 34px;
+  border: 1px solid var(--rule);
+  border-radius: 17px;
+  background: var(--ground);
+  color: var(--ink-2);
   cursor: pointer;
 }
 .chip[aria-pressed="true"] {
   background: var(--juniper);
   border-color: var(--juniper);
-  color: #EFEDE4;
+  color: var(--head-ink);
 }
 
+/* ── Empty and overflow ───────────────────────────────────────────────── */
 .empty {
-  padding: 44px 24px;
+  padding: 52px 24px 56px;
   text-align: center;
-  color: var(--ink-soft);
-  font-size: 15px;
-  line-height: 1.5;
+  color: var(--ink-2);
+  font-size: 14.5px;
+  line-height: 1.55;
 }
-.empty strong { display: block; color: var(--ink); font-size: 17px; margin-bottom: 6px; font-weight: 800; }
+.empty strong {
+  display: block;
+  font-family: "Bricolage Grotesque", system-ui, sans-serif;
+  font-variation-settings: "opsz" 24;
+  font-weight: 700;
+  color: var(--ink);
+  font-size: 18px;
+  margin-bottom: 8px;
+  letter-spacing: -.012em;
+}
+.colophon {
+  padding: 22px 24px 32px;
+  text-align: center;
+  color: var(--ink-3);
+  font-size: 13px;
+  line-height: 1.55;
+}
+.colophon span { display: block; max-width: 40ch; margin: 0 auto; }
+.colophon span + span {
+  margin-top: 11px;
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 10px;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+}
+
+@media (min-width: 620px) {
+  .masthead, .strip, .dock {
+    padding-left: max(16px, calc(50vw - 310px));
+    padding-right: max(16px, calc(50vw - 310px));
+  }
+  .results { max-width: 620px; margin: 0 auto; }
+  .chipwrap { margin: 0; }
+  .chips { padding-left: 0; padding-right: 0; }
+}
+
+/* One orchestrated moment: the ladder builds once, on the first list. Doing
+   it on every filter change would be noise in an aisle. */
+@keyframes rung { from { opacity: 0; transform: translateY(7px); } to { opacity: 1; transform: none; } }
+.firstpaint .results > li { animation: rung .32s cubic-bezier(.2,.7,.3,1) both; }
+.firstpaint .results > li:nth-child(2) { animation-delay: 30ms; }
+.firstpaint .results > li:nth-child(3) { animation-delay: 60ms; }
+.firstpaint .results > li:nth-child(4) { animation-delay: 90ms; }
+.firstpaint .results > li:nth-child(5) { animation-delay: 120ms; }
+.firstpaint .results > li:nth-child(6) { animation-delay: 150ms; }
+.firstpaint .results > li:nth-child(n+7) { animation-delay: 180ms; }
 
 @media (prefers-reduced-motion: reduce) {
-  * { transition: none !important; animation: none !important; }
+  *, *::before, *::after { transition: none !important; animation: none !important; }
 }
 </style>
 </head>
 <body>
 
 <header class="masthead">
-  <h1 class="wordmark">Best Under <span>/ VA ABC</span></h1>
-  <select class="storepick" id="store" aria-label="Store"></select>
+  <div class="brandline">
+    <h1 class="wordmark">Best Under</h1>
+    <span class="origin">Virginia ABC</span>
+  </div>
+  <div class="storefield select">
+    <select class="storepick" id="store" aria-label="Store"></select>
+  </div>
 </header>
 
-<p class="status" id="status">Loading the shelf…</p>
+<div class="strip" id="strip" role="status" aria-live="polite">
+  <span id="stripLeft">Loading the shelf</span>
+  <span class="strip-right" id="stripRight"></span>
+</div>
 
 <ul class="results" id="results"></ul>
 
-<div class="controls">
+<div class="dock" id="dock">
   <div class="row">
-    <div class="field">
+    <div class="field cat">
       <label class="label" for="category">Category</label>
-      <select class="control" id="category"></select>
+      <div class="select"><select class="control" id="category"></select></div>
     </div>
-    <div class="field">
+    <div class="field size">
       <label class="label" for="size">Size</label>
-      <select class="control" id="size">
-        <option value="750" selected>750 ml</option>
-        <option value="any">Any size</option>
-      </select>
+      <div class="select">
+        <select class="control" id="size">
+          <option value="750" selected>750 ml</option>
+          <option value="any">Any size</option>
+        </select>
+      </div>
     </div>
   </div>
-  <div class="row">
-    <div class="field">
+  <div>
+    <div class="ceilinghead">
       <label class="label" for="price">Price ceiling</label>
-      <input type="range" id="price" min="10" max="150" step="5" value="30">
+      <span class="ceiling" id="ceiling">$30</span>
     </div>
-    <div class="ceiling" id="ceiling">$30</div>
+    <input type="range" id="price" min="10" max="150" step="5" value="30">
   </div>
-  <div class="chips" id="styles"></div>
+  <div class="chipwrap"><div class="chips" id="styles"></div></div>
 </div>
 
 <script>
 const MAX_CHECK = 30; // matches the fan-out cap in api/stock.js; also the render cap
 
 const el = {
-  status: document.getElementById('status'),
+  strip: document.getElementById('strip'),
+  stripLeft: document.getElementById('stripLeft'),
+  stripRight: document.getElementById('stripRight'),
   results: document.getElementById('results'),
+  dock: document.getElementById('dock'),
   store: document.getElementById('store'),
   category: document.getElementById('category'),
   size: document.getElementById('size'),
@@ -392,17 +553,33 @@ let showOut = false;
 let showAll = false;   // include bottles with no rating yet
 let vaOnly = false;    // Virginia-made only
 let requestSeq = 0;
+let painted = false;   // the build-in animation runs once, on the first list
 
 /** Full per-category lists, fetched only when "everything on the shelf" is on. */
 const fullCats = new Map();
 
 const money = (n) => '$' + n.toFixed(2);
+const dollars = (n) => '$' + Math.round(n);
 const slug = (c) => c.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+const title = (s) => s.charAt(0).toUpperCase() + s.slice(1);
 
+/** Left half of the strip: what you are looking at. */
+function setScope(html) { el.stripLeft.innerHTML = html; }
+/** Right half: how fresh the stock counts are, or why they are missing. */
 function setStatus(text, tone) {
-  el.status.textContent = text;
-  if (tone) el.status.dataset.tone = tone;
-  else delete el.status.dataset.tone;
+  el.stripRight.textContent = text;
+  if (tone) el.strip.dataset.tone = tone;
+  else delete el.strip.dataset.tone;
+}
+
+/** The dock is fixed, so the list has to end exactly above it. */
+function measureDock() {
+  document.documentElement.style.setProperty('--dock', el.dock.offsetHeight + 24 + 'px');
+}
+
+/** Tier bands pin directly under the strip, so they need its real height. */
+function measureStrip() {
+  document.documentElement.style.setProperty('--strip-h', el.strip.offsetHeight + 'px');
 }
 
 // ── Load the shelf, preferring the network but surviving without it ──────
@@ -454,7 +631,7 @@ function buildControls() {
     .join('');
 
   el.category.innerHTML = shelf.categories
-    .map((c) => `<option value="${c.cat}">${c.cat}${c.rated ? '' : ' (unrated)'}</option>`)
+    .map((c) => `<option value="${c.cat}">${c.cat}${c.rated ? '' : ' — none rated yet'}</option>`)
     .join('');
 
   el.styles.addEventListener('click', async (e) => {
@@ -465,6 +642,7 @@ function buildControls() {
       showOut = !showOut;
       b.setAttribute('aria-pressed', String(showOut));
       document.body.classList.toggle('showout', showOut);
+      tuneTiers();
       return;
     }
 
@@ -472,13 +650,13 @@ function buildControls() {
       showAll = !showAll;
       b.setAttribute('aria-pressed', String(showAll));
       if (showAll) {
-        b.textContent = 'loading…';
+        b.textContent = 'Loading…';
         const ok = await loadCategory(el.category.value);
-        b.textContent = 'everything on the shelf';
+        b.textContent = 'Everything on the shelf';
         if (!ok) {
           showAll = false;
           b.setAttribute('aria-pressed', 'false');
-          setStatus("Couldn't load the full shelf for this category.", 'warn');
+          setStatus('Full shelf unavailable', 'warn');
           return;
         }
       }
@@ -521,12 +699,13 @@ function renderStyles() {
     present
       .map(
         (st) =>
-          `<button class="chip" type="button" data-style="${st}" aria-pressed="${activeStyles.has(st)}">${st.replaceAll('-', ' ')}</button>`
+          `<button class="chip" type="button" data-style="${st}" aria-pressed="${activeStyles.has(st)}">${title(st.replaceAll('-', ' '))}</button>`
       )
       .join('') +
-    (anyVa ? `<button class="chip" type="button" id="toggleVa" aria-pressed="${vaOnly}">virginia made</button>` : '') +
-    `<button class="chip" type="button" id="toggleOut" aria-pressed="${showOut}">show out of stock</button>` +
-    `<button class="chip" type="button" id="toggleAll" aria-pressed="${showAll}">everything on the shelf</button>`;
+    (anyVa ? `<button class="chip" type="button" id="toggleVa" aria-pressed="${vaOnly}">Virginia made</button>` : '') +
+    `<button class="chip" type="button" id="toggleOut" aria-pressed="${showOut}">Show out of stock</button>` +
+    `<button class="chip" type="button" id="toggleAll" aria-pressed="${showAll}">Everything on the shelf</button>`;
+  measureDock();
 }
 
 // ── Rank locally. No network involved — this is why the list is instant. ─
@@ -544,67 +723,113 @@ function candidates() {
     .sort((a, b) => (b.s ?? -1) - (a.s ?? -1) || a.p - b.p);
 }
 
-function pips(n) {
-  const shown = Math.min(n, 10);
-  return `<span class="pips">${'<i class="pip"></i>'.repeat(shown)}</span>${n > 10 ? '10+' : n}`;
-}
-
 function render(list, total) {
   if (!list.length) {
     el.results.innerHTML =
-      `<li class="empty"><strong>Nothing here at this price.</strong>Raise the ceiling, switch to any size, or turn on "everything on the shelf".</li>`;
+      `<li class="empty"><strong>No ${el.category.value.toLowerCase()} under ${dollars(Number(el.price.value))}.</strong>` +
+      `Raise the ceiling, allow any size, or switch on “Everything on the shelf” to include bottles nobody has rated yet.</li>`;
     return;
   }
-  el.results.innerHTML =
-    list
-      .map((p) => {
-        const isRated = typeof p.s === 'number';
-        return `
-    <li class="tag" data-code="${p.c}" data-state="checking" data-rated="${isRated ? 'yes' : 'no'}">
-      <div class="tag-code">${p.c}</div>
-      <div class="tag-name">${p.n}</div>
-      <div class="tag-meta">
-        ${p.st ? `<span class="tag-style">${p.st.replaceAll('-', ' ')}</span>` : ''}
-        <span>${p.ml} ml</span>
-        ${p.pf ? `<span>${p.pf}°</span>` : ''}
-        ${p.ml !== 750 ? `<span class="tag-per">${money(p.p750)}/750</span>` : ''}
-        ${isRated && p.src === 'draft' ? '<span class="tag-draft">draft</span>' : ''}
+
+  // Every rating is a draft today, so a badge on all thirty rows would say
+  // nothing. It goes in the colophon instead, and per-row badges appear only
+  // when the list is actually mixed.
+  const rated = list.filter((p) => typeof p.s === 'number');
+  const allDraft = rated.length > 0 && rated.every((p) => p.src === 'draft');
+
+  let html = '';
+  let tier = null;
+  let tierId = 0;
+
+  for (const p of list) {
+    const isRated = typeof p.s === 'number';
+    const band = isRated ? p.s.toFixed(1) : 'unrated';
+    if (band !== tier) {
+      tier = band;
+      tierId++;
+      html += `<li class="tier" data-tier="${tierId}">
+        <span class="tier-score${isRated ? '' : ' unrated'}">${isRated ? band : 'Not rated yet'}</span>
+        <span class="tier-rule"></span>
+        <span class="tier-count"></span>
+      </li>`;
+    }
+    html += `
+    <li class="tag" data-code="${p.c}" data-tier="${tierId}" data-state="checking" data-rated="${isRated ? 'yes' : 'no'}">
+      <div class="head">
+        <h2 class="name">${p.n}</h2>
+        <span class="price">${money(p.p)}</span>
       </div>
-      ${isRated
-        ? `<div class="tag-score">${p.s.toFixed(1)}</div>`
-        : `<div class="tag-unrated">not<br>rated</div>`}
-      <div class="tag-price">${money(p.p)}</div>
-      <div class="tag-stock" data-level="unknown">checking…</div>
-      ${p.note ? `<p class="tag-note">${p.note}</p>` : ''}
+      <div class="meta">
+        ${p.st ? `<span class="style">${p.st.replaceAll('-', ' ')}</span>` : ''}
+        ${p.va ? `<span class="va">Virginia</span>` : ''}
+        <span class="dat">${p.ml} ml</span>
+        ${p.pf ? `<span class="dat">${p.pf}° proof</span>` : ''}
+        ${p.ml !== 750 ? `<span class="dat per">${money(p.p750)} per 750</span>` : ''}
+        ${isRated && !allDraft && p.src === 'draft' ? `<span class="draft">Draft</span>` : ''}
+      </div>
+      ${p.note ? `<p class="note">${p.note}</p>` : ''}
+      <div class="foot">
+        <span class="stock" data-level="unknown"><i class="dot"></i>Checking</span>
+        <span class="code">${p.c}</span>
+      </div>
     </li>`;
-      })
-      .join('') +
-    // Stock costs one upstream request per bottle, so the list stops where the
-    // fan-out does rather than showing rows we could never fill in.
-    (total > list.length
-      ? `<li class="empty">Showing the top ${list.length} of ${total}. Narrow the price or style to see further down the shelf.</li>`
-      : '');
+  }
+
+  // Stock costs one upstream request per bottle, so the list stops where the
+  // fan-out does rather than showing rows we could never fill in.
+  const footnotes = [
+    total > list.length
+      ? `Showing the top ${list.length} of ${total} matches. Narrow the price or style to see further down the shelf.`
+      : '',
+    allDraft ? 'Ratings are drafts' : '',
+  ].filter(Boolean);
+  if (footnotes.length) {
+    html += `<li class="colophon">${footnotes.map((t) => `<span>${t}</span>`).join('')}</li>`;
+  }
+
+  el.results.innerHTML = html;
+  tuneTiers();
+
+  if (!painted) {
+    painted = true;
+    document.body.classList.add('firstpaint');
+    setTimeout(() => document.body.classList.remove('firstpaint'), 800);
+  }
+}
+
+/**
+ * A tier whose every bottle turned out to be off the shelf would otherwise
+ * leave a heading with nothing under it, so the bands follow what is actually
+ * visible — and carry the count of it.
+ */
+function tuneTiers() {
+  for (const band of el.results.querySelectorAll('.tier')) {
+    const rows = el.results.querySelectorAll(`.tag[data-tier="${band.dataset.tier}"]`);
+    const n = [...rows].filter((r) => showOut || r.dataset.state !== 'out').length;
+    band.hidden = n === 0;
+    band.querySelector('.tier-count').textContent = n ? `${n} ${n === 1 ? 'bottle' : 'bottles'}` : '';
+  }
 }
 
 function paintStock(code, qty) {
   const row = el.results.querySelector(`.tag[data-code="${code}"]`);
   if (!row) return;
-  const cell = row.querySelector('.tag-stock');
+  const cell = row.querySelector('.stock');
+  const write = (level, text) => {
+    cell.dataset.level = level;
+    cell.innerHTML = `<i class="dot"></i>${text}`;
+  };
   if (qty === undefined || qty === null) {
     row.dataset.state = 'unknown';
-    cell.dataset.level = 'unknown';
-    cell.textContent = 'no data';
-    return;
+    return write('unknown', 'No stock data');
   }
   if (qty <= 0) {
     row.dataset.state = 'out';
-    cell.dataset.level = 'none';
-    cell.textContent = 'out of stock';
-    return;
+    return write('none', 'Out of stock');
   }
   row.dataset.state = 'in';
-  cell.dataset.level = qty <= 2 ? 'low' : 'ok';
-  cell.innerHTML = pips(qty);
+  if (qty <= 3) return write('low', `Only ${qty} left`);
+  write('ok', `${qty} in stock`);
 }
 
 // ── Then ask about stock, best-first, bounded. ───────────────────────────
@@ -619,16 +844,17 @@ async function checkStock(list) {
     if (seq !== requestSeq) return; // a newer query superseded this one
 
     if (res.status === 503 && data.error === 'rate_limited') {
-      setStatus('Virginia ABC asked us to slow down. Try again in a moment.', 'warn');
+      setStatus('ABC throttled us — try again shortly', 'warn');
     } else if (!res.ok) {
-      setStatus("Can't reach Virginia ABC. Showing ratings only — no stock counts.", 'warn');
+      setStatus('No stock counts — ABC unreachable', 'warn');
       list.forEach((p) => paintStock(p.c, null));
+      tuneTiers();
       return;
     } else {
       const when = new Date(data.asOf).toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' });
       const n = Object.values(data.stock || {}).filter((q) => q > 0).length;
       setStatus(
-        `${n} in stock at #${data.store} · checked ${when}${data.partial ? ' · partial' : ''}`,
+        `${n} on the shelf · ${when}${data.partial ? ' · partial' : ''}`,
         data.partial ? 'warn' : null
       );
     }
@@ -636,10 +862,12 @@ async function checkStock(list) {
     // Anything that came back with no record stays "no data" — deliberately
     // not the same as "out of stock".
     for (const p of list) paintStock(p.c, data.stock?.[p.c] ?? null);
+    tuneTiers();
   } catch {
     if (seq !== requestSeq) return;
-    setStatus("Can't reach Virginia ABC. Showing ratings only — no stock counts.", 'warn');
+    setStatus('No stock counts — ABC unreachable', 'warn');
     list.forEach((p) => paintStock(p.c, null));
+    tuneTiers();
   }
 }
 
@@ -647,8 +875,13 @@ function run() {
   savePrefs();
   const all = candidates();
   const list = all.slice(0, MAX_CHECK);
+  const cap = dollars(Number(el.price.value));
+  setScope(all.length
+    ? `<b>${all.length}</b> ${all.length === 1 ? 'bottle' : 'bottles'} under <b>${cap}</b>`
+    : `Nothing under <b>${cap}</b>`);
   render(list, all.length);
   if (list.length) checkStock(list);
+  else setStatus('');
 }
 
 /**
@@ -699,10 +932,17 @@ el.category.addEventListener('change', async () => {
   run();
 });
 
+if (window.ResizeObserver) {
+  new ResizeObserver(measureDock).observe(el.dock);
+  new ResizeObserver(measureStrip).observe(el.strip);
+}
+window.addEventListener('orientationchange', measureDock);
+
 (async function init() {
   const loaded = await loadShelf();
   if (!loaded) {
-    setStatus('Could not load the shelf, and nothing is cached on this phone.', 'bad');
+    setScope('Shelf unavailable');
+    setStatus('Nothing cached on this phone', 'bad');
     return;
   }
   shelf = loaded.data;
@@ -710,8 +950,10 @@ el.category.addEventListener('change', async () => {
   restorePrefs();
   renderStyles(); // after restore, so the chips match the remembered category
   el.ceiling.textContent = '$' + el.price.value;
-  if (loaded.cached) setStatus('Offline — using the copy saved on this phone.', 'warn');
+  measureDock();
+  measureStrip();
   run();
+  if (loaded.cached) setStatus('Offline — saved copy', 'warn');
 })();
 </script>
 </body>
