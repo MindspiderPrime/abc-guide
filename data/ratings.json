@@ -6398,6 +6398,34 @@
     "note": "Bottom-shelf party jug. Cheap, sweet, gets the job done for a crowd.",
     "source": "draft"
   },
+  "20303": {
+    "name": "Chi Chis Margarita 4 Pack",
+    "score": 4,
+    "style": "margarita",
+    "note": "The canned 4-pack version of their standard margarita. Same budget-jug flavor, more portable format.",
+    "source": "draft"
+  },
+  "20304": {
+    "name": "Chi Chis Pina Colada",
+    "score": 4,
+    "style": "tropical",
+    "note": "A bottom-shelf canned pina colada. Sweet and coconut-forward, functional for a poolside drink.",
+    "source": "draft"
+  },
+  "20305": {
+    "name": "Chi Chis Pineapple Margarita",
+    "score": 4,
+    "style": "margarita",
+    "note": "Tropical fruit variant on their standard margarita jug. Same budget tier.",
+    "source": "draft"
+  },
+  "20306": {
+    "name": "Chi Chis Pink Lemonade Margarita",
+    "score": 4,
+    "style": "margarita",
+    "note": "Tastes more like spiked pink lemonade than a real margarita, same as the rest of the Chi-Chi's line.",
+    "source": "draft"
+  },
   "20308": {
     "name": "Chi Chis Margarita",
     "score": 4,
@@ -6410,6 +6438,13 @@
     "score": 4,
     "style": "margarita",
     "note": "Bottom-shelf bottled margarita. Cheap and sweet, nothing more.",
+    "source": "draft"
+  },
+  "20310": {
+    "name": "Chi Chis Ruby Red Margarita",
+    "score": 4,
+    "style": "margarita",
+    "note": "Grapefruit-tinted variant on the standard formula. Cheap and functional for a crowd.",
     "source": "draft"
   },
   "20312": {
@@ -7264,6 +7299,27 @@
     "note": "Single-barrel Larceny at 92 proof. Better than the standard bottle when you find it.",
     "source": "draft"
   },
+  "21933": {
+    "name": "Buzzballz Chili Mango Cocktail",
+    "score": 4.5,
+    "style": "other",
+    "note": "One of the more distinctive flavors in the lineup -- real chili heat behind the mango sweetness.",
+    "source": "draft"
+  },
+  "21936": {
+    "name": "Buzzballz Cran Blaster Cocktail",
+    "score": 4.5,
+    "style": "other",
+    "note": "Tart cranberry, one of the less cloying flavors in the lineup.",
+    "source": "draft"
+  },
+  "21937": {
+    "name": "Buzzballz Forbidden Apple Cocktail",
+    "score": 4.5,
+    "style": "other",
+    "note": "Candy apple flavor, straightforward and sweet.",
+    "source": "draft"
+  },
   "21938": {
     "name": "Buzzballz Tequila Rita Cocktail",
     "score": 5,
@@ -7278,11 +7334,32 @@
     "note": "The archetypal BuzzBallz flavor -- sweet, potent, and fine for exactly what it is: a party ball, not a cocktail.",
     "source": "draft"
   },
+  "21940": {
+    "name": "Buzzballz Choc Tease Cocktail",
+    "score": 4.5,
+    "style": "other",
+    "note": "Chocolate-cream flavor, dessert-like rather than a classic cocktail.",
+    "source": "draft"
+  },
+  "21941": {
+    "name": "Buzzballz Peachballz Cocktail",
+    "score": 4.5,
+    "style": "other",
+    "note": "Straightforward peach flavor, one of the more popular flavors in the lineup.",
+    "source": "draft"
+  },
   "21942": {
     "name": "Buzzballz Lotta Colada Cocktail",
     "score": 4.5,
     "style": "tropical",
     "note": "Sweet coconut-pineapple, same value tier as the rest of the line.",
+    "source": "draft"
+  },
+  "21943": {
+    "name": "Buzzballz Watermelon Smash Cocktail",
+    "score": 4.5,
+    "style": "other",
+    "note": "Candy watermelon flavor, consistent with the rest of the fruit-forward lineup.",
     "source": "draft"
   },
   "21944": {
@@ -7318,6 +7395,13 @@
     "score": 6,
     "style": "martini",
     "note": "Virginia-made espresso martini, solid coffee flavor.",
+    "source": "draft"
+  },
+  "21986": {
+    "name": "Buzzballz Pineapple Jalapeno Cocktail",
+    "score": 4.5,
+    "style": "other",
+    "note": "Real heat behind the pineapple sweetness -- one of the more distinctive flavors here.",
     "source": "draft"
   },
   "21987": {
@@ -7380,6 +7464,13 @@
     "score": 7.5,
     "style": "speyside",
     "note": "A single-cask bourbon-barrel expression. Lighter and more vanilla-forward.",
+    "source": "draft"
+  },
+  "22110": {
+    "name": "Buzzballz Hazelnut Latte Cocktail",
+    "score": 4.5,
+    "style": "other",
+    "note": "A coffee-and-cream flavor, sweeter than a real latte but pleasant as a dessert ball.",
     "source": "draft"
   },
   "22115": {
@@ -7526,6 +7617,13 @@
     "score": 6,
     "style": "flavored",
     "note": "Uncle Val's with extra citrus zest. Fine in a gin and tonic, unremarkable neat.",
+    "source": "draft"
+  },
+  "22422": {
+    "name": "Buzzballz Pumpkin Cocktail",
+    "score": 4.5,
+    "style": "other",
+    "note": "Seasonal pumpkin spice, sweet and appropriately autumnal.",
     "source": "draft"
   },
   "22476": {
@@ -7917,6 +8015,27 @@
     "note": "A fair bottled Whiskey Sour, more balanced than most of the cheaper competition.",
     "source": "draft"
   },
+  "23269": {
+    "name": "Buzzballz Lemon Tea Cocktail",
+    "score": 4.5,
+    "style": "other",
+    "note": "An Arnold Palmer-adjacent flavor, refreshing by BuzzBallz standards.",
+    "source": "draft"
+  },
+  "23270": {
+    "name": "Buzzballz Passionfruit Martini Cocktail",
+    "score": 4.5,
+    "style": "martini",
+    "note": "A fruity martini-style ball, sweet and tropical rather than a classic martini profile.",
+    "source": "draft"
+  },
+  "23271": {
+    "name": "Buzzballz Strawberry Rita Americana",
+    "score": 4.5,
+    "style": "margarita",
+    "note": "Patriotic packaging on their reliable Strawberry Rita flavor.",
+    "source": "draft"
+  },
   "23281": {
     "name": "Tequila Ocho Barrel Proof Reposado",
     "score": 8.5,
@@ -7958,6 +8077,27 @@
     "note": "Twenty years in sherry casks. Rich and complex — Spain's answer to XO cognac.",
     "source": "draft"
   },
+  "23369": {
+    "name": "Buzzballz Biggies Witchs Potion",
+    "score": 4.5,
+    "style": "other",
+    "note": "A Halloween large-format flavor, fruity and brightly colored. Novelty over nuance, as always with this line.",
+    "source": "draft"
+  },
+  "23374": {
+    "name": "Buzzballz Cocktails Cookie Nookie",
+    "score": 4.5,
+    "style": "other",
+    "note": "Cookies-and-cream flavor, a dessert ball rather than a mixed drink.",
+    "source": "draft"
+  },
+  "23375": {
+    "name": "Buzzballz Cocktails Eggnog",
+    "score": 4.5,
+    "style": "other",
+    "note": "A seasonal eggnog ball. Sweet and rich, fine for a holiday party.",
+    "source": "draft"
+  },
   "23384": {
     "name": "St. Brendans Espresso Irish Cream",
     "score": 6.5,
@@ -7977,6 +8117,13 @@
     "score": 5.5,
     "style": "cream",
     "note": "Sweet and nutty, a fair dessert liqueur.",
+    "source": "draft"
+  },
+  "23429": {
+    "name": "Buzzballz Biggies Peppermint Bark",
+    "score": 4.5,
+    "style": "other",
+    "note": "A large-format holiday flavor. Genuinely tastes like peppermint bark, sweet enough for dessert.",
     "source": "draft"
   },
   "23445": {
@@ -8026,6 +8173,20 @@
     "score": 6,
     "style": "cream",
     "note": "Ryan's budget-tier cream with a caramel flavor. Fine for the price.",
+    "source": "draft"
+  },
+  "23513": {
+    "name": "Buzzballz Elf Maple Syrup Sundae",
+    "score": 4.5,
+    "style": "other",
+    "note": "A holiday dessert flavor -- maple and cream, sweet as the name suggests.",
+    "source": "draft"
+  },
+  "23518": {
+    "name": "Buzzballz Cocktails Grapes Gone Wild",
+    "score": 4,
+    "style": "other",
+    "note": "Candy grape flavor, straightforward and sweet.",
     "source": "draft"
   },
   "23534": {
@@ -8109,6 +8270,13 @@
     "score": 4,
     "style": "shot",
     "note": "Sweet citrus-and-whiskey flavor rather than actual green tea. A party staple regardless.",
+    "source": "draft"
+  },
+  "23763": {
+    "name": "Buzzballz Pink Lemonsqueezy",
+    "score": 4.5,
+    "style": "other",
+    "note": "Pink lemonade flavor, tart and sweet in the usual BuzzBallz proportion.",
     "source": "draft"
   },
   "23794": {
@@ -8243,6 +8411,13 @@
     "note": "A juice-box format margarita. Convenient and sweet, not a serious tequila drink.",
     "source": "draft"
   },
+  "24107": {
+    "name": "Buzzballz Berry Cherry Limeade Cocktail 4 Pack",
+    "score": 4.5,
+    "style": "other",
+    "note": "The can 4-pack version of their berry cherry limeade ball. Same sweet, potent formula, more convenient format.",
+    "source": "draft"
+  },
   "24108": {
     "name": "Buzzbox Vodka Lemonade",
     "score": 5,
@@ -8341,6 +8516,34 @@
     "note": "A higher-proof version of the standard New Amsterdam. Clean and a bit more assertive.",
     "source": "draft"
   },
+  "24257": {
+    "name": "Buzzballz Cocktail Evergreen Variety Pack",
+    "score": 4.5,
+    "style": "other",
+    "note": "A holiday-season mixed pack. Same value tier as any individual flavor, just bundled.",
+    "source": "draft"
+  },
+  "24268": {
+    "name": "Buzzballz Cocktail Bent Banana",
+    "score": 4,
+    "style": "other",
+    "note": "Straightforward banana candy flavor, one of the simpler entries in the lineup.",
+    "source": "draft"
+  },
+  "24269": {
+    "name": "Buzzballz Cocktail Tropical Fruit Punch",
+    "score": 4.5,
+    "style": "tropical",
+    "note": "A fruit-punch flavor built for a cookout. Does the job.",
+    "source": "draft"
+  },
+  "24286": {
+    "name": "Buzzballz Americana Variety Pack",
+    "score": 4.5,
+    "style": "other",
+    "note": "A mixed pack of the standard flavors in patriotic packaging. Same value tier as any individual ball.",
+    "source": "draft"
+  },
   "24297": {
     "name": "Boatyard Gin",
     "score": 6.5,
@@ -8353,6 +8556,62 @@
     "score": 5.5,
     "style": "herbal",
     "note": "Standard Jager with orange citrus added. A shot-bar variant more than a sipper.",
+    "source": "draft"
+  },
+  "24309": {
+    "name": "Buzzballz Goaaaaaal-melon Vodka Cocktail",
+    "score": 4,
+    "style": "other",
+    "note": "A soccer-themed melon mini. Basic flavor, marketing-driven naming.",
+    "source": "draft"
+  },
+  "24311": {
+    "name": "Buzzballz Fuego Tamarita Vodka Cocktail",
+    "score": 4,
+    "style": "margarita",
+    "note": "A spicy tamarind-margarita mini can. More novelty than a serious margarita.",
+    "source": "draft"
+  },
+  "24312": {
+    "name": "Buzzballz Pip Pip Punch Vodka Cocktail",
+    "score": 4,
+    "style": "other",
+    "note": "A British-themed mini punch flavor. Basic fruit sweetness under the novelty name.",
+    "source": "draft"
+  },
+  "24313": {
+    "name": "Buzzballz Flags & Freedom Vodka Cocktail",
+    "score": 4,
+    "style": "other",
+    "note": "A patriotic-themed mini can, basic fruit-punch flavor.",
+    "source": "draft"
+  },
+  "24314": {
+    "name": "Buzzballz Sol Siesta Vodka Cocktail",
+    "score": 4,
+    "style": "tropical",
+    "note": "A tropical-themed mini can, sweet and simple.",
+    "source": "draft"
+  },
+  "24315": {
+    "name": "Buzzballz Smashentina Vodka Cocktail",
+    "score": 4,
+    "style": "other",
+    "note": "A fruity mini can with a playful name. Standard sweetness, nothing distinctive.",
+    "source": "draft"
+  },
+  "24316": {
+    "name": "Buzzballz Caipi Crush Vodka Cocktail",
+    "score": 4.5,
+    "style": "tropical",
+    "note": "A mini-can take on a caipirinha. Sweeter and less lime-forward than the real thing, but cheap and potent.",
+    "source": "draft"
+  },
+  "24317": {
+    "name": "Buzzballz Tropical Fruit Punch Beach Ball Cocktail",
+    "score": 4.5,
+    "style": "tropical",
+    "note": "A large-format beach-themed tropical punch. Same formula, bigger bottle.",
     "source": "draft"
   },
   "24318": {
@@ -8494,6 +8753,27 @@
     "note": "Virginia craft gin. Drinkable, not distinctive against the bigger contemporary bottles here.",
     "source": "draft"
   },
+  "24578": {
+    "name": "Buzzballz Cocktails Hole In Fun",
+    "score": 4,
+    "style": "other",
+    "note": "A donut-themed dessert flavor. Novelty first, cocktail second.",
+    "source": "draft"
+  },
+  "24579": {
+    "name": "Buzzballz Cocktails Fuzzy Melon",
+    "score": 4,
+    "style": "other",
+    "note": "A basic melon flavor, unremarkable even by BuzzBallz standards.",
+    "source": "draft"
+  },
+  "24580": {
+    "name": "Buzzballz Cocktails Paddle Punch",
+    "score": 4.5,
+    "style": "other",
+    "note": "A fruit-punch flavor in the same lane as their Tropical Fruit Punch ball.",
+    "source": "draft"
+  },
   "24620": {
     "name": "Jose Cuervo Tradicional Blanco Tequila",
     "score": 6,
@@ -8519,6 +8799,13 @@
     "score": 5.5,
     "style": "fruit",
     "note": "Apple pie in a bottle, on the sweeter end even for this category.",
+    "source": "draft"
+  },
+  "24684": {
+    "name": "Buzzballz Cocktail Tropical Tang",
+    "score": 4.5,
+    "style": "tropical",
+    "note": "Tart tropical citrus, one of the brighter-tasting flavors in the lineup.",
     "source": "draft"
   },
   "24691": {
@@ -8554,6 +8841,20 @@
     "score": 8,
     "style": "blended",
     "note": "Double-matured for extra depth. One of the more distinctive premium blends.",
+    "source": "draft"
+  },
+  "24737": {
+    "name": "Buzzballz Variety Tailgate Pack",
+    "score": 4.5,
+    "style": "other",
+    "note": "A mixed pack aimed at tailgating. Same value tier as any individual ball, bundled for a crowd.",
+    "source": "draft"
+  },
+  "24739": {
+    "name": "Buzzballz Boulders Strawberry Rita",
+    "score": 4.5,
+    "style": "margarita",
+    "note": "The big-format jug version of their Strawberry Rita ball. Same flavor, built for a crowd.",
     "source": "draft"
   },
   "24749": {
@@ -8603,6 +8904,34 @@
     "score": 5.5,
     "style": "blended",
     "note": "A budget blend, unremarkable but functional.",
+    "source": "draft"
+  },
+  "24882": {
+    "name": "Buzzballz Cocktails Frosted Brown Sugar Cinnamon",
+    "score": 4.5,
+    "style": "other",
+    "note": "A holiday-spice flavor, cinnamon-forward and sweet.",
+    "source": "draft"
+  },
+  "24883": {
+    "name": "Buzzballz Cocktail Frosted Smores",
+    "score": 4.5,
+    "style": "other",
+    "note": "Genuinely tastes like the campfire treat. A sweet dessert ball rather than a cocktail.",
+    "source": "draft"
+  },
+  "24884": {
+    "name": "Buzzballz Cocktails Sugarplum",
+    "score": 4.5,
+    "style": "other",
+    "note": "A holiday-season fruit flavor, sweet and seasonal.",
+    "source": "draft"
+  },
+  "24903": {
+    "name": "Buzzballz Frankentini",
+    "score": 4.5,
+    "style": "martini",
+    "note": "A Halloween-themed martini-style ball. Sweeter and less complex than a real martini, as expected.",
     "source": "draft"
   },
   "24911": {
@@ -8672,6 +9001,13 @@
     "score": 6.5,
     "style": "traditional",
     "note": "Six-year age statement at thirty dollars. Fair.",
+    "source": "draft"
+  },
+  "25034": {
+    "name": "Buzzballz Cocktail Vampires Blood",
+    "score": 4.5,
+    "style": "other",
+    "note": "A Halloween red-fruit-punch flavor. Novelty branding, standard BuzzBallz sweetness underneath.",
     "source": "draft"
   },
   "25073": {
