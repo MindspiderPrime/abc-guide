@@ -1,4 +1,25 @@
 {
+  "76": {
+    "name": "Alize Red Passion",
+    "score": 5.5,
+    "style": "fruit",
+    "note": "Cognac and passion fruit. Sweet, nostalgic for anyone who remembers its 90s/2000s heyday.",
+    "source": "draft"
+  },
+  "147": {
+    "name": "Arrow Creme De Cacao Brown",
+    "score": 5,
+    "style": "chocolate",
+    "note": "A budget creme de cacao. Thinner than Marie Brizard, but functional in a mixed drink.",
+    "source": "draft"
+  },
+  "148": {
+    "name": "Arrow Creme De Cacao White",
+    "score": 5,
+    "style": "chocolate",
+    "note": "Same budget tier as the brown version, clear rather than colored.",
+    "source": "draft"
+  },
   "154": {
     "name": "Arrow Peach Schnapps",
     "score": 2.5,
@@ -60,6 +81,13 @@
     "score": 7.5,
     "style": "london-dry",
     "note": "No citrus botanicals at all — pure juniper, nutmeg, sage. A martini gin.",
+    "source": "draft"
+  },
+  "408": {
+    "name": "Booker's Bourbon",
+    "score": 8.5,
+    "style": "barrel-proof",
+    "note": "Jim Beam's uncut, unfiltered flagship. Big, oaky, and one of the more consistent barrel-proof bourbons on the market.",
     "source": "draft"
   },
   "440": {
@@ -195,6 +223,13 @@
     "note": "Honeyed scotch liqueur. A rusty nail and not much else.",
     "source": "draft"
   },
+  "1048": {
+    "name": "Elmer T Lee Bourbon",
+    "score": 8.5,
+    "style": "traditional",
+    "note": "A Buffalo Trace classic, named for the man who created the modern single-barrel category. Excellent, though the price here reflects real scarcity.",
+    "source": "draft"
+  },
   "1125": {
     "name": "Frangelico",
     "score": 6.5,
@@ -209,6 +244,13 @@
     "note": "Cognac-based orange. Richer than Cointreau, sweeter too.",
     "source": "draft"
   },
+  "1304": {
+    "name": "Grey Goose Le Citron Vodka",
+    "score": 6.5,
+    "style": "flavored",
+    "note": "Bright, genuine lemon flavor on an excellent base spirit.",
+    "source": "draft"
+  },
   "1305": {
     "name": "Grey Goose Vodka",
     "score": 6.5,
@@ -216,11 +258,31 @@
     "note": "Soft and clean. You are paying for the marketing.",
     "source": "draft"
   },
+  "1362": {
+    "name": "Herradura Anejo Tequila",
+    "score": 7.5,
+    "note": "A classic, dependable anejo. Oak and vanilla without losing the agave underneath.",
+    "source": "draft"
+  },
   "1621": {
     "name": "Jagermeister",
     "score": 5.5,
     "style": "herbal",
     "note": "The German herbal digestif everyone's tried as a shot. Polarizing, but a genuine flavor, not neutral spirit.",
+    "source": "draft"
+  },
+  "1692": {
+    "name": "Johnnie Walker Gold",
+    "score": 7.5,
+    "style": "blended",
+    "note": "Smoother and more refined than Black, with real Speyside character coming through.",
+    "source": "draft"
+  },
+  "1760": {
+    "name": "Kamora Coffee",
+    "score": 5.5,
+    "style": "coffee",
+    "note": "A budget Kahlua alternative. Thinner but does the job in a White Russian.",
     "source": "draft"
   },
   "1929": {
@@ -237,6 +299,20 @@
     "note": "The red wax bottle. Soft, sweet, wheated — reliably good and always in stock.",
     "source": "draft"
   },
+  "1982": {
+    "name": "Marie Brizard Apry",
+    "score": 6,
+    "style": "fruit",
+    "note": "Apricot liqueur from a respected French house. Real fruit character, useful in classic cocktails.",
+    "source": "draft"
+  },
+  "1986": {
+    "name": "Marie Brizard Parfait Amour",
+    "score": 5.5,
+    "style": "fruit",
+    "note": "A floral, violet-tinged curacao variant. More of a novelty than a workhorse liqueur.",
+    "source": "draft"
+  },
   "2018": {
     "name": "Massenez Creme De Cassis De Dijon",
     "score": 7,
@@ -244,11 +320,24 @@
     "note": "French blackcurrant liqueur, real depth. What a kir royale should actually taste like.",
     "source": "draft"
   },
+  "2088": {
+    "name": "Metaxa Ouzo",
+    "score": 6,
+    "style": "herbal",
+    "note": "A reliable Greek ouzo, anise-forward and traditional.",
+    "source": "draft"
+  },
   "2102": {
     "name": "Midori Melon",
     "score": 5,
     "style": "fruit",
     "note": "Bright green melon liqueur. A novelty mixer more than a sipper.",
+    "source": "draft"
+  },
+  "2107": {
+    "name": "Milagro Select Barrel Reserve Reposado Tequila",
+    "score": 7,
+    "note": "Milagro's step up from their standard reposado. Well-balanced and food-friendly.",
     "source": "draft"
   },
   "2130": {
@@ -299,6 +388,13 @@
     "note": "Greek anise spirit. Turns milky over ice, classic with seafood.",
     "source": "draft"
   },
+  "2389": {
+    "name": "Pig Nose Scotch",
+    "score": 6,
+    "style": "blended",
+    "note": "Marketed as \"smooth as a pig's nose.\" Light, easy-drinking, a decent value blend.",
+    "source": "draft"
+  },
   "2391": {
     "name": "Pimm's No. 1 Cup",
     "score": 6.5,
@@ -313,11 +409,39 @@
     "note": "Earthier and less juniper-forward than a London dry. Its own protected style, worth trying once.",
     "source": "draft"
   },
+  "2514": {
+    "name": "Rhum Barbancourt 5 Star Reserve Speciale",
+    "score": 7.5,
+    "style": "dark",
+    "note": "More aged and refined than the 3 Star, with the same distinctive cane-juice character.",
+    "source": "draft"
+  },
   "2574": {
     "name": "Rumple Minze",
     "score": 5.5,
     "style": "herbal",
     "note": "100 proof peppermint, ice-cold out of the freezer. The one schnapps most people actually ask for by name.",
+    "source": "draft"
+  },
+  "2581": {
+    "name": "Ryan's Cream",
+    "score": 5.5,
+    "style": "cream",
+    "note": "A bottom-shelf Irish cream. Thin compared to Carolans, but cheap.",
+    "source": "draft"
+  },
+  "2659": {
+    "name": "Seagram's Extra Smooth Vodka",
+    "score": 4.5,
+    "style": "budget",
+    "note": "A basic, inoffensive value vodka. Buy it for the price.",
+    "source": "draft"
+  },
+  "2724": {
+    "name": "Smirnoff Citrus Vodka",
+    "score": 4.5,
+    "style": "flavored",
+    "note": "Straightforward citrus, interchangeable with the rest of the Smirnoff flavor line.",
     "source": "draft"
   },
   "2827": {
@@ -346,6 +470,13 @@
     "score": 5.5,
     "style": "blended",
     "note": "Inoffensive everyday blend. Twenty-four dollars.",
+    "source": "draft"
+  },
+  "2967": {
+    "name": "Three Olives Vodka",
+    "score": 5,
+    "style": "standard",
+    "note": "A clean, unremarkable everyday vodka. Slightly smoother than the bottom-shelf brands.",
     "source": "draft"
   },
   "2975": {
@@ -410,11 +541,32 @@
     "note": "Cheap American brandy. A mixer, not a sipper.",
     "source": "draft"
   },
+  "3365": {
+    "name": "Evan Williams Egg Nog",
+    "score": 6.5,
+    "style": "egg-nog",
+    "note": "A genuine bourbon-based egg nog rather than a neutral-spirit one. The best-known name in the category for a reason.",
+    "source": "draft"
+  },
+  "3379": {
+    "name": "Glenfiddich Solera Reserve Single Malt",
+    "score": 7.5,
+    "style": "speyside",
+    "note": "Matured using a solera system for consistency. Rich and well-regarded.",
+    "source": "draft"
+  },
   "3393": {
     "name": "Hendrick's Gin",
     "score": 8,
     "style": "contemporary",
     "note": "Cucumber and rose. The gin that convinced a generation gin was not just juniper.",
+    "source": "draft"
+  },
+  "3431": {
+    "name": "Pampero Aniversary Rum",
+    "score": 7,
+    "style": "dark",
+    "note": "Venezuelan, comes in a leather-wrapped bottle. Smooth and traditional, priced fairly for the presentation.",
     "source": "draft"
   },
   "3445": {
@@ -431,6 +583,13 @@
     "note": "Four botanicals, 94.6 proof, nothing wasted. The one to beat under thirty dollars.",
     "source": "draft"
   },
+  "3565": {
+    "name": "Pinnacle Vodka",
+    "score": 5,
+    "style": "standard",
+    "note": "A clean, budget-friendly everyday vodka. Nothing remarkable, nothing wrong with it.",
+    "source": "draft"
+  },
   "3571": {
     "name": "Aristocrat Peach Schnapps",
     "score": 2.5,
@@ -443,6 +602,13 @@
     "score": 6.5,
     "style": "fruit",
     "note": "Italian lemon liqueur, bright and sweet. A good summer sipper, chilled.",
+    "source": "draft"
+  },
+  "3733": {
+    "name": "Van Gogh Citroen Vodka",
+    "score": 6,
+    "style": "flavored",
+    "note": "Bright citrus, a well-made flavored vodka in the same tier as Ketel One Citroen.",
     "source": "draft"
   },
   "3773": {
@@ -466,6 +632,41 @@
     "note": "The bottled-margarita default at every gas station. Thin tequila flavor, mostly sour mix.",
     "source": "draft"
   },
+  "3923": {
+    "name": "Talisker Distiller's Edition",
+    "score": 8.5,
+    "style": "island",
+    "note": "Amoroso sherry-finished. Rich, peppery, and one of the best regarded Talisker expressions.",
+    "source": "draft"
+  },
+  "3924": {
+    "name": "Dalwhinnie Distiller's Edition",
+    "score": 7.5,
+    "style": "highland",
+    "note": "A sherry-finished variant, richer than the standard 15 Year.",
+    "source": "draft"
+  },
+  "3925": {
+    "name": "Glenkinchie Distiller's Edition",
+    "score": 7,
+    "style": "highland",
+    "note": "Amontillado-finished, slightly richer than the standard 12 Year Lowland malt.",
+    "source": "draft"
+  },
+  "4025": {
+    "name": "Marie Brizard Triple Sec",
+    "score": 6.5,
+    "style": "fruit",
+    "note": "A genuinely good triple sec, a real step up from Bols or Arrow for margaritas and sidecars.",
+    "source": "draft"
+  },
+  "4026": {
+    "name": "Marie Brizard Blackberry Liqueur",
+    "score": 6,
+    "style": "fruit",
+    "note": "Solid blackberry flavor, a step up from the domestic mass brands.",
+    "source": "draft"
+  },
   "4034": {
     "name": "Margaritaville Silver Tequila",
     "score": 2.5,
@@ -478,6 +679,20 @@
     "note": "Sold on the same song.",
     "source": "draft"
   },
+  "4046": {
+    "name": "Van Gogh Double Espresso Vodka",
+    "score": 6,
+    "style": "flavored",
+    "note": "Genuine espresso character, one of the better coffee-flavored vodkas.",
+    "source": "draft"
+  },
+  "4069": {
+    "name": "PAMA Pomegranate",
+    "score": 6.5,
+    "style": "fruit",
+    "note": "Real pomegranate character, tart rather than syrupy. Versatile in cocktails.",
+    "source": "draft"
+  },
   "4125": {
     "name": "Ramazzotti Amaro",
     "score": 7,
@@ -485,11 +700,32 @@
     "note": "Classic Italian amaro, slightly sweeter and syrupy. A good introduction to the category.",
     "source": "draft"
   },
+  "4136": {
+    "name": "Pallini Raspicello Liqueur",
+    "score": 6.5,
+    "style": "fruit",
+    "note": "Raspberry variant, consistent with the quality of their limoncello.",
+    "source": "draft"
+  },
+  "4137": {
+    "name": "Pallini Peachcello Liqueur",
+    "score": 6.5,
+    "style": "fruit",
+    "note": "The Pallini formula applied to peach. Well-made, less iconic than their limoncello.",
+    "source": "draft"
+  },
   "4154": {
     "name": "Seagram's Distiller's Reserve Gin",
     "score": 6,
     "style": "contemporary",
     "note": "A real step up from standard Seagram's for two dollars more.",
+    "source": "draft"
+  },
+  "4189": {
+    "name": "Trader Vic's Kona Coffee Liqueur",
+    "score": 6,
+    "style": "coffee",
+    "note": "Real Kona coffee character, a step up from the mass-market coffee liqueurs.",
     "source": "draft"
   },
   "4206": {
@@ -513,6 +749,27 @@
     "note": "Honey liqueur at 71 proof. Sweet, and not really whiskey any more.",
     "source": "draft"
   },
+  "4537": {
+    "name": "Smirnoff Orange Vodka",
+    "score": 4.5,
+    "style": "flavored",
+    "note": "Basic orange flavor, does the job in a screwdriver.",
+    "source": "draft"
+  },
+  "4570": {
+    "name": "Grey Goose La Poire Vodka",
+    "score": 6.5,
+    "style": "flavored",
+    "note": "Pear flavor, subtle and well-integrated rather than candy-sweet.",
+    "source": "draft"
+  },
+  "4664": {
+    "name": "X-Rated Fusion",
+    "score": 5.5,
+    "style": "fruit",
+    "note": "Vodka, mango, and passion fruit. Sweet, built for shots and mixed drinks.",
+    "source": "draft"
+  },
   "4671": {
     "name": "Dr. McGuillicuddy's Cherry Schnapps",
     "score": 3.5,
@@ -525,6 +782,13 @@
     "score": 7,
     "style": "contemporary",
     "note": "Philadelphia, 94 proof, big organic citrus. Assertive.",
+    "source": "draft"
+  },
+  "4902": {
+    "name": "Lagavulin Distillers Edition",
+    "score": 8.5,
+    "style": "islay",
+    "note": "Pedro Ximenez sherry-finished. One of the most acclaimed Islay expressions available.",
     "source": "draft"
   },
   "4964": {
@@ -545,6 +809,13 @@
     "name": "Hennessy VS",
     "score": 7,
     "note": "The standard. Fruity, a bit hot, very consistent.",
+    "source": "draft"
+  },
+  "5094": {
+    "name": "Glenmorangie Quinta Ruban Scotch",
+    "score": 7.5,
+    "style": "highland",
+    "note": "Port-cask finished, richer and fruitier than the Original. A well-regarded step up.",
     "source": "draft"
   },
   "5095": {
@@ -589,6 +860,13 @@
     "note": "French ginger liqueur, real ginger heat and depth. Excellent in cocktails.",
     "source": "draft"
   },
+  "5608": {
+    "name": "Crop Organic Cucumber Vodka",
+    "score": 6.5,
+    "style": "organic",
+    "note": "Genuine organic cucumber character, refreshing and well-made.",
+    "source": "draft"
+  },
   "5693": {
     "name": "Captain Morgan Long Island Iced Tea",
     "score": 4,
@@ -624,11 +902,32 @@
     "note": "The yellow label. Light, floral, forgiving — good for someone new to bourbon.",
     "source": "draft"
   },
+  "5751": {
+    "name": "Dewar's 18 YR Founders Reserve",
+    "score": 7.5,
+    "style": "blended",
+    "note": "Rich and complex for a blend, one of the better-aged Dewar's expressions.",
+    "source": "draft"
+  },
+  "5772": {
+    "name": "Skyy Infusions Pineapple",
+    "score": 5.5,
+    "style": "flavored",
+    "note": "Tropical and genuine-tasting, solid mid-tier flavored vodka.",
+    "source": "draft"
+  },
   "5800": {
     "name": "Sailor Jerry Spiced Rum",
     "score": 6.5,
     "style": "spiced",
     "note": "Spicier and less candied than Captain Morgan. The better spiced rum for nearly the same money.",
+    "source": "draft"
+  },
+  "5843": {
+    "name": "The Scarlet Ibis Rum",
+    "score": 6.5,
+    "style": "gold",
+    "note": "Trinidadian, made for classic tiki cocktails. A fair Angostura-adjacent choice.",
     "source": "draft"
   },
   "5854": {
@@ -643,6 +942,13 @@
     "score": 8,
     "style": "kentucky-rye",
     "note": "101 proof and full of baking spice. A manhattan built for it.",
+    "source": "draft"
+  },
+  "6165": {
+    "name": "Mekhong Spirit Of Thailand",
+    "score": 5.5,
+    "style": "herbal",
+    "note": "A rice-and-sugarcane Thai spirit, herbal and unusual for a domestic shelf. Interesting more than essential.",
     "source": "draft"
   },
   "6169": {
@@ -698,6 +1004,13 @@
     "note": "Organic and clean. Made for margaritas.",
     "source": "draft"
   },
+  "6791": {
+    "name": "Smirnoff Green Apple",
+    "score": 4.5,
+    "style": "flavored",
+    "note": "Sour apple candy flavor, a fine mixer.",
+    "source": "draft"
+  },
   "6800": {
     "name": "Montenegro Amaro",
     "score": 7.5,
@@ -705,10 +1018,24 @@
     "note": "Balanced, citrus-and-herb Italian amaro. One of the most approachable amari for someone new to the category.",
     "source": "draft"
   },
+  "6827": {
+    "name": "Reservoir Rye Whiskey",
+    "score": 6.5,
+    "style": "kentucky-rye",
+    "note": "Richmond's own craft rye. Solid, worth it for the Virginia flag.",
+    "source": "draft"
+  },
   "6860": {
     "name": "Punt E Mes Vermouth",
     "score": 7.5,
     "note": "Sweet vermouth with a bitter edge. Terrific in a negroni.",
+    "source": "draft"
+  },
+  "6864": {
+    "name": "IL Tramonto Limoncello",
+    "score": 6,
+    "style": "fruit",
+    "note": "A fair mid-tier limoncello. Bright but less complex than the Pallini or Fabrizia versions.",
     "source": "draft"
   },
   "6954": {
@@ -728,6 +1055,13 @@
     "score": 7,
     "style": "fruit",
     "note": "A good, cheaper stand-in for Cointreau.",
+    "source": "draft"
+  },
+  "7165": {
+    "name": "Effen Cucumber Vodka",
+    "score": 6,
+    "style": "flavored",
+    "note": "Refreshing and clean, a good mixer for a vodka soda.",
     "source": "draft"
   },
   "7195": {
@@ -751,11 +1085,24 @@
     "note": "Harsh. There are better options two dollars up.",
     "source": "draft"
   },
+  "7352": {
+    "name": "Corzo Anejo",
+    "score": 6.5,
+    "note": "A fine, unremarkable anejo. Nothing wrong with it, nothing that stands out either.",
+    "source": "draft"
+  },
   "7355": {
     "name": "Wild Turkey 81",
     "score": 6.5,
     "style": "traditional",
     "note": "The softer Wild Turkey. Perfectly good; the 101 is better for five dollars more.",
+    "source": "draft"
+  },
+  "7373": {
+    "name": "Crop Harvest Earth  Organic Artisanal Vodka",
+    "score": 6,
+    "style": "organic",
+    "note": "Clean, certified-organic vodka. Solid everyday choice for the eco-conscious shopper.",
     "source": "draft"
   },
   "7376": {
@@ -785,6 +1132,13 @@
     "note": "Rounder and richer than VS cognacs. Good value at its tier.",
     "source": "draft"
   },
+  "7479": {
+    "name": "Johnnie Walker Double Black",
+    "score": 7,
+    "style": "blended",
+    "note": "Smokier and more intense than standard Black Label -- a fair step up for the modest price difference.",
+    "source": "draft"
+  },
   "7507": {
     "name": "High West Double Rye",
     "score": 7.5,
@@ -799,6 +1153,13 @@
     "note": "Norwegian caraway spirit, aged at sea. Distinctive and worth trying if you like herbal spirits.",
     "source": "draft"
   },
+  "7520": {
+    "name": "Smirnoff Whipped Cream Vodka",
+    "score": 4,
+    "style": "flavored",
+    "note": "Cake-batter sweet. Built for a dessert shot, not much else.",
+    "source": "draft"
+  },
   "7660": {
     "name": "Knob Creek Rye",
     "score": 8,
@@ -806,11 +1167,25 @@
     "note": "100 proof, same house style as Knob Creek Bourbon. Bold and a genuine step up in this price range.",
     "source": "draft"
   },
+  "7761": {
+    "name": "Pallini Limoncello",
+    "score": 7,
+    "style": "fruit",
+    "note": "One of the better widely-available limoncellos. Bright, real lemon character.",
+    "source": "draft"
+  },
   "7797": {
     "name": "No. 3 London Dry Gin",
     "score": 8,
     "style": "london-dry",
     "note": "Berry Bros bottling. Six botanicals, nothing wasted, textbook London dry.",
+    "source": "draft"
+  },
+  "7876": {
+    "name": "Pennsylvania Dutch Pumpkin Cream Liqueur",
+    "score": 5.5,
+    "style": "cream",
+    "note": "Seasonal pumpkin spice cream, sweet and appropriately autumnal.",
     "source": "draft"
   },
   "7878": {
@@ -827,11 +1202,32 @@
     "note": "Canadian-sourced, blended for smoothness rather than rye spice. Approachable if Bulleit is too sharp.",
     "source": "draft"
   },
+  "7913": {
+    "name": "Old Parr 12yr Scotch",
+    "score": 6.5,
+    "style": "blended",
+    "note": "A well-aged blend, popular in export markets. Smooth and easy-drinking.",
+    "source": "draft"
+  },
   "7981": {
     "name": "Cardenal Mendoza Black Carton",
     "score": 7.5,
     "style": "standard",
     "note": "Spanish brandy de Jerez, aged in sherry casks. One of the best brandies in the store outside of cognac.",
+    "source": "draft"
+  },
+  "7995": {
+    "name": "Crater Lake Vodka",
+    "score": 6,
+    "style": "standard",
+    "note": "Oregon craft vodka, smooth and reliable.",
+    "source": "draft"
+  },
+  "7999": {
+    "name": "Masterson's 10yr Straight Rye Whiskey",
+    "score": 8.5,
+    "style": "kentucky-rye",
+    "note": "Canadian-sourced, well-aged. Consistently one of the better-reviewed ryes at this price.",
     "source": "draft"
   },
   "8296": {
@@ -868,6 +1264,20 @@
     "note": "Rich for a dry vermouth and only fourteen dollars. Very good in a martini.",
     "source": "draft"
   },
+  "8419": {
+    "name": "St. Elder Natural Elderflower Liqueur",
+    "score": 6.5,
+    "style": "floral",
+    "note": "Comparable to Fiorente -- a genuinely good, affordable elderflower liqueur.",
+    "source": "draft"
+  },
+  "8468": {
+    "name": "Novo Fogo Silver Cachaca",
+    "score": 6.5,
+    "style": "cachaca",
+    "note": "Organic Brazilian cachaca, grassy and vegetal. The real base for an authentic caipirinha.",
+    "source": "draft"
+  },
   "8509": {
     "name": "Aviation Gin",
     "score": 7,
@@ -895,11 +1305,32 @@
     "note": "More smoke and pepper than the 10, no age statement. Good value.",
     "source": "draft"
   },
+  "8741": {
+    "name": "Mary Hite Bowman Caramel Cream",
+    "score": 6,
+    "style": "cream",
+    "note": "A Virginia-made caramel cream liqueur. Smooth and well-balanced.",
+    "source": "draft"
+  },
+  "8851": {
+    "name": "2 Gingers Irish Whiskey",
+    "score": 6,
+    "style": "blended",
+    "note": "Straightforward and easy-drinking, a fine mixer or shot.",
+    "source": "draft"
+  },
   "8905": {
     "name": "Crown Royal XO",
     "score": 7,
     "style": "blended",
     "note": "Cognac-cask finished. Fruitier and richer than Reserve — pick whichever finish you prefer.",
+    "source": "draft"
+  },
+  "8978": {
+    "name": "Jefferson's Ocean - Aged At Sea",
+    "score": 7.5,
+    "style": "traditional",
+    "note": "The gimmick (aged on a ship, no two batches alike) is real, and the result is genuinely good.",
     "source": "draft"
   },
   "9007": {
@@ -909,10 +1340,31 @@
     "note": "A cheaper elderflower liqueur than St-Germain. Good enough for a spritz.",
     "source": "draft"
   },
+  "9025": {
+    "name": "Ron Barcelo Imperial",
+    "score": 7,
+    "style": "dark",
+    "note": "Dominican, smooth and balanced. A dependable mid-tier aged rum.",
+    "source": "draft"
+  },
   "9067": {
     "name": "Jose Cuervo Especial Silver Tequila",
     "score": 3.5,
     "note": "Mixto. Buy Tradicional for three dollars more.",
+    "source": "draft"
+  },
+  "9074": {
+    "name": "Svedka Mango Pineapple Vodka",
+    "score": 4.5,
+    "style": "flavored",
+    "note": "Tropical fruit flavor, straightforward and sweet.",
+    "source": "draft"
+  },
+  "9075": {
+    "name": "Svedka Strawberry Lemonade Vodka",
+    "score": 4.5,
+    "style": "flavored",
+    "note": "Sweet and tart, a fine warm-weather mixer.",
     "source": "draft"
   },
   "9124": {
@@ -922,11 +1374,31 @@
     "note": "Higher-proof version of the standard Georgia Moon, sold in the mason-jar bottle.",
     "source": "draft"
   },
+  "9143": {
+    "name": "Jose Cuervo La Reserva Platino",
+    "score": 6.5,
+    "note": "Cuervo's premium silver. A real step up from the standard bottle, if not a match for the artisanal brands here.",
+    "source": "draft"
+  },
   "9157": {
     "name": "Bulldog Gin",
     "score": 6,
     "style": "contemporary",
     "note": "Smooth and a bit anonymous. Poppy and dragon eye don't announce themselves.",
+    "source": "draft"
+  },
+  "9190": {
+    "name": "Teeling Small Batch Irish Whiskey",
+    "score": 7.5,
+    "style": "blended",
+    "note": "Rum-cask finished, one of the best-regarded modern Irish blends. Distinctive and well-balanced.",
+    "source": "draft"
+  },
+  "9226": {
+    "name": "Deep Eddy Cranberry Vodka",
+    "score": 6,
+    "style": "flavored",
+    "note": "Tart and real-tasting, one of the better flavored vodkas in this price range.",
     "source": "draft"
   },
   "9263": {
@@ -964,11 +1436,25 @@
     "note": "Almond and marzipan. Better than the cheap amarettos by a distance.",
     "source": "draft"
   },
+  "9443": {
+    "name": "Basilica Sambuca",
+    "score": 6,
+    "style": "herbal",
+    "note": "A solid, mid-tier sambuca. Sweet anise, works well over espresso beans.",
+    "source": "draft"
+  },
   "9444": {
     "name": "Romana Sambuca",
     "score": 6,
     "style": "herbal",
     "note": "Classic anise liqueur. Sweet, licorice-forward, best iced or in coffee.",
+    "source": "draft"
+  },
+  "9445": {
+    "name": "Gran Gala Triple Orange",
+    "score": 6.5,
+    "style": "fruit",
+    "note": "A cognac-based orange liqueur, richer than a standard triple sec.",
     "source": "draft"
   },
   "9474": {
@@ -977,11 +1463,32 @@
     "note": "Mixto with caramel colour. The margarita hangover bottle.",
     "source": "draft"
   },
+  "9489": {
+    "name": "Rhum Barbancourt 3 Star",
+    "score": 7,
+    "style": "gold",
+    "note": "Haitian rhum agricole made from fresh cane juice, not molasses -- a distinctly different, grassier profile.",
+    "source": "draft"
+  },
   "9491": {
     "name": "Fighting Cock 103",
     "score": 6,
     "style": "traditional",
     "note": "103 proof and unsubtle. Cheap heat, some charm.",
+    "source": "draft"
+  },
+  "9583": {
+    "name": "Tippy Cow Orange Cream Rum",
+    "score": 5.5,
+    "style": "cream",
+    "note": "Creamsicle flavor on a rum cream base. Sweet and easy.",
+    "source": "draft"
+  },
+  "9584": {
+    "name": "Tippy Cow Vanilla Soft Serve Rum",
+    "score": 5.5,
+    "style": "cream",
+    "note": "Tastes like soft-serve ice cream, as advertised. A dessert pour.",
     "source": "draft"
   },
   "9615": {
@@ -1002,6 +1509,13 @@
     "score": 5.5,
     "style": "flavored",
     "note": "Sweet lemon. Does one job.",
+    "source": "draft"
+  },
+  "10277": {
+    "name": "Grind Espresso Shot",
+    "score": 6,
+    "style": "coffee",
+    "note": "A genuine espresso-forward shot, less sweet than Kahlua. Good for an espresso martini.",
     "source": "draft"
   },
   "10324": {
@@ -1032,6 +1546,13 @@
     "note": "White label in plastic. Mixing only.",
     "source": "draft"
   },
+  "10368": {
+    "name": "Smirnoff Vodka 80 Proof (plastic)",
+    "score": 5,
+    "style": "budget",
+    "note": "The plastic-jug version of the standard bottle. Same thin, clean profile, cheaper by volume.",
+    "source": "draft"
+  },
   "10387": {
     "name": "E & J VS Brandy",
     "score": 4.5,
@@ -1056,6 +1577,13 @@
     "score": 6,
     "style": "gold",
     "note": "Orange-forward and sweet. Divisive — great in a punch, odd on its own.",
+    "source": "draft"
+  },
+  "10404": {
+    "name": "Ron Matusalem Gran Reserva 15 Year Rum",
+    "score": 7.5,
+    "style": "dark",
+    "note": "A genuinely aged sipping rum with real depth. Good value for a stated 15-year age.",
     "source": "draft"
   },
   "10421": {
@@ -1125,6 +1653,69 @@
     "score": 7,
     "style": "flavored",
     "note": "Rangpur lime built in. Genuinely good in a gin and tonic.",
+    "source": "draft"
+  },
+  "10473": {
+    "name": "Grey Goose L'orange Vodka",
+    "score": 6.5,
+    "style": "flavored",
+    "note": "Grey Goose's clean French wheat base with real orange character. A cut above most flavored vodkas.",
+    "source": "draft"
+  },
+  "10482": {
+    "name": "Pinnacle Whipped Vodka",
+    "score": 4,
+    "style": "flavored",
+    "note": "Cake-frosting sweet. A novelty flavor for dessert shots.",
+    "source": "draft"
+  },
+  "10488": {
+    "name": "Skyy Infusions Citrus Vodka",
+    "score": 5.5,
+    "style": "flavored",
+    "note": "A clean, well-made citrus vodka, a step above the budget flavored brands.",
+    "source": "draft"
+  },
+  "10490": {
+    "name": "Smirnoff Strawberry Vodka",
+    "score": 4.5,
+    "style": "flavored",
+    "note": "Sweet strawberry candy flavor, unremarkable but reliable.",
+    "source": "draft"
+  },
+  "10526": {
+    "name": "Ketel One Citroen Vodka",
+    "score": 7,
+    "style": "flavored",
+    "note": "One of the better citrus vodkas available -- Ketel One's quality base makes a real difference.",
+    "source": "draft"
+  },
+  "10535": {
+    "name": "Three Olives Citrus Vodka",
+    "score": 4.5,
+    "style": "flavored",
+    "note": "Basic citrus flavor, comparable to the Smirnoff equivalent.",
+    "source": "draft"
+  },
+  "10541": {
+    "name": "Three Olives Triple Shot Espresso Vodka",
+    "score": 5,
+    "style": "flavored",
+    "note": "Genuinely useful for an espresso martini in a pinch, real coffee flavor.",
+    "source": "draft"
+  },
+  "10546": {
+    "name": "Ketel One Oranje Vodka",
+    "score": 6.5,
+    "style": "flavored",
+    "note": "Real orange character on an excellent base spirit.",
+    "source": "draft"
+  },
+  "10566": {
+    "name": "Pinnacle Salted Caramel Vodka",
+    "score": 4.5,
+    "style": "flavored",
+    "note": "Sweet caramel, fine in a spiked coffee or dessert cocktail.",
     "source": "draft"
   },
   "10579": {
@@ -1197,11 +1788,53 @@
     "note": "Clean and faintly citrus. The best of the big names.",
     "source": "draft"
   },
+  "10664": {
+    "name": "Angel's Envy Rye Whiskey",
+    "score": 8,
+    "style": "kentucky-rye",
+    "note": "Finished in rum casks (varies by batch). Distinctive and well-reviewed, a departure from a straight rye profile.",
+    "source": "draft"
+  },
+  "10708": {
+    "name": "Aberlour A'bunadh Single Malt Scotch",
+    "score": 8.5,
+    "style": "speyside",
+    "note": "Cask strength, no chill filtration, batch-varying. A cult favorite among Speyside drinkers.",
+    "source": "draft"
+  },
+  "10709": {
+    "name": "Aberlour 12 Year Single Malt Scotch",
+    "score": 7.5,
+    "style": "speyside",
+    "note": "A well-balanced sherry-and-bourbon-cask Speyside. Consistently well-reviewed.",
+    "source": "draft"
+  },
+  "10710": {
+    "name": "Aberlour 16 Year Single Malt Scotch",
+    "score": 8,
+    "style": "speyside",
+    "note": "More depth and age than the 12 Year, a genuine step up.",
+    "source": "draft"
+  },
   "10713": {
     "name": "Bowmore 12 Year Single Malt Scotch",
     "score": 7.5,
     "style": "islay",
     "note": "Gentler Islay. Smoke and lemon.",
+    "source": "draft"
+  },
+  "10714": {
+    "name": "Bunnahabhain 12 Year Single Malt Scotch",
+    "score": 7.5,
+    "style": "islay",
+    "note": "One of the least peated Islay malts -- sherry-forward and approachable if you find the others too smoky.",
+    "source": "draft"
+  },
+  "10718": {
+    "name": "Chivas Regal 18 Year Scotch",
+    "score": 7.5,
+    "style": "blended",
+    "note": "A well-regarded premium blend, richer and more complex than the standard 12 Year.",
     "source": "draft"
   },
   "10721": {
@@ -1211,11 +1844,25 @@
     "note": "A real step up from White Label. Decent value.",
     "source": "draft"
   },
+  "10723": {
+    "name": "Glendronach 12 Year Single Malt Scotch",
+    "score": 7.5,
+    "style": "speyside",
+    "note": "A rich, sherry-forward Speyside. Consistently well-reviewed among sherry-cask fans.",
+    "source": "draft"
+  },
   "10729": {
     "name": "Gordon's Vodka 80 Proof",
     "score": 3.5,
     "style": "budget",
     "note": "Basic well vodka. Fine in a Bloody Mary, nowhere else.",
+    "source": "draft"
+  },
+  "10758": {
+    "name": "Pusser's British Navy Rum",
+    "score": 7.5,
+    "style": "dark",
+    "note": "The historic Royal Navy rum recipe. Rich, full-bodied, genuinely distinctive among dark rums.",
     "source": "draft"
   },
   "10783": {
@@ -1230,6 +1877,20 @@
     "score": 7,
     "style": "wheated",
     "note": "Wheated variant of 1792. Softer and rounder than the rye-forward flagship.",
+    "source": "draft"
+  },
+  "10851": {
+    "name": "Hell Cat Maggie Irish Whiskey",
+    "score": 6,
+    "style": "blended",
+    "note": "A decent budget-tier blend, unremarkable but fine for mixing.",
+    "source": "draft"
+  },
+  "10999": {
+    "name": "The Quiet Man Traditional Irish Whiskey",
+    "score": 6.5,
+    "style": "blended",
+    "note": "A solid, traditional-style blend. Unremarkable but competent.",
     "source": "draft"
   },
   "11088": {
@@ -1252,10 +1913,31 @@
     "note": "Same quality, a little rounder. Excellent value.",
     "source": "draft"
   },
+  "11111": {
+    "name": "Deep Eddy Peach Vodka",
+    "score": 5.5,
+    "style": "flavored",
+    "note": "Solid peach flavor, consistent with the Deep Eddy quality tier.",
+    "source": "draft"
+  },
+  "11202": {
+    "name": "Vitae Spirits Platinum Rum",
+    "score": 6,
+    "style": "white",
+    "note": "Charlottesville craft rum. Clean and competent.",
+    "source": "draft"
+  },
   "11326": {
     "name": "Cabo Wabo Tequila Blanco",
     "score": 6,
     "note": "Fine. Nothing about it justifies the shelf position.",
+    "source": "draft"
+  },
+  "11329": {
+    "name": "Balvenie 12 Year Single Barrel Scotch",
+    "score": 7.5,
+    "style": "speyside",
+    "note": "Single-barrel expression, more variation and character than the Doublewood.",
     "source": "draft"
   },
   "11480": {
@@ -1320,6 +2002,13 @@
     "note": "Kentucky craft brandy, pot-distilled like bourbon. Bold and different from French style.",
     "source": "draft"
   },
+  "11629": {
+    "name": "Joseph Magnus Bourbon",
+    "score": 8,
+    "style": "traditional",
+    "note": "Finished in cognac, sherry, and pot-still rum casks. Distinctive and well-reviewed, if a bit of a departure from a classic bourbon.",
+    "source": "draft"
+  },
   "11657": {
     "name": "1800 Tequila Reposado",
     "score": 6,
@@ -1333,6 +2022,13 @@
     "note": "American-made wormwood absinthe. Real anise punch, milder than the European originals.",
     "source": "draft"
   },
+  "11676": {
+    "name": "Di Amore Amaretto",
+    "score": 6,
+    "style": "nut",
+    "note": "A reliable, mid-tier amaretto. Almond-forward without being cloying.",
+    "source": "draft"
+  },
   "11682": {
     "name": "Ardbeg 10 Year Islay Single Malt Scotch",
     "score": 8.5,
@@ -1340,11 +2036,32 @@
     "note": "The peatiest of the approachable Islays, and superb. Not a beginner bottle.",
     "source": "draft"
   },
+  "11690": {
+    "name": "Ardbeg Uigeadall Scotch",
+    "score": 8.5,
+    "style": "islay",
+    "note": "Sherry-cask influence over the peat. Widely considered one of Ardbeg's best standard releases.",
+    "source": "draft"
+  },
   "11691": {
     "name": "Aristocrat Southern Style Peach Schnapps",
     "score": 2.5,
     "style": "fruit",
     "note": "Same tier as Aristocrat's other schnapps. A mixer, not a sipper.",
+    "source": "draft"
+  },
+  "11693": {
+    "name": "Auchentosahn American Oak Scotch",
+    "score": 6.5,
+    "style": "highland",
+    "note": "A light, approachable Highland malt at a fair price.",
+    "source": "draft"
+  },
+  "11706": {
+    "name": "Ballantine's Scotch",
+    "score": 6,
+    "style": "blended",
+    "note": "A reliable, inoffensive budget blend. Smooth and simple, fine for mixing.",
     "source": "draft"
   },
   "11713": {
@@ -1382,11 +2099,32 @@
     "note": "Named for the real Franklin County, VA bootlegging family the movie Lawless was based on. Clean, unflavored, worth trying for the history alone.",
     "source": "draft"
   },
+  "11746": {
+    "name": "Buchanan's Deluxe 12 Year Scotch",
+    "score": 6.5,
+    "style": "blended",
+    "note": "A smooth, well-regarded blend, especially popular in Latin American markets.",
+    "source": "draft"
+  },
+  "11747": {
+    "name": "Buchanan's Deluxe 18 Year Scotch",
+    "score": 7.5,
+    "style": "blended",
+    "note": "A well-aged premium blend, smoother and richer than the 12 Year.",
+    "source": "draft"
+  },
   "11749": {
     "name": "Bulleit Rye Whiskey",
     "score": 7.5,
     "style": "high-rye",
     "note": "95% rye mashbill, spicy and assertive. The rye equivalent of Bulleit Bourbon — a cocktail workhorse.",
+    "source": "draft"
+  },
+  "11757": {
+    "name": "Bushmills Irish Whiskey",
+    "score": 7,
+    "style": "blended",
+    "note": "The standard Bushmills blend. Light, honeyed, a reliable everyday Irish whiskey.",
     "source": "draft"
   },
   "11758": {
@@ -1399,6 +2137,13 @@
     "name": "Canadian Club Whisky",
     "score": 5,
     "note": "Light and thin. Highballs only.",
+    "source": "draft"
+  },
+  "11782": {
+    "name": "Caol Ila 12 Year Scotch",
+    "score": 8,
+    "style": "islay",
+    "note": "Lighter and more maritime than Laphroaig or Ardbeg. A great introduction to Islay for the peat-curious.",
     "source": "draft"
   },
   "11797": {
@@ -1425,6 +2170,34 @@
     "score": 6.5,
     "style": "blended",
     "note": "Smooth, malty, unchallenging.",
+    "source": "draft"
+  },
+  "11818": {
+    "name": "Ciroc Apple Vodka",
+    "score": 6,
+    "style": "flavored",
+    "note": "Grape-based Ciroc gives this a slightly different mouthfeel than grain vodkas -- crisp apple flavor.",
+    "source": "draft"
+  },
+  "11819": {
+    "name": "Ciroc Coconut Vodka",
+    "score": 5.5,
+    "style": "flavored",
+    "note": "Real coconut character, useful in a tropical cocktail.",
+    "source": "draft"
+  },
+  "11820": {
+    "name": "Ciroc Peach Vodka",
+    "score": 5.5,
+    "style": "flavored",
+    "note": "Peach flavor on the Ciroc base, smooth and well-balanced.",
+    "source": "draft"
+  },
+  "11821": {
+    "name": "Ciroc Pineapple Vodka",
+    "score": 6,
+    "style": "flavored",
+    "note": "Bright pineapple flavor on the smooth grape-based spirit.",
     "source": "draft"
   },
   "11833": {
@@ -1459,11 +2232,25 @@
     "note": "Interchangeable with Bacardi Superior. Buy whichever's cheaper that week.",
     "source": "draft"
   },
+  "11858": {
+    "name": "Cruzan Single Barrel Rum",
+    "score": 7,
+    "style": "dark",
+    "note": "Cruzan's premium single-barrel expression. More depth than their standard flavored line.",
+    "source": "draft"
+  },
   "11862": {
     "name": "Cutty Sark Scotch",
     "score": 5,
     "style": "blended",
     "note": "Light and thin. For highballs.",
+    "source": "draft"
+  },
+  "11863": {
+    "name": "Dalwhinnie Single Malt Scotch",
+    "score": 7.5,
+    "style": "highland",
+    "note": "Light, heathery, and delicate -- one of the most approachable Highland malts.",
     "source": "draft"
   },
   "11864": {
@@ -1534,6 +2321,13 @@
     "note": "Vintage-dated single barrels at a Heaven Hill price. Punches well above its cost.",
     "source": "draft"
   },
+  "11910": {
+    "name": "Flor De Cana Centenario 12 Year Rum",
+    "score": 8,
+    "style": "dark",
+    "note": "Nicaraguan, well-aged, and consistently well-reviewed. One of the better values in this age range.",
+    "source": "draft"
+  },
   "11917": {
     "name": "George Dickel No. 12 Tennessee Whiskey",
     "score": 7,
@@ -1561,10 +2355,45 @@
     "note": "Pear and light oak. The other safe Speyside.",
     "source": "draft"
   },
+  "11928": {
+    "name": "Glenfiddich 14 Year Scotch",
+    "score": 7.5,
+    "style": "speyside",
+    "note": "Bourbon-barrel reserve, more depth than the 12 Year at a fair price increase.",
+    "source": "draft"
+  },
+  "11929": {
+    "name": "Glenkinchie 12 Year Scotch",
+    "score": 7,
+    "style": "highland",
+    "note": "A Lowland malt, lighter and grassier than most Highland or Speyside bottles.",
+    "source": "draft"
+  },
+  "11930": {
+    "name": "Glengoyne 10 Year Scotch",
+    "score": 6.5,
+    "style": "highland",
+    "note": "Unpeated Highland malt, light and grassy. A fair value entry point.",
+    "source": "draft"
+  },
+  "11935": {
+    "name": "Glenmorangie Nectar D'or Scotch",
+    "score": 7.5,
+    "style": "highland",
+    "note": "Sauternes-cask finished, sweet and distinctive among the Glenmorangie range.",
+    "source": "draft"
+  },
   "11942": {
     "name": "Gran Centenario Tequila Reposado",
     "score": 6.5,
     "note": "Rounded and easy.",
+    "source": "draft"
+  },
+  "11945": {
+    "name": "Grant's Scotch",
+    "score": 6,
+    "style": "blended",
+    "note": "Similar tier to Ballantine's -- a fair everyday mixing blend.",
     "source": "draft"
   },
   "11946": {
@@ -1580,6 +2409,13 @@
     "note": "The cheap McKenna, not the 10-year bonded. Thin but honest at thirteen dollars.",
     "source": "draft"
   },
+  "11953": {
+    "name": "Henry Mckenna Single Barrel Bourbon",
+    "score": 9,
+    "style": "bottled-in-bond",
+    "note": "Once named World Whisky of the Year at a fraction of what that title usually costs. Still one of the best values in bourbon when you can find it.",
+    "source": "draft"
+  },
   "11962": {
     "name": "Hornito's Black Barrel Tequila",
     "score": 7,
@@ -1593,10 +2429,24 @@
     "note": "101 proof peppermint. Strong enough that bartenders actually reach for it.",
     "source": "draft"
   },
+  "11974": {
+    "name": "J & B Rare Scotch",
+    "score": 5.5,
+    "style": "blended",
+    "note": "Light and grain-forward. A basic mixing blend, nothing more.",
+    "source": "draft"
+  },
   "11978": {
     "name": "Jack Daniel's Single Barrel Tennessee Whiskey",
     "score": 7.5,
     "note": "Stronger and oakier than Old No. 7. Worth the jump.",
+    "source": "draft"
+  },
+  "11984": {
+    "name": "Jameson Black Barrel Irish Whiskey",
+    "score": 7.5,
+    "style": "blended",
+    "note": "Jameson's premium small-batch expression. Richer and more complex than the standard bottle.",
     "source": "draft"
   },
   "11986": {
@@ -1640,6 +2490,13 @@
     "note": "The reliable blend. Smoke, fruit, consistency.",
     "source": "draft"
   },
+  "12000": {
+    "name": "Johnnie Walker Green Scotch",
+    "score": 7.5,
+    "style": "blended-malt",
+    "note": "A blended malt built from four single malts including Talisker and Linkwood. Distinctive among the Walker range.",
+    "source": "draft"
+  },
   "12002": {
     "name": "Johnnie Walker Red Scotch",
     "score": 5.5,
@@ -1668,6 +2525,20 @@
     "note": "Charlottesville. A well-made modern gin, worth a look if buying Virginia matters to you.",
     "source": "draft"
   },
+  "12180": {
+    "name": "Vitae Spirits Golden Rum",
+    "score": 6.5,
+    "style": "gold",
+    "note": "Vitae's aged expression, a fair step up from their Platinum.",
+    "source": "draft"
+  },
+  "12242": {
+    "name": "Alize Peach",
+    "score": 5,
+    "style": "fruit",
+    "note": "Peach variant on the Alize formula, consistent sweetness with the line.",
+    "source": "draft"
+  },
   "12275": {
     "name": "Breckenridge Distiller's High Proof Blend",
     "score": 7,
@@ -1675,11 +2546,39 @@
     "note": "High-proof Colorado blend. Spicier and more assertive than most blended whiskey.",
     "source": "draft"
   },
+  "12294": {
+    "name": "Deep Eddy Orange Vodka",
+    "score": 5.5,
+    "style": "flavored",
+    "note": "Clean orange flavor, a fair mixer.",
+    "source": "draft"
+  },
+  "12298": {
+    "name": "Brugal 1888 Rum",
+    "score": 7.5,
+    "style": "dark",
+    "note": "Brugal's premium sherry-cask-finished rum. Smooth and well-regarded, a real step up from their standard line.",
+    "source": "draft"
+  },
+  "12325": {
+    "name": "Kilbeggan Irish Whiskey",
+    "score": 6.5,
+    "style": "blended",
+    "note": "A genuinely solid budget blend from Ireland's oldest licensed distillery.",
+    "source": "draft"
+  },
   "12327": {
     "name": "Knob Creek Bourbon",
     "score": 8,
     "style": "traditional",
     "note": "Nine years old, 100 proof, unapologetically oaky. A lot of bourbon for the money.",
+    "source": "draft"
+  },
+  "12347": {
+    "name": "Laphroaig Select Scotch",
+    "score": 7,
+    "style": "islay",
+    "note": "A lighter, more approachable entry into Laphroaig's famously smoky style.",
     "source": "draft"
   },
   "12352": {
@@ -1720,6 +2619,20 @@
     "note": "Blended malt built for cocktails. Genuinely useful.",
     "source": "draft"
   },
+  "12485": {
+    "name": "Effen Blood Orange Vodka",
+    "score": 6,
+    "style": "flavored",
+    "note": "A Dutch wheat vodka with genuine blood orange flavor. Solid mid-premium option.",
+    "source": "draft"
+  },
+  "12526": {
+    "name": "Papa's Pilar Blonde Rum",
+    "score": 6.5,
+    "style": "gold",
+    "note": "Hemingway-branded, solar-aged. A fair sipping rum, more marketing than a category standout.",
+    "source": "draft"
+  },
   "12528": {
     "name": "Jim Beam Vanilla",
     "score": 3,
@@ -1727,11 +2640,32 @@
     "note": "Vanilla syrup with a whiskey accent.",
     "source": "draft"
   },
+  "12534": {
+    "name": "Blue Chair Bay Banana Rum Cream",
+    "score": 6.5,
+    "style": "cream",
+    "note": "Kenny Chesney's rum cream line. Genuinely good banana flavor, a step up from the bargain creams.",
+    "source": "draft"
+  },
+  "12535": {
+    "name": "Blue Chair Bay Key Lime Rum Cream",
+    "score": 6.5,
+    "style": "cream",
+    "note": "Tart-and-sweet key lime, one of the better flavored rum creams available.",
+    "source": "draft"
+  },
   "12654": {
     "name": "Meletti Amaro",
     "score": 7,
     "style": "herbal",
     "note": "Saffron-tinted, herbal and citrusy. Well-balanced Italian amaro.",
+    "source": "draft"
+  },
+  "12685": {
+    "name": "Ezra Brooks Bourbon Cream",
+    "score": 6,
+    "style": "cream",
+    "note": "A real bourbon base gives this more character than most flavored cream liqueurs.",
     "source": "draft"
   },
   "12710": {
@@ -1762,6 +2696,13 @@
     "note": "Demerara rum's best cheap entry point. Rich, sweet, real depth for twenty-five dollars.",
     "source": "draft"
   },
+  "12736": {
+    "name": "El Dorado 3-year Rum",
+    "score": 6.5,
+    "style": "gold",
+    "note": "Guyanese, from a distillery famous for its aged expressions. Smooth even at this young age.",
+    "source": "draft"
+  },
   "12751": {
     "name": "Sauza Hornitos Tequila Reposado",
     "score": 6.5,
@@ -1775,11 +2716,45 @@
     "note": "Coffee-flavored, sweet rather than bitter. A dessert-drink base.",
     "source": "draft"
   },
+  "12951": {
+    "name": "Patron Extra Anejo",
+    "score": 7.5,
+    "note": "More time in oak than the standard Anejo, with real added depth to show for it.",
+    "source": "draft"
+  },
   "12953": {
     "name": "Ole Smoky Blackberry Moonshine",
     "score": 5.5,
     "style": "fruit",
     "note": "Solid blackberry flavor, sweeter than a real fruit liqueur.",
+    "source": "draft"
+  },
+  "13003": {
+    "name": "Tomatin Scotch Whisky Dualchas",
+    "score": 7,
+    "style": "highland",
+    "note": "A step up from the 12 Year, more sherry-cask influence.",
+    "source": "draft"
+  },
+  "13017": {
+    "name": "Writers' Tears Copper Pot Irish Whiskey",
+    "score": 7.5,
+    "style": "single-pot-still",
+    "note": "A blend of pot-still and single malt whiskeys. Well-regarded and distinctive.",
+    "source": "draft"
+  },
+  "13079": {
+    "name": "Blackbeard's Point Rum",
+    "score": 6,
+    "style": "gold",
+    "note": "Virginia craft rum, decent and unremarkable.",
+    "source": "draft"
+  },
+  "13083": {
+    "name": "Jameson Caskmates Ipa Irish Whiskey",
+    "score": 6.5,
+    "style": "cask-finish",
+    "note": "Finished in IPA beer casks -- a genuinely distinctive, hoppy twist on standard Jameson.",
     "source": "draft"
   },
   "13142": {
@@ -1870,6 +2845,13 @@
     "note": "1792's high-rye recipe at bottled-in-bond proof. More structure than the flagship Small Batch.",
     "source": "draft"
   },
+  "13494": {
+    "name": "Bushmills 10 Year Irish Malt Whiskey",
+    "score": 7.5,
+    "style": "single-malt",
+    "note": "Bushmills' entry-level age-stated single malt. A genuine step up from the standard blend.",
+    "source": "draft"
+  },
   "13546": {
     "name": "Kahlua Coffee Liqueur",
     "score": 6,
@@ -1884,11 +2866,25 @@
     "note": "Six years old, Wild Turkey pedigree. Well-aged rye at a price that undercuts most of this list.",
     "source": "draft"
   },
+  "13569": {
+    "name": "Speyburn 15 Year Single Malt Scotch",
+    "score": 7,
+    "style": "speyside",
+    "note": "More depth than the 10 Year, still priced fairly for the age statement.",
+    "source": "draft"
+  },
   "13575": {
     "name": "Evan Williams Cherry Reserve",
     "score": 3,
     "style": "flavored",
     "note": "Cough-syrup cherry.",
+    "source": "draft"
+  },
+  "13576": {
+    "name": "Russell's Reserve Single Barrel Bourbon",
+    "score": 8,
+    "style": "traditional",
+    "note": "Wild Turkey's premium single-barrel line. Consistently well-reviewed, a step above their standard bottles.",
     "source": "draft"
   },
   "13583": {
@@ -1990,6 +2986,13 @@
     "note": "Greek brandy blended with wine and botanicals. Sweet and distinct — not trying to be cognac.",
     "source": "draft"
   },
+  "13744": {
+    "name": "Denizen Merchant's Reserve 8yr Rum",
+    "score": 7,
+    "style": "gold",
+    "note": "Denizen's aged sipping rum, a step up in complexity from their Vatted Dark blending rum.",
+    "source": "draft"
+  },
   "13767": {
     "name": "Belle Isle Blood Orange Moonshine",
     "score": 6,
@@ -2002,6 +3005,13 @@
     "score": 6.5,
     "style": "blended",
     "note": "Smooth, mellow, a little sweet. The rodeo-branding whisky, and it holds up.",
+    "source": "draft"
+  },
+  "13816": {
+    "name": "Fiorente Italian Elderflower Liqueur",
+    "score": 6.5,
+    "style": "floral",
+    "note": "A fair St-Germain alternative at a lower price. Real elderflower character.",
     "source": "draft"
   },
   "13856": {
@@ -2080,10 +3090,24 @@
     "note": "Same whiskey as the glass bottle. Buy this one and pocket the difference.",
     "source": "draft"
   },
+  "14257": {
+    "name": "E H Taylor Jr Barrel Proof Bourbon",
+    "score": 9,
+    "style": "barrel-proof",
+    "note": "The top of the Taylor line and one of the most sought-after barrel-proof bourbons available.",
+    "source": "draft"
+  },
   "14309": {
     "name": "Proper No. Twelve Irish Whiskey",
     "score": 4.5,
     "note": "Thin and sweet. Sold on a fighter, not a distillery.",
+    "source": "draft"
+  },
+  "14346": {
+    "name": "Smirnoff Kissed Caramel Vodka",
+    "score": 4.5,
+    "style": "flavored",
+    "note": "Sweet caramel, works in a spiked coffee drink.",
     "source": "draft"
   },
   "14389": {
@@ -2100,11 +3124,46 @@
     "note": "Younger, brighter, sharper smoke. Cheaper than the 16 and not a compromise.",
     "source": "draft"
   },
+  "14416": {
+    "name": "Bruichladdich Port Charlotte 10 Year Scotch",
+    "score": 8,
+    "style": "islay",
+    "note": "Bruichladdich's peated line. Well-balanced smoke with real complexity.",
+    "source": "draft"
+  },
   "14443": {
     "name": "Schlichte Steinhager Gin",
     "score": 6.5,
     "style": "genever",
     "note": "German steinhäger — malty, closer to genever than London dry. An oddity worth trying once.",
+    "source": "draft"
+  },
+  "14482": {
+    "name": "Elijah Craig Barrel Proof Bourbon",
+    "score": 9,
+    "style": "barrel-proof",
+    "note": "A genuine cult release at a fair price when you can find it. Consistently excellent across batches.",
+    "source": "draft"
+  },
+  "14490": {
+    "name": "Johnnie Walker 18 Year Scotch",
+    "score": 8,
+    "style": "blended",
+    "note": "Rich and well-aged, a genuine step up in complexity from Gold Label Reserve.",
+    "source": "draft"
+  },
+  "14506": {
+    "name": "Dewar's 15 Year Reserve Scotch",
+    "score": 7,
+    "style": "blended",
+    "note": "A well-aged Dewar's blend, smoother than their standard White Label.",
+    "source": "draft"
+  },
+  "14507": {
+    "name": "Craigellachie 13 Year Single Malt Scotch",
+    "score": 7.5,
+    "style": "speyside",
+    "note": "Meaty and sulfury in a way that stands out from typical Speyside -- distinctive and well-regarded.",
     "source": "draft"
   },
   "14540": {
@@ -2140,6 +3199,13 @@
     "note": "Apple candy at 70 proof.",
     "source": "draft"
   },
+  "14823": {
+    "name": "Glendronach 15yr Revival",
+    "score": 8,
+    "style": "speyside",
+    "note": "More depth than the 12 Year, a genuine favorite among sherry-cask Speyside drinkers.",
+    "source": "draft"
+  },
   "14827": {
     "name": "Haku Vodka",
     "score": 7,
@@ -2154,11 +3220,30 @@
     "note": "Sweet, artificial.",
     "source": "draft"
   },
+  "14895": {
+    "name": "Del Maguey Chichicapa Mezcal",
+    "score": 8.5,
+    "note": "A legendary single-village mezcal. Smoky and complex in a way most mainstream mezcal never gets close to.",
+    "source": "draft"
+  },
   "14927": {
     "name": "Ole Smoky Moonshine Pickles",
     "score": 4.5,
     "style": "novelty",
     "note": "Their pickle gimmick. Convincingly briny; a novelty shot, not much more.",
+    "source": "draft"
+  },
+  "15002": {
+    "name": "Don Julio Reposado Private Cask",
+    "score": 7.5,
+    "note": "A single-cask pick of a trusted name. Consistent with the quality Don Julio is known for.",
+    "source": "draft"
+  },
+  "15031": {
+    "name": "Bulleit Rye 12 Year",
+    "score": 8.5,
+    "style": "kentucky-rye",
+    "note": "A genuine age-stated step up from standard Bulleit Rye. More depth, still recognizably Bulleit.",
     "source": "draft"
   },
   "15033": {
@@ -2182,6 +3267,13 @@
     "note": "No age statement now, but the barrel selection is still doing real work. Great value in this tier.",
     "source": "draft"
   },
+  "15073": {
+    "name": "Alize Gold Passion",
+    "score": 5.5,
+    "style": "fruit",
+    "note": "Vodka-based passion fruit variant, similar sweetness to Red Passion.",
+    "source": "draft"
+  },
   "15074": {
     "name": "Ancho Reyes Chile Liqueur",
     "score": 7,
@@ -2203,6 +3295,13 @@
     "note": "114 proof Virginia. Punchy, holds its own in a cocktail.",
     "source": "draft"
   },
+  "15102": {
+    "name": "Blanton's Single Barrel Bourbon",
+    "score": 9,
+    "style": "traditional",
+    "note": "The bottle that started the modern single-barrel craze. Usually allocated -- genuinely excellent when you find it at a fair price.",
+    "source": "draft"
+  },
   "15117": {
     "name": "Caorunn Small Batch Scottish Gin",
     "score": 7.5,
@@ -2210,11 +3309,25 @@
     "note": "Rowan berry and apple, crisp and dry. Excellent with a slice of red apple.",
     "source": "draft"
   },
+  "15125": {
+    "name": "Captain Morgan Private Stock Rum",
+    "score": 6,
+    "style": "spiced",
+    "note": "Captain Morgan's premium spiced expression, a bit more depth than the standard bottle.",
+    "source": "draft"
+  },
   "15127": {
     "name": "Captain Morgan Original Spiced Rum",
     "score": 5.5,
     "style": "spiced",
     "note": "Vanilla-and-caramel spiced rum everyone already knows. Sweet, simple, does the job.",
+    "source": "draft"
+  },
+  "15130": {
+    "name": "Carolans Irish Cream",
+    "score": 6.5,
+    "style": "cream",
+    "note": "The value alternative to Baileys. Slightly thinner, but a fair stand-in at a lower price.",
     "source": "draft"
   },
   "15135": {
@@ -2244,11 +3357,39 @@
     "note": "Sweet, rich, dessert-in-a-glass. Rum enthusiasts roll their eyes; everyone else loves it.",
     "source": "draft"
   },
+  "15161": {
+    "name": "Dog Star Vodka",
+    "score": 5.5,
+    "style": "standard",
+    "note": "A fair Virginia craft vodka, clean profile.",
+    "source": "draft"
+  },
+  "15178": {
+    "name": "Fabrizia Limoncello",
+    "score": 6.5,
+    "style": "fruit",
+    "note": "A solid limoncello, less well-known than Pallini but comparable quality.",
+    "source": "draft"
+  },
+  "15188": {
+    "name": "Flying Dragon Spiced Rum",
+    "score": 5.5,
+    "style": "spiced",
+    "note": "A fair Virginia-made spiced rum, unremarkable but competent.",
+    "source": "draft"
+  },
   "15199": {
     "name": "Hennessy VSOP Privilege",
     "score": 7,
     "style": "cognac",
     "note": "Hennessy's mid-tier. Balanced and reliable, the cognac most people actually drink.",
+    "source": "draft"
+  },
+  "15219": {
+    "name": "Kapali De Cafe Coffee Liqueur",
+    "score": 5,
+    "style": "coffee",
+    "note": "Bottom-shelf coffee liqueur. Fine as a mixer, not much else.",
     "source": "draft"
   },
   "15220": {
@@ -2270,11 +3411,32 @@
     "note": "All apple, 100 proof, twenty-eight dollars. Far better than the Applejack.",
     "source": "draft"
   },
+  "15247": {
+    "name": "Mt. Defiance Rum Dark",
+    "score": 6,
+    "style": "dark",
+    "note": "Mt. Defiance's aged expression, more depth than their white.",
+    "source": "draft"
+  },
   "15253": {
     "name": "Murlarkey Imagination Gin",
     "score": 6,
     "style": "contemporary",
     "note": "Virginia craft, soft profile.",
+    "source": "draft"
+  },
+  "15259": {
+    "name": "New Amsterdam Lemon Vodka",
+    "score": 4.5,
+    "style": "flavored",
+    "note": "Straightforward lemon flavor, useful in a vodka lemonade.",
+    "source": "draft"
+  },
+  "15265": {
+    "name": "Carolan's Salted Caramel",
+    "score": 6,
+    "style": "cream",
+    "note": "Similar tier to their standard Irish Cream with a caramel twist.",
     "source": "draft"
   },
   "15267": {
@@ -2296,6 +3458,13 @@
     "score": 5.5,
     "style": "original",
     "note": "Unaged corn whiskey, sharper than Belle Isle. The base every flavor here starts from.",
+    "source": "draft"
+  },
+  "15273": {
+    "name": "Paddy's Old Irish Whiskey",
+    "score": 6,
+    "style": "blended",
+    "note": "Light and easy, one of the older Irish whiskey brands still on the shelf.",
     "source": "draft"
   },
   "15286": {
@@ -2325,6 +3494,20 @@
     "note": "Rich, oaky cognac between VSOP and XO in style. A favorite among cognac drinkers.",
     "source": "draft"
   },
+  "15307": {
+    "name": "Speyburn 10 Year Single Malt Scotch",
+    "score": 6.5,
+    "style": "speyside",
+    "note": "One of the better-value age-stated single malts on the shelf. Light and honeyed.",
+    "source": "draft"
+  },
+  "15311": {
+    "name": "Saint Brendan's Superior Irish Cream",
+    "score": 6.5,
+    "style": "cream",
+    "note": "A solid, unpretentious Irish cream. Comparable to Carolans in the same price tier.",
+    "source": "draft"
+  },
   "15329": {
     "name": "Tim Smith Climax Moonshine",
     "score": 6,
@@ -2339,6 +3522,20 @@
     "note": "Bright and busy, as the name promises.",
     "source": "draft"
   },
+  "15333": {
+    "name": "Tomatin 12 Year Scotch",
+    "score": 6.5,
+    "style": "highland",
+    "note": "A light, fruity Highland malt at a fair price. Unremarkable but pleasant.",
+    "source": "draft"
+  },
+  "15340": {
+    "name": "Trial & Error Golden Rum",
+    "score": 6,
+    "style": "gold",
+    "note": "Trial & Error's aged expression, slightly more character than their Silver.",
+    "source": "draft"
+  },
   "15346": {
     "name": "Twin Creeks 1st Sugar Moonshine",
     "score": 5.5,
@@ -2346,11 +3543,46 @@
     "note": "Virginia craft moonshine, clean and straightforward.",
     "source": "draft"
   },
+  "15350": {
+    "name": "Virginia Frost Vodka",
+    "score": 5.5,
+    "style": "standard",
+    "note": "Another Virginia craft entry, clean and competent.",
+    "source": "draft"
+  },
+  "15355": {
+    "name": "Weller C.y.p.b. Bourbon",
+    "score": 8,
+    "style": "wheated",
+    "note": "Higher rye content than the rest of the Weller line for a spicier wheater. Well regarded by collectors.",
+    "source": "draft"
+  },
+  "15356": {
+    "name": "Whistlepig Straight Rye Whiskey",
+    "score": 8,
+    "style": "high-rye",
+    "note": "Whistlepig's flagship 100% rye. Well-regarded, a fair step up from their Piggyback line.",
+    "source": "draft"
+  },
   "15486": {
     "name": "Don Q 151",
     "score": 6.5,
     "style": "overproof",
     "note": "151-proof Puerto Rican overproof for tiki drinks and flaming presentations. Handle carefully.",
+    "source": "draft"
+  },
+  "15490": {
+    "name": "Siesta Key Toasted Coconut Rum",
+    "score": 6,
+    "style": "spiced",
+    "note": "Toasted coconut gives it more depth than a straight coconut rum.",
+    "source": "draft"
+  },
+  "15491": {
+    "name": "Siesta Key Spiced Rum",
+    "score": 6,
+    "style": "spiced",
+    "note": "Florida-made spiced rum, a solid warm-weather sipper.",
     "source": "draft"
   },
   "15495": {
@@ -2394,6 +3626,13 @@
     "note": "Made in Fredericksburg from Buffalo Trace distillate. The Virginia one worth buying.",
     "source": "draft"
   },
+  "15534": {
+    "name": "George Bowman Rum",
+    "score": 6,
+    "style": "gold",
+    "note": "Virginia craft rum from the Bowman Brothers distillery. Solid, worth trying alongside their bourbon.",
+    "source": "draft"
+  },
   "15537": {
     "name": "Barr Hill Gin",
     "score": 7,
@@ -2413,6 +3652,13 @@
     "score": 6.5,
     "style": "original",
     "note": "Virginia, organic corn, unaged. Cleaner and less harsh than the Tennessee mass brands.",
+    "source": "draft"
+  },
+  "15555": {
+    "name": "Bumbu The Original Rum",
+    "score": 6.5,
+    "style": "spiced",
+    "note": "Vanilla and banana-forward, sweeter and more dessert-like than a classic spiced rum.",
     "source": "draft"
   },
   "15556": {
@@ -2436,11 +3682,45 @@
     "note": "Jay-Z's cognac brand. Smooth and citrusy, genuinely well-made beyond the celebrity tie-in.",
     "source": "draft"
   },
+  "15575": {
+    "name": "E H Taylor Jr. Straight Rye Whiskey",
+    "score": 8.5,
+    "style": "bottled-in-bond",
+    "note": "Part of the well-regarded Taylor lineup. Consistently excellent, bottled in bond.",
+    "source": "draft"
+  },
+  "15585": {
+    "name": "Dos Hombres Mezcal",
+    "score": 7.5,
+    "note": "Bryan Cranston and Aaron Paul's mezcal. The celebrity backing aside, it is genuinely well-made and artisanal.",
+    "source": "draft"
+  },
   "15610": {
     "name": "Jim Beam Red Stag",
     "score": 3,
     "style": "flavored",
     "note": "Black cherry Beam. Dated.",
+    "source": "draft"
+  },
+  "15614": {
+    "name": "Kill Devil Pecan Honey Rum",
+    "score": 5.5,
+    "style": "spiced",
+    "note": "A novelty Southern-flavored rum, sweet and distinctive if not classic.",
+    "source": "draft"
+  },
+  "15615": {
+    "name": "Kinky Blue Liqueur",
+    "score": 5,
+    "style": "fruit",
+    "note": "A tropical, brightly-colored party liqueur. Sweet and simple.",
+    "source": "draft"
+  },
+  "15616": {
+    "name": "Kinky Pink Liqueur",
+    "score": 5,
+    "style": "fruit",
+    "note": "Similar tier to Kinky Blue -- built for shots more than sipping.",
     "source": "draft"
   },
   "15622": {
@@ -2477,11 +3757,32 @@
     "note": "Icelandic, lava-filtered, genuinely smooth for the price.",
     "source": "draft"
   },
+  "15668": {
+    "name": "Spirits Of The Blue Ridge Vodka",
+    "score": 5.5,
+    "style": "standard",
+    "note": "A solid Virginia craft vodka, clean and unremarkable in a good way.",
+    "source": "draft"
+  },
   "15673": {
     "name": "The Balvenie 12yr American Oak",
     "score": 8,
     "style": "speyside",
     "note": "Honeyed and easy to like. A safe gift that is also genuinely good.",
+    "source": "draft"
+  },
+  "15674": {
+    "name": "The Balvenie 14 Year Caribbean Cask Scotch",
+    "score": 8,
+    "style": "speyside",
+    "note": "Rum-cask finished, sweeter and richer than the Doublewood. Well-regarded.",
+    "source": "draft"
+  },
+  "15675": {
+    "name": "The Balvenie Doublewood 12 Year Scotch",
+    "score": 8,
+    "style": "speyside",
+    "note": "One of the most approachable and well-regarded entry points into single malt Scotch.",
     "source": "draft"
   },
   "15679": {
@@ -2491,6 +3792,13 @@
     "note": "The safe Speyside. Pleasant, mild, everywhere.",
     "source": "draft"
   },
+  "15680": {
+    "name": "The Glenlivet 14 Year Single Malt Scotch",
+    "score": 7.5,
+    "style": "speyside",
+    "note": "A genuine step up from the Founders Reserve, with real cask complexity.",
+    "source": "draft"
+  },
   "15693": {
     "name": "Uncle Val's Botanical Gin",
     "score": 6.5,
@@ -2498,11 +3806,66 @@
     "note": "Cucumber and lavender. Nice bottle, nice gin, priced like it knows both.",
     "source": "draft"
   },
+  "15694": {
+    "name": "Virago Four-port Rum",
+    "score": 6.5,
+    "style": "dark",
+    "note": "Virago's aged expression, more character than their standard white.",
+    "source": "draft"
+  },
+  "15731": {
+    "name": "District Made Vodka",
+    "score": 6,
+    "style": "standard",
+    "note": "DC-area craft vodka, clean and well-made.",
+    "source": "draft"
+  },
+  "15735": {
+    "name": "Weller Full Proof",
+    "score": 8.5,
+    "style": "wheated",
+    "note": "Bottled at the barrel-entry proof. More intensity than the standard Weller line without losing the wheated softness.",
+    "source": "draft"
+  },
+  "15741": {
+    "name": "Jagermeister Cold Brew Coffee",
+    "score": 6,
+    "style": "herbal",
+    "note": "Coffee and the classic 56-herb Jager blend. More interesting than the fruit variants.",
+    "source": "draft"
+  },
+  "15817": {
+    "name": "Casa Dragones Blanco Puro Agave Azul",
+    "score": 7.5,
+    "note": "An ultra-premium sipping blanco, smooth enough to drink neat rather than in a mixed drink.",
+    "source": "draft"
+  },
+  "15845": {
+    "name": "Marie Brizard Peach Liqueur",
+    "score": 6,
+    "style": "fruit",
+    "note": "A well-made peach liqueur, useful in classic cocktails calling for creme de peche.",
+    "source": "draft"
+  },
+  "15861": {
+    "name": "Ron Del Barrilito 3-star Rum",
+    "score": 7,
+    "style": "dark",
+    "note": "Puerto Rican, made in the sherry-cask solera style. Distinctive among the Caribbean rums here.",
+    "source": "draft"
+  },
   "15902": {
     "name": "Virgin Bourbon 101",
     "score": 6,
     "style": "traditional",
     "note": "Obscure, 101 proof, eighteen dollars. Worth trying once.",
+    "source": "draft"
+  },
+  "15915": {
+    "name": "Horse Soldier Small Batch Bourbon",
+    "score": 6.5,
+    "style": "traditional",
+    "note": "Veteran-owned, sourced juice. A fine bottle, but the story is doing more work than the whiskey at this price.",
     "source": "draft"
   },
   "15938": {
@@ -2519,6 +3882,20 @@
     "note": "Peanut butter and chocolate. Tastes like the candy, unapologetically.",
     "source": "draft"
   },
+  "16005": {
+    "name": "Speyburn 18 Yr Scotch",
+    "score": 7.5,
+    "style": "speyside",
+    "note": "Speyburn's oldest widely available expression. Well-aged and a fair value at this price.",
+    "source": "draft"
+  },
+  "16027": {
+    "name": "E H Taylor Jr Single Barrel Bourbon",
+    "score": 8.5,
+    "style": "bottled-in-bond",
+    "note": "Part of the well-regarded Taylor lineup. Bottled in bond, consistently excellent.",
+    "source": "draft"
+  },
   "16043": {
     "name": "Dashfire Old Fashioned RTD Can",
     "score": 7,
@@ -2530,6 +3907,20 @@
     "name": "Laird's 10th Gen Apple Brandy Bottled In Bond 5 Yr",
     "score": 8,
     "note": "Bonded five-year apple brandy. Superb and still under forty.",
+    "source": "draft"
+  },
+  "16081": {
+    "name": "Peerless Small Batch Bourbon",
+    "score": 8,
+    "style": "traditional",
+    "note": "Louisville craft distillery with a real pedigree. Consistently well-reviewed since their first releases.",
+    "source": "draft"
+  },
+  "16093": {
+    "name": "The Dead Rabbit Irish Whiskey",
+    "score": 7,
+    "style": "blended",
+    "note": "A blend created with the acclaimed NYC bar of the same name. Well-balanced and cocktail-friendly.",
     "source": "draft"
   },
   "16121": {
@@ -2544,6 +3935,20 @@
     "score": 7,
     "style": "standard",
     "note": "Polish bison-grass vodka, herbal and distinctive. Actually tastes like something, unlike most of this shelf.",
+    "source": "draft"
+  },
+  "16171": {
+    "name": "Jameson Cold Brew",
+    "score": 5.5,
+    "style": "blended",
+    "note": "Coffee-infused Jameson. Sweet and easy, works well in a cocktail.",
+    "source": "draft"
+  },
+  "16178": {
+    "name": "Virago Spirits 151 Rum",
+    "score": 6,
+    "style": "overproof",
+    "note": "A high-proof Virginia craft rum, built for tiki drinks needing a float.",
     "source": "draft"
   },
   "16185": {
@@ -2602,11 +4007,39 @@
     "note": "Belvedere's higher-end rye-based bottling. More character than the standard bottle.",
     "source": "draft"
   },
+  "16309": {
+    "name": "High West Double Rye Whiskey Barrel Select",
+    "score": 8,
+    "style": "kentucky-rye",
+    "note": "A single-barrel pick of the well-liked Double Rye blend. Spicier and more intense than the standard bottle.",
+    "source": "draft"
+  },
   "16329": {
     "name": "St. George Spirits Absinthe",
     "score": 7.5,
     "style": "herbal",
     "note": "A genuinely well-made craft absinthe. Complex rather than just intensely anise.",
+    "source": "draft"
+  },
+  "16331": {
+    "name": "360 Georgia Peach Vodka",
+    "score": 5,
+    "style": "flavored",
+    "note": "Straightforward peach flavor, fine for the price.",
+    "source": "draft"
+  },
+  "16333": {
+    "name": "360 Double Chocolate Vodka",
+    "score": 5,
+    "style": "flavored",
+    "note": "Genuinely chocolatey, a novelty dessert vodka.",
+    "source": "draft"
+  },
+  "16336": {
+    "name": "44 North Potato Vodka",
+    "score": 6.5,
+    "style": "potato",
+    "note": "Idaho potato vodka -- a fuller, creamier mouthfeel than grain vodkas at a similar price.",
     "source": "draft"
   },
   "16338": {
@@ -2628,6 +4061,20 @@
     "score": 5,
     "style": "fruit",
     "note": "Same story as their Apple Pie: fine flavor, priced ahead of the category norm.",
+    "source": "draft"
+  },
+  "16346": {
+    "name": "Catoctin Creek Rabble Rouser Rye",
+    "score": 7,
+    "style": "kentucky-rye",
+    "note": "Virginia craft, cask strength. More intensity than their standard Roundstone Rye.",
+    "source": "draft"
+  },
+  "16376": {
+    "name": "Trial & Error Limoncello",
+    "score": 6,
+    "style": "fruit",
+    "note": "A decent limoncello from a smaller producer. Fine for the price.",
     "source": "draft"
   },
   "16379": {
@@ -2672,6 +4119,20 @@
     "note": "Virginia craft, competent across the range.",
     "source": "draft"
   },
+  "16395": {
+    "name": "Bayou White Rum",
+    "score": 5.5,
+    "style": "white",
+    "note": "Same distillery as the Spiced, clean and unaged.",
+    "source": "draft"
+  },
+  "16396": {
+    "name": "Bayou Spiced Rum",
+    "score": 6,
+    "style": "spiced",
+    "note": "Louisiana rum, real vanilla-and-spice character rather than generic sweetness.",
+    "source": "draft"
+  },
   "16403": {
     "name": "Brockmans Gin",
     "score": 6.5,
@@ -2696,6 +4157,20 @@
     "score": 6.5,
     "style": "organic",
     "note": "Organic wheat vodka, smooth. A reliable mid-tier choice.",
+    "source": "draft"
+  },
+  "16424": {
+    "name": "Civic Vodka",
+    "score": 5.5,
+    "style": "standard",
+    "note": "Clean and well-made, a solid regional option.",
+    "source": "draft"
+  },
+  "16433": {
+    "name": "Powers Three Swallow Irish Whiskey",
+    "score": 7,
+    "style": "single-pot-still",
+    "note": "Powers' entry-level pot-still expression. Spicy and characterful.",
     "source": "draft"
   },
   "16449": {
@@ -2831,6 +4306,13 @@
     "note": "Convincing butterscotch, similar tier to the Ole Smoky version.",
     "source": "draft"
   },
+  "16567": {
+    "name": "Van Gogh Dutch Chocolate Vodka",
+    "score": 6,
+    "style": "flavored",
+    "note": "Rich and genuinely chocolatey, a good dessert-cocktail vodka.",
+    "source": "draft"
+  },
   "16570": {
     "name": "Sugarlands Shine Peanut Butter & Jelly Moonshine",
     "score": 4.5,
@@ -2852,6 +4334,20 @@
     "note": "Decent root beer float flavor, though the 99 Brand version is sharper.",
     "source": "draft"
   },
+  "16581": {
+    "name": "Praline Pecan Liqueur",
+    "score": 6,
+    "style": "nut",
+    "note": "Genuinely tastes like pralines. A good after-dinner sipper or coffee addition.",
+    "source": "draft"
+  },
+  "16645": {
+    "name": "Laws Whiskey House Straight Rye",
+    "score": 7.5,
+    "style": "kentucky-rye",
+    "note": "Colorado craft, grain-to-glass. Well-regarded among craft rye drinkers.",
+    "source": "draft"
+  },
   "16686": {
     "name": "High West Campfire Whiskey",
     "score": 8,
@@ -2871,6 +4367,20 @@
     "score": 7.5,
     "style": "london-dry",
     "note": "Manchester dry gin revived from an 1800s recipe. Bergamot and orris root, well balanced.",
+    "source": "draft"
+  },
+  "16729": {
+    "name": "Four Roses Private Selection Barrel Strength",
+    "score": 8.5,
+    "style": "barrel-proof",
+    "note": "A single-store barrel pick from Four Roses' ten recipes. Consistently one of the better barrel-proof bourbons on a shelf.",
+    "source": "draft"
+  },
+  "16744": {
+    "name": "Don Ciccio Figli Amaro Delle Sirene",
+    "score": 6.5,
+    "style": "herbal",
+    "note": "A genuine Italian amaro, bittersweet and complex. Worth trying if you only know Fernet or Campari.",
     "source": "draft"
   },
   "16757": {
@@ -2901,6 +4411,13 @@
     "note": "Shot-bar novelty. One-note cherry candy, nothing to sip.",
     "source": "draft"
   },
+  "16833": {
+    "name": "Cuca Fresca Silver Cachaca",
+    "score": 6,
+    "style": "cachaca",
+    "note": "A solid, more widely available cachaca. Good for caipirinhas without the premium price.",
+    "source": "draft"
+  },
   "16860": {
     "name": "Ole Smoky Moonshine Peaches",
     "score": 5,
@@ -2913,6 +4430,13 @@
     "score": 5,
     "style": "fruit",
     "note": "Sweet maraschino-adjacent cherry. A dessert pour more than a mixer.",
+    "source": "draft"
+  },
+  "16877": {
+    "name": "Garrison Brothers Texas Straight Small Batch",
+    "score": 7.5,
+    "style": "traditional",
+    "note": "Texas heat ages this fast and hard -- bold and oaky in a way Kentucky bourbons rarely are.",
     "source": "draft"
   },
   "16907": {
@@ -2942,6 +4466,12 @@
     "note": "The carbonation makes it more refreshing than the still bottled version, at least.",
     "source": "draft"
   },
+  "16969": {
+    "name": "Avion Reserva 44 Tequila",
+    "score": 7,
+    "note": "Avion's top-tier gold expression. Smooth and rounded, priced for the premium positioning.",
+    "source": "draft"
+  },
   "16987": {
     "name": "Codigo 1530 Blanco Tequila",
     "score": 7,
@@ -2954,6 +4484,33 @@
     "note": "Organic, honest agave.",
     "source": "draft"
   },
+  "17024": {
+    "name": "Herradura Ultra Tequila Anejo",
+    "score": 7.5,
+    "note": "Herradura's cristalino-style anejo -- charcoal filtered for a smoother, lighter-colored pour.",
+    "source": "draft"
+  },
+  "17036": {
+    "name": "Hanson Of Sonoma Cucumber Vodka",
+    "score": 6.5,
+    "style": "flavored",
+    "note": "Grape-based, organic, California craft. Real cucumber character, refined.",
+    "source": "draft"
+  },
+  "17037": {
+    "name": "Hanson Of Sonoma Meyer Lemon Vodka",
+    "score": 6.5,
+    "style": "flavored",
+    "note": "Bright and genuine Meyer lemon character on their smooth grape base.",
+    "source": "draft"
+  },
+  "17045": {
+    "name": "Hanson Of Sonoma Original Vodka",
+    "score": 6.5,
+    "style": "grape",
+    "note": "A grape-based vodka distilled from their own wine grapes -- distinctly smooth mouthfeel.",
+    "source": "draft"
+  },
   "17055": {
     "name": "Maestro Dobel Silver Tequila",
     "score": 7,
@@ -2964,6 +4521,19 @@
     "name": "Olmeca Altos Tequila Plata",
     "score": 7.5,
     "note": "Built with bartenders for margaritas. Hard to beat at twenty-five.",
+    "source": "draft"
+  },
+  "17078": {
+    "name": "Ron Abuelo Anejo 7 Yr Rum",
+    "score": 7.5,
+    "style": "dark",
+    "note": "Panamanian, well-aged and balanced. One of the better values in aged rum at this price.",
+    "source": "draft"
+  },
+  "17084": {
+    "name": "Tequila Ocho Anejo",
+    "score": 8,
+    "note": "Single-estate, vintage-dated agave. Highly regarded among people who take tequila seriously.",
     "source": "draft"
   },
   "17098": {
@@ -2986,11 +4556,46 @@
     "note": "Heavily sweetened and spiced — closer to a rum liqueur than a rum. Great bottle design, polarizing juice.",
     "source": "draft"
   },
+  "17173": {
+    "name": "Don Q Oak Barrel Spiced Rum",
+    "score": 6,
+    "style": "spiced",
+    "note": "Puerto Rican, oak-aged before spicing -- a bit more depth than the mass-market spiced brands.",
+    "source": "draft"
+  },
   "17177": {
     "name": "El Dorado 12 Year Rum",
     "score": 8,
     "style": "dark",
     "note": "Rich Demerara rum, real complexity. Punches well above its price.",
+    "source": "draft"
+  },
+  "17179": {
+    "name": "El Dorado 8 Year Rum",
+    "score": 8,
+    "style": "dark",
+    "note": "One of the most acclaimed aged rums at this price. Rich, complex, and a genuine step up from the 3 Year.",
+    "source": "draft"
+  },
+  "17184": {
+    "name": "Kill Devil Silver Rum",
+    "score": 6,
+    "style": "white",
+    "note": "A clean, well-made white rum from a smaller regional distillery.",
+    "source": "draft"
+  },
+  "17196": {
+    "name": "Eight Shires Warrick Silver Rum",
+    "score": 5.5,
+    "style": "white",
+    "note": "A clean, unaged Virginia craft rum.",
+    "source": "draft"
+  },
+  "17200": {
+    "name": "Eight Shires Accomac Spiced Rum",
+    "score": 6,
+    "style": "spiced",
+    "note": "Virginia craft spiced rum. Warm spice notes, decent alternative to Captain Morgan.",
     "source": "draft"
   },
   "17204": {
@@ -3014,11 +4619,32 @@
     "note": "A real step up from Evan Williams Black for nine more dollars.",
     "source": "draft"
   },
+  "17251": {
+    "name": "Selvarey White Rum",
+    "score": 6,
+    "style": "white",
+    "note": "Panamanian, clean and versatile. Fine for mixing.",
+    "source": "draft"
+  },
   "17252": {
     "name": "Smith & Cross Jamaica Rum",
     "score": 8,
     "style": "dark",
     "note": "High-ester pot-still Jamaican, funky and intense. Essential for tiki, too much to sip neat.",
+    "source": "draft"
+  },
+  "17256": {
+    "name": "Trial & Error Silver Rum",
+    "score": 5.5,
+    "style": "white",
+    "note": "A basic Virginia craft white rum. Fine for mixing.",
+    "source": "draft"
+  },
+  "17258": {
+    "name": "Mt. Defiance White Rum",
+    "score": 5.5,
+    "style": "white",
+    "note": "Virginia craft white rum, clean and functional.",
     "source": "draft"
   },
   "17281": {
@@ -3028,11 +4654,32 @@
     "note": "Young and sweet. Mixes fine.",
     "source": "draft"
   },
+  "17284": {
+    "name": "Aberfeldy 12 Year Scotch",
+    "score": 7,
+    "style": "highland",
+    "note": "Honeyed and approachable, the backbone of the Dewar's blends bottled on its own.",
+    "source": "draft"
+  },
   "17295": {
     "name": "Creek Water Whiskey",
     "score": 3.5,
     "style": "flavored",
     "note": "100 proof and rough. More attitude than whiskey.",
+    "source": "draft"
+  },
+  "17303": {
+    "name": "Kamiki Blended Japanese Whisky",
+    "score": 6.5,
+    "style": "blended",
+    "note": "Finished with a touch of sake and umeshu influence. Distinctive, though the flavor is more novelty than classic whisky.",
+    "source": "draft"
+  },
+  "17304": {
+    "name": "Kilchoman Machir Bay Scotch",
+    "score": 7.5,
+    "style": "islay",
+    "note": "Young but well-made farm-distillery Islay. Smoky and coastal.",
     "source": "draft"
   },
   "17308": {
@@ -3047,6 +4694,55 @@
     "score": 5.5,
     "style": "original",
     "note": "Same lineage as the 90 proof, more heat. Good value for an actual Virginia-distilled shine.",
+    "source": "draft"
+  },
+  "17320": {
+    "name": "Jameson Caskmates Stout Irish Whiskey",
+    "score": 7,
+    "style": "cask-finish",
+    "note": "Finished in stout casks, richer and more distinctive than the IPA version.",
+    "source": "draft"
+  },
+  "17321": {
+    "name": "Thrashers Spiced Rum",
+    "score": 6,
+    "style": "spiced",
+    "note": "A boardwalk-branded spiced rum. Fine, unremarkable.",
+    "source": "draft"
+  },
+  "17323": {
+    "name": "Thrashers White Rum",
+    "score": 5.5,
+    "style": "white",
+    "note": "A clean mixing rum from the same line as their Spiced.",
+    "source": "draft"
+  },
+  "17324": {
+    "name": "Thrashers Coconut Rum",
+    "score": 5.5,
+    "style": "spiced",
+    "note": "Sweet coconut flavor, built for a beach drink.",
+    "source": "draft"
+  },
+  "17333": {
+    "name": "Kaiyo The Single 7 Year Whisky",
+    "score": 7.5,
+    "style": "single-malt",
+    "note": "Mizunara-cask finished single malt. Distinctive sandalwood-and-coconut character from the Japanese oak.",
+    "source": "draft"
+  },
+  "17334": {
+    "name": "Kaiyo Whisky",
+    "score": 7,
+    "style": "blended",
+    "note": "Kaiyo's standard bottling. The mizunara oak character comes through clearly.",
+    "source": "draft"
+  },
+  "17335": {
+    "name": "Kaiyo Cask Strength Whisky",
+    "score": 7.5,
+    "style": "single-malt",
+    "note": "Kaiyo's mizunara character at full proof. More intense and structured than their standard bottling.",
     "source": "draft"
   },
   "17339": {
@@ -3097,6 +4793,27 @@
     "note": "Softer, wheat-adjacent style of rye. Very drinkable.",
     "source": "draft"
   },
+  "17409": {
+    "name": "Bruichladdich Classic Laddie",
+    "score": 7.5,
+    "style": "islay",
+    "note": "Unpeated, unusual for Islay. Fresh and coastal rather than smoky.",
+    "source": "draft"
+  },
+  "17412": {
+    "name": "Drumshanbo Single Pot Still Irish Whiskey",
+    "score": 7.5,
+    "style": "single-pot-still",
+    "note": "From the Gunpowder Gin distillery. Well-regarded, spicy pot-still character.",
+    "source": "draft"
+  },
+  "17416": {
+    "name": "Roe And Co Irish Whiskey",
+    "score": 6.5,
+    "style": "blended",
+    "note": "Diageo's modern Irish blend. Well-made and approachable, from the old Guinness distillery site.",
+    "source": "draft"
+  },
   "17431": {
     "name": "Redneck Riviera Whiskey",
     "score": 3.5,
@@ -3118,6 +4835,33 @@
     "note": "Cask-strength 100% rye. One of the most acclaimed whiskies in the store, Canadian or otherwise.",
     "source": "draft"
   },
+  "17492": {
+    "name": "Patron Anejo Tequila Sherry Cask Aged",
+    "score": 7.5,
+    "note": "Sherry-cask finish adds a fruitier, richer note than the standard Anejo.",
+    "source": "draft"
+  },
+  "17516": {
+    "name": "Reservoir Bourbon Whiskey",
+    "score": 7,
+    "style": "traditional",
+    "note": "Richmond's own craft bourbon. Solid and well-made, worth it for the Virginia flag alone.",
+    "source": "draft"
+  },
+  "17541": {
+    "name": "Connemara Peated Irish Whiskey",
+    "score": 7.5,
+    "style": "single-malt",
+    "note": "A rare peated Irish whiskey -- genuinely distinctive if you like Scotch but want something different.",
+    "source": "draft"
+  },
+  "17553": {
+    "name": "Diplomatico Planas Rum",
+    "score": 7,
+    "style": "white",
+    "note": "Venezuela's well-regarded Diplomatico house, in an unaged white expression. Smoother than most white rums.",
+    "source": "draft"
+  },
   "17566": {
     "name": "Ezra Brooks Straight Rye",
     "score": 6,
@@ -3132,6 +4876,13 @@
     "note": "Blended pot-and-column-still white built for serious cocktails. A rum-nerd favorite.",
     "source": "draft"
   },
+  "17583": {
+    "name": "Marie Brizard Creme De Cacao Blanc",
+    "score": 6.5,
+    "style": "chocolate",
+    "note": "A well-made clear creme de cacao, the standard for a Grasshopper or Brandy Alexander.",
+    "source": "draft"
+  },
   "17610": {
     "name": "Reverend Spirits Gin",
     "score": 6.5,
@@ -3139,11 +4890,32 @@
     "note": "Clean and well-made.",
     "source": "draft"
   },
+  "17617": {
+    "name": "Kavalan Distillery Select Whisky",
+    "score": 7.5,
+    "style": "single-malt",
+    "note": "Taiwanese, not Japanese, despite the shelf placement -- but genuinely excellent. Tropical-climate aging gives it fast, fruit-forward maturity.",
+    "source": "draft"
+  },
   "17690": {
     "name": "Buffalo Trace Bourbon Cream",
     "score": 4.5,
     "style": "flavored",
     "note": "A cream liqueur, not a bourbon. Good over ice or in coffee.",
+    "source": "draft"
+  },
+  "17694": {
+    "name": "Ciroc Mango Vodka",
+    "score": 6,
+    "style": "flavored",
+    "note": "Tropical mango on the smooth Ciroc base, well-balanced.",
+    "source": "draft"
+  },
+  "17704": {
+    "name": "Crossed Rifles Spiced Rum",
+    "score": 6,
+    "style": "spiced",
+    "note": "Virginia craft spiced rum, warm and balanced.",
     "source": "draft"
   },
   "17724": {
@@ -3165,6 +4937,13 @@
     "score": 6.5,
     "style": "traditional",
     "note": "Finished in a second, heavily charred barrel. Extra oak, not extra complexity.",
+    "source": "draft"
+  },
+  "17786": {
+    "name": "Tarnished Truth Ava Vodka",
+    "score": 6,
+    "style": "standard",
+    "note": "Virginia craft distillery. Clean, well-made, worth trying for the Virginia flag.",
     "source": "draft"
   },
   "17792": {
@@ -3221,6 +5000,20 @@
     "note": "Young and a little rough.",
     "source": "draft"
   },
+  "17927": {
+    "name": "Kill Devil Gold Rum",
+    "score": 6,
+    "style": "gold",
+    "note": "Kill Devil's aged expression, a fair step up in character from the Silver.",
+    "source": "draft"
+  },
+  "17965": {
+    "name": "Thomas S. Moore Bourbon Cabernet Sauvignon Cask",
+    "score": 6,
+    "style": "flavored",
+    "note": "Wine-cask finished, one of several Thomas S. Moore variants here. Interesting more than essential -- the finish is doing most of the talking.",
+    "source": "draft"
+  },
   "17968": {
     "name": "Crystal Head Vodka Pride Bottle",
     "score": 6.5,
@@ -3239,6 +5032,48 @@
     "score": 5.5,
     "style": "flavored",
     "note": "Blackberry Sapphire. Sweet and a bit thin.",
+    "source": "draft"
+  },
+  "17998": {
+    "name": "Kirk And Sweeney Reserva Rum",
+    "score": 6.5,
+    "style": "dark",
+    "note": "Dominican, solid but unremarkable next to the bigger aged-rum names at this price.",
+    "source": "draft"
+  },
+  "18006": {
+    "name": "Deep Eddy Lime Vodka",
+    "score": 6,
+    "style": "flavored",
+    "note": "Real lime character, a genuine step up from the Smirnoff/Pinnacle flavored tier.",
+    "source": "draft"
+  },
+  "18031": {
+    "name": "Copper Dog Scotch Whiskey",
+    "score": 6.5,
+    "style": "blended-malt",
+    "note": "A blended malt (all single malts, no grain whisky) sourced from Speyside distilleries. More character than a standard blend.",
+    "source": "draft"
+  },
+  "18085": {
+    "name": "Barrell Seagrass Rye Whiskey",
+    "score": 7.5,
+    "style": "kentucky-rye",
+    "note": "Barrell's blended-rye approach, sourced from multiple distilleries. Distinctive, batch-dependent character.",
+    "source": "draft"
+  },
+  "18112": {
+    "name": "Laphroaig 10 Year Sherry Cask",
+    "score": 8,
+    "style": "islay",
+    "note": "Sherry cask softens the peat slightly while adding richness. A great variant if the standard bottle is too austere.",
+    "source": "draft"
+  },
+  "18125": {
+    "name": "Mars Iwai Japanese Whisky",
+    "score": 6,
+    "style": "blended",
+    "note": "Mars Shinshu's entry-level blend. A decent budget option, less refined than the bigger names.",
     "source": "draft"
   },
   "18160": {
@@ -3297,6 +5132,13 @@
     "note": "Floral and bright rather than candy-sweet. Distinctive among flavored moonshines.",
     "source": "draft"
   },
+  "18273": {
+    "name": "Whistlepig Farmstock Farmhouse Batch",
+    "score": 7,
+    "style": "high-rye",
+    "note": "A blend across Whistlepig's Farmstock program. Decent, if less distinctive than their single-barrel releases.",
+    "source": "draft"
+  },
   "18279": {
     "name": "Sauza Hacienda Silver",
     "score": 3.5,
@@ -3315,6 +5157,13 @@
     "score": 7.5,
     "style": "herbal",
     "note": "Calabrian amaro, bold and spiced. A favorite among bartenders.",
+    "source": "draft"
+  },
+  "18296": {
+    "name": "Whistlepig Farmstock Beyond Bonded Rye",
+    "score": 7.5,
+    "style": "bottled-in-bond",
+    "note": "Whistlepig's bottled-in-bond Farmstock entry. Solid, if less distinctive than their single-barrel releases.",
     "source": "draft"
   },
   "18323": {
@@ -3359,11 +5208,31 @@
     "note": "Banana bourbon. Exactly as advertised.",
     "source": "draft"
   },
+  "18390": {
+    "name": "El Tesoro Reposado Single Barrel",
+    "score": 8,
+    "note": "A genuinely well-regarded artisanal tequila. Consistently excellent, agave character intact.",
+    "source": "draft"
+  },
+  "18403": {
+    "name": "Mars Iwai 45 Japanese Blended Whisky",
+    "score": 6,
+    "style": "blended",
+    "note": "Higher proof than the standard Iwai. More backbone, still an entry-level blend.",
+    "source": "draft"
+  },
   "18424": {
     "name": "Seven Cities Gin",
     "score": 6,
     "style": "contemporary",
     "note": "Norfolk-made. Solid local pour.",
+    "source": "draft"
+  },
+  "18453": {
+    "name": "Selvarey Chocolate Rum",
+    "score": 6,
+    "style": "spiced",
+    "note": "Real cacao character from Selvarey. A novelty flavor done reasonably well.",
     "source": "draft"
   },
   "18465": {
@@ -3373,6 +5242,13 @@
     "note": "Mini-only novelty shot. Tastes like the candy, not much else.",
     "source": "draft"
   },
+  "18478": {
+    "name": "Bumbu Creme",
+    "score": 6,
+    "style": "spiced",
+    "note": "Bumbu's cream liqueur variant. Sweet and dessert-like, a different lane from their spiced rum.",
+    "source": "draft"
+  },
   "18505": {
     "name": "Alberta Premium Rye",
     "score": 8,
@@ -3380,10 +5256,24 @@
     "note": "100% rye, unusually spicy and bold for the price. A cult favorite among whiskey people, and it's right here for fifteen dollars.",
     "source": "draft"
   },
+  "18563": {
+    "name": "Jameson Orange",
+    "score": 5.5,
+    "style": "blended",
+    "note": "A flavored twist on the world's best-known Irish whiskey. Fine, not essential.",
+    "source": "draft"
+  },
   "18566": {
     "name": "818 Tequila Blanco",
     "score": 5,
     "note": "Sweet and soft. Sold entirely on the name.",
+    "source": "draft"
+  },
+  "18588": {
+    "name": "Western Son Blueberry Vodka",
+    "score": 5.5,
+    "style": "flavored",
+    "note": "Texas-made, real blueberry character rather than candy sweetness.",
     "source": "draft"
   },
   "18594": {
@@ -3412,6 +5302,13 @@
     "score": 2,
     "style": "flavored",
     "note": "Peanut butter whiskey. It exists.",
+    "source": "draft"
+  },
+  "18639": {
+    "name": "Johnnie Walker High Rye Scotch",
+    "score": 6.5,
+    "style": "blended",
+    "note": "A rye-grain-forward twist on the Johnnie Walker formula. Spicier than Black Label.",
     "source": "draft"
   },
   "18642": {
@@ -3497,6 +5394,20 @@
     "note": "Excellent aged Jamaican. Complex without losing the funk that makes Appleton distinctive.",
     "source": "draft"
   },
+  "18780": {
+    "name": "Jefferson's Ocean Rye",
+    "score": 7,
+    "style": "kentucky-rye",
+    "note": "The aged-at-sea treatment applied to rye. Interesting, if the gimmick matters less to you than the bourbon version.",
+    "source": "draft"
+  },
+  "18786": {
+    "name": "Flor De Cana Spresso",
+    "score": 6,
+    "style": "coffee",
+    "note": "Rum-based coffee liqueur from Flor de Cana. Distinct from the vodka-based competitors.",
+    "source": "draft"
+  },
   "18788": {
     "name": "Cutwater Pina Colada",
     "score": 5.5,
@@ -3509,6 +5420,13 @@
     "score": 6,
     "style": "margarita",
     "note": "Sweet mango over the same solid Cutwater base.",
+    "source": "draft"
+  },
+  "18798": {
+    "name": "The Dalmore Sherry Cask 12 Year",
+    "score": 8,
+    "style": "highland",
+    "note": "More sherry intensity than the standard 12 Year. Rich and full-bodied.",
     "source": "draft"
   },
   "18818": {
@@ -3530,6 +5448,13 @@
     "score": 5,
     "style": "cream",
     "note": "Sweet and dessert-like. A Jell-O-shot flavor more than a sipper.",
+    "source": "draft"
+  },
+  "18855": {
+    "name": "Worthy Park 109 Dark Rum",
+    "score": 7.5,
+    "style": "dark",
+    "note": "Jamaican pot-still funk at a higher proof. Distinctive and well-regarded among rum enthusiasts.",
     "source": "draft"
   },
   "18860": {
@@ -3585,6 +5510,13 @@
     "note": "Pineapple-forward, sweet rather than balanced like a real Mai Tai.",
     "source": "draft"
   },
+  "19010": {
+    "name": "Citronge Orange",
+    "score": 6,
+    "style": "fruit",
+    "note": "A solid, mid-tier orange liqueur -- a fair Cointreau alternative for mixing.",
+    "source": "draft"
+  },
   "19052": {
     "name": "Brown Sugar Bourbon 103",
     "score": 3,
@@ -3604,6 +5536,13 @@
     "score": 2.5,
     "style": "flavored",
     "note": "Cinnamon heat. Rough.",
+    "source": "draft"
+  },
+  "19081": {
+    "name": "Ten To One Caribbean White Rum Blend",
+    "score": 7,
+    "style": "white",
+    "note": "A blend across five Caribbean islands. More character than a typical mixing white rum.",
     "source": "draft"
   },
   "19085": {
@@ -3631,6 +5570,20 @@
     "name": "Tromba Blanco Tequila",
     "score": 7,
     "note": "Underrated. Bright agave, well made.",
+    "source": "draft"
+  },
+  "19185": {
+    "name": "Nikka Yoichi Single Malt Whiskey",
+    "score": 8.5,
+    "style": "single-malt",
+    "note": "Nikka's smokier, coastal single malt. Distinctive and highly regarded among Japanese whisky drinkers.",
+    "source": "draft"
+  },
+  "19187": {
+    "name": "Nikka Miyagikyo Single Malt Whisky",
+    "score": 8,
+    "style": "single-malt",
+    "note": "Nikka's fruitier, more floral single malt (as opposed to Yoichi's smokier profile). Excellent and well-regarded.",
     "source": "draft"
   },
   "19202": {
@@ -3681,11 +5634,25 @@
     "note": "Nicaraguan, caramel-forward, reliably good. A safe sipping choice.",
     "source": "draft"
   },
+  "19341": {
+    "name": "Captain Morgan 100 Proof Original Spiced Rum",
+    "score": 6,
+    "style": "spiced",
+    "note": "The standard Captain Morgan spice profile at a higher, more assertive proof.",
+    "source": "draft"
+  },
   "19343": {
     "name": "Brugal Anejo Rum",
     "score": 6.5,
     "style": "dark",
     "note": "Dominican, light-bodied, easy. A step above well rum without costing much more.",
+    "source": "draft"
+  },
+  "19344": {
+    "name": "Brugal Extra Dry Rum",
+    "score": 6,
+    "style": "white",
+    "note": "A clean, light-bodied white rum, less sweet than most -- built for a Cuba Libre or mojito.",
     "source": "draft"
   },
   "19345": {
@@ -3701,6 +5668,27 @@
     "note": "Solid everyday sweet vermouth at a third of Carpano’s price.",
     "source": "draft"
   },
+  "19354": {
+    "name": "Grey Goose Essences White Peach & Rosemary Vodka",
+    "score": 6.5,
+    "style": "flavored",
+    "note": "Grey Goose's lower-sugar Essences line. More sophisticated than the classic flavored expressions.",
+    "source": "draft"
+  },
+  "19356": {
+    "name": "Grey Goose Essences Strawberry & Lemongrass Vodka",
+    "score": 6.5,
+    "style": "flavored",
+    "note": "Bright, herbal, and less sweet than a typical flavored vodka. Well-balanced.",
+    "source": "draft"
+  },
+  "19371": {
+    "name": "Stagg Bourbon",
+    "score": 9,
+    "style": "barrel-proof",
+    "note": "Uncut, unfiltered, and intense. A genuine cult release that happens to still show up on shelves occasionally.",
+    "source": "draft"
+  },
   "19374": {
     "name": "Pikesville 110 Proof Rye Whiskey",
     "score": 8.5,
@@ -3708,10 +5696,73 @@
     "note": "Maryland-style, bottled at 110 proof. A cult favorite that still shows up on shelves at a fair price.",
     "source": "draft"
   },
+  "19377": {
+    "name": "Knob Creek 12 Year Bourbon",
+    "score": 8,
+    "style": "traditional",
+    "note": "More age and depth than the standard Knob Creek, at a fair premium for it.",
+    "source": "draft"
+  },
   "19383": {
     "name": "Nikka Coffey Grain Japanese Whisky",
     "score": 7.5,
     "note": "Sweet, vanilla, unusual. Very good neat, if you can justify seventy dollars.",
+    "source": "draft"
+  },
+  "19385": {
+    "name": "Nikka Pure Malt Japanese Whisky",
+    "score": 7,
+    "style": "single-malt",
+    "note": "Nikka's blended-malt bottle, the black-label version. Solid and well-liked.",
+    "source": "draft"
+  },
+  "19388": {
+    "name": "Umiki Japanese Whisky",
+    "score": 6,
+    "style": "blended",
+    "note": "A budget blend with mixed reception. Fine for the price, not a category standout.",
+    "source": "draft"
+  },
+  "19390": {
+    "name": "Tullamore Dew 12 Irish Whiskey",
+    "score": 7.5,
+    "style": "blended",
+    "note": "Tullamore Dew's aged premium expression. More depth and complexity than the standard bottle.",
+    "source": "draft"
+  },
+  "19391": {
+    "name": "The Irishman Single Malt Irish Whiskey",
+    "score": 7,
+    "style": "single-malt",
+    "note": "A solid, well-reviewed single malt from a smaller Irish producer.",
+    "source": "draft"
+  },
+  "19392": {
+    "name": "Knappogue Castle 12 Year Single Malt Irish Whiskey",
+    "score": 7.5,
+    "style": "single-malt",
+    "note": "A genuinely well-aged single malt at a fair price for the category.",
+    "source": "draft"
+  },
+  "19394": {
+    "name": "Bushmills 12 Year Single Malt Irish Whiskey",
+    "score": 8,
+    "style": "single-malt",
+    "note": "More sherry-cask depth than the 10 Year. One of the better values in aged Irish single malt.",
+    "source": "draft"
+  },
+  "19398": {
+    "name": "Wild Turkey Kentucky Spirit Bourbon",
+    "score": 8,
+    "style": "traditional",
+    "note": "Wild Turkey's single-barrel expression. Higher proof and more character than the standard 101.",
+    "source": "draft"
+  },
+  "19399": {
+    "name": "Widow Jane 10 Year Straight Bourbon Whiskey",
+    "score": 7.5,
+    "style": "traditional",
+    "note": "Sourced but well-aged and well-chosen. A fair step up from their standard bottling.",
     "source": "draft"
   },
   "19400": {
@@ -3721,11 +5772,102 @@
     "note": "100% rye, Vermont-finished. Younger and cheaper than the 10 Year, most of the character intact.",
     "source": "draft"
   },
+  "19406": {
+    "name": "The Singleton Of Glendullan 15 Year Scotch",
+    "score": 7.5,
+    "style": "speyside",
+    "note": "More depth and complexity than the standard bottle. A fair step up.",
+    "source": "draft"
+  },
+  "19407": {
+    "name": "The Singleton Of Glendullan Scotch",
+    "score": 6.5,
+    "style": "speyside",
+    "note": "A smooth, approachable entry-level Singleton. Fine, unremarkable.",
+    "source": "draft"
+  },
+  "19408": {
+    "name": "The Macallan Double Cask 12 Year Scotch",
+    "score": 8,
+    "style": "speyside",
+    "note": "A blend of sherry-seasoned American and European oak. Excellent, and one of the more attainable Macallans.",
+    "source": "draft"
+  },
+  "19416": {
+    "name": "The Macallan Sherry Oak 12 Year Scotch",
+    "score": 8.5,
+    "style": "speyside",
+    "note": "Macallan's classic sherry-forward style. Rich, excellent, and worth seeking out at a fair price.",
+    "source": "draft"
+  },
+  "19421": {
+    "name": "The Glenrothes Bourbon Cask Reserve Scotch",
+    "score": 7,
+    "style": "speyside",
+    "note": "Lighter and sweeter than their sherry-cask expressions, from a well-regarded Speyside distillery.",
+    "source": "draft"
+  },
+  "19423": {
+    "name": "The Glenlivet French Oak Reserve 15 Year Scotch",
+    "score": 7.5,
+    "style": "speyside",
+    "note": "French oak gives it a spicier profile than the standard Glenlivet line.",
+    "source": "draft"
+  },
+  "19424": {
+    "name": "The Glenlivet Founders Reserve Scotch",
+    "score": 7,
+    "style": "speyside",
+    "note": "Glenlivet's entry-level bottle. Smooth, floral, a reliable Speyside standard.",
+    "source": "draft"
+  },
+  "19425": {
+    "name": "The Glenlivet Caribbean Reserve Scotch",
+    "score": 6.5,
+    "style": "speyside",
+    "note": "Rum-cask finished, sweeter and lighter than the Founders Reserve.",
+    "source": "draft"
+  },
+  "19427": {
+    "name": "The Dalmore 12 Year",
+    "score": 7.5,
+    "style": "highland",
+    "note": "Rich, orange-and-sherry character. A well-regarded, distinctive Highland malt.",
+    "source": "draft"
+  },
+  "19439": {
+    "name": "Oban Distillers Edition Scotch",
+    "score": 8,
+    "style": "highland",
+    "note": "Montilla-cask finished, richer than the standard 14 Year. Well-regarded.",
+    "source": "draft"
+  },
+  "19445": {
+    "name": "Laphroaig Single Malt Scotch",
+    "score": 7.5,
+    "style": "islay",
+    "note": "The classic Laphroaig 10 Year profile -- intensely smoky and medicinal, love-it-or-hate-it.",
+    "source": "draft"
+  },
   "19446": {
     "name": "Laphroaig Quarter Cask Scotch",
     "score": 8.5,
     "style": "islay",
     "note": "Iodine, smoke and seaweed, bottled at higher strength. Divisive and brilliant.",
+    "source": "draft"
+  },
+  "19447": {
+    "name": "Laphroaig Lore Scotch",
+    "score": 8.5,
+    "style": "islay",
+    "note": "A blend of some of Laphroaig's oldest stocks. Deep, complex, and well-regarded among peat fans.",
+    "source": "draft"
+  },
+  "19450": {
+    "name": "Laphroaig 10 Year Cask Strength Scotch",
+    "score": 8,
+    "style": "islay",
+    "note": "The standard 10 Year at full proof. Even more intense smoke and peat.",
     "source": "draft"
   },
   "19452": {
@@ -3735,11 +5877,60 @@
     "note": "The 16-year. The great smoky scotch — expensive and worth it once.",
     "source": "draft"
   },
+  "19459": {
+    "name": "Highland Park 15 Year Scotch",
+    "score": 8,
+    "style": "island",
+    "note": "More depth than the standard 12 Year, keeps the distinctive honey-and-heather Orkney character.",
+    "source": "draft"
+  },
+  "19461": {
+    "name": "Haig & Haig Pinch Scotch",
+    "score": 6.5,
+    "style": "blended",
+    "note": "A historic blend in a distinctive pinched bottle. Smooth and traditional.",
+    "source": "draft"
+  },
+  "19462": {
+    "name": "Glenmorangie The Original 18 Year Scotch",
+    "score": 8,
+    "style": "highland",
+    "note": "A genuine step up in depth and complexity from the 10 and 12 Year expressions.",
+    "source": "draft"
+  },
+  "19463": {
+    "name": "Glenmorangie The Original 10 Year Scotch",
+    "score": 7,
+    "style": "highland",
+    "note": "One of the lightest, most approachable Highland malts. A good gateway into single malt Scotch.",
+    "source": "draft"
+  },
+  "19483": {
+    "name": "Ardbeg Wee Beastie Scotch",
+    "score": 7.5,
+    "style": "islay",
+    "note": "Ardbeg's youngest official release. Punchy and peaty despite the young age.",
+    "source": "draft"
+  },
+  "19489": {
+    "name": "Ardbeg An Oa Scotch",
+    "score": 7.5,
+    "style": "islay",
+    "note": "A gentler, more balanced Ardbeg than the standard Ten -- still distinctly smoky.",
+    "source": "draft"
+  },
   "19514": {
     "name": "Rittenhouse Rye Private Barrel",
     "score": 8.5,
     "style": "bottled-in-bond",
     "note": "Rittenhouse from a single barrel. Same excellence, slightly more varied.",
+    "source": "draft"
+  },
+  "19524": {
+    "name": "Hatozaki Sm Batch Whisky 12 Yr Umeshu Cask Finish",
+    "score": 6.5,
+    "style": "single-malt",
+    "note": "Plum-wine cask finish gives it a sweet, unusual profile. A novelty pour more than a classic sipping whisky.",
     "source": "draft"
   },
   "19543": {
@@ -3749,11 +5940,46 @@
     "note": "Barrel-proof, no two batches identical. Excellent value for cask-strength rye.",
     "source": "draft"
   },
+  "19544": {
+    "name": "Bushmills Peaky Blinders Irish Whiskey",
+    "score": 6.5,
+    "style": "blended",
+    "note": "A TV tie-in bottling of standard-tier Bushmills. Decent whiskey riding a licensing deal.",
+    "source": "draft"
+  },
+  "19545": {
+    "name": "Suntory Yamazaki 12 Year Japanese Whisky",
+    "score": 9,
+    "style": "single-malt",
+    "note": "The benchmark Japanese single malt. Consistently excellent, and the price reflects genuine, sustained demand rather than hype.",
+    "source": "draft"
+  },
   "19553": {
     "name": "Hill Top Blackberry Gooch Hooch Moonshine",
     "score": 5,
     "style": "fruit",
     "note": "Blackberry moonshine at a premium price for the category — flavor doesn't quite justify the jump.",
+    "source": "draft"
+  },
+  "19581": {
+    "name": "Rossville Union Barrel Proof Rye Whiskey",
+    "score": 8.5,
+    "style": "barrel-proof",
+    "note": "MGP-sourced, cask strength. A well-loved value among barrel-proof rye drinkers.",
+    "source": "draft"
+  },
+  "19601": {
+    "name": "Western Son Lemon Vodka",
+    "score": 5.5,
+    "style": "flavored",
+    "note": "Clean and citrus-forward, a solid mixer.",
+    "source": "draft"
+  },
+  "19617": {
+    "name": "Oban Scotch 10yr",
+    "score": 8,
+    "style": "highland",
+    "note": "A coastal Highland malt balancing smoke and sweetness. Consistently excellent.",
     "source": "draft"
   },
   "19627": {
@@ -3767,6 +5993,13 @@
     "score": 6.5,
     "style": "flavored",
     "note": "Stone fruit version. Nice, but the standard Citadelle is the better bottle.",
+    "source": "draft"
+  },
+  "19679": {
+    "name": "Nikka Coffey Malt Japanese Whisky",
+    "score": 7.5,
+    "style": "grain",
+    "note": "Malted barley run through a Coffey still -- a genuinely distinct texture from a traditional pot-still single malt.",
     "source": "draft"
   },
   "19680": {
@@ -3818,11 +6051,31 @@
     "note": "Pecan pie flavor — one of the more unusual dessert shines on the shelf.",
     "source": "draft"
   },
+  "19727": {
+    "name": "Waterman Spirits Organic Vodka",
+    "score": 6,
+    "style": "organic",
+    "note": "Virginia-made, organic, and genuinely clean. A good local option for an everyday vodka.",
+    "source": "draft"
+  },
   "19757": {
     "name": "Chopin Family Reserve Vodka",
     "score": 8,
     "style": "potato",
     "note": "Chopin's top bottling, aged in oak. The most distinctive potato vodka in the store.",
+    "source": "draft"
+  },
+  "19760": {
+    "name": "Mezcal De Leyendas Oaxaca Espadin",
+    "score": 7.5,
+    "note": "From a respected small-batch mezcal producer. Traditional, well-made, worth seeking out.",
+    "source": "draft"
+  },
+  "19788": {
+    "name": "Tenjaku Blended Japanese Whisky",
+    "score": 6.5,
+    "style": "blended",
+    "note": "An approachable, budget-friendly rice-forward blend. A fair entry point into Japanese whisky.",
     "source": "draft"
   },
   "19809": {
@@ -3845,6 +6098,13 @@
     "note": "Sourced but well chosen and consistently bottled. A safe pick in the thirty-five dollar range.",
     "source": "draft"
   },
+  "19838": {
+    "name": "The Dalmore 14 Year",
+    "score": 8,
+    "style": "highland",
+    "note": "More depth and complexity than the 12 Year, a genuine step up.",
+    "source": "draft"
+  },
   "19842": {
     "name": "Ole Smoky Strawberry Moonshine",
     "score": 5,
@@ -3852,11 +6112,25 @@
     "note": "Straightforward strawberry candy sweetness.",
     "source": "draft"
   },
+  "19850": {
+    "name": "Waterman Spirits Orange Organic Vodka",
+    "score": 5.5,
+    "style": "flavored",
+    "note": "Same clean Waterman base with orange flavor added.",
+    "source": "draft"
+  },
   "19864": {
     "name": "Shoe Crazy Broken Heel Mango Moonshine",
     "score": 5,
     "style": "fruit",
     "note": "Tropical mango, straightforward and sweet.",
+    "source": "draft"
+  },
+  "19865": {
+    "name": "Blue Chair Bay Mocha Rum Cream",
+    "score": 6,
+    "style": "cream",
+    "note": "Coffee-forward, smooth. Consistent quality with the rest of the Blue Chair Bay line.",
     "source": "draft"
   },
   "19881": {
@@ -3880,6 +6154,20 @@
     "note": "Competent, a little thin for thirty dollars.",
     "source": "draft"
   },
+  "19955": {
+    "name": "Torabhaig Allt Gleann Single Malt Scotch",
+    "score": 7,
+    "style": "island",
+    "note": "A newer Skye distillery. Peaty and well-made, worth trying if you like Talisker.",
+    "source": "draft"
+  },
+  "19973": {
+    "name": "Chocolat Deluxe Triple Chocolate Liqueur",
+    "score": 6,
+    "style": "chocolate",
+    "note": "Rich and genuinely chocolatey. A dessert liqueur, not built for mixing.",
+    "source": "draft"
+  },
   "19975": {
     "name": "Familia Camarena Silver Tequila",
     "score": 6,
@@ -3898,11 +6186,25 @@
     "note": "Serious pot still whiskey. A big step up from the gold label.",
     "source": "draft"
   },
+  "20022": {
+    "name": "The Sexton Irish Whiskey",
+    "score": 6.5,
+    "style": "single-malt",
+    "note": "Sherry-cask matured single malt, smooth and approachable.",
+    "source": "draft"
+  },
   "20032": {
     "name": "Uncle Nearest Straight Rye Whiskey",
     "score": 7.5,
     "style": "kentucky-rye",
     "note": "From the team that built Uncle Nearest 1856. Well-made, well-reviewed, worth the price.",
+    "source": "draft"
+  },
+  "20036": {
+    "name": "New Amsterdam Pink Whitney Vodka",
+    "score": 5,
+    "style": "flavored",
+    "note": "The viral pink lemonade flavor. Sweet and tart, does exactly what the internet made it famous for.",
     "source": "draft"
   },
   "20069": {
@@ -3950,6 +6252,26 @@
     "name": "Corazon Tequila Reposado",
     "score": 7,
     "note": "Good value reposado at twenty dollars.",
+    "source": "draft"
+  },
+  "20202": {
+    "name": "Proper No. Twelve Irish Apple",
+    "score": 5.5,
+    "style": "blended",
+    "note": "Conor McGregor's brand, apple-flavored variant. Sweet and simple.",
+    "source": "draft"
+  },
+  "20213": {
+    "name": "Ciroc Honey Melon Vodka",
+    "score": 5.5,
+    "style": "flavored",
+    "note": "Sweet melon flavor, consistent with the rest of the Ciroc line.",
+    "source": "draft"
+  },
+  "20216": {
+    "name": "Don Julio Tequila Reposado Rosado",
+    "score": 6.5,
+    "note": "Finished in wine casks for color and a fruitier edge. A novelty variant on a reliable base.",
     "source": "draft"
   },
   "20220": {
@@ -4048,6 +6370,13 @@
     "note": "A decent Virginia-made canned cocktail, fruity and balanced.",
     "source": "draft"
   },
+  "20282": {
+    "name": "Jura 10 Yr. Scotch",
+    "score": 6.5,
+    "style": "island",
+    "note": "Light and approachable island malt, easy entry point into Jura.",
+    "source": "draft"
+  },
   "20285": {
     "name": "Belle Isle Transfusion 4pk",
     "score": 6,
@@ -4090,6 +6419,34 @@
     "note": "Four-grain blend, honeyed and approachable. Popular for a reason.",
     "source": "draft"
   },
+  "20316": {
+    "name": "The Busker Triple Cask Irish Whiskey",
+    "score": 6.5,
+    "style": "blended",
+    "note": "A well-priced, approachable blend. A fair everyday Irish whiskey.",
+    "source": "draft"
+  },
+  "20326": {
+    "name": "Denizen Vatted Dark Rum",
+    "score": 7,
+    "style": "dark",
+    "note": "A blend of Jamaican and Martinique rums built specifically for a proper Mai Tai.",
+    "source": "draft"
+  },
+  "20372": {
+    "name": "Suntory World Whisky Ao",
+    "score": 6.5,
+    "style": "world-blend",
+    "note": "A blend across five whisky-producing nations -- an interesting concept that is decent rather than exceptional in the glass.",
+    "source": "draft"
+  },
+  "20373": {
+    "name": "Virago Spirits Classic White Rum",
+    "score": 6,
+    "style": "white",
+    "note": "Virginia craft white rum. Clean and unremarkable, worth trying for the local angle.",
+    "source": "draft"
+  },
   "20389": {
     "name": "Rittenhouse Rye",
     "score": 8.5,
@@ -4097,11 +6454,30 @@
     "note": "Bonded 100-proof rye for twenty-four dollars. The best cocktail whiskey in the store, full stop.",
     "source": "draft"
   },
+  "20423": {
+    "name": "Blue Run High Rye Bourbon Whiskey",
+    "score": 7.5,
+    "style": "high-rye",
+    "note": "A newer, heavily-hyped brand that mostly backs it up -- spicy and well-made, if priced for the hype.",
+    "source": "draft"
+  },
   "20432": {
     "name": "Benchmark Single Barrel",
     "score": 6.5,
     "style": "traditional",
     "note": "Pleasant and inoffensive. Varies barrel to barrel.",
+    "source": "draft"
+  },
+  "20434": {
+    "name": "Sauza Tres Generaciones Cristalino",
+    "score": 6.5,
+    "note": "A solid, unremarkable cristalino. Fine for the price, not a standout.",
+    "source": "draft"
+  },
+  "20444": {
+    "name": "Gran Centenario Cristalino",
+    "score": 6.5,
+    "note": "A solid mid-tier cristalino, unremarkable but reliable.",
     "source": "draft"
   },
   "20447": {
@@ -4118,6 +6494,33 @@
     "note": "125 proof from the Buffalo Trace mashbill for twenty-five dollars. Loud and cheap.",
     "source": "draft"
   },
+  "20466": {
+    "name": "Maggies Farm Spiced Rum",
+    "score": 6.5,
+    "style": "spiced",
+    "note": "Pittsburgh craft spiced rum, real character beyond generic vanilla-spice.",
+    "source": "draft"
+  },
+  "20469": {
+    "name": "Jack Daniels Single Barrel Rye Barrel Proof",
+    "score": 7.5,
+    "style": "barrel-proof",
+    "note": "Jack Daniel's rye at cask strength. More character than their standard offerings, worth trying if you assume Jack Daniel's can't do rye well.",
+    "source": "draft"
+  },
+  "20474": {
+    "name": "Black Bull 12 Yr Scotch",
+    "score": 6.5,
+    "style": "blended",
+    "note": "A high-malt-content blend, more character than a standard blend at this price.",
+    "source": "draft"
+  },
+  "20475": {
+    "name": "Montelobos Ensamble Mezcal",
+    "score": 7.5,
+    "note": "A well-regarded blended mezcal, balances smoke with real agave sweetness.",
+    "source": "draft"
+  },
   "20480": {
     "name": "Heaven Hill Bottled In Bond Bourbon",
     "score": 8,
@@ -4131,11 +6534,24 @@
     "note": "Soft and easy. Good margarita base.",
     "source": "draft"
   },
+  "20512": {
+    "name": "Old Parr 18 Year Scotch",
+    "score": 7.5,
+    "style": "blended",
+    "note": "A well-aged premium blend, smoother and richer than the 12 Year.",
+    "source": "draft"
+  },
   "20553": {
     "name": "Green River Kentucky Bourbon",
     "score": 6.5,
     "style": "traditional",
     "note": "Newer Kentucky distillery finding its feet. Decent.",
+    "source": "draft"
+  },
+  "20554": {
+    "name": "Grand Mayan Reposado",
+    "score": 6.5,
+    "note": "Same story as the Silver -- the bottle is doing a lot of the selling.",
     "source": "draft"
   },
   "20572": {
@@ -4187,11 +6603,25 @@
     "note": "Genuinely well-proportioned, a real gin-and-vermouth-adjacent martini rather than a sweetened cocktail.",
     "source": "draft"
   },
+  "20619": {
+    "name": "Equiano Light Rum",
+    "score": 6.5,
+    "style": "white",
+    "note": "A blend of Mauritian and Caribbean rums with a genuine social mission behind the brand. Clean and versatile.",
+    "source": "draft"
+  },
   "20638": {
     "name": "Arrow Butterscotch Schnapps",
     "score": 3,
     "style": "other",
     "note": "Cheaper and thinner than Dekuyper Buttershots. Gets the job done in a pinch.",
+    "source": "draft"
+  },
+  "20644": {
+    "name": "Belvedere Organic Vodka",
+    "score": 7,
+    "style": "organic",
+    "note": "Belvedere's rye base with an organic certification. Clean and smooth, a genuine step up.",
     "source": "draft"
   },
   "20668": {
@@ -4225,6 +6655,13 @@
     "name": "Suntory Toki Japanese Whisky",
     "score": 6.5,
     "note": "Light and clean. Built for highballs, priced above its weight.",
+    "source": "draft"
+  },
+  "20713": {
+    "name": "Yamazaki 12 Yr 100th Anniversary Limited Edition",
+    "score": 9,
+    "style": "single-malt",
+    "note": "Same benchmark Yamazaki 12 Year inside a limited-edition package. Excellent whisky, collector pricing.",
     "source": "draft"
   },
   "20716": {
@@ -4283,11 +6720,25 @@
     "note": "A good way to sample the Cutwater margarita flavors without committing to one.",
     "source": "draft"
   },
+  "20854": {
+    "name": "Writers Tears Red Head",
+    "score": 7.5,
+    "style": "single-pot-still",
+    "note": "Sherry-cask matured, richer and fruitier than the standard Copper Pot.",
+    "source": "draft"
+  },
   "20856": {
     "name": "Cutwater Black Skimmer Bourbon",
     "score": 6.5,
     "style": "traditional",
     "note": "San Diego craft, sourced Midwest juice. Fine, unremarkable, priced like it knows that too.",
+    "source": "draft"
+  },
+  "20878": {
+    "name": "Old Forester Single Barrel Barrel Proof",
+    "score": 8.5,
+    "style": "barrel-proof",
+    "note": "Old Forester's single-barrel picks are consistently among the best barrel-proof values available.",
     "source": "draft"
   },
   "20899": {
@@ -4297,11 +6748,32 @@
     "note": "Serviceable at 100 proof.",
     "source": "draft"
   },
+  "20915": {
+    "name": "J J Corry The Gael Irish Whiskey",
+    "score": 7,
+    "style": "blended",
+    "note": "An independent bottler blend, well-regarded among Irish whiskey enthusiasts.",
+    "source": "draft"
+  },
   "20917": {
     "name": "Dr. Stoners Ginger Whiskey Lemonade RTD",
     "score": 5.5,
     "style": "mule-highball",
     "note": "Whiskey-based rather than vodka, gives it a bit more character than the average canned lemonade.",
+    "source": "draft"
+  },
+  "20921": {
+    "name": "Templeton Rye Barrel Strength",
+    "score": 7.5,
+    "style": "barrel-proof",
+    "note": "More intensity than the standard Templeton bottle, a fair step up for the price.",
+    "source": "draft"
+  },
+  "20950": {
+    "name": "Powers Rye Irish Whiskey",
+    "score": 7,
+    "style": "single-pot-still",
+    "note": "A rye-heavy pot-still whiskey, spicier and more distinctive than a standard blend.",
     "source": "draft"
   },
   "20957": {
@@ -4353,6 +6825,20 @@
     "note": "Bardstown's house style applied to rye. Solid, consistent, a fair every-day pour.",
     "source": "draft"
   },
+  "21144": {
+    "name": "Hakushu 12 Year Japanese Whisky",
+    "score": 9,
+    "style": "single-malt",
+    "note": "Green, forested, and distinctive -- one of the defining Japanese single malts. Superb, and priced accordingly.",
+    "source": "draft"
+  },
+  "21193": {
+    "name": "Blackened Rye - The Lightning 2024 Edition",
+    "score": 6.5,
+    "style": "kentucky-rye",
+    "note": "Metallica-branded, sonically-enhanced marketing aside. A decent rye riding on the novelty as much as the liquid.",
+    "source": "draft"
+  },
   "21198": {
     "name": "Handy & Schiller Manhattan",
     "score": 8,
@@ -4374,10 +6860,59 @@
     "note": "Barrel-finished, actually tastes like a bar-made Old Fashioned rather than a syrupy RTD.",
     "source": "draft"
   },
+  "21222": {
+    "name": "Hibiki Japanese Harmony Whisky 100th Anniversary",
+    "score": 8.5,
+    "style": "blended",
+    "note": "The same excellent Harmony liquid in commemorative packaging. Buy it for the whisky, not the box.",
+    "source": "draft"
+  },
+  "21245": {
+    "name": "Ole Smoky Bourbon Ball Cream",
+    "score": 6,
+    "style": "cream",
+    "note": "Similar concept to the 1792 version, sweeter and less bourbon-forward.",
+    "source": "draft"
+  },
   "21252": {
     "name": "El Jimador Tequila Reposado",
     "score": 6.5,
     "note": "Same, lightly oaked.",
+    "source": "draft"
+  },
+  "21263": {
+    "name": "Willett Pot Still Reserve Straight Bourbon",
+    "score": 7.5,
+    "style": "traditional",
+    "note": "Sourced, but the pot-still character Willett adds makes it distinctive rather than generic.",
+    "source": "draft"
+  },
+  "21265": {
+    "name": "Willett Family Estate 4 Yr Rye Whiskey",
+    "score": 8,
+    "style": "kentucky-rye",
+    "note": "Willett's distinctive pot-still character applied to rye. Well-regarded among collectors.",
+    "source": "draft"
+  },
+  "21304": {
+    "name": "Woodinville Straight Rye Single Barrel Program",
+    "score": 8,
+    "style": "high-rye",
+    "note": "A single-barrel pick of Woodinville's already-excellent 100% rye. Big and well-made.",
+    "source": "draft"
+  },
+  "21311": {
+    "name": "Highland Park Cask Strength Single Malt Scotch",
+    "score": 8,
+    "style": "island",
+    "note": "Full-proof Orkney malt -- honeyed and lightly peated, more intense than the standard 12 Year.",
+    "source": "draft"
+  },
+  "21331": {
+    "name": "Ten To One Caribbean Dark Rum Blend",
+    "score": 7,
+    "style": "dark",
+    "note": "Same multi-island blending approach as their white, aged for more depth.",
     "source": "draft"
   },
   "21335": {
@@ -4415,11 +6950,45 @@
     "note": "Virginia, law-enforcement themed with a charitable angle. Decent bourbon, buy it for the cause as much as the pour.",
     "source": "draft"
   },
+  "21362": {
+    "name": "St. Elder Blood Orange Liqueur",
+    "score": 6,
+    "style": "fruit",
+    "note": "St. Elder's citrus variant, bright and well-balanced.",
+    "source": "draft"
+  },
+  "21373": {
+    "name": "Glenfiddich 12 Year Scotch Sherry Finish",
+    "score": 7,
+    "style": "speyside",
+    "note": "A sherry-finished variant on the standard 12 Year, slightly richer.",
+    "source": "draft"
+  },
+  "21374": {
+    "name": "Tullamore Dew Irish Whiskey - Honey",
+    "score": 6,
+    "style": "blended",
+    "note": "A honeyed variant on the standard Tullamore Dew. Sweet and approachable.",
+    "source": "draft"
+  },
+  "21426": {
+    "name": "Don Julio 70 Cristalino",
+    "score": 7.5,
+    "note": "Smooth and versatile, a genuinely good gateway into cristalino tequila.",
+    "source": "draft"
+  },
   "21443": {
     "name": "On The Rocks The Strawberry Daiquiri",
     "score": 5.5,
     "style": "tropical",
     "note": "Sweet and fruity, a fine poolside pour without much rum character.",
+    "source": "draft"
+  },
+  "21465": {
+    "name": "Glenmorangie Scotch Tale Of Tokyo",
+    "score": 7.5,
+    "style": "highland",
+    "note": "A limited Japanese-inspired finish -- distinctive, priced for the novelty as much as the whisky.",
     "source": "draft"
   },
   "21479": {
@@ -4450,11 +7019,25 @@
     "note": "Trinidad, balanced and easy-drinking. Made by the bitters people.",
     "source": "draft"
   },
+  "21492": {
+    "name": "Knob Creek Rye 10 Year",
+    "score": 8.5,
+    "style": "kentucky-rye",
+    "note": "A genuine age-stated step up from standard Knob Creek Rye. Excellent value for the depth it adds.",
+    "source": "draft"
+  },
   "21497": {
     "name": "Scratch Blackberry",
     "score": 3,
     "style": "flavored",
     "note": "Sweet, low proof.",
+    "source": "draft"
+  },
+  "21523": {
+    "name": "Lagavulin Offerman 11yr Caribbean Rum Cask Scotch",
+    "score": 8,
+    "style": "islay",
+    "note": "Nick Offerman's rum-cask collaboration. Genuinely well-made, not just a celebrity tie-in.",
     "source": "draft"
   },
   "21545": {
@@ -4477,10 +7060,23 @@
     "note": "Reads like the cookie, milky-sweet. A novelty dessert shot.",
     "source": "draft"
   },
+  "21586": {
+    "name": "Grand Mayan Triple Distilled Silver Tequila",
+    "score": 6.5,
+    "note": "A decorative hand-painted bottle carries a lot of the price. Decent tequila underneath, not a standout.",
+    "source": "draft"
+  },
   "21618": {
     "name": "George Dickel Bottled In Bond Tenn Whiskey 12 Year",
     "score": 8,
     "note": "Twelve years, bonded, forty-five dollars. One of the best deals in the store.",
+    "source": "draft"
+  },
+  "21622": {
+    "name": "Planteray Original Dark Rum",
+    "score": 7,
+    "style": "dark",
+    "note": "A dependable dark rum from the same house as the 5 Year. Rich without being overly sweet.",
     "source": "draft"
   },
   "21626": {
@@ -4488,6 +7084,13 @@
     "score": 7.5,
     "style": "dark",
     "note": "Funky Jamaican pot-still rum built for tiki. Punchier than most rum at this price.",
+    "source": "draft"
+  },
+  "21654": {
+    "name": "Weller Antique Single Barrel Select",
+    "score": 7.5,
+    "style": "wheated",
+    "note": "A single-barrel pick of the Weller Antique 107 recipe. Reliable, if you can find it at this price.",
     "source": "draft"
   },
   "21660": {
@@ -4501,6 +7104,12 @@
     "score": 7,
     "style": "contemporary",
     "note": "Baja botanicals, bright citrus. Distinctive.",
+    "source": "draft"
+  },
+  "21689": {
+    "name": "Patron Anejo Cristalino",
+    "score": 7,
+    "note": "Patron's cristalino treatment on their Anejo. Smoother and lighter than the standard bottle.",
     "source": "draft"
   },
   "21699": {
@@ -4517,10 +7126,24 @@
     "note": "Tart-and-sweet key lime pie in a bottle. Better balanced than most of their cream line.",
     "source": "draft"
   },
+  "21710": {
+    "name": "High West Bottled In Bond Rye",
+    "score": 8,
+    "style": "bottled-in-bond",
+    "note": "A genuinely well-made bottled-in-bond entry from a distillery known for its rye blends.",
+    "source": "draft"
+  },
   "21724": {
     "name": "400 Conejos Mezcal Joven",
     "score": 6.5,
     "note": "Entry-level mezcal. Smoky, a bit rough.",
+    "source": "draft"
+  },
+  "21727": {
+    "name": "Lincoln Ridge Vodka",
+    "score": 5.5,
+    "style": "standard",
+    "note": "Virginia craft vodka, competent but not distinctive.",
     "source": "draft"
   },
   "21753": {
@@ -4586,6 +7209,13 @@
     "note": "Virginia's bottled-in-bond entry. Grain-to-glass, solid, and the Virginia flag is a real bonus here.",
     "source": "draft"
   },
+  "21817": {
+    "name": "Ardbeg Spectacular Single Malt Scotch",
+    "score": 8,
+    "style": "islay",
+    "note": "A limited annual release, well-regarded but priced for the scarcity as much as the liquid.",
+    "source": "draft"
+  },
   "21863": {
     "name": "Basil Hayden Dark Rye",
     "score": 6.5,
@@ -4598,6 +7228,13 @@
     "score": 6.5,
     "style": "traditional",
     "note": "Light-bodied and low proof for the price. Easy to drink, easy to outgrow.",
+    "source": "draft"
+  },
+  "21865": {
+    "name": "Basil Hayden 10 Year Bourbon",
+    "score": 7.5,
+    "style": "traditional",
+    "note": "More depth and age than the standard Basil Hayden, which was always a bit thin for the price.",
     "source": "draft"
   },
   "21872": {
@@ -4662,6 +7299,13 @@
     "note": "Wheated and soft. Genuinely hard to find at shelf price — take it if the count says any.",
     "source": "draft"
   },
+  "21950": {
+    "name": "Carolans Peanut Butter",
+    "score": 5.5,
+    "style": "cream",
+    "note": "A novelty flavor that mostly delivers on the concept -- sweet and rich.",
+    "source": "draft"
+  },
   "21972": {
     "name": "Belle Isle Aged Honey Habanero Moonshine",
     "score": 6.5,
@@ -4697,6 +7341,20 @@
     "note": "A real Hornitos tequila base in a convenient single-serve bottle.",
     "source": "draft"
   },
+  "22006": {
+    "name": "Old Elk Rye Whiskey Single Barrel",
+    "score": 7.5,
+    "style": "kentucky-rye",
+    "note": "A well-regarded craft single barrel. Consistently good, if pricier than the Kentucky mass brands.",
+    "source": "draft"
+  },
+  "22016": {
+    "name": "Buchanans Pineapple",
+    "score": 5,
+    "style": "blended",
+    "note": "A flavored novelty variant. Sweet and simple, not aimed at whisky purists.",
+    "source": "draft"
+  },
   "22017": {
     "name": "Deleon Blanco Tequila",
     "score": 6,
@@ -4708,6 +7366,27 @@
     "score": 5.5,
     "style": "traditional",
     "note": "Cheap and passable. The 100 proof is the one to get.",
+    "source": "draft"
+  },
+  "22046": {
+    "name": "Hatozaki Finest Blended Whiskey With Glass",
+    "score": 7,
+    "style": "blended",
+    "note": "A well-regarded budget-premium Japanese blend. Balanced and easy-drinking.",
+    "source": "draft"
+  },
+  "22051": {
+    "name": "Balvenie Single Malt Scotch 14 Yr Bourbon Barrel",
+    "score": 7.5,
+    "style": "speyside",
+    "note": "A single-cask bourbon-barrel expression. Lighter and more vanilla-forward.",
+    "source": "draft"
+  },
+  "22115": {
+    "name": "Pennsylvania Dutch Salted Caramel Cream",
+    "score": 5.5,
+    "style": "cream",
+    "note": "A budget-tier salted caramel cream, fine for the price.",
     "source": "draft"
   },
   "22120": {
@@ -4722,6 +7401,20 @@
     "score": 6,
     "style": "traditional",
     "note": "Seasonal Beam. Fine.",
+    "source": "draft"
+  },
+  "22140": {
+    "name": "Kahlua Chocolate Sips",
+    "score": 5.5,
+    "style": "chocolate",
+    "note": "Kahlua's chocolate variant. Sweet and dessert-like, less versatile than the original.",
+    "source": "draft"
+  },
+  "22141": {
+    "name": "Kahlua White Chocolate Sips",
+    "score": 5.5,
+    "style": "coffee",
+    "note": "White chocolate and coffee combination, sweeter than standard Kahlua.",
     "source": "draft"
   },
   "22187": {
@@ -4745,6 +7438,13 @@
     "note": "Holiday peppermint shine, comes with shot glasses for the gift angle.",
     "source": "draft"
   },
+  "22225": {
+    "name": "Speyburn Bourbon Cask",
+    "score": 6.5,
+    "style": "speyside",
+    "note": "A fair value Speyside, sweeter and lighter from the bourbon-cask maturation.",
+    "source": "draft"
+  },
   "22256": {
     "name": "Black Tot Finest Caribbean Rum",
     "score": 7.5,
@@ -4766,6 +7466,13 @@
     "note": "Real ginger bite. Good base for a moonshine mule.",
     "source": "draft"
   },
+  "22311": {
+    "name": "1792 Barton Chocolate Bourbon Ball Cream Liqueur",
+    "score": 6.5,
+    "style": "cream",
+    "note": "A genuine bourbon behind the chocolate-cream flavor. Tastes like the candy, in a good way.",
+    "source": "draft"
+  },
   "22317": {
     "name": "Cutwater Lemon Drop Martini",
     "score": 6,
@@ -4780,6 +7487,13 @@
     "note": "Rich and sweet, a dessert pour over ice.",
     "source": "draft"
   },
+  "22354": {
+    "name": "Penelope Estate Collection Private Select Bourbon",
+    "score": 6.5,
+    "style": "traditional",
+    "note": "One of dozens of Penelope private-barrel picks on the shelf. Decent, but quality varies more than the flagship line.",
+    "source": "draft"
+  },
   "22382": {
     "name": "Astral Ready To Serve Margarita Cocktail",
     "score": 6,
@@ -4792,6 +7506,13 @@
     "score": 5.5,
     "style": "other",
     "note": "A fair canned transfusion, grape and ginger ale balance is decent.",
+    "source": "draft"
+  },
+  "22401": {
+    "name": "Angels Envy Kentucky Straight Bourbon Triple Oak",
+    "score": 8,
+    "style": "traditional",
+    "note": "Angel's Envy's finished bourbon, three cask types. More complex than their standard port-finished bottle.",
     "source": "draft"
   },
   "22416": {
@@ -4812,6 +7533,20 @@
     "score": 6,
     "style": "martini",
     "note": "Tart and sweet in the right proportion, better than most bottled lemon drops.",
+    "source": "draft"
+  },
+  "22477": {
+    "name": "Redwood Empire Devils Tower High Rye Bourbon",
+    "score": 7,
+    "style": "high-rye",
+    "note": "Technically a high-rye bourbon that ABC files here for the mashbill. Solid and well-made.",
+    "source": "draft"
+  },
+  "22500": {
+    "name": "Old Ezra 7 Year Rye Single Barrel",
+    "score": 7.5,
+    "style": "kentucky-rye",
+    "note": "A well-aged single barrel at a fair price. Consistently good.",
     "source": "draft"
   },
   "22515": {
@@ -4835,11 +7570,25 @@
     "note": "Peach and ginger combination, a fair seasonal variant.",
     "source": "draft"
   },
+  "22563": {
+    "name": "Jameson Triple Triple",
+    "score": 6.5,
+    "style": "blended",
+    "note": "Triple distilled, triple cask matured -- a genuine step up from standard Jameson.",
+    "source": "draft"
+  },
   "22590": {
     "name": "New Riff Bottled In Bond Bourbon",
     "score": 8.5,
     "style": "bottled-in-bond",
     "note": "High-rye, no chill filtration, bottled in bond. The cult favorite on this list for a reason.",
+    "source": "draft"
+  },
+  "22623": {
+    "name": "Glenmorangie The Original 12 Year Scotch",
+    "score": 7.5,
+    "style": "highland",
+    "note": "More depth than the 10 Year, still recognizably light and floral.",
     "source": "draft"
   },
   "22628": {
@@ -4856,6 +7605,20 @@
     "note": "Maui, light and tropical-leaning.",
     "source": "draft"
   },
+  "22653": {
+    "name": "Hibiki Harmony Japanese Whisky",
+    "score": 8.5,
+    "style": "blended",
+    "note": "An iconic, beautifully balanced blend in one of the most recognizable bottles in whisky. Worth it whenever it is not marked up for scarcity.",
+    "source": "draft"
+  },
+  "22654": {
+    "name": "Kikori Japanese Whisky",
+    "score": 6.5,
+    "style": "grain",
+    "note": "Rice whisky rather than malt or grain in the Scotch sense. Smooth and mixable, a different lane entirely.",
+    "source": "draft"
+  },
   "22656": {
     "name": "Midnight Moon Moonshake Peanut Butter Cup",
     "score": 5,
@@ -4868,6 +7631,13 @@
     "score": 7,
     "style": "wheated",
     "note": "Soft and approachable, sourced juice with Penelope's finishing touch. A gentler wheater than Maker's.",
+    "source": "draft"
+  },
+  "22658": {
+    "name": "Hatozaki Small Batch Japanese Whisky",
+    "score": 7,
+    "style": "blended",
+    "note": "A step up from Hatozaki's Finest bottle. More balanced and complex.",
     "source": "draft"
   },
   "22681": {
@@ -4897,6 +7667,19 @@
     "note": "Virginia craft distillery, maple sweetness is prominent but not overwhelming.",
     "source": "draft"
   },
+  "22805": {
+    "name": "Teeling Single Malt Irish Whiskey Tequila Cask",
+    "score": 7,
+    "style": "single-malt",
+    "note": "An unusual tequila-cask finish on a well-regarded single malt base. Distinctive.",
+    "source": "draft"
+  },
+  "22807": {
+    "name": "Flecha Azul Cristalino",
+    "score": 6.5,
+    "note": "A celebrity-backed brand (Mark Wahlberg). Fine tequila, riding more on the name than the liquid.",
+    "source": "draft"
+  },
   "22823": {
     "name": "Lairds American Mule",
     "score": 6,
@@ -4911,6 +7694,13 @@
     "note": "Honest, unfussy London dry. Nothing to complain about.",
     "source": "draft"
   },
+  "22860": {
+    "name": "The Macallan A Night On Earth - Jerez 2024",
+    "score": 7.5,
+    "style": "speyside",
+    "note": "A limited annual release, sherry-focused. Good, though priced for the packaging and scarcity as much as the liquid.",
+    "source": "draft"
+  },
   "22870": {
     "name": "Buzzballz Berry Cherry Limeade",
     "score": 4.5,
@@ -4923,6 +7713,13 @@
     "score": 2.5,
     "style": "flavored",
     "note": "65 proof peach. Sweet.",
+    "source": "draft"
+  },
+  "22897": {
+    "name": "Blind Preacher Small Batch Rye",
+    "score": 6.5,
+    "style": "kentucky-rye",
+    "note": "Virginia craft rye. Solid, unremarkable next to the bigger regional names.",
     "source": "draft"
   },
   "22911": {
@@ -4960,6 +7757,27 @@
     "note": "Foursquare's Exceptional Cask Series. As good as Barbados rum gets; priced for the serious collector.",
     "source": "draft"
   },
+  "22945": {
+    "name": "Tamnavulin Sherry Cask",
+    "score": 6.5,
+    "style": "speyside",
+    "note": "Sherry cask gives it more richness than the Double Cask version.",
+    "source": "draft"
+  },
+  "22957": {
+    "name": "Tamnavulin Double Cask",
+    "score": 6.5,
+    "style": "speyside",
+    "note": "A light, fruity, easy-drinking Speyside at a fair price.",
+    "source": "draft"
+  },
+  "22966": {
+    "name": "Glenfiddich 12 Year Scotch American Oak",
+    "score": 7,
+    "style": "speyside",
+    "note": "The world's best-selling single malt for a reason. Light, fruity, and reliably good.",
+    "source": "draft"
+  },
   "22978": {
     "name": "El Tequileno Platinum Tequila",
     "score": 7.5,
@@ -4994,11 +7812,32 @@
     "note": "Decent mass-market espresso martini, sweeter than the craft options.",
     "source": "draft"
   },
+  "23028": {
+    "name": "Waterman Spirits Strawberry Organic Vodka",
+    "score": 5.5,
+    "style": "flavored",
+    "note": "Real strawberry character, consistent with the rest of the Waterman line.",
+    "source": "draft"
+  },
+  "23076": {
+    "name": "Yamazaki Distillers Reserve",
+    "score": 8,
+    "style": "single-malt",
+    "note": "No age statement, but this is the most accessible way onto the legendary Yamazaki name. Genuinely excellent.",
+    "source": "draft"
+  },
   "23077": {
     "name": "Jim Beam US Soccer Label",
     "score": 5.5,
     "style": "traditional",
     "note": "White label with a different sticker. Same whiskey.",
+    "source": "draft"
+  },
+  "23091": {
+    "name": "Waterman Spirits Organic Grapefruit Vodka",
+    "score": 5.5,
+    "style": "flavored",
+    "note": "Tart grapefruit on the Waterman organic base -- refreshing.",
     "source": "draft"
   },
   "23102": {
@@ -5022,6 +7861,13 @@
     "note": "Tequila brand's orange liqueur. Fine in a margarita, not distinctive on its own.",
     "source": "draft"
   },
+  "23165": {
+    "name": "Skyy Infusions Espresso Vodka",
+    "score": 5.5,
+    "style": "flavored",
+    "note": "Decent coffee flavor, similar tier to Deep Eddy Espresso.",
+    "source": "draft"
+  },
   "23166": {
     "name": "Jose Cuervo Authentic Double Strength Margarita",
     "score": 5,
@@ -5029,11 +7875,32 @@
     "note": "More alcohol than the standard Authentic line, still mostly sour-mix flavor.",
     "source": "draft"
   },
+  "23181": {
+    "name": "Koval Rye Bottled In Bond",
+    "score": 7,
+    "style": "bottled-in-bond",
+    "note": "Chicago craft, 100% rye mashbill. Distinctive grain-forward flavor, different from the Kentucky style.",
+    "source": "draft"
+  },
   "23199": {
     "name": "Bold Rock Vodka Bay Crush",
     "score": 5,
     "style": "other",
     "note": "Same easy-drinking crush format, different fruit profile.",
+    "source": "draft"
+  },
+  "23247": {
+    "name": "Kahlua Dunkin Caramel Swirl Cream",
+    "score": 6,
+    "style": "cream",
+    "note": "A Dunkin' collaboration -- coffee and caramel, sweet and easy-drinking.",
+    "source": "draft"
+  },
+  "23264": {
+    "name": "Dewars 18 Japanese Mizunara",
+    "score": 7.5,
+    "style": "blended",
+    "note": "Finished in Japanese mizunara oak -- a distinctive twist on the 18 Year.",
     "source": "draft"
   },
   "23267": {
@@ -5048,6 +7915,12 @@
     "score": 6.5,
     "style": "other",
     "note": "A fair bottled Whiskey Sour, more balanced than most of the cheaper competition.",
+    "source": "draft"
+  },
+  "23281": {
+    "name": "Tequila Ocho Barrel Proof Reposado",
+    "score": 8.5,
+    "note": "A cult favorite among tequila enthusiasts. Full proof, full agave character.",
     "source": "draft"
   },
   "23334": {
@@ -5085,11 +7958,39 @@
     "note": "Twenty years in sherry casks. Rich and complex — Spain's answer to XO cognac.",
     "source": "draft"
   },
+  "23384": {
+    "name": "St. Brendans Espresso Irish Cream",
+    "score": 6.5,
+    "style": "cream",
+    "note": "Coffee-forward twist on their standard cream. Works well over ice or in coffee.",
+    "source": "draft"
+  },
+  "23386": {
+    "name": "St. Brendans Salted Caramel Irish Cream",
+    "score": 6,
+    "style": "cream",
+    "note": "Sweet and dessert-like, a fine seasonal pour.",
+    "source": "draft"
+  },
+  "23415": {
+    "name": "Rebel Butter Pecan Cream Liquer",
+    "score": 5.5,
+    "style": "cream",
+    "note": "Sweet and nutty, a fair dessert liqueur.",
+    "source": "draft"
+  },
   "23445": {
     "name": "Aviation Gin (gift set)",
     "score": 7,
     "style": "contemporary",
     "note": "Same gin as standard Aviation, with a scarf. Pay for the gin, not the scarf.",
+    "source": "draft"
+  },
+  "23447": {
+    "name": "Buchanans Green Seal 21 Year Blended Scotch",
+    "score": 8,
+    "style": "blended",
+    "note": "One of the older, more refined Buchanan's expressions. Rich and well-aged.",
     "source": "draft"
   },
   "23458": {
@@ -5120,11 +8021,32 @@
     "note": "Seasonal peppermint-candy shine. A holiday novelty, not a year-round pour.",
     "source": "draft"
   },
+  "23510": {
+    "name": "Ryans Salted Caramel Irish Cream",
+    "score": 6,
+    "style": "cream",
+    "note": "Ryan's budget-tier cream with a caramel flavor. Fine for the price.",
+    "source": "draft"
+  },
   "23534": {
     "name": "Boyd & Blair Blood Orange Cosmo",
     "score": 6.5,
     "style": "martini",
     "note": "Tart and citrus-forward, less cloying than most bottled cosmos.",
+    "source": "draft"
+  },
+  "23547": {
+    "name": "Suntory Toki Black Japanese Whisky",
+    "score": 7,
+    "style": "blended",
+    "note": "A smokier, more assertive variant of standard Toki. Worth the small step up if you find Toki thin.",
+    "source": "draft"
+  },
+  "23584": {
+    "name": "Elijah Craig Barrel Proof Rye",
+    "score": 8.5,
+    "style": "barrel-proof",
+    "note": "Elijah Craig's cult barrel-proof bourbon program extended to rye. Just as well-regarded.",
     "source": "draft"
   },
   "23625": {
@@ -5189,11 +8111,25 @@
     "note": "Sweet citrus-and-whiskey flavor rather than actual green tea. A party staple regardless.",
     "source": "draft"
   },
+  "23794": {
+    "name": "Mcconnells Sherry Cask Finished Irish Whiskey",
+    "score": 6.5,
+    "style": "cask-finish",
+    "note": "A revived historic Belfast brand. Solid sherry-finished blend.",
+    "source": "draft"
+  },
   "23806": {
     "name": "Shottys Lemon Drop Shots Vodka",
     "score": 4,
     "style": "shot",
     "note": "Tart and sweet, a functional party shot.",
+    "source": "draft"
+  },
+  "23808": {
+    "name": "Glenlivet 12 Year Jamaican Cask Single Malt Scotch",
+    "score": 6.5,
+    "style": "speyside",
+    "note": "A novelty rum-cask finish on the 12 Year -- distinctive, if a departure from a classic Glenlivet.",
     "source": "draft"
   },
   "23822": {
@@ -5250,6 +8186,13 @@
     "score": 6.5,
     "style": "flavored",
     "note": "Rose-tinted and floral. Pleasant, less serious than the Watershed.",
+    "source": "draft"
+  },
+  "23911": {
+    "name": "Mozart Strawberry Cream Liqueur",
+    "score": 6,
+    "style": "cream",
+    "note": "From the Mozart chocolate liqueur house. Well-made, genuinely tastes like strawberries and cream.",
     "source": "draft"
   },
   "23977": {
@@ -5314,6 +8257,13 @@
     "note": "Rum-cask finished, a little sweeter and rounder than standard Crown Royal. Underrated.",
     "source": "draft"
   },
+  "24125": {
+    "name": "Planteray Barbados 5 Year Rum",
+    "score": 7.5,
+    "style": "gold",
+    "note": "Formerly Plantation. A well-regarded, versatile aged rum -- excellent both neat and in cocktails.",
+    "source": "draft"
+  },
   "24127": {
     "name": "On The Rocks Sparkling Lime Margarita",
     "score": 6,
@@ -5333,6 +8283,20 @@
     "score": 7.5,
     "style": "blended",
     "note": "Barrel-proof version of the Stapleton blend. Bolder and more interesting than the standard bottling.",
+    "source": "draft"
+  },
+  "24172": {
+    "name": "Redbreast Lustau Edition Irish Whiskey",
+    "score": 8.5,
+    "style": "single-pot-still",
+    "note": "Redbreast finished in genuine Lustau sherry casks. One of the best pot-still whiskeys available at any price.",
+    "source": "draft"
+  },
+  "24173": {
+    "name": "Johnnie Walker Black Cask",
+    "score": 7,
+    "style": "blended",
+    "note": "A double-cask-matured take on Black Label. More depth than the standard bottle.",
     "source": "draft"
   },
   "24186": {
@@ -5363,11 +8327,32 @@
     "note": "Venezuelan, sweet and rounded — a crowd-pleaser more than a connoisseur's pour.",
     "source": "draft"
   },
+  "24240": {
+    "name": "Bib & Tucker 10 Year Small Batch Bourbon",
+    "score": 7.5,
+    "style": "traditional",
+    "note": "A genuine ten-year age statement at a fair price for it. Smooth and well-balanced.",
+    "source": "draft"
+  },
+  "24244": {
+    "name": "New Amsterdam Vodka 100 Proof",
+    "score": 5.5,
+    "style": "standard",
+    "note": "A higher-proof version of the standard New Amsterdam. Clean and a bit more assertive.",
+    "source": "draft"
+  },
   "24297": {
     "name": "Boatyard Gin",
     "score": 6.5,
     "style": "contemporary",
     "note": "Irish, botanicals foraged from the Erne estuary. Competent, not essential.",
+    "source": "draft"
+  },
+  "24307": {
+    "name": "Jagermeister Orange",
+    "score": 5.5,
+    "style": "herbal",
+    "note": "Standard Jager with orange citrus added. A shot-bar variant more than a sipper.",
     "source": "draft"
   },
   "24318": {
@@ -5398,6 +8383,13 @@
     "note": "Pickle-brine gimmick. Genuinely tastes like a dill pickle — a novelty, not a sipper.",
     "source": "draft"
   },
+  "24399": {
+    "name": "Highlands Distilling Dragon Virginia Vodka",
+    "score": 5.5,
+    "style": "standard",
+    "note": "Virginia craft vodka, competent everyday quality.",
+    "source": "draft"
+  },
   "24401": {
     "name": "Ole Smoky White Lightnin Moonshine",
     "score": 5,
@@ -5417,6 +8409,34 @@
     "score": 7,
     "style": "blended",
     "note": "Cognac-and-rum cask finished blend. Sweet and approachable.",
+    "source": "draft"
+  },
+  "24433": {
+    "name": "Deep Eddy Espresso Vodka",
+    "score": 5.5,
+    "style": "flavored",
+    "note": "Real coffee character, useful for a quick espresso martini.",
+    "source": "draft"
+  },
+  "24466": {
+    "name": "Apervita Aperitivio",
+    "score": 6,
+    "style": "fruit",
+    "note": "A lighter, sweeter aperitivo-style liqueur, easy to mix into a spritz.",
+    "source": "draft"
+  },
+  "24510": {
+    "name": "Umiki Godzilla Whisky",
+    "score": 5.5,
+    "style": "blended",
+    "note": "A novelty collector bottle riding the Godzilla branding. The packaging premium far outweighs what is in the glass.",
+    "source": "draft"
+  },
+  "24511": {
+    "name": "Worthy Park Estate Overproof Jamaica Rum",
+    "score": 7.5,
+    "style": "overproof",
+    "note": "Full Jamaican pot-still funk at overproof strength. Intense, built for a serious rum drinker or a real Jamaican punch.",
     "source": "draft"
   },
   "24539": {
@@ -5487,6 +8507,13 @@
     "note": "Fruity twist on their Old Fashioned line, sweeter than the classic.",
     "source": "draft"
   },
+  "24638": {
+    "name": "Kaiyo 5 Wood Japanese Whisky",
+    "score": 6.5,
+    "style": "blended",
+    "note": "Aged across five cask types including mizunara oak. Young but genuinely interesting for the price.",
+    "source": "draft"
+  },
   "24646": {
     "name": "Belle Isle Spiced Apple Moonshine",
     "score": 5.5,
@@ -5494,11 +8521,39 @@
     "note": "Apple pie in a bottle, on the sweeter end even for this category.",
     "source": "draft"
   },
+  "24691": {
+    "name": "Planteray Stiggins Fancy Pineapple Rum",
+    "score": 7,
+    "style": "gold",
+    "note": "Genuine pineapple character built into an aged rum base rather than added as syrup.",
+    "source": "draft"
+  },
   "24696": {
     "name": "Cutwater Banana Mudslide",
     "score": 5.5,
     "style": "other",
     "note": "Dessert-like and sweet, a fair canned mudslide.",
+    "source": "draft"
+  },
+  "24697": {
+    "name": "Dixie Southern Vodka Virginia Edition",
+    "score": 5.5,
+    "style": "standard",
+    "note": "A Virginia-specific bottling, clean and unremarkable.",
+    "source": "draft"
+  },
+  "24704": {
+    "name": "The Glenlivet Provence",
+    "score": 6.5,
+    "style": "speyside",
+    "note": "Rose-wine cask finished. Distinctive and floral, a departure from the classic Glenlivet profile.",
+    "source": "draft"
+  },
+  "24725": {
+    "name": "Dewars Double Double Aged 21 Year Blended Scotch",
+    "score": 8,
+    "style": "blended",
+    "note": "Double-matured for extra depth. One of the more distinctive premium blends.",
     "source": "draft"
   },
   "24749": {
@@ -5522,11 +8577,32 @@
     "note": "Texas gin rested in oak. Amber-colored, whiskey-adjacent — a gin for whiskey drinkers.",
     "source": "draft"
   },
+  "24806": {
+    "name": "Carolans Strawberries & Cream Irish Cream",
+    "score": 5.5,
+    "style": "cream",
+    "note": "Fruity twist on their standard formula, pleasant but not distinctive.",
+    "source": "draft"
+  },
+  "24859": {
+    "name": "Cruzan Island Reserve Rum 13 Year",
+    "score": 7.5,
+    "style": "dark",
+    "note": "A genuinely aged, well-reviewed rum from a brand better known for flavored bottles.",
+    "source": "draft"
+  },
   "24863": {
     "name": "Bulleit 87 Blended Whiskey",
     "score": 6,
     "style": "blended",
     "note": "Lighter and thinner than Bulleit's bourbon. A step down from the brand's usual quality.",
+    "source": "draft"
+  },
+  "24877": {
+    "name": "High Horns Blended Scotch Whiskey",
+    "score": 5.5,
+    "style": "blended",
+    "note": "A budget blend, unremarkable but functional.",
     "source": "draft"
   },
   "24911": {
@@ -5603,6 +8679,13 @@
     "score": 6,
     "style": "cream",
     "note": "Belle Isle's cream entry. Smoother than Ole Smoky's cream line, less cloying.",
+    "source": "draft"
+  },
+  "25126": {
+    "name": "Cape Charles Vodka( Do)",
+    "score": 5.5,
+    "style": "standard",
+    "note": "Coastal Virginia craft vodka, clean and well-made.",
     "source": "draft"
   },
   "25223": {
