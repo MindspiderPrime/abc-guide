@@ -103,8 +103,50 @@ body {
   color: var(--head-dim);
   white-space: nowrap;
 }
-.storefield { margin-top: 11px; }
+.storerow { display: flex; gap: 8px; margin-top: 11px; }
+.storefield { flex: 1; min-width: 0; }
 .storefield::after { border-right-color: var(--head-dim); border-bottom-color: var(--head-dim); }
+
+/* Locate. Square, same height as the select, so the pair reads as one control.
+   No label text: the crosshair is universal and the header has no room. */
+.locate {
+  flex: 0 0 46px;
+  width: 46px;
+  min-height: 46px;
+  display: grid;
+  place-items: center;
+  background: rgba(255,255,255,.07);
+  border: 1px solid rgba(233,239,233,.22);
+  border-radius: 8px;
+  color: var(--head-ink);
+  padding: 0;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+.locate-i {
+  width: 21px; height: 21px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.7;
+  stroke-linecap: round;
+}
+.locate-i circle:first-child { fill: currentColor; stroke: none; }
+.locate[data-state="on"] { color: var(--head-ink); background: rgba(255,255,255,.16); }
+.locate[data-state="off"] { color: var(--head-dim); }
+/* Sweeping while we wait for a fix — the one moment this button is slow. */
+.locate[data-state="busy"] .locate-i { animation: sweep 1.1s linear infinite; }
+.locate[data-state="busy"] { color: var(--head-dim); }
+@keyframes sweep { to { transform: rotate(360deg); } }
+
+/* One quiet line: how far you are, or why we couldn't tell. */
+.geonote {
+  margin: 7px 0 0;
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 10.5px;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--head-dim);
+}
 .storepick {
   width: 100%;
   min-height: 46px;
@@ -465,6 +507,226 @@ input[type="range"]::-moz-range-thumb {
   text-transform: uppercase;
 }
 
+/* ── Your own call ────────────────────────────────────────────────────────
+   Every shipped rating is one person's draft. The moment you actually form an
+   opinion is standing in the aisle with the bottle in your hand, so every row
+   opens an editor and what you type wins over what shipped.
+
+   It lives on this phone only. There is no account, nothing is uploaded, and
+   nobody else sees it — which is also why the list carries an Export: that is
+   how an aisle opinion gets back into data/ratings.json for the next build. */
+.tag { cursor: pointer; }
+
+/* Marks a row whose score or note is yours rather than the one that shipped.
+   Filled in house green so it reads as an authority mark, not another fact. */
+.mine {
+  color: var(--head-ink);
+  background: var(--juniper-up);
+  border-radius: 3px;
+  padding: 1px 6px;
+  font-weight: 600;
+  font-size: 10.5px;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+/* Stock and code are both shelf facts, so they pair on the left and the one
+   thing you can *do* to the row sits alone on the right, under the thumb. */
+.footfacts { display: flex; align-items: center; gap: 9px; min-width: 0; }
+.rate {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 30px;
+  padding: 0 11px;
+  border: 1px solid var(--rule);
+  border-radius: 15px;
+  background: var(--ground);
+  color: var(--ink-2);
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-variant-numeric: tabular-nums;
+  font-size: 11px;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+.tag[data-mine="yes"] .rate {
+  background: var(--juniper);
+  border-color: var(--juniper);
+  color: var(--head-ink);
+}
+.rate-i {
+  width: 13px; height: 13px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.9;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+/* ── The editor ───────────────────────────────────────────────────────────
+   A bottom sheet, because the dock trained your thumb to live down there and
+   because a centred modal fights the on-screen keyboard. */
+.sheet {
+  position: fixed;
+  inset: auto 0 0 0;
+  width: 100%;
+  max-width: 620px;
+  margin: 0 auto;
+  padding: 0;
+  border: none;
+  border-radius: 16px 16px 0 0;
+  background: var(--paper);
+  color: var(--ink);
+  box-shadow: 0 -14px 40px rgba(15,32,26,.30);
+  overflow: hidden;
+}
+.sheet::backdrop { background: rgba(9,18,15,.55); }
+.sheet[open] { animation: sheetin .22s cubic-bezier(.2,.7,.3,1); }
+@keyframes sheetin { from { transform: translateY(16px); opacity: 0; } to { transform: none; opacity: 1; } }
+.sheet-in {
+  max-height: 86vh;
+  max-height: 86dvh;
+  overflow-y: auto;
+  padding: 15px 16px calc(15px + env(safe-area-inset-bottom));
+}
+
+.sheet-head { display: flex; align-items: flex-start; gap: 12px; }
+.sheet-titles { flex: 1; min-width: 0; }
+.sheet-name {
+  font-family: "Bricolage Grotesque", system-ui, sans-serif;
+  font-variation-settings: "opsz" 24;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 1.2;
+  letter-spacing: -.015em;
+  margin: 0;
+}
+.sheet-sub {
+  margin: 4px 0 0;
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-variant-numeric: tabular-nums;
+  font-size: 11px;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+}
+.sheet-x {
+  flex: 0 0 34px;
+  width: 34px; height: 34px;
+  display: grid; place-items: center;
+  margin: -3px -4px 0 0;
+  padding: 0;
+  border: none;
+  border-radius: 17px;
+  background: transparent;
+  color: var(--ink-3);
+  cursor: pointer;
+}
+.sheet-x svg { width: 17px; height: 17px; fill: none; stroke: currentColor; stroke-width: 1.9; stroke-linecap: round; }
+
+/* What you are overruling. Shown so a half-point nudge is a considered edit
+   rather than a guess at what was already there. */
+.shipped {
+  margin: 12px 0 0;
+  padding: 9px 11px;
+  border-left: 2px solid var(--rule);
+  background: var(--ground);
+  border-radius: 0 5px 5px 0;
+  font-size: 13px;
+  line-height: 1.45;
+  color: var(--ink-2);
+}
+.shipped b {
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-variant-numeric: tabular-nums;
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.sheet-block { margin-top: 15px; }
+/* Dimmed until you actually move it: the thumb has to sit somewhere, and a
+   crisp 7.0 under an untouched slider would read as a score you had given. */
+input[type="range"].dim { opacity: .42; }
+.scorehint {
+  margin: 2px 0 0;
+  font-size: 12.5px;
+  color: var(--ink-3);
+  line-height: 1.4;
+}
+.linkbtn {
+  margin-top: 6px;
+  padding: 0;
+  border: none;
+  background: none;
+  color: var(--copper);
+  font-family: "Instrument Sans", system-ui, sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.linkbtn[hidden] { display: none; }
+
+.notefield {
+  width: 100%;
+  background: var(--ground);
+  color: var(--ink);
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  padding: 10px 11px;
+  font-family: "Instrument Sans", system-ui, sans-serif;
+  font-size: 15px;
+  line-height: 1.45;
+  resize: vertical;
+}
+.notefield::placeholder { color: var(--ink-3); }
+
+.sheet-acts { display: flex; gap: 9px; margin-top: 17px; }
+.btn {
+  flex: 1;
+  min-height: 46px;
+  border-radius: 8px;
+  border: 1px solid var(--juniper);
+  background: var(--juniper);
+  color: var(--head-ink);
+  font-family: "Instrument Sans", system-ui, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn.ghost { background: transparent; border-color: var(--rule); color: var(--ink-2); }
+.btn.ghost[hidden] { display: none; }
+
+/* ── Export ───────────────────────────────────────────────────────────────
+   Sits under the list rather than in the dock: it is a desk job, not an aisle
+   one, and the dock is already three controls deep. */
+.myown { border-top: 1px solid var(--rule); margin-top: 6px; padding: 18px 16px 26px; }
+.myown-head {
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 10.5px;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+  margin: 0 0 9px;
+}
+.myown-acts { display: flex; flex-wrap: wrap; gap: 7px; }
+.exportbtn {
+  min-height: 34px;
+  padding: 0 13px;
+  border: 1px solid var(--rule);
+  border-radius: 17px;
+  background: var(--paper);
+  color: var(--ink-2);
+  font-family: "Instrument Sans", system-ui, sans-serif;
+  font-size: 12.5px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.exportbtn.warn { color: var(--copper); }
+.myown-said { margin: 9px 0 0; font-size: 12.5px; color: var(--ink-3); min-height: 1.2em; }
+
 @media (min-width: 620px) {
   .masthead, .strip, .dock {
     padding-left: max(16px, calc(50vw - 310px));
@@ -498,9 +760,20 @@ input[type="range"]::-moz-range-thumb {
     <h1 class="wordmark">Best Under</h1>
     <span class="origin">Virginia ABC</span>
   </div>
-  <div class="storefield select">
-    <select class="storepick" id="store" aria-label="Store"></select>
+  <div class="storerow">
+    <div class="storefield select">
+      <select class="storepick" id="store" aria-label="Store"></select>
+    </div>
+    <button class="locate" type="button" id="locate" hidden
+            aria-label="Use my location to pick the nearest store">
+      <svg class="locate-i" viewBox="0 0 24 24" aria-hidden="true">
+        <circle cx="12" cy="12" r="3.4"></circle>
+        <circle cx="12" cy="12" r="7.6"></circle>
+        <path d="M12 1.4v3.2M12 19.4v3.2M1.4 12h3.2M19.4 12h3.2"></path>
+      </svg>
+    </button>
   </div>
+  <p class="geonote" id="geonote" hidden></p>
 </header>
 
 <div class="strip" id="strip" role="status" aria-live="polite">
@@ -536,6 +809,45 @@ input[type="range"]::-moz-range-thumb {
   <div class="chipwrap"><div class="chips" id="styles"></div></div>
 </div>
 
+<!-- Score and note editor. Opened by tapping any row. -->
+<dialog class="sheet" id="editor" aria-labelledby="edName">
+  <div class="sheet-in">
+    <div class="sheet-head">
+      <div class="sheet-titles">
+        <h2 class="sheet-name" id="edName"></h2>
+        <p class="sheet-sub" id="edSub"></p>
+      </div>
+      <button class="sheet-x" type="button" id="edClose" aria-label="Close without saving">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"></path></svg>
+      </button>
+    </div>
+
+    <p class="shipped" id="edShipped"></p>
+
+    <div class="sheet-block">
+      <div class="ceilinghead">
+        <span class="label" id="edScoreLabel">Your score</span>
+        <span class="ceiling" id="edScoreOut">&mdash;</span>
+      </div>
+      <input type="range" id="edScore" min="0" max="10" step="0.5" value="7"
+             aria-labelledby="edScoreLabel" aria-describedby="edScoreHint">
+      <p class="scorehint" id="edScoreHint"></p>
+      <button class="linkbtn" type="button" id="edNoScore" hidden>Clear my score</button>
+    </div>
+
+    <div class="sheet-block">
+      <label class="label" for="edNote">Your note</label>
+      <textarea class="notefield" id="edNote" rows="3" maxlength="400"
+                placeholder="What it actually tasted like."></textarea>
+    </div>
+
+    <div class="sheet-acts">
+      <button class="btn ghost" type="button" id="edReset" hidden>Remove mine</button>
+      <button class="btn" type="button" id="edSave">Save</button>
+    </div>
+  </div>
+</dialog>
+
 <script>
 const MAX_CHECK = 30; // matches the fan-out cap in api/stock.js; also the render cap
 
@@ -546,11 +858,29 @@ const el = {
   results: document.getElementById('results'),
   dock: document.getElementById('dock'),
   store: document.getElementById('store'),
+  locate: document.getElementById('locate'),
+  geonote: document.getElementById('geonote'),
   category: document.getElementById('category'),
   size: document.getElementById('size'),
   price: document.getElementById('price'),
   ceiling: document.getElementById('ceiling'),
   styles: document.getElementById('styles'),
+};
+
+/** The score-and-note editor. */
+const ed = {
+  box: document.getElementById('editor'),
+  name: document.getElementById('edName'),
+  sub: document.getElementById('edSub'),
+  shipped: document.getElementById('edShipped'),
+  score: document.getElementById('edScore'),
+  out: document.getElementById('edScoreOut'),
+  hint: document.getElementById('edScoreHint'),
+  noScore: document.getElementById('edNoScore'),
+  note: document.getElementById('edNote'),
+  reset: document.getElementById('edReset'),
+  save: document.getElementById('edSave'),
+  close: document.getElementById('edClose'),
 };
 
 let shelf = null;
@@ -560,9 +890,17 @@ let showAll = false;   // include bottles with no rating yet
 let vaOnly = false;    // Virginia-made only
 let requestSeq = 0;
 let painted = false;   // the build-in animation runs once, on the first list
+let mine = {};         // labelId -> your own score and note (this phone only)
+let editing = null;    // the row the editor is open on
+let edScore = null;    // the score in the editor; null means "none of my own"
+let rendered = new Map(); // code -> the product object behind each painted row
 
 /** Full per-category lists, fetched only when "everything on the shelf" is on. */
 const fullCats = new Map();
+
+/** Notes are typed by hand now, so nothing user-written goes into innerHTML raw. */
+const esc = (s) =>
+  String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
 
 const money = (n) => '$' + n.toFixed(2);
 const dollars = (n) => '$' + Math.round(n);
@@ -627,14 +965,42 @@ async function loadCategory(cat) {
 /** Rated-only by default; the whole shelf once it has been loaded. */
 function sourceProducts() {
   const cat = el.category.value;
-  if (showAll && fullCats.has(cat)) return fullCats.get(cat);
-  return shelf.products;
+  const base = showAll && fullCats.has(cat) ? fullCats.get(cat) : shelf.products;
+  return applyMine(myExtras(base, cat));
+}
+
+/**
+ * The store list, either as built (miles from the home store) or measured from
+ * wherever you actually are — in which case it also sorts nearest-first, so the
+ * store you're standing in is the top item if the auto-pick ever gets it wrong.
+ * Rebuilding the options loses the selection, so it's put back by hand.
+ */
+function renderStoreOptions(from) {
+  const keep = el.store.value;
+  let list = shelf.stores;
+
+  if (from) {
+    list = shelf.stores
+      .map((s) => ({ ...s, away: hasCoords(s) ? milesBetween(from.lat, from.lng, s.lat, s.lng) : null }))
+      .sort((a, b) => (a.away ?? Infinity) - (b.away ?? Infinity));
+  }
+
+  el.store.innerHTML = list
+    .map((s) => {
+      // Without a fix these are distances from the home store, where "0 mi"
+      // is just noise; with one, the nearest store is worth calling out.
+      let tail = '';
+      if (from && s.away != null) tail = s.away < 0.1 ? ' · here' : ` · ${s.away.toFixed(1)} mi`;
+      else if (!from && s.miles) tail = ` · ${s.miles} mi`;
+      return `<option value="${s.id}">${s.label}${tail}</option>`;
+    })
+    .join('');
+
+  el.store.value = keep || String(shelf.homeStore);
 }
 
 function buildControls() {
-  el.store.innerHTML = shelf.stores
-    .map((s) => `<option value="${s.id}"${s.id === shelf.homeStore ? ' selected' : ''}>${s.label}${s.miles ? ` · ${s.miles} mi` : ''}</option>`)
-    .join('');
+  renderStoreOptions(null);
 
   el.category.innerHTML = shelf.categories
     .map((c) => `<option value="${c.cat}">${c.cat}${c.rated ? '' : ' — none rated yet'}</option>`)
@@ -714,6 +1080,442 @@ function renderStyles() {
   measureDock();
 }
 
+/* ── Which store am I standing in? ───────────────────────────────────────
+ *
+ * Entirely offline. Every store's coordinates ship inside shelf.json, so this
+ * is one GPS read and 39 distance calculations — no geocoding service, no
+ * lookup, and it works in a store with no signal.
+ *
+ * The auto-pick only fires when a store is within NEAR_MI. Any further out and
+ * we relabel the list by real distance but leave your pick alone, because
+ * "nearest store to my couch" is not a store you are shopping in.
+ */
+const NEAR_MI = 0.3; // the two closest ABC stores here are 0.68 mi apart, so
+                     // being inside this radius can only ever match one of them
+
+const hasCoords = (s) => Number.isFinite(s?.lat) && Number.isFinite(s?.lng);
+
+function milesBetween(lat1, lng1, lat2, lng2) {
+  const R = 3958.8; // mean earth radius, miles
+  const rad = (d) => (d * Math.PI) / 180;
+  const dLat = rad(lat2 - lat1);
+  const dLng = rad(lng2 - lng1);
+  const h =
+    Math.sin(dLat / 2) ** 2 +
+    Math.cos(rad(lat1)) * Math.cos(rad(lat2)) * Math.sin(dLng / 2) ** 2;
+  return 2 * R * Math.asin(Math.sqrt(h));
+}
+
+function nearestStore(lat, lng) {
+  let best = null;
+  for (const s of shelf.stores) {
+    if (!hasCoords(s)) continue; // an old cached shelf.json predates the coords
+    const away = milesBetween(lat, lng, s.lat, s.lng);
+    if (!best || away < best.away) best = { store: s, away };
+  }
+  return best;
+}
+
+function setGeoNote(text) {
+  el.geonote.textContent = text || '';
+  el.geonote.hidden = !text;
+  measureStrip();
+}
+
+const getFix = (opts) =>
+  new Promise((resolve, reject) =>
+    navigator.geolocation.getCurrentPosition(resolve, reject, opts)
+  );
+
+/**
+ * `silent` is the automatic pass on page load: it never explains itself and
+ * never changes a store you can't be standing in. A tap is the loud pass —
+ * you asked, so it reports whatever it found either way.
+ */
+async function findMyStore({ silent } = {}) {
+  el.locate.dataset.state = 'busy';
+  if (!silent) setGeoNote('Finding you…');
+
+  let pos;
+  try {
+    pos = await getFix({
+      enableHighAccuracy: !silent, // a tap is worth spinning up GPS for
+      timeout: silent ? 6000 : 12000,
+      maximumAge: silent ? 300000 : 30000,
+    });
+  } catch (err) {
+    el.locate.dataset.state = 'off';
+    if (err && err.code === 1) {
+      // Denied. Stop trying on every load; the button still works if they
+      // change their mind in settings.
+      try { localStorage.removeItem('geoOk'); } catch {}
+      if (!silent) setGeoNote('Location blocked — pick your store above');
+    } else if (!silent) {
+      setGeoNote("Couldn't get a fix — pick your store above");
+    } else {
+      setGeoNote('');
+    }
+    return;
+  }
+
+  try { localStorage.setItem('geoOk', '1'); } catch {}
+
+  const { latitude: lat, longitude: lng } = pos.coords;
+  const near = nearestStore(lat, lng);
+  if (!near) { // no coordinates to compare against
+    el.locate.dataset.state = 'off';
+    setGeoNote('');
+    return;
+  }
+
+  // Distances become relative to you, and the list reorders nearest-first.
+  renderStoreOptions({ lat, lng });
+  el.locate.dataset.state = 'on';
+
+  if (near.away <= NEAR_MI) {
+    const changed = el.store.value !== String(near.store.id);
+    el.store.value = String(near.store.id);
+    setGeoNote(`You're at #${near.store.id} · ${near.store.label.split('· ').pop()}`);
+    if (changed) run(); // programmatic changes don't fire `change`
+    else savePrefs();
+    return;
+  }
+
+  // Too far to assume. Say where the nearest one is and leave the pick alone.
+  setGeoNote(`Nearest store is ${near.away.toFixed(1)} mi away — not switching`);
+}
+
+/**
+ * Automatic only where the browser will tell us, without prompting, that we
+ * already have permission. Firing a cold permission prompt at someone who just
+ * opened the page is worse than a button. Safari has no geolocation entry in
+ * the Permissions API, so it falls back to "has this phone located before?".
+ */
+async function maybeAutoLocate() {
+  if (!navigator.geolocation) return;
+  el.locate.hidden = false;
+  el.locate.dataset.state = 'off';
+
+  try {
+    const st = await navigator.permissions.query({ name: 'geolocation' });
+    if (st.state === 'granted') findMyStore({ silent: true });
+    return;
+  } catch {}
+
+  let used = null;
+  try { used = localStorage.getItem('geoOk'); } catch {}
+  if (used) findMyStore({ silent: true });
+}
+
+el.locate.addEventListener('click', () => findMyStore());
+
+/* ── Your own scores and notes ────────────────────────────────────────────
+ *
+ * Everything that ships is one person's draft opinion. This is where yours
+ * overrules it. Kept in localStorage on this phone, never uploaded, and keyed
+ * on labelId exactly like data/ratings.json — so one opinion covers all five
+ * sizes of Tanqueray, and so an export drops straight back into the file the
+ * build reads.
+ */
+const MINE_KEY = 'myRatings';
+
+/** What a row looked like before I touched it. */
+const shippedOf = (p) => p.base || p;
+
+function loadMine() {
+  try {
+    const raw = JSON.parse(localStorage.getItem(MINE_KEY) || '{}');
+    mine = raw && typeof raw === 'object' ? raw : {};
+  } catch {
+    mine = {};
+  }
+}
+
+/**
+ * Stored rows get scrubbed back to their shipped values first — `applyMine`
+ * edits them in place, and persisting an already-overridden row would fold my
+ * score into what it claims shipped.
+ */
+function saveMine() {
+  try {
+    const clean = {};
+    for (const [id, m] of Object.entries(mine)) {
+      clean[id] = m.row ? { ...m, row: snapshot(m.row) } : m;
+    }
+    localStorage.setItem(MINE_KEY, JSON.stringify(clean));
+  } catch {}
+}
+
+// Enough of a bottle to rebuild its row from nothing.
+const SNAP = ['c', 'l', 'n', 'cat', 'ml', 'p', 'p750', 'pf', 'st', 'va'];
+
+function snapshot(p) {
+  const o = {};
+  for (const k of SNAP) if (p[k] !== undefined) o[k] = p[k];
+  const b = shippedOf(p);
+  if (typeof b.s === 'number') {
+    o.s = b.s;
+    o.note = b.note || '';
+    o.src = b.src;
+  }
+  return o;
+}
+
+/**
+ * Lay my scores and notes over a list of rows, in place. Each row keeps what
+ * shipped in `base`, so removing an edit puts the original back rather than
+ * leaving a hole — no reload, no refetch.
+ */
+function applyMine(rows) {
+  for (const p of rows) {
+    const m = p.l ? mine[p.l] : null;
+    if (m) {
+      if (!p.base) p.base = { s: p.s, note: p.note, src: p.src };
+      if (typeof m.score === 'number') {
+        p.s = m.score;
+        p.src = 'mine';
+        p.mine = 'score';
+      } else {
+        // A note on its own is not a score. The shipped rating stands.
+        p.s = p.base.s;
+        p.src = p.base.src;
+        p.mine = 'note';
+      }
+      p.note = m.note || p.base.note || '';
+    } else if (p.base) {
+      p.s = p.base.s;
+      p.note = p.base.note;
+      p.src = p.base.src;
+      delete p.mine;
+      delete p.base;
+    }
+  }
+  return rows;
+}
+
+/**
+ * Bottles scored out of "everything on the shelf" have no row in the rated
+ * shelf.json, so they would vanish the moment that toggle went off. Rating one
+ * is precisely the act of saying it belongs in the list, so it is carried along
+ * from the copy stored beside the rating.
+ */
+function myExtras(base, cat) {
+  const add = [];
+  for (const m of Object.values(mine)) {
+    if (m.row && m.row.cat === cat) add.push(m.row);
+  }
+  if (!add.length) return base;
+  const have = new Set(base.map((p) => p.c));
+  const missing = add.filter((r) => !have.has(r.c));
+  return missing.length ? base.concat(missing) : base;
+}
+
+// ── The editor ───────────────────────────────────────────────────────────
+
+/** The score readout, the slider's dimmed state, and the line under it. */
+function paintScore() {
+  const base = shippedOf(editing);
+  const had = typeof base.s === 'number';
+
+  if (edScore == null) {
+    ed.out.innerHTML = '&mdash;';
+    ed.score.classList.add('dim');
+    ed.noScore.hidden = true;
+    ed.hint.textContent = had
+      ? `No score of your own — the list keeps the ${base.s.toFixed(1)} that shipped.`
+      : 'No score of your own — this bottle stays unrated.';
+    return;
+  }
+
+  ed.out.textContent = edScore.toFixed(1);
+  ed.score.classList.remove('dim');
+  ed.noScore.hidden = false;
+  ed.hint.textContent = had
+    ? edScore === base.s
+      ? `Agrees with the ${base.s.toFixed(1)} that shipped.`
+      : `Replaces the ${base.s.toFixed(1)} that shipped.`
+    : 'Nobody had rated this one.';
+}
+
+function openEditor(p) {
+  if (!p || !p.l) return; // an old cached shelf.json predates label ids
+  editing = p;
+  const m = mine[p.l];
+  const base = shippedOf(p);
+
+  ed.name.textContent = p.n;
+  ed.sub.textContent = [money(p.p), `${p.ml} ml`, p.st ? p.st.replaceAll('-', ' ') : '', p.c]
+    .filter(Boolean)
+    .join(' · ');
+
+  // What you are overruling, spelled out — a half-point nudge should be a
+  // considered edit, not a guess at what was already there.
+  ed.shipped.textContent = '';
+  if (typeof base.s === 'number') {
+    const b = document.createElement('b');
+    b.textContent = `Shipped ${base.s.toFixed(1)}`;
+    ed.shipped.append(b);
+    if (base.note) ed.shipped.append(` — ${base.note}`);
+  } else {
+    ed.shipped.textContent = 'Nobody has rated this bottle yet.';
+  }
+
+  edScore = typeof m?.score === 'number' ? m.score : null;
+  ed.score.value = String(edScore ?? (typeof base.s === 'number' ? base.s : 7));
+  ed.note.value = (m && m.note) || '';
+  ed.reset.hidden = !m;
+
+  paintScore();
+  ed.box.showModal();
+}
+
+ed.score.addEventListener('input', () => {
+  edScore = Number(ed.score.value);
+  paintScore();
+});
+ed.noScore.addEventListener('click', () => {
+  edScore = null;
+  paintScore();
+});
+ed.close.addEventListener('click', () => ed.box.close());
+// The sheet carries no padding of its own, so a hit on the dialog element
+// itself is the backdrop around it.
+ed.box.addEventListener('click', (e) => {
+  if (e.target === ed.box) ed.box.close();
+});
+ed.box.addEventListener('close', () => {
+  editing = null;
+});
+
+ed.save.addEventListener('click', () => {
+  if (!editing) return;
+  const note = ed.note.value.trim();
+  const id = editing.l;
+
+  // An empty score and an empty note means you took it back.
+  if (edScore == null && !note) {
+    delete mine[id];
+  } else {
+    const rec = { note, at: new Date().toISOString(), row: snapshot(editing) };
+    if (edScore != null) rec.score = edScore;
+    mine[id] = rec;
+  }
+
+  saveMine();
+  ed.box.close();
+  run();
+});
+
+ed.reset.addEventListener('click', () => {
+  if (editing) {
+    delete mine[editing.l];
+    saveMine();
+  }
+  ed.box.close();
+  run();
+});
+
+// ── Getting it back off the phone ────────────────────────────────────────
+
+/**
+ * Exactly the shape of data/ratings.json, so it can be pasted in or merged with
+ * `node scripts/import-my-ratings.mjs`. `style` is deliberately left out: the
+ * build falls back to ABC's own type where a rating has none, and writing that
+ * derived value into the file would freeze a fallback as a decision.
+ */
+function mineAsRatings() {
+  const out = {};
+  for (const [id, m] of Object.entries(mine)) {
+    const base = m.row ? shippedOf(m.row) : null;
+    const score =
+      typeof m.score === 'number' ? m.score : typeof base?.s === 'number' ? base.s : null;
+    out[id] = { name: m.row?.n || '', score, note: m.note || '', source: 'jeff' };
+  }
+  return JSON.stringify(out, null, 2);
+}
+
+/**
+ * The block under the list that gets your ratings off this phone. Only appears
+ * once there is something to take. It sits here rather than in the dock because
+ * exporting is a desk job — the dock is for the three things you touch in an
+ * aisle.
+ */
+function exportHtml() {
+  const n = Object.keys(mine).length;
+  if (!n) return '';
+  return `<li class="myown">
+    <p class="myown-head">Your ratings · ${n} ${n === 1 ? 'bottle' : 'bottles'}</p>
+    <div class="myown-acts">
+      <button class="exportbtn" type="button" data-act="copy">Copy as JSON</button>
+      <button class="exportbtn" type="button" data-act="file">Save file</button>
+      <button class="exportbtn warn" type="button" data-act="clear">Delete all</button>
+    </div>
+    <p class="myown-said" id="mineSaid">Kept on this phone alone — clearing the browser's data loses them. Export to fold them into data/ratings.json for everyone.</p>
+  </li>`;
+}
+
+/**
+ * The pre-clipboard-API way out. Still the only one that works in a few mobile
+ * browsers, and on any page not served over HTTPS.
+ */
+function legacyCopy(text) {
+  const box = document.createElement('textarea');
+  box.value = text;
+  box.setAttribute('readonly', '');
+  box.style.cssText = 'position:fixed;top:0;left:0;opacity:0';
+  document.body.append(box);
+  box.select();
+  let ok = false;
+  try { ok = document.execCommand('copy'); } catch {}
+  box.remove();
+  return ok;
+}
+
+function mineActions(act) {
+  const said = document.getElementById('mineSaid');
+  const say = (t) => { if (said) said.textContent = t; };
+  const n = Object.keys(mine).length;
+  const json = mineAsRatings();
+  const blank = Object.values(JSON.parse(json)).filter((r) => r.score == null).length;
+  const tail = blank ? ` ${blank} of them still needs a score.` : '';
+
+  if (act === 'copy') {
+    const won = () => say(`Copied ${n} ${n === 1 ? 'rating' : 'ratings'}.${tail}`);
+    const lost = () => (legacyCopy(json) ? won() : say('Could not copy — use Save file instead.'));
+    if (navigator.clipboard) navigator.clipboard.writeText(json).then(won, lost);
+    else lost();
+    return;
+  }
+
+  if (act === 'file') {
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(new Blob([json], { type: 'application/json' }));
+    a.download = 'my-ratings.json';
+    a.click();
+    setTimeout(() => URL.revokeObjectURL(a.href), 5000);
+    say(`Saved my-ratings.json — ${n} ${n === 1 ? 'rating' : 'ratings'}.${tail}`);
+    return;
+  }
+
+  if (act === 'clear') {
+    const ok = confirm(
+      `Delete all ${n} scores and notes you have added on this phone? There is no undo, and nothing is backed up anywhere else.`
+    );
+    if (!ok) return;
+    mine = {};
+    saveMine();
+    run();
+  }
+}
+
+// One listener for the whole list: rows open the editor, export buttons don't.
+el.results.addEventListener('click', (e) => {
+  const act = e.target.closest('[data-act]');
+  if (act) return mineActions(act.dataset.act);
+  const row = e.target.closest('.tag');
+  if (row) openEditor(rendered.get(row.dataset.code));
+});
+
 // ── Rank locally. No network involved — this is why the list is instant. ─
 function candidates() {
   const cat = el.category.value;
@@ -730,10 +1532,13 @@ function candidates() {
 }
 
 function render(list, total) {
+  rendered = new Map(list.map((p) => [p.c, p]));
+
   if (!list.length) {
     el.results.innerHTML =
       `<li class="empty"><strong>No ${el.category.value.toLowerCase()} under ${dollars(Number(el.price.value))}.</strong>` +
-      `Raise the ceiling, allow any size, or switch on “Everything on the shelf” to include bottles nobody has rated yet.</li>`;
+      `Raise the ceiling, allow any size, or switch on “Everything on the shelf” to include bottles nobody has rated yet.</li>` +
+      exportHtml();
     return;
   }
 
@@ -782,12 +1587,14 @@ function render(list, total) {
       </li>`;
     }
     html += `
-    <li class="tag" data-code="${p.c}" data-tier="${tierId}" data-state="checking" data-rated="${isRated ? 'yes' : 'no'}">
+    <li class="tag" data-code="${p.c}" data-tier="${tierId}" data-state="checking" data-rated="${isRated ? 'yes' : 'no'}" data-mine="${p.mine ? 'yes' : 'no'}">
       <div class="head">
         <h2 class="name">${p.n}</h2>
         <span class="price">${money(p.p)}</span>
       </div>
       <div class="meta">
+        ${p.mine === 'score' ? `<span class="mine">Your score</span>` : ''}
+        ${p.mine === 'note' ? `<span class="mine">Your note</span>` : ''}
         ${isRated && isGreatValue(p) ? `<span class="value">Great value</span>` : ''}
         ${p.st ? `<span class="style">${p.st.replaceAll('-', ' ')}</span>` : ''}
         ${p.va ? `<span class="va">Virginia</span>` : ''}
@@ -796,10 +1603,16 @@ function render(list, total) {
         ${p.ml !== 750 ? `<span class="dat per">${money(p.p750)} per 750</span>` : ''}
         ${isRated && !allDraft && p.src === 'draft' ? `<span class="draft">Draft</span>` : ''}
       </div>
-      ${p.note ? `<p class="note">${p.note}</p>` : ''}
+      ${p.note ? `<p class="note">${esc(p.note)}</p>` : ''}
       <div class="foot">
-        <span class="stock" data-level="unknown"><i class="dot"></i>Checking</span>
-        <span class="code">${p.c}</span>
+        <span class="footfacts">
+          <span class="stock" data-level="unknown"><i class="dot"></i>Checking</span>
+          <span class="code">${p.c}</span>
+        </span>
+        ${p.l ? `<button class="rate" type="button" aria-label="Your score and note for ${esc(p.n)}">
+          <svg class="rate-i" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20h4L19.5 8.5a2.1 2.1 0 0 0-3-3L5 17v3z"></path></svg>
+          ${p.mine === 'score' ? p.s.toFixed(1) : p.mine === 'note' ? 'Noted' : 'Rate'}
+        </button>` : ''}
       </div>
     </li>`;
   }
@@ -810,11 +1623,13 @@ function render(list, total) {
     total > list.length
       ? `Showing the top ${list.length} of ${total} matches. Narrow the price or style to see further down the shelf.`
       : '',
+    Object.keys(mine).length ? '' : 'Tap any bottle to score it yourself or leave a note.',
     allDraft ? 'Ratings are drafts' : '',
   ].filter(Boolean);
   if (footnotes.length) {
     html += `<li class="colophon">${footnotes.map((t) => `<span>${t}</span>`).join('')}</li>`;
   }
+  html += exportHtml();
 
   el.results.innerHTML = html;
   tuneTiers();
@@ -953,7 +1768,12 @@ el.price.addEventListener('input', () => {
 });
 el.price.addEventListener('change', run);
 el.size.addEventListener('change', run);
-el.store.addEventListener('change', run);
+el.store.addEventListener('change', () => {
+  // You've overruled the location, so the note about it is no longer true.
+  if (el.locate.dataset.state === 'on') el.locate.dataset.state = 'off';
+  setGeoNote('');
+  run();
+});
 el.category.addEventListener('change', async () => {
   // "everything" is per-category, so switching categories has to fetch again
   if (showAll) await loadCategory(el.category.value);
@@ -975,6 +1795,7 @@ window.addEventListener('orientationchange', measureDock);
     return;
   }
   shelf = loaded.data;
+  loadMine(); // before anything reads the shelf through them
   buildControls();
   restorePrefs();
   renderStyles(); // after restore, so the chips match the remembered category
@@ -983,6 +1804,8 @@ window.addEventListener('orientationchange', measureDock);
   measureStrip();
   run();
   if (loaded.cached) setStatus('Offline — saved copy', 'warn');
+  // After the list has painted: locating must never delay the shelf.
+  maybeAutoLocate();
 })();
 </script>
 </body>

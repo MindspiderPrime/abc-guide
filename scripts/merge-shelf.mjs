@@ -63,6 +63,9 @@ const styleFor = (p, rating) =>
 function row(p, rating) {
   const r = {
     c: p.code,
+    // The label this bottle belongs to. Ratings key on it, so one opinion
+    // covers every size — and so does an opinion you type on the phone.
+    l: p.labelId,
     n: rating?.name || p.name,
     cat: p.category,
     ml: p.ml,
@@ -123,10 +126,15 @@ const shelf = {
   builtAt: new Date().toISOString(),
   catalogBuiltAt: catalog.builtAt,
   homeStore: stores.homeStore,
+  // lat/lng ride along so the phone can work out which store you're standing
+  // in without asking anything over the network. 39 pairs of numbers is under
+  // a kilobyte, and it keeps "find my store" working in a dead spot.
   stores: stores.stores.map((s) => ({
     id: s.storeNumber,
     label: `#${s.storeNumber} · ${shortAddress(s.address)}, ${titleCase(s.city)}`,
     miles: s.miles,
+    lat: s.lat,
+    lng: s.lng,
   })),
   categories,
   products: rated,

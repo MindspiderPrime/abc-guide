@@ -5,7 +5,15 @@ It shows the best-rated bottles **actually on the shelf in that store right
 now**, best first.
 
 Home store: **#270, 809 E Parham Rd, Richmond**. 38 other stores within 15 miles
-are in the picker. Gin, bourbon, and rye are rated so far.
+are in the picker. The crosshair button beside the picker works out which store
+you're standing in; after you've allowed it once, it does that on its own every
+time you open the page. Gin, bourbon, and rye are rated so far.
+
+Every score in it is somebody else's opinion, so **tap any bottle to overrule
+it** — set your own score, leave yourself a note, or both. Your version wins
+from then on and the bottle re-sorts into its new tier. It is kept on that phone
+and nowhere else; `Export` at the foot of the list hands it back so it can be
+folded into `data/ratings.json` for the next build.
 
 Style filters are per category — london dry and navy strength for gin, wheated
 and bottled-in-bond for bourbon — because "best" means something different in
@@ -66,6 +74,21 @@ stored under the name people actually use. `Whiskey:Scotch` and `Whiskey:Irish`
 are there for the taking.
 
 Edit `data/ratings.json`, re-run `merge-shelf`, push. That's the whole loop.
+
+Ratings typed on the phone come back the same way. Tap `Save file` under the
+list, then:
+
+```bash
+node scripts/import-my-ratings.mjs ~/Downloads/my-ratings.json --dry-run
+node scripts/import-my-ratings.mjs ~/Downloads/my-ratings.json
+node scripts/merge-shelf.mjs
+```
+
+The dry run prints every add and change without writing. A real run keeps a
+`.bak` beside the file, marks the imported entries `"source": "jeff"`, and
+leaves any hand-authored `style` alone. A phone entry with a note but no score
+stays on the phone — the shelf sorts on scores, so there is nothing to file
+yet.
 
 Ratings key on **label ID**, not product code — "Tanqueray Gin" is one opinion
 that covers all five of its bottle sizes. 163 ratings currently cover 299
