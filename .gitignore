@@ -3,3 +3,7 @@ node_modules/
 .env*
 .DS_Store
 *.log
+
+# transient: an exported set of phone ratings, and the backup an import leaves
+my-ratings.json
+*.bak
