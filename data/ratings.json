@@ -271,6 +271,12 @@
     "note": "A classic, dependable anejo. Oak and vanilla without losing the agave underneath.",
     "source": "draft"
   },
+  "1364": {
+    "name": "Herradura Reposado Tequila",
+    "score": 7,
+    "note": "A classic reposado, consistent with Herradura's dependable quality.",
+    "source": "draft"
+  },
   "1423": {
     "name": "Hiram Walker Orange Curacao",
     "score": 5,
@@ -360,6 +366,12 @@
     "score": 5,
     "style": "fruit",
     "note": "Bright green melon liqueur. A novelty mixer more than a sipper.",
+    "source": "draft"
+  },
+  "2106": {
+    "name": "Milagro Anejo Tequila",
+    "score": 6.5,
+    "note": "A reliable, well-balanced anejo from a consistently good brand.",
     "source": "draft"
   },
   "2107": {
@@ -975,6 +987,12 @@
     "note": "French ginger liqueur, real ginger heat and depth. Excellent in cocktails.",
     "source": "draft"
   },
+  "5478": {
+    "name": "Corzo Reposado",
+    "score": 6.5,
+    "note": "A fine, unremarkable reposado.",
+    "source": "draft"
+  },
   "5586": {
     "name": "Damiana Liqueur",
     "score": 5.5,
@@ -1087,6 +1105,12 @@
     "note": "Loudoun County. Smooth, mildly floral.",
     "source": "draft"
   },
+  "6236": {
+    "name": "Herradura Silver Tequila",
+    "score": 7,
+    "note": "A classic, well-regarded blanco with real agave depth.",
+    "source": "draft"
+  },
   "6323": {
     "name": "Stirrings Triple Sec Liqueur",
     "score": 5,
@@ -1115,6 +1139,12 @@
     "note": "A more almond-forward amaretto than Disaronno. Worth trying if you like the style.",
     "source": "draft"
   },
+  "6536": {
+    "name": "Don Ramon Reposado",
+    "score": 6,
+    "note": "A basic, mid-tier reposado. Fine for mixing.",
+    "source": "draft"
+  },
   "6560": {
     "name": "Kraken Black Spiced Rum",
     "score": 6.5,
@@ -1132,6 +1162,12 @@
     "name": "Carpano Antica Formula Vermouth",
     "score": 8.5,
     "note": "The benchmark sweet vermouth. Vanilla and bitter orange — it makes a manhattan.",
+    "source": "draft"
+  },
+  "6677": {
+    "name": "Milagro Select Barrel Reserve Silver Tequila",
+    "score": 7,
+    "note": "Milagro's premium silver expression, more depth than their standard Silver.",
     "source": "draft"
   },
   "6733": {
@@ -1281,6 +1317,12 @@
     "note": "Butterscotch-cream shot, similar tier to the schnapps-based original.",
     "source": "draft"
   },
+  "7381": {
+    "name": "Tequila Ocho Plata",
+    "score": 8,
+    "note": "Single-estate, vintage-dated agave. One of the most respected blancos among tequila enthusiasts.",
+    "source": "draft"
+  },
   "7383": {
     "name": "Twisted Shotz B52",
     "score": 4,
@@ -1380,6 +1422,12 @@
     "score": 4.5,
     "style": "margarita",
     "note": "Lower-calorie marketing, but the flavor is thin compared to a real tequila margarita.",
+    "source": "draft"
+  },
+  "7880": {
+    "name": "El Tesoro Reposado",
+    "score": 7.5,
+    "note": "A well-regarded artisanal reposado, full agave character with real barrel depth.",
     "source": "draft"
   },
   "7911": {
@@ -1489,6 +1537,12 @@
     "name": "Casamigos Tequila Blanco",
     "score": 6,
     "note": "Smooth and sweet. Forty-five dollars is celebrity pricing.",
+    "source": "draft"
+  },
+  "8601": {
+    "name": "Casamigos Tequila Reposado",
+    "score": 7.5,
+    "note": "George Clooney's brand backs up the hype -- genuinely smooth and well-made.",
     "source": "draft"
   },
   "8714": {
@@ -1622,6 +1676,13 @@
     "note": "Standard Maker's finished with seared French oak staves. More vanilla and spice, worth the upgrade.",
     "source": "draft"
   },
+  "9323": {
+    "name": "Breckenridge Bourbon",
+    "score": 7,
+    "style": "traditional",
+    "note": "A well-regarded Colorado craft bourbon, high-elevation aging gives it a distinctive character.",
+    "source": "draft"
+  },
   "9352": {
     "name": "Ciroc Vodka",
     "score": 6.5,
@@ -1669,6 +1730,12 @@
     "score": 6.5,
     "style": "fruit",
     "note": "A cognac-based orange liqueur, richer than a standard triple sec.",
+    "source": "draft"
+  },
+  "9464": {
+    "name": "Del Maquey Santo Domingo Albarradas Mezcal",
+    "score": 8,
+    "note": "Another single-village expression from the highly-regarded Del Maguey portfolio.",
     "source": "draft"
   },
   "9469": {
@@ -2002,6 +2069,18 @@
     "note": "A real step up from standard Beam — single barrel, more character, still a fair price.",
     "source": "draft"
   },
+  "10609": {
+    "name": "Patron Silver Tequila",
+    "score": 7,
+    "note": "The tequila that built the premium category. Smooth and reliable, if not the most complex blanco available.",
+    "source": "draft"
+  },
+  "10617": {
+    "name": "Casa Noble Crystal Tequila",
+    "score": 7,
+    "note": "An organic, well-regarded tequila house. Clean and refined.",
+    "source": "draft"
+  },
   "10618": {
     "name": "Smirnoff Vodka 80 Proof",
     "score": 5.5,
@@ -2162,6 +2241,12 @@
     "note": "Charlottesville craft rum. Clean and competent.",
     "source": "draft"
   },
+  "11325": {
+    "name": "1800 Tequila Anejo",
+    "score": 6.5,
+    "note": "A dependable, widely available anejo.",
+    "source": "draft"
+  },
   "11326": {
     "name": "Cabo Wabo Tequila Blanco",
     "score": 6,
@@ -2268,6 +2353,13 @@
     "score": 6,
     "style": "nut",
     "note": "A reliable, mid-tier amaretto. Almond-forward without being cloying.",
+    "source": "draft"
+  },
+  "11679": {
+    "name": "Angel's Envy Port Barrel Bourbon",
+    "score": 8,
+    "style": "traditional",
+    "note": "Angel's Envy's original, well-regarded flagship -- finished in port casks for real fruit depth.",
     "source": "draft"
   },
   "11682": {
@@ -2419,6 +2511,18 @@
     "note": "Soft and vanilla-ish. Perfectly good.",
     "source": "draft"
   },
+  "11803": {
+    "name": "Chamucos Tequila Blanco",
+    "score": 6.5,
+    "note": "A solid, mid-tier blanco with a distinctive skull-and-devil branding.",
+    "source": "draft"
+  },
+  "11804": {
+    "name": "Chamucos Tequila Anejo",
+    "score": 7,
+    "note": "Chamucos' aged expression, more depth than their Blanco.",
+    "source": "draft"
+  },
   "11811": {
     "name": "Chivas Regal 12 Year Scotch",
     "score": 6.5,
@@ -2458,6 +2562,12 @@
     "name": "Corazon Tequila Blanco",
     "score": 7,
     "note": "Solid additive-free blanco.",
+    "source": "draft"
+  },
+  "11835": {
+    "name": "Corralejo Tequila Anejo",
+    "score": 6.5,
+    "note": "A solid anejo from a well-known hacienda-style brand.",
     "source": "draft"
   },
   "11836": {
@@ -2528,10 +2638,34 @@
     "note": "Soft, cheap, forgettable. A mixing blend.",
     "source": "draft"
   },
+  "11872": {
+    "name": "Don Julio Tequila Blanco",
+    "score": 7.5,
+    "note": "An iconic, excellent blanco. Smooth enough to sip, versatile enough to mix.",
+    "source": "draft"
+  },
+  "11873": {
+    "name": "Don Julio Tequila Reposado",
+    "score": 7.5,
+    "note": "One of the most reliably excellent reposados available at any price.",
+    "source": "draft"
+  },
+  "11874": {
+    "name": "Don Julio Tequila Anejo",
+    "score": 7.5,
+    "note": "Rich and well-aged, consistent with the excellent Don Julio lineup.",
+    "source": "draft"
+  },
   "11883": {
     "name": "El Jimador Tequila Anejo",
     "score": 6.5,
     "note": "A reliable, widely available anejo. Good value for the aging.",
+    "source": "draft"
+  },
+  "11885": {
+    "name": "El Mayor Tequila Anejo",
+    "score": 6.5,
+    "note": "El Mayor's aged expression, consistent quality with their Blanco and Reposado.",
     "source": "draft"
   },
   "11891": {
@@ -2819,6 +2953,20 @@
     "note": "High-proof Colorado blend. Spicier and more assertive than most blended whiskey.",
     "source": "draft"
   },
+  "12284": {
+    "name": "Old Forester 1920 Craft Bourbon",
+    "score": 8,
+    "style": "barrel-proof",
+    "note": "Part of Old Forester's historic Whiskey Row series, bottled at barrel-entry proof. Rich and intense.",
+    "source": "draft"
+  },
+  "12285": {
+    "name": "Old Forester 1897 Craft Bourbon",
+    "score": 7.5,
+    "style": "bottled-in-bond",
+    "note": "Part of Old Forester's Whiskey Row historic series, bottled in bond at a higher proof than their standard line.",
+    "source": "draft"
+  },
   "12294": {
     "name": "Deep Eddy Orange Vodka",
     "score": 5.5,
@@ -2852,6 +3000,13 @@
     "score": 8,
     "style": "traditional",
     "note": "Nine years old, 100 proof, unapologetically oaky. A lot of bourbon for the money.",
+    "source": "draft"
+  },
+  "12334": {
+    "name": "Knob Creek Smoked Maple Bourbon",
+    "score": 6.5,
+    "style": "flavored",
+    "note": "Maple sweetness with a smoked edge -- a distinctive twist on standard Knob Creek.",
     "source": "draft"
   },
   "12347": {
@@ -2996,6 +3151,12 @@
     "note": "Guyanese, from a distillery famous for its aged expressions. Smooth even at this young age.",
     "source": "draft"
   },
+  "12746": {
+    "name": "Tres Agaves Tequila Reposado",
+    "score": 6.5,
+    "note": "A solid, additive-free reposado at a fair price.",
+    "source": "draft"
+  },
   "12751": {
     "name": "Sauza Hornitos Tequila Reposado",
     "score": 6.5,
@@ -3063,6 +3224,13 @@
     "note": "Finished in IPA beer casks -- a genuinely distinctive, hoppy twist on standard Jameson.",
     "source": "draft"
   },
+  "13094": {
+    "name": "Blade And Bow Bourbon",
+    "score": 7,
+    "style": "traditional",
+    "note": "Ties back to the old Stitzel-Weller lineage via a solera system. Well-regarded and distinctive.",
+    "source": "draft"
+  },
   "13142": {
     "name": "Canadian Mist Whisky (plastic)",
     "score": 3.5,
@@ -3081,6 +3249,13 @@
     "score": 7.5,
     "style": "bottled-in-bond",
     "note": "The 100-proof bonded Overholt, not the 80. Far better and only three dollars more.",
+    "source": "draft"
+  },
+  "13184": {
+    "name": "Few Bourbon Whiskey",
+    "score": 7,
+    "style": "traditional",
+    "note": "A well-regarded Illinois craft distillery. Solid, characterful bourbon.",
     "source": "draft"
   },
   "13215": {
@@ -3142,6 +3317,12 @@
     "name": "Tullamore Dew Irish Whiskey",
     "score": 6,
     "note": "Light and soft. Unobjectionable.",
+    "source": "draft"
+  },
+  "13444": {
+    "name": "Casamigos Mezcal Joven",
+    "score": 7,
+    "note": "Casamigos' mezcal extension. Well-made, smokier than their tequila line.",
     "source": "draft"
   },
   "13463": {
@@ -3525,10 +3706,23 @@
     "note": "A genuine step up from Bacardi's white rums. Oaky and worth the extra fifteen dollars.",
     "source": "draft"
   },
+  "14564": {
+    "name": "Legent",
+    "score": 7.5,
+    "style": "traditional",
+    "note": "A Jim Beam and Suntory collaboration, finished in wine and sherry casks. Distinctive and well-regarded.",
+    "source": "draft"
+  },
   "14592": {
     "name": "Corazon Tequila Reposado Single Barrel",
     "score": 7,
     "note": "A well-regarded single-barrel reposado, more character than the standard Corazon line.",
+    "source": "draft"
+  },
+  "14711": {
+    "name": "Casamigos Tequila Anejo",
+    "score": 7.5,
+    "note": "More depth than the Reposado, consistent with the well-regarded Casamigos quality.",
     "source": "draft"
   },
   "14761": {
@@ -3624,6 +3818,12 @@
     "score": 7,
     "style": "dark",
     "note": "Antigua, sherry-cask sweetness. Overlooked and worth a look at this price.",
+    "source": "draft"
+  },
+  "15035": {
+    "name": "Tequila Ocho Reposado",
+    "score": 8,
+    "note": "Single-estate, vintage-dated agave aged in bourbon barrels. Highly regarded among tequila enthusiasts.",
     "source": "draft"
   },
   "15064": {
@@ -3902,6 +4102,13 @@
     "note": "Technically a single malt rather than a bourbon mashbill, but well-regarded Colorado craft whiskey.",
     "source": "draft"
   },
+  "15314": {
+    "name": "Tarnished Truth High Rye Bourbon",
+    "score": 6.5,
+    "style": "high-rye",
+    "note": "Virginia craft, spicier than a standard bourbon from the high rye content.",
+    "source": "draft"
+  },
   "15329": {
     "name": "Tim Smith Climax Moonshine",
     "score": 6,
@@ -4027,6 +4234,13 @@
     "note": "Bottled at barrel-entry proof. A genuine step up in intensity from the standard 1792 Small Batch.",
     "source": "draft"
   },
+  "15521": {
+    "name": "1792 Single Barrel Bourbon",
+    "score": 7.5,
+    "style": "traditional",
+    "note": "More intensity and variation than the flagship Small Batch, from a single barrel.",
+    "source": "draft"
+  },
   "15522": {
     "name": "1792 Small Batch",
     "score": 7.5,
@@ -4129,6 +4343,13 @@
     "score": 7.5,
     "style": "traditional",
     "note": "Honors Nathan \"Nearest\" Green, the formerly enslaved man who taught Jack Daniel to distill. Genuinely well-made.",
+    "source": "draft"
+  },
+  "15593": {
+    "name": "Horse Soldier Straight Bourbon",
+    "score": 6.5,
+    "style": "traditional",
+    "note": "Horse Soldier's bourbon-specific line, similar tier to their Small Batch.",
     "source": "draft"
   },
   "15604": {
@@ -4332,6 +4553,12 @@
     "note": "Puerto Rican, made in the sherry-cask solera style. Distinctive among the Caribbean rums here.",
     "source": "draft"
   },
+  "15878": {
+    "name": "Villa One Silver",
+    "score": 6.5,
+    "note": "Nick Jonas's tequila brand. Decent, unremarkable beyond the celebrity name.",
+    "source": "draft"
+  },
   "15902": {
     "name": "Virgin Bourbon 101",
     "score": 6,
@@ -4394,11 +4621,23 @@
     "note": "Bonded five-year apple brandy. Superb and still under forty.",
     "source": "draft"
   },
+  "16079": {
+    "name": "El Tesoro Blanco",
+    "score": 7.5,
+    "note": "A well-regarded artisanal tequila, full agave character.",
+    "source": "draft"
+  },
   "16081": {
     "name": "Peerless Small Batch Bourbon",
     "score": 8,
     "style": "traditional",
     "note": "Louisville craft distillery with a real pedigree. Consistently well-reviewed since their first releases.",
+    "source": "draft"
+  },
+  "16087": {
+    "name": "Del Maguey Las Milpas",
+    "score": 8,
+    "note": "From the legendary single-village mezcal house. Complex and traditional.",
     "source": "draft"
   },
   "16093": {
@@ -4492,6 +4731,12 @@
     "note": "Belvedere's higher-end rye-based bottling. More character than the standard bottle.",
     "source": "draft"
   },
+  "16271": {
+    "name": "Tanteo Blanco Tequila",
+    "score": 6.5,
+    "note": "The clean base behind the well-regarded Tanteo flavored line.",
+    "source": "draft"
+  },
   "16309": {
     "name": "High West Double Rye Whiskey Barrel Select",
     "score": 8,
@@ -4553,6 +4798,13 @@
     "score": 7,
     "style": "kentucky-rye",
     "note": "Virginia craft, cask strength. More intensity than their standard Roundstone Rye.",
+    "source": "draft"
+  },
+  "16367": {
+    "name": "Larceny Barrel Proof",
+    "score": 8.5,
+    "style": "wheated",
+    "note": "A cult favorite among wheated bourbon drinkers -- full barrel proof, genuine intensity.",
     "source": "draft"
   },
   "16376": {
@@ -4635,6 +4887,12 @@
     "name": "Teremana Reposado Tequila",
     "score": 6,
     "note": "Soft and sweet. Fine.",
+    "source": "draft"
+  },
+  "16409": {
+    "name": "Cincoro Blanco Tequila",
+    "score": 7,
+    "note": "An NBA-owners-group brand. Genuinely well-made, riding partly on the celebrity backing.",
     "source": "draft"
   },
   "16416": {
@@ -5051,6 +5309,24 @@
     "note": "Avion's top-tier gold expression. Smooth and rounded, priced for the premium positioning.",
     "source": "draft"
   },
+  "16971": {
+    "name": "Avion Tequila Reposado",
+    "score": 6.5,
+    "note": "A reliable, well-known mid-tier reposado.",
+    "source": "draft"
+  },
+  "16979": {
+    "name": "Casa Noble Anejo Tequila",
+    "score": 7,
+    "note": "Casa Noble's aged expression, organic and well-regarded.",
+    "source": "draft"
+  },
+  "16985": {
+    "name": "Codigo 1530 Reposado Tequila",
+    "score": 7,
+    "note": "A well-regarded, wine-cask-aged reposado with real character.",
+    "source": "draft"
+  },
   "16987": {
     "name": "Codigo 1530 Blanco Tequila",
     "score": 7,
@@ -5114,10 +5390,29 @@
     "note": "A grape-based vodka distilled from their own wine grapes -- distinctly smooth mouthfeel.",
     "source": "draft"
   },
+  "17049": {
+    "name": "Weller Single Barrel",
+    "score": 8,
+    "style": "wheated",
+    "note": "A single-barrel pick of the well-regarded Weller line. Consistently excellent.",
+    "source": "draft"
+  },
+  "17054": {
+    "name": "Maestro Dobel Tequila Reposado",
+    "score": 7,
+    "note": "From the maker of the well-regarded Dobel Diamond. Smooth and reliable.",
+    "source": "draft"
+  },
   "17055": {
     "name": "Maestro Dobel Silver Tequila",
     "score": 7,
     "note": "Polished and mild. Easy to drink neat.",
+    "source": "draft"
+  },
+  "17057": {
+    "name": "Milagro Select Barrel Reserve Tequila Anejo",
+    "score": 7.5,
+    "note": "Milagro's premium anejo expression, real depth and complexity.",
     "source": "draft"
   },
   "17062": {
@@ -5145,6 +5440,12 @@
     "note": "Panamanian, well-aged and balanced. One of the better values in aged rum at this price.",
     "source": "draft"
   },
+  "17081": {
+    "name": "Tanteo Chipotle Tequila",
+    "score": 6.5,
+    "note": "Smoky heat rather than the sharp burn of their Habanero. A well-regarded cocktail ingredient.",
+    "source": "draft"
+  },
   "17082": {
     "name": "Tanteo Habanero Tequila",
     "score": 6.5,
@@ -5161,6 +5462,25 @@
     "name": "Ilegal Mezcal Joven",
     "score": 7.5,
     "note": "Clean and bright for a joven. Good introduction.",
+    "source": "draft"
+  },
+  "17099": {
+    "name": "Ilegal Mezcal Reposado",
+    "score": 7.5,
+    "note": "A well-regarded mezcal brand, aged for extra roundness without losing the smoke.",
+    "source": "draft"
+  },
+  "17100": {
+    "name": "Ilegal Mezcal Anejo",
+    "score": 7.5,
+    "note": "Ilegal's aged mezcal expression, rounder and more complex than their Joven.",
+    "source": "draft"
+  },
+  "17134": {
+    "name": "Bulleit Bourbon Single Barrel",
+    "score": 7.5,
+    "style": "traditional",
+    "note": "More variation and intensity than standard Bulleit, from a single barrel.",
     "source": "draft"
   },
   "17144": {
@@ -5280,6 +5600,13 @@
     "score": 7,
     "style": "highland",
     "note": "Honeyed and approachable, the backbone of the Dewar's blends bottled on its own.",
+    "source": "draft"
+  },
+  "17287": {
+    "name": "Blackened Whiskey",
+    "score": 7,
+    "style": "traditional",
+    "note": "Metallica's whiskey brand, finished in wine casks. Genuinely well-made beyond the band tie-in.",
     "source": "draft"
   },
   "17295": {
@@ -5814,6 +6141,19 @@
     "note": "A blend across Whistlepig's Farmstock program. Decent, if less distinctive than their single-barrel releases.",
     "source": "draft"
   },
+  "18274": {
+    "name": "Tres Generaciones Reposado",
+    "score": 6.5,
+    "note": "A dependable, mid-tier reposado from a long-established brand.",
+    "source": "draft"
+  },
+  "18278": {
+    "name": "Balcones Brimstone",
+    "score": 7,
+    "style": "flavored",
+    "note": "Texas craft bourbon smoked over Texas scrub oak. Genuinely distinctive, unlike anything else on this shelf.",
+    "source": "draft"
+  },
   "18279": {
     "name": "Sauza Hacienda Silver",
     "score": 3.5,
@@ -6193,6 +6533,19 @@
     "note": "Well-made, additive-free.",
     "source": "draft"
   },
+  "18909": {
+    "name": "Stellum Black Bourbon",
+    "score": 7,
+    "style": "barrel-proof",
+    "note": "A well-regarded independent blender's higher-proof line. More intensity than their standard Bourbon.",
+    "source": "draft"
+  },
+  "18928": {
+    "name": "Tromba Reposado Tequila",
+    "score": 7,
+    "note": "A well-regarded, agave-forward reposado at a fair price.",
+    "source": "draft"
+  },
   "18940": {
     "name": "El Jimador Tequila Silver",
     "score": 6.5,
@@ -6226,6 +6579,13 @@
     "note": "A solid, mid-tier orange liqueur -- a fair Cointreau alternative for mixing.",
     "source": "draft"
   },
+  "19050": {
+    "name": "George Dickel Single Barrel 9yr",
+    "score": 7.5,
+    "style": "traditional",
+    "note": "Tennessee whiskey, charcoal-mellowed. Dickel's single-barrel program is well-regarded, distinct from Kentucky bourbon.",
+    "source": "draft"
+  },
   "19052": {
     "name": "Brown Sugar Bourbon 103",
     "score": 3,
@@ -6254,6 +6614,12 @@
     "note": "A blend across five Caribbean islands. More character than a typical mixing white rum.",
     "source": "draft"
   },
+  "19083": {
+    "name": "Teremana Anejo Tequila",
+    "score": 6.5,
+    "note": "Dwayne Johnson's brand. Genuinely well-regarded, smooth agave character.",
+    "source": "draft"
+  },
   "19085": {
     "name": "Kurvball Whiskey",
     "score": 2,
@@ -6268,11 +6634,24 @@
     "note": "Perfectly decent, nothing to argue about.",
     "source": "draft"
   },
+  "19110": {
+    "name": "Basil Hayden Subtle Smoke Bourbon",
+    "score": 6.5,
+    "style": "flavored",
+    "note": "A mesquite-finished twist on Basil Hayden. Lightly smoky, still easy-drinking.",
+    "source": "draft"
+  },
   "19131": {
     "name": "Tia Maria Cold Brew",
     "score": 6,
     "style": "coffee",
     "note": "Jamaican coffee liqueur, lighter and less sweet than Kahlua.",
+    "source": "draft"
+  },
+  "19148": {
+    "name": "Maestro Dobel Anejo",
+    "score": 7,
+    "note": "A well-aged, well-regarded anejo from a respected house.",
     "source": "draft"
   },
   "19175": {
@@ -6300,6 +6679,13 @@
     "score": 5.5,
     "style": "fruit",
     "note": "Sweet dessert profile, blackberry more background than forward.",
+    "source": "draft"
+  },
+  "19229": {
+    "name": "Wilderness Trail Bib Small Batch Wheated Bourbon",
+    "score": 7.5,
+    "style": "wheated",
+    "note": "A well-regarded craft wheated bourbon, bottled in bond.",
     "source": "draft"
   },
   "19291": {
@@ -6718,6 +7104,19 @@
     "note": "Decent, and a world away from Especial.",
     "source": "draft"
   },
+  "19632": {
+    "name": "Flecha Azul Blanco Tequila",
+    "score": 6.5,
+    "note": "The celebrity-backed brand's base blanco -- decent, riding partly on the name.",
+    "source": "draft"
+  },
+  "19647": {
+    "name": "Ragged Branch Wheated Bourbon Bib",
+    "score": 7,
+    "style": "wheated",
+    "note": "Virginia's bottled-in-bond wheated bourbon. Well-made, grain-to-glass.",
+    "source": "draft"
+  },
   "19677": {
     "name": "Citadelle Jardin d'Été",
     "score": 6.5,
@@ -6826,6 +7225,12 @@
     "score": 7,
     "style": "traditional",
     "note": "Sourced but well chosen and consistently bottled. A safe pick in the thirty-five dollar range.",
+    "source": "draft"
+  },
+  "19828": {
+    "name": "Jose Cuervo Tradicional Cristalino",
+    "score": 6.5,
+    "note": "A filtered, smoother take on the genuinely good Tradicional line.",
     "source": "draft"
   },
   "19838": {
@@ -6937,6 +7342,12 @@
     "note": "From the team that built Uncle Nearest 1856. Well-made, well-reviewed, worth the price.",
     "source": "draft"
   },
+  "20035": {
+    "name": "Espolon Cristalino Tequila",
+    "score": 6.5,
+    "note": "The distinctive skull-bottle brand's filtered cristalino expression.",
+    "source": "draft"
+  },
   "20036": {
     "name": "New Amsterdam Pink Whitney Vodka",
     "score": 5,
@@ -6984,6 +7395,12 @@
     "score": 6,
     "style": "flavored",
     "note": "Lemon-forward and easy. Basically a head start on a tom collins.",
+    "source": "draft"
+  },
+  "20195": {
+    "name": "Corazon Tequila Anejo Single Barrel",
+    "score": 7,
+    "note": "A single-barrel pick from the well-regarded Corazon line, more character than the standard Anejo.",
     "source": "draft"
   },
   "20199": {
@@ -7393,6 +7810,12 @@
     "note": "Virginia bonded rye. Solid local pour.",
     "source": "draft"
   },
+  "20585": {
+    "name": "Don Fulano Reposado",
+    "score": 7.5,
+    "note": "A well-regarded artisanal reposado with genuine agave complexity.",
+    "source": "draft"
+  },
   "20589": {
     "name": "Stellum Rye",
     "score": 7.5,
@@ -7517,6 +7940,20 @@
     "note": "Willett’s budget label. Quietly good.",
     "source": "draft"
   },
+  "20722": {
+    "name": "Kentucky Vintage Straight Bourbon",
+    "score": 6.5,
+    "style": "traditional",
+    "note": "A Willett-owned sourced brand, solid and dependable for the price.",
+    "source": "draft"
+  },
+  "20738": {
+    "name": "Ezra Brooks Distillers Collection Bourbon",
+    "score": 6.5,
+    "style": "traditional",
+    "note": "Ezra Brooks' step-up line, a fair improvement over their standard bottle.",
+    "source": "draft"
+  },
   "20740": {
     "name": "Whistlepig 10 Year Single Barrel Rye",
     "score": 8,
@@ -7536,6 +7973,13 @@
     "score": 6.5,
     "style": "martini",
     "note": "Balanced and not overly sweet, a fair bottled cosmo.",
+    "source": "draft"
+  },
+  "20776": {
+    "name": "Bib & Tucker Double Char Bourbon",
+    "score": 7,
+    "style": "traditional",
+    "note": "Twice-charred barrel for extra caramelization -- a fair step up in richness.",
     "source": "draft"
   },
   "20853": {
@@ -7580,6 +8024,13 @@
     "note": "Serviceable at 100 proof.",
     "source": "draft"
   },
+  "20902": {
+    "name": "Clyde Mays Single Barrel 5 Year Old Bourbon",
+    "score": 7,
+    "style": "traditional",
+    "note": "Clyde May's aged single-barrel expression, more depth than the standard bottle.",
+    "source": "draft"
+  },
   "20915": {
     "name": "J J Corry The Gael Irish Whiskey",
     "score": 7,
@@ -7599,6 +8050,13 @@
     "score": 7.5,
     "style": "barrel-proof",
     "note": "More intensity than the standard Templeton bottle, a fair step up for the price.",
+    "source": "draft"
+  },
+  "20928": {
+    "name": "Solera Style Whiskey",
+    "score": 6,
+    "style": "traditional",
+    "note": "Aged using a fractional solera blending system, distinctive from a standard single-batch bourbon.",
     "source": "draft"
   },
   "20950": {
@@ -7671,11 +8129,32 @@
     "note": "A well-regarded newer Kentucky distillery. Their own-distilled juice, solid quality.",
     "source": "draft"
   },
+  "21131": {
+    "name": "Yellowstone Special Finishes - Toasted Bourbon",
+    "score": 6.5,
+    "style": "flavored",
+    "note": "An extra-toasted barrel finish on the reliable Yellowstone base.",
+    "source": "draft"
+  },
   "21144": {
     "name": "Hakushu 12 Year Japanese Whisky",
     "score": 9,
     "style": "single-malt",
     "note": "Green, forested, and distinctive -- one of the defining Japanese single malts. Superb, and priced accordingly.",
+    "source": "draft"
+  },
+  "21188": {
+    "name": "Pure Kentucky X. O. Straight Bourbon",
+    "score": 7,
+    "style": "traditional",
+    "note": "A Willett-owned sourced brand, higher proof and well-regarded for the price.",
+    "source": "draft"
+  },
+  "21189": {
+    "name": "Rowans Creek Straight Bourbon",
+    "score": 7,
+    "style": "traditional",
+    "note": "A Willett-owned sourced brand, higher proof and well-regarded among value bourbon drinkers.",
     "source": "draft"
   },
   "21193": {
@@ -7817,6 +8296,13 @@
     "note": "A honeyed variant on the standard Tullamore Dew. Sweet and approachable.",
     "source": "draft"
   },
+  "21425": {
+    "name": "2xo American Oak Bourbon",
+    "score": 6.5,
+    "style": "traditional",
+    "note": "A solid, unremarkable American oak-matured bourbon.",
+    "source": "draft"
+  },
   "21426": {
     "name": "Don Julio 70 Cristalino",
     "score": 7.5,
@@ -7893,6 +8379,13 @@
     "note": "A genuine bourbon base gives this more character than a neutral-spirit cream liqueur.",
     "source": "draft"
   },
+  "21536": {
+    "name": "Knob Creek Bourbon Single Barrel",
+    "score": 8,
+    "style": "barrel-proof",
+    "note": "Single-barrel Knob Creek at a higher proof. A genuine step up from the standard 9 Year.",
+    "source": "draft"
+  },
   "21545": {
     "name": "El Silencio Mezcal Black (espadin)",
     "score": 7,
@@ -7953,6 +8446,27 @@
     "note": "Templeton's bourbon entry, better known for their rye. Fine, unremarkable.",
     "source": "draft"
   },
+  "21640": {
+    "name": "1792 Bottle In Bond Sazerac Barrel Select",
+    "score": 7.5,
+    "style": "bottled-in-bond",
+    "note": "A single-barrel pick of the well-regarded 1792 bottled-in-bond expression.",
+    "source": "draft"
+  },
+  "21643": {
+    "name": "1792 Small Batch Sazerac Barrel Select",
+    "score": 7.5,
+    "style": "traditional",
+    "note": "A single-barrel pick of the well-liked 1792 Small Batch. More variation and character than the standard blend.",
+    "source": "draft"
+  },
+  "21647": {
+    "name": "Buffalo Trace Bourbon Sazerac Barrel Select",
+    "score": 7.5,
+    "style": "traditional",
+    "note": "A single-barrel pick of the reliable Buffalo Trace flagship. Consistently good.",
+    "source": "draft"
+  },
   "21648": {
     "name": "Eagle Rare Single Barrel Select",
     "score": 8.5,
@@ -7974,6 +8488,18 @@
     "note": "A single-barrel pick of the Weller Antique 107 recipe. Reliable, if you can find it at this price.",
     "source": "draft"
   },
+  "21657": {
+    "name": "Patron Reposado Tequila",
+    "score": 7,
+    "note": "Patron's aged expression, smooth and dependable.",
+    "source": "draft"
+  },
+  "21658": {
+    "name": "Patron Anejo Tequila",
+    "score": 7.5,
+    "note": "Patron's aged expression, smooth and well-rounded.",
+    "source": "draft"
+  },
   "21660": {
     "name": "Mijenta Tequila Blanco",
     "score": 8,
@@ -7993,6 +8519,20 @@
     "note": "Patron's cristalino treatment on their Anejo. Smoother and lighter than the standard bottle.",
     "source": "draft"
   },
+  "21691": {
+    "name": "Ezra Brooks Port Cask Finish",
+    "score": 6.5,
+    "style": "flavored",
+    "note": "Real port-cask fruitiness on the reliable Ezra Brooks base.",
+    "source": "draft"
+  },
+  "21693": {
+    "name": "Yellowstone Special Finishes Rum Cask",
+    "score": 6.5,
+    "style": "flavored",
+    "note": "Rum-cask finish adds real sweetness and fruit character to standard Yellowstone.",
+    "source": "draft"
+  },
   "21695": {
     "name": "Lunazul Tequila Cristalino Primero",
     "score": 6.5,
@@ -8004,6 +8544,12 @@
     "score": 5,
     "style": "traditional",
     "note": "Same, in plastic.",
+    "source": "draft"
+  },
+  "21702": {
+    "name": "Volcan Reposado Tequila",
+    "score": 6.5,
+    "note": "A solid, well-packaged reposado, decent but unremarkable.",
     "source": "draft"
   },
   "21705": {
@@ -8415,6 +8961,13 @@
     "note": "High West's actual whiskey behind the mix, not a neutral base. One of the stronger bottled Manhattans.",
     "source": "draft"
   },
+  "22286": {
+    "name": "Frey Ranch Straight Bourbon Whiskey",
+    "score": 7,
+    "style": "traditional",
+    "note": "Nevada grain-to-glass craft bourbon. Well-regarded among craft distillery enthusiasts.",
+    "source": "draft"
+  },
   "22302": {
     "name": "Belle Isle Ginger Ginger Moonshine",
     "score": 5.5,
@@ -8496,6 +9049,13 @@
     "score": 4.5,
     "style": "other",
     "note": "Seasonal pumpkin spice, sweet and appropriately autumnal.",
+    "source": "draft"
+  },
+  "22471": {
+    "name": "Pendleton 1910 Bourbon",
+    "score": 6.5,
+    "style": "traditional",
+    "note": "The Canadian whisky brand's bourbon entry. Decent, unremarkable.",
     "source": "draft"
   },
   "22476": {
@@ -8698,6 +9258,13 @@
     "note": "One of Four Roses' ten recipes, bottled single-barrel. More intense than the standard Single Barrel blend.",
     "source": "draft"
   },
+  "22865": {
+    "name": "Four Roses Single Barrel Bourbon Oesk",
+    "score": 8,
+    "style": "traditional",
+    "note": "Another of Four Roses' ten distinct recipes, single-barrel bottled. Consistently excellent.",
+    "source": "draft"
+  },
   "22870": {
     "name": "Buzzballz Berry Cherry Limeade",
     "score": 4.5,
@@ -8843,6 +9410,13 @@
     "note": "Real strawberry character, consistent with the rest of the Waterman line.",
     "source": "draft"
   },
+  "23055": {
+    "name": "New Riff Single Barrel Bourbon",
+    "score": 8,
+    "style": "traditional",
+    "note": "A well-regarded craft distillery's single-barrel bourbon. Consistently strong.",
+    "source": "draft"
+  },
   "23076": {
     "name": "Yamazaki Distillers Reserve",
     "score": 8,
@@ -8869,6 +9443,13 @@
     "score": 5,
     "style": "traditional",
     "note": "A lighter Beam variant. Skippable.",
+    "source": "draft"
+  },
+  "23153": {
+    "name": "1792 Cognac Cask Finish",
+    "score": 7,
+    "style": "flavored",
+    "note": "Cognac-cask finish adds real fruit and floral notes to the 1792 base.",
     "source": "draft"
   },
   "23160": {
@@ -9334,6 +9915,13 @@
     "note": "From the Mozart chocolate liqueur house. Well-made, genuinely tastes like strawberries and cream.",
     "source": "draft"
   },
+  "23959": {
+    "name": "Tincup 10 Year Old Bourbon",
+    "score": 7,
+    "style": "traditional",
+    "note": "Tincup's aged expression, more depth than their standard blend.",
+    "source": "draft"
+  },
   "23966": {
     "name": "Chattanooga Whiskey 91",
     "score": 6.5,
@@ -9367,6 +9955,13 @@
     "score": 7,
     "style": "old-fashioned",
     "note": "Rye-based, real bitters character. A reliable pick from the bottled Old Fashioned field.",
+    "source": "draft"
+  },
+  "24044": {
+    "name": "Evan Williams Single Barrel America 250 Comm. Ed.",
+    "score": 8,
+    "style": "traditional",
+    "note": "The same excellent Evan Williams Single Barrel program in commemorative packaging.",
     "source": "draft"
   },
   "24047": {
@@ -9445,6 +10040,12 @@
     "note": "Barrel-proof version of the Stapleton blend. Bolder and more interesting than the standard bottling.",
     "source": "draft"
   },
+  "24151": {
+    "name": "Hornitos Anejo Reserve",
+    "score": 6.5,
+    "note": "Hornitos' aged expression, a fair step up from their standard Plata.",
+    "source": "draft"
+  },
   "24172": {
     "name": "Redbreast Lustau Edition Irish Whiskey",
     "score": 8.5,
@@ -9471,6 +10072,13 @@
     "score": 7,
     "style": "margarita",
     "note": "Same quality tequila base with real jalapeno heat, not an artificial burn.",
+    "source": "draft"
+  },
+  "24190": {
+    "name": "Whiskey Row Bottled In Bond Bourbon",
+    "score": 6.5,
+    "style": "bottled-in-bond",
+    "note": "A fair, unremarkable bottled-in-bond bourbon.",
     "source": "draft"
   },
   "24220": {
@@ -9624,6 +10232,13 @@
     "score": 5.5,
     "style": "other",
     "note": "A novelty red-white-and-blue popsicle flavor -- fun for a summer cookout.",
+    "source": "draft"
+  },
+  "24383": {
+    "name": "Hirsch Bourbon The Single Barrel White Whiskey",
+    "score": 6.5,
+    "style": "traditional",
+    "note": "The historic Hirsch name revived. Decent, if trading partly on the legacy.",
     "source": "draft"
   },
   "24384": {
@@ -9804,6 +10419,13 @@
     "score": 4.5,
     "style": "tropical",
     "note": "Tart tropical citrus, one of the brighter-tasting flavors in the lineup.",
+    "source": "draft"
+  },
+  "24688": {
+    "name": "Rabbit Hole Cavehill Four Grain",
+    "score": 7.5,
+    "style": "traditional",
+    "note": "A well-regarded Louisville craft distillery, four-grain mashbill gives it real complexity.",
     "source": "draft"
   },
   "24691": {
