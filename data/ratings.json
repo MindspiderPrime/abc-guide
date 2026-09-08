@@ -62,6 +62,13 @@
     "note": "The reference point for what bourbon should cost and taste like. Grab it when you see it.",
     "source": "draft"
   },
+  "454": {
+    "name": "Bulleit Bourbon",
+    "score": 7,
+    "style": "high-rye",
+    "note": "High-rye mashbill, spicier than most bourbons at this price. Reliable well pour.",
+    "source": "draft"
+  },
   "471": {
     "name": "Burnett's Vodka",
     "score": 3.5,
@@ -167,6 +174,13 @@
     "note": "Polish potato vodka. More body and character than the wheat vodkas twice its price.",
     "source": "draft"
   },
+  "1958": {
+    "name": "Maker's Mark Bourbon",
+    "score": 7.5,
+    "style": "wheated",
+    "note": "The red wax bottle. Soft, sweet, wheated — reliably good and always in stock.",
+    "source": "draft"
+  },
   "2018": {
     "name": "Massenez Creme De Cassis De Dijon",
     "score": 7,
@@ -236,6 +250,13 @@
     "note": "British gin-based fruit cup. Made for a Pimm's Cup on a summer afternoon, little use otherwise.",
     "source": "draft"
   },
+  "2398": {
+    "name": "Plymouth Gin",
+    "score": 7.5,
+    "style": "london-dry",
+    "note": "Earthier and less juniper-forward than a London dry. Its own protected style, worth trying once.",
+    "source": "draft"
+  },
   "2827": {
     "name": "Svedka Vodka",
     "score": 5,
@@ -248,6 +269,13 @@
     "score": 8,
     "style": "island",
     "note": "The 10-year. Peppery, coastal, half-smoked. A very good middle path.",
+    "source": "draft"
+  },
+  "2891": {
+    "name": "Tanqueray No. 10",
+    "score": 8.5,
+    "style": "contemporary",
+    "note": "Tanqueray's top shelf, whole fresh citrus in the still. Noticeably better than the standard bottle.",
     "source": "draft"
   },
   "2946": {
@@ -285,6 +313,13 @@
     "note": "French wheat vodka, a bit sweeter than most. Solid, unremarkable.",
     "source": "draft"
   },
+  "3248": {
+    "name": "Woodford Reserve Bourbon",
+    "score": 7.5,
+    "style": "traditional",
+    "note": "The default \"nicer\" bourbon at a bar. Well balanced, a fair step up from the well pours above.",
+    "source": "draft"
+  },
   "3250": {
     "name": "Milagro Silver Tequila",
     "score": 6.5,
@@ -310,6 +345,13 @@
     "score": 4,
     "style": "budget",
     "note": "Cheap American brandy. A mixer, not a sipper.",
+    "source": "draft"
+  },
+  "3393": {
+    "name": "Hendrick's Gin",
+    "score": 8,
+    "style": "contemporary",
+    "note": "Cucumber and rose. The gin that convinced a generation gin was not just juniper.",
     "source": "draft"
   },
   "3445": {
@@ -447,6 +489,20 @@
     "score": 7,
     "style": "herbal",
     "note": "French ginger liqueur, real ginger heat and depth. Excellent in cocktails.",
+    "source": "draft"
+  },
+  "5736": {
+    "name": "Four Roses Single Barrel Bourbon",
+    "score": 8.5,
+    "style": "traditional",
+    "note": "One recipe, one barrel, more intense than the Small Batch. The better bottle if you can spend a bit more.",
+    "source": "draft"
+  },
+  "5737": {
+    "name": "Four Roses Small Batch Bourbon",
+    "score": 8,
+    "style": "traditional",
+    "note": "Four of the ten Four Roses recipes blended. Fruity and spicy — excellent for the price.",
     "source": "draft"
   },
   "5738": {
@@ -596,6 +652,27 @@
     "note": "Norwegian caraway spirit, aged at sea. Distinctive and worth trying if you like herbal spirits.",
     "source": "draft"
   },
+  "7660": {
+    "name": "Knob Creek Rye",
+    "score": 8,
+    "style": "kentucky-rye",
+    "note": "100 proof, same house style as Knob Creek Bourbon. Bold and a genuine step up in this price range.",
+    "source": "draft"
+  },
+  "7797": {
+    "name": "No. 3 London Dry Gin",
+    "score": 8,
+    "style": "london-dry",
+    "note": "Berry Bros bottling. Six botanicals, nothing wasted, textbook London dry.",
+    "source": "draft"
+  },
+  "7911": {
+    "name": "Jefferson's Rye",
+    "score": 7,
+    "style": "kentucky-rye",
+    "note": "Canadian-sourced, blended for smoothness rather than rye spice. Approachable if Bulleit is too sharp.",
+    "source": "draft"
+  },
   "7981": {
     "name": "Cardenal Mendoza Black Carton",
     "score": 7.5,
@@ -684,6 +761,13 @@
     "note": "Twenty-two Islay botanicals, layered and herbal. The most interesting bottle under thirty.",
     "source": "draft"
   },
+  "9303": {
+    "name": "Maker's Mark 46 Bourbon",
+    "score": 8,
+    "style": "wheated",
+    "note": "Standard Maker's finished with seared French oak staves. More vanilla and spice, worth the upgrade.",
+    "source": "draft"
+  },
   "9352": {
     "name": "Ciroc Vodka",
     "score": 6.5,
@@ -729,6 +813,13 @@
     "name": "Espolon Anejo",
     "score": 7,
     "note": "Espolòn with real barrel time. Good value añejo.",
+    "source": "draft"
+  },
+  "9845": {
+    "name": "Michter's Us1 Single Barrel Straight Rye",
+    "score": 8.5,
+    "style": "kentucky-rye",
+    "note": "Michter's reliable single-barrel program, applied to rye. Smooth for a rye at this proof.",
     "source": "draft"
   },
   "10227": {
@@ -791,6 +882,13 @@
     "note": "Thin and sweet. A 7-and-7 and nothing else.",
     "source": "draft"
   },
+  "10455": {
+    "name": "High West Whiskey Rendezvous Rye",
+    "score": 8,
+    "style": "kentucky-rye",
+    "note": "A blend of two straight ryes, one young and spicy, one older and rounder. Well-balanced, well-regarded.",
+    "source": "draft"
+  },
   "10464": {
     "name": "Seagram's Lime Twisted Gin",
     "score": 3.5,
@@ -847,6 +945,13 @@
     "note": "Older, rounder Beam. The white label with the corners sanded off.",
     "source": "draft"
   },
+  "10608": {
+    "name": "Jim Beam Single Barrel Bourbon",
+    "score": 7,
+    "style": "traditional",
+    "note": "A real step up from standard Beam — single barrel, more character, still a fair price.",
+    "source": "draft"
+  },
   "10618": {
     "name": "Smirnoff Vodka 80 Proof",
     "score": 5.5,
@@ -896,6 +1001,13 @@
     "note": "Honey plus pepper. A novelty.",
     "source": "draft"
   },
+  "10844": {
+    "name": "1792 Sweet Wheat Bourbon",
+    "score": 7,
+    "style": "wheated",
+    "note": "Wheated variant of 1792. Softer and rounder than the rye-forward flagship.",
+    "source": "draft"
+  },
   "11088": {
     "name": "Filibuster Boondoggler",
     "score": 5.5,
@@ -922,6 +1034,13 @@
     "note": "Fine. Nothing about it justifies the shelf position.",
     "source": "draft"
   },
+  "11480": {
+    "name": "Sipsmith Dry London Gin",
+    "score": 8,
+    "style": "london-dry",
+    "note": "Small-batch, pot-stilled London dry done properly. Excellent balance of juniper and citrus.",
+    "source": "draft"
+  },
   "11510": {
     "name": "Jim Beam Double Oak",
     "score": 6,
@@ -941,6 +1060,13 @@
     "score": 6,
     "style": "traditional",
     "note": "Extra barrel character. A bit hot and hollow.",
+    "source": "draft"
+  },
+  "11572": {
+    "name": "Eagle Rare 10 Year Bourbon",
+    "score": 9,
+    "style": "traditional",
+    "note": "Ten years old, Buffalo Trace juice, at a price that has not caught up to the rest of that lineup yet. Buy it while that lasts.",
     "source": "draft"
   },
   "11595": {
@@ -1002,6 +1128,20 @@
     "score": 7.5,
     "style": "herbal",
     "note": "Honeyed and herbal. Makes a vieux carré.",
+    "source": "draft"
+  },
+  "11734": {
+    "name": "Bluecoat Barrel Finish Gin",
+    "score": 7,
+    "style": "barrel-aged",
+    "note": "American gin finished in used bourbon barrels. Vanilla and oak layered over juniper — different, and it works.",
+    "source": "draft"
+  },
+  "11749": {
+    "name": "Bulleit Rye Whiskey",
+    "score": 7.5,
+    "style": "high-rye",
+    "note": "95% rye mashbill, spicy and assertive. The rye equivalent of Bulleit Bourbon — a cocktail workhorse.",
     "source": "draft"
   },
   "11758": {
@@ -1128,6 +1268,13 @@
     "note": "Bottled-in-bond at 100 proof for twenty-one dollars. One of the best deals in the store.",
     "source": "draft"
   },
+  "11904": {
+    "name": "Evan Williams Single Barrel Bourbon",
+    "score": 8.5,
+    "style": "traditional",
+    "note": "Vintage-dated single barrels at a Heaven Hill price. Punches well above its cost.",
+    "source": "draft"
+  },
   "11917": {
     "name": "George Dickel No. 12 Tennessee Whiskey",
     "score": 7,
@@ -1234,11 +1381,25 @@
     "note": "Harsh neat, fine in a highball.",
     "source": "draft"
   },
+  "12179": {
+    "name": "Vitae Spirits Modern Gin",
+    "score": 6.5,
+    "style": "contemporary",
+    "note": "Charlottesville. A well-made modern gin, worth a look if buying Virginia matters to you.",
+    "source": "draft"
+  },
   "12275": {
     "name": "Breckenridge Distiller's High Proof Blend",
     "score": 7,
     "style": "blended",
     "note": "High-proof Colorado blend. Spicier and more assertive than most blended whiskey.",
+    "source": "draft"
+  },
+  "12327": {
+    "name": "Knob Creek Bourbon",
+    "score": 8,
+    "style": "traditional",
+    "note": "Nine years old, 100 proof, unapologetically oaky. A lot of bourbon for the money.",
     "source": "draft"
   },
   "12352": {
@@ -1298,6 +1459,13 @@
     "score": 6,
     "style": "traditional",
     "note": "Virginia-made, lightly sweet.",
+    "source": "draft"
+  },
+  "12712": {
+    "name": "1792 High Rye Whiskey",
+    "score": 7,
+    "style": "high-rye",
+    "note": "Higher rye content than the flagship 1792, filed here for the mashbill. Spicier, still recognizably 1792.",
     "source": "draft"
   },
   "12713": {
@@ -1368,6 +1536,13 @@
     "note": "Venezuelan solera, dried fruit and baking spice. A well-regarded sipper.",
     "source": "draft"
   },
+  "13425": {
+    "name": "Gin Mare",
+    "score": 7.5,
+    "style": "contemporary",
+    "note": "Spanish, arbequina olive and rosemary. Savory rather than sweet — built for a dirty martini.",
+    "source": "draft"
+  },
   "13432": {
     "name": "Wild Turkey 101 Bourbon",
     "score": 8,
@@ -1394,11 +1569,25 @@
     "note": "Buffalo Trace's vodka. Clean and well-made, made by people who know what they're doing.",
     "source": "draft"
   },
+  "13493": {
+    "name": "1792 Bottled In Bond Kentucky Straight Bourbon",
+    "score": 8,
+    "style": "bottled-in-bond",
+    "note": "1792's high-rye recipe at bottled-in-bond proof. More structure than the flagship Small Batch.",
+    "source": "draft"
+  },
   "13546": {
     "name": "Kahlua Coffee Liqueur",
     "score": 6,
     "style": "coffee",
     "note": "Sweet coffee. Fine in a white russian, sugary anywhere else.",
+    "source": "draft"
+  },
+  "13552": {
+    "name": "Russell's Reserve Rye",
+    "score": 8,
+    "style": "kentucky-rye",
+    "note": "Six years old, Wild Turkey pedigree. Well-aged rye at a price that undercuts most of this list.",
     "source": "draft"
   },
   "13575": {
@@ -1419,6 +1608,13 @@
     "score": 6.5,
     "style": "kentucky-rye",
     "note": "Softer and sweeter than most rye. Fine, unexciting.",
+    "source": "draft"
+  },
+  "13598": {
+    "name": "Woodford Reserve Kentucky Straight Rye Whiskey",
+    "score": 7.5,
+    "style": "kentucky-rye",
+    "note": "Woodford's rye, same polish as the bourbon. Softer spice than Bulleit, more finish.",
     "source": "draft"
   },
   "13601": {
@@ -1511,6 +1707,13 @@
     "score": 6.5,
     "style": "traditional",
     "note": "Same whiskey, plastic bottle. For the cooler, not the cabinet.",
+    "source": "draft"
+  },
+  "14084": {
+    "name": "Roku Gin",
+    "score": 7.5,
+    "style": "contemporary",
+    "note": "Japanese, six botanicals including sakura and yuzu. Delicate and floral, a real change of pace.",
     "source": "draft"
   },
   "14159": {
@@ -1615,6 +1818,13 @@
     "note": "Antigua, sherry-cask sweetness. Overlooked and worth a look at this price.",
     "source": "draft"
   },
+  "15065": {
+    "name": "Elijah Craig Small Batch Bourbon",
+    "score": 8,
+    "style": "traditional",
+    "note": "No age statement now, but the barrel selection is still doing real work. Great value in this tier.",
+    "source": "draft"
+  },
   "15074": {
     "name": "Ancho Reyes Chile Liqueur",
     "score": 7,
@@ -1648,6 +1858,13 @@
     "score": 5.5,
     "style": "spiced",
     "note": "Vanilla-and-caramel spiced rum everyone already knows. Sweet, simple, does the job.",
+    "source": "draft"
+  },
+  "15135": {
+    "name": "Catoctin Creek Roundstone Rye Whisky",
+    "score": 7,
+    "style": "kentucky-rye",
+    "note": "Virginia, 100% rye and organic. Smoother than the mashbill suggests — a genuine local standout.",
     "source": "draft"
   },
   "15136": {
@@ -1785,6 +2002,13 @@
     "note": "Made in Fredericksburg from Buffalo Trace distillate. The Virginia one worth buying.",
     "source": "draft"
   },
+  "15537": {
+    "name": "Barr Hill Gin",
+    "score": 7,
+    "style": "contemporary",
+    "note": "Vermont, raw honey added after distillation. Soft and rounded, unlike anything else on this list.",
+    "source": "draft"
+  },
   "15556": {
     "name": "Busnel Calvados Vieille Reserve VSOP",
     "score": 7,
@@ -1861,11 +2085,25 @@
     "note": "The safe Speyside. Pleasant, mild, everywhere.",
     "source": "draft"
   },
+  "15693": {
+    "name": "Uncle Val's Botanical Gin",
+    "score": 6.5,
+    "style": "contemporary",
+    "note": "Cucumber and lavender. Nice bottle, nice gin, priced like it knows both.",
+    "source": "draft"
+  },
   "15902": {
     "name": "Virgin Bourbon 101",
     "score": 6,
     "style": "traditional",
     "note": "Obscure, 101 proof, eighteen dollars. Worth trying once.",
+    "source": "draft"
+  },
+  "15938": {
+    "name": "Rabbit Hole Heigold High Rye",
+    "score": 7.5,
+    "style": "high-rye",
+    "note": "Louisville craft, high-rye mashbill. More refined than most in this price band.",
     "source": "draft"
   },
   "16058": {
@@ -1886,6 +2124,13 @@
     "score": 7.5,
     "style": "high-rye",
     "note": "100 proof, big rye spice. Underrated.",
+    "source": "draft"
+  },
+  "16236": {
+    "name": "Conniption American Dry Gin",
+    "score": 6.5,
+    "style": "contemporary",
+    "note": "Durham, NC. Approachable and citrus-forward, a safe crowd-pleaser.",
     "source": "draft"
   },
   "16263": {
@@ -1944,6 +2189,13 @@
     "note": "Virginia craft, competent across the range.",
     "source": "draft"
   },
+  "16403": {
+    "name": "Brockmans Gin",
+    "score": 6.5,
+    "style": "contemporary",
+    "note": "Blueberry and blackberry up front, juniper way in back. More liqueur than gin to purists.",
+    "source": "draft"
+  },
   "16406": {
     "name": "Teremana Blanco Tequila",
     "score": 6,
@@ -1961,6 +2213,13 @@
     "score": 6.5,
     "style": "organic",
     "note": "Organic wheat vodka, smooth. A reliable mid-tier choice.",
+    "source": "draft"
+  },
+  "16453": {
+    "name": "Edinburgh Classic Gin",
+    "score": 7,
+    "style": "london-dry",
+    "note": "Traditional Scottish dry gin, heather honey among the botanicals. Solid, unshowy.",
     "source": "draft"
   },
   "16456": {
@@ -1991,6 +2250,13 @@
     "note": "Grapefruit, gentle. Pretty, not serious.",
     "source": "draft"
   },
+  "16491": {
+    "name": "Plymouth Navy Strength Gin",
+    "score": 7.5,
+    "style": "navy-strength",
+    "note": "Plymouth at 57%. More backbone than the standard bottle, still recognizably Plymouth.",
+    "source": "draft"
+  },
   "16493": {
     "name": "Prairie Organic Gin",
     "score": 6,
@@ -2019,6 +2285,13 @@
     "note": "Excellent value Jamaican. Rich, dried-fruit depth for well under bourbon prices.",
     "source": "draft"
   },
+  "16713": {
+    "name": "Thomas Dakin Gin",
+    "score": 7.5,
+    "style": "london-dry",
+    "note": "Manchester dry gin revived from an 1800s recipe. Bergamot and orris root, well balanced.",
+    "source": "draft"
+  },
   "16757": {
     "name": "Luxardo Limoncello",
     "score": 7,
@@ -2037,6 +2310,13 @@
     "name": "Mi Campo Tequila Blanco",
     "score": 6.5,
     "note": "Rested in wine barrels. Unusual, works.",
+    "source": "draft"
+  },
+  "16947": {
+    "name": "Maker's Mark 101",
+    "score": 8,
+    "style": "wheated",
+    "note": "101 proof Maker's. Same wheated recipe with more punch and more flavor to back it up.",
     "source": "draft"
   },
   "16987": {
@@ -2229,6 +2509,20 @@
     "note": "Wheated at 100 proof for twenty-two dollars. Serviceable.",
     "source": "draft"
   },
+  "17738": {
+    "name": "Great Falls Gin",
+    "score": 6,
+    "style": "contemporary",
+    "note": "Virginia craft gin. Competent and unremarkable — buy it for the Virginia flag, not to seek it out.",
+    "source": "draft"
+  },
+  "17765": {
+    "name": "Noble Oak Double Oak Bourbon",
+    "score": 6.5,
+    "style": "traditional",
+    "note": "Finished in a second, heavily charred barrel. Extra oak, not extra complexity.",
+    "source": "draft"
+  },
   "17792": {
     "name": "Very Old Barton 100 Proof",
     "score": 6.5,
@@ -2296,6 +2590,13 @@
     "note": "Blackberry Sapphire. Sweet and a bit thin.",
     "source": "draft"
   },
+  "18246": {
+    "name": "Empress 1908 Gin",
+    "score": 7,
+    "style": "contemporary",
+    "note": "Butterfly pea flower turns it violet-blue; a splash of tonic turns it pink. Gimmick aside, the juniper holds up.",
+    "source": "draft"
+  },
   "18279": {
     "name": "Sauza Hacienda Silver",
     "score": 3.5,
@@ -2307,6 +2608,13 @@
     "score": 7.5,
     "style": "herbal",
     "note": "Calabrian amaro, bold and spiced. A favorite among bartenders.",
+    "source": "draft"
+  },
+  "18323": {
+    "name": "Basil Hayden Toast Bourbon",
+    "score": 6.5,
+    "style": "flavored",
+    "note": "Finished for extra sweetness. Pleasant dessert pour, not a serious sipping upgrade.",
     "source": "draft"
   },
   "18367": {
@@ -2497,10 +2805,24 @@
     "note": "Solid everyday sweet vermouth at a third of Carpano’s price.",
     "source": "draft"
   },
+  "19374": {
+    "name": "Pikesville 110 Proof Rye Whiskey",
+    "score": 8.5,
+    "style": "kentucky-rye",
+    "note": "Maryland-style, bottled at 110 proof. A cult favorite that still shows up on shelves at a fair price.",
+    "source": "draft"
+  },
   "19383": {
     "name": "Nikka Coffey Grain Japanese Whisky",
     "score": 7.5,
     "note": "Sweet, vanilla, unusual. Very good neat, if you can justify seventy dollars.",
+    "source": "draft"
+  },
+  "19400": {
+    "name": "Whistlepig 6 Year Piggyback Rye Whiskey",
+    "score": 8,
+    "style": "high-rye",
+    "note": "100% rye, Vermont-finished. Younger and cheaper than the 10 Year, most of the character intact.",
     "source": "draft"
   },
   "19446": {
@@ -2522,6 +2844,13 @@
     "score": 8.5,
     "style": "bottled-in-bond",
     "note": "Rittenhouse from a single barrel. Same excellence, slightly more varied.",
+    "source": "draft"
+  },
+  "19543": {
+    "name": "Wild Turkey Rare Breed Rye",
+    "score": 8.5,
+    "style": "barrel-proof",
+    "note": "Barrel-proof, no two batches identical. Excellent value for cask-strength rye.",
     "source": "draft"
   },
   "19627": {
@@ -2548,6 +2877,13 @@
     "name": "Montelobos Espadin Mezcal",
     "score": 7.5,
     "note": "Organic espadín, herbal and restrained.",
+    "source": "draft"
+  },
+  "19825": {
+    "name": "Pinhook Kentucky Straight Bourbon",
+    "score": 7,
+    "style": "traditional",
+    "note": "Sourced but well chosen and consistently bottled. A safe pick in the thirty-five dollar range.",
     "source": "draft"
   },
   "19891": {
@@ -2580,6 +2916,13 @@
     "name": "Powers Johns Lane Irish Whiskey",
     "score": 8.5,
     "note": "Serious pot still whiskey. A big step up from the gold label.",
+    "source": "draft"
+  },
+  "20032": {
+    "name": "Uncle Nearest Straight Rye Whiskey",
+    "score": 7.5,
+    "style": "kentucky-rye",
+    "note": "From the team that built Uncle Nearest 1856. Well-made, well-reviewed, worth the price.",
     "source": "draft"
   },
   "20110": {
@@ -2669,6 +3012,13 @@
     "note": "125 proof from the Buffalo Trace mashbill for twenty-five dollars. Loud and cheap.",
     "source": "draft"
   },
+  "20480": {
+    "name": "Heaven Hill Bottled In Bond Bourbon",
+    "score": 8,
+    "style": "bottled-in-bond",
+    "note": "100 proof, 4 years minimum, government-audited. About as much bourbon as you can buy per dollar.",
+    "source": "draft"
+  },
   "20503": {
     "name": "Astral Tequila Reposado",
     "score": 7,
@@ -2680,6 +3030,20 @@
     "score": 6.5,
     "style": "traditional",
     "note": "Newer Kentucky distillery finding its feet. Decent.",
+    "source": "draft"
+  },
+  "20581": {
+    "name": "Woodinville Straight Bourbon Whiskey",
+    "score": 7.5,
+    "style": "traditional",
+    "note": "Washington state, grain grown and distilled on-site. Genuinely well made, not just a marketing story.",
+    "source": "draft"
+  },
+  "20583": {
+    "name": "Woodinville Straight Rye Whiskey",
+    "score": 8,
+    "style": "high-rye",
+    "note": "100% rye mashbill, grain-to-glass in Washington. Big, spicy, well made.",
     "source": "draft"
   },
   "20584": {
@@ -2729,6 +3093,13 @@
     "note": "Vermont-finished Canadian rye, single barrel. Excellent, if pricey for the category.",
     "source": "draft"
   },
+  "20856": {
+    "name": "Cutwater Black Skimmer Bourbon",
+    "score": 6.5,
+    "style": "traditional",
+    "note": "San Diego craft, sourced Midwest juice. Fine, unremarkable, priced like it knows that too.",
+    "source": "draft"
+  },
   "20899": {
     "name": "Rebel 100 Straight Rye",
     "score": 6,
@@ -2736,11 +3107,32 @@
     "note": "Serviceable at 100 proof.",
     "source": "draft"
   },
+  "20959": {
+    "name": "London No. 1 Gin",
+    "score": 6.5,
+    "style": "contemporary",
+    "note": "The blue bottle gin. Juniper-forward and better than the novelty packaging suggests.",
+    "source": "draft"
+  },
+  "21064": {
+    "name": "Empress 1908 Elderflower Rose Gin",
+    "score": 6,
+    "style": "flavored",
+    "note": "Empress with elderflower and rose folded in. Pleasant, but a niche pour next to the original.",
+    "source": "draft"
+  },
   "21100": {
     "name": "Green River Wheated",
     "score": 6.5,
     "style": "wheated",
     "note": "Soft wheated pour. Pleasant, not memorable.",
+    "source": "draft"
+  },
+  "21102": {
+    "name": "Bardstown Bourbon Company Origin Series - Rye",
+    "score": 7.5,
+    "style": "kentucky-rye",
+    "note": "Bardstown's house style applied to rye. Solid, consistent, a fair every-day pour.",
     "source": "draft"
   },
   "21200": {
@@ -2761,6 +3153,13 @@
     "score": 7,
     "style": "single malt",
     "note": "Canada's answer to a single malt. Different animal from the blends — worth trying once.",
+    "source": "draft"
+  },
+  "21356": {
+    "name": "10-42: End Of Watch Bourbon Whiskey",
+    "score": 6.5,
+    "style": "traditional",
+    "note": "Virginia, law-enforcement themed with a charitable angle. Decent bourbon, buy it for the cause as much as the pour.",
     "source": "draft"
   },
   "21479": {
@@ -2843,6 +3242,27 @@
     "note": "Young but competent.",
     "source": "draft"
   },
+  "21803": {
+    "name": "Ragged Branch Signature Bourbon Bottled In Bond",
+    "score": 7.5,
+    "style": "bottled-in-bond",
+    "note": "Virginia's bottled-in-bond entry. Grain-to-glass, solid, and the Virginia flag is a real bonus here.",
+    "source": "draft"
+  },
+  "21863": {
+    "name": "Basil Hayden Dark Rye",
+    "score": 6.5,
+    "style": "kentucky-rye",
+    "note": "Blended with port and California red wine. Sweet and polarizing rather than a straight rye.",
+    "source": "draft"
+  },
+  "21864": {
+    "name": "Basil Hayden Bourbon",
+    "score": 6.5,
+    "style": "traditional",
+    "note": "Light-bodied and low proof for the price. Easy to drink, easy to outgrow.",
+    "source": "draft"
+  },
   "21887": {
     "name": "Ole Smoky Blackberry",
     "score": 3,
@@ -2890,6 +3310,13 @@
     "note": "Cheap and passable. The 100 proof is the one to get.",
     "source": "draft"
   },
+  "22120": {
+    "name": "Sagamore Small Batch Rye Whiskey",
+    "score": 7.5,
+    "style": "kentucky-rye",
+    "note": "Maryland-style, a blend of high- and low-rye mashbills. Well regarded, balanced spice.",
+    "source": "draft"
+  },
   "22137": {
     "name": "Jim Beam Winter Reserve",
     "score": 6,
@@ -2917,11 +3344,39 @@
     "note": "Rainwater-diluted, additive-free, properly agave-forward.",
     "source": "draft"
   },
+  "22417": {
+    "name": "Uncle Vals Zested Gin",
+    "score": 6,
+    "style": "flavored",
+    "note": "Uncle Val's with extra citrus zest. Fine in a gin and tonic, unremarkable neat.",
+    "source": "draft"
+  },
+  "22590": {
+    "name": "New Riff Bottled In Bond Bourbon",
+    "score": 8.5,
+    "style": "bottled-in-bond",
+    "note": "High-rye, no chill filtration, bottled in bond. The cult favorite on this list for a reason.",
+    "source": "draft"
+  },
+  "22628": {
+    "name": "New Riff Bottled In Bond Rye",
+    "score": 8.5,
+    "style": "bottled-in-bond",
+    "note": "Same distillery, same integrity as their bourbon. One of the best ryes on the shelf at any price.",
+    "source": "draft"
+  },
   "22629": {
     "name": "Fid Street Hawaiian Gin",
     "score": 6.5,
     "style": "contemporary",
     "note": "Maui, light and tropical-leaning.",
+    "source": "draft"
+  },
+  "22657": {
+    "name": "Penelope Wheated Bourbon",
+    "score": 7,
+    "style": "wheated",
+    "note": "Soft and approachable, sourced juice with Penelope's finishing touch. A gentler wheater than Maker's.",
     "source": "draft"
   },
   "22681": {
@@ -3004,6 +3459,13 @@
     "score": 6,
     "style": "fruit",
     "note": "Tequila brand's orange liqueur. Fine in a margarita, not distinctive on its own.",
+    "source": "draft"
+  },
+  "23350": {
+    "name": "Opihr Spiced London Dry Gin",
+    "score": 7,
+    "style": "london-dry",
+    "note": "Cardamom, cubeb pepper, black pepper. Warm and spiced — a good winter gin.",
     "source": "draft"
   },
   "23366": {
@@ -3123,11 +3585,25 @@
     "note": "Barrel-proof version of the Stapleton blend. Bolder and more interesting than the standard bottling.",
     "source": "draft"
   },
+  "24220": {
+    "name": "Basil Hayden Golden Rye",
+    "score": 6.5,
+    "style": "kentucky-rye",
+    "note": "Finished with a touch of corn whiskey for sweetness. Same polarizing sweetness as Dark Rye.",
+    "source": "draft"
+  },
   "24224": {
     "name": "Diplomatico Mantuano",
     "score": 7,
     "style": "dark",
     "note": "Venezuelan, sweet and rounded — a crowd-pleaser more than a connoisseur's pour.",
+    "source": "draft"
+  },
+  "24297": {
+    "name": "Boatyard Gin",
+    "score": 6.5,
+    "style": "contemporary",
+    "note": "Irish, botanicals foraged from the Erne estuary. Competent, not essential.",
     "source": "draft"
   },
   "24323": {
@@ -3150,6 +3626,13 @@
     "note": "Decent. You are paying for the television show.",
     "source": "draft"
   },
+  "24576": {
+    "name": "Atheling Gin",
+    "score": 6,
+    "style": "contemporary",
+    "note": "Virginia craft gin. Drinkable, not distinctive against the bigger contemporary bottles here.",
+    "source": "draft"
+  },
   "24620": {
     "name": "Jose Cuervo Tradicional Blanco Tequila",
     "score": 6,
@@ -3168,6 +3651,13 @@
     "score": 6.5,
     "style": "contemporary",
     "note": "Austin, Texas. Lavender and pecan, gentle.",
+    "source": "draft"
+  },
+  "24797": {
+    "name": "Waterloo Barrel Aged Gin",
+    "score": 6.5,
+    "style": "barrel-aged",
+    "note": "Texas gin rested in oak. Amber-colored, whiskey-adjacent — a gin for whiskey drinkers.",
     "source": "draft"
   },
   "24863": {
