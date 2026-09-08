@@ -1,9 +1,23 @@
 {
+  "154": {
+    "name": "Arrow Peach Schnapps",
+    "score": 2.5,
+    "style": "fruit",
+    "note": "Rock-bottom peach schnapps. Purely a mixer.",
+    "source": "draft"
+  },
   "166": {
     "name": "Asbach Uralt Brandy",
     "score": 6.5,
     "style": "standard",
     "note": "German brandy, dry and oaky. More restrained than the sweet French entry-level brandies.",
+    "source": "draft"
+  },
+  "195": {
+    "name": "Bacardi Bahama Mama",
+    "score": 4.5,
+    "style": "tropical",
+    "note": "Sweet party-jug tiki drink. Not much rum character, but cheap and does the job for a group.",
     "source": "draft"
   },
   "293": {
@@ -18,6 +32,13 @@
     "score": 7,
     "style": "neutral",
     "note": "Rye-based, with actual character. Pricey.",
+    "source": "draft"
+  },
+  "358": {
+    "name": "Black Haus Blackberry Schnapps",
+    "score": 5,
+    "style": "fruit",
+    "note": "German import, real blackberry character instead of candy syrup. A cut above the domestic fruit schnapps.",
     "source": "draft"
   },
   "362": {
@@ -130,6 +151,41 @@
     "score": 4,
     "style": "fruit",
     "note": "Mostly food coloring and orange flavor. Fun for a blue drink, nothing more.",
+    "source": "draft"
+  },
+  "901": {
+    "name": "Dekuyper Peachtree Schnapps",
+    "score": 4,
+    "style": "fruit",
+    "note": "The standard peach schnapps. Genuinely useful in a Sex on the Beach, not just a shot.",
+    "source": "draft"
+  },
+  "903": {
+    "name": "Dekuyper Peppermint Schnapps",
+    "score": 3.5,
+    "style": "herbal",
+    "note": "Classic hot cocoa and peppermint patty mixer. Nothing fancy, does the job.",
+    "source": "draft"
+  },
+  "912": {
+    "name": "Dekuyper Sour Apple Pucker Schnapps",
+    "score": 3.5,
+    "style": "fruit",
+    "note": "The Appletini building block. Artificial but convincingly sour-apple.",
+    "source": "draft"
+  },
+  "920": {
+    "name": "Dekuyper Watermelon Pucker Schnapps",
+    "score": 3,
+    "style": "fruit",
+    "note": "Sour watermelon candy. Interchangeable with the rest of the Pucker line.",
+    "source": "draft"
+  },
+  "1000": {
+    "name": "Dr. Mcgillcuddy's Vanilla",
+    "score": 3.5,
+    "style": "herbal",
+    "note": "Smooth vanilla, works in coffee drinks. Better as a mixer than a shot.",
     "source": "draft"
   },
   "1001": {
@@ -257,6 +313,13 @@
     "note": "Earthier and less juniper-forward than a London dry. Its own protected style, worth trying once.",
     "source": "draft"
   },
+  "2574": {
+    "name": "Rumple Minze",
+    "score": 5.5,
+    "style": "herbal",
+    "note": "100 proof peppermint, ice-cold out of the freezer. The one schnapps most people actually ask for by name.",
+    "source": "draft"
+  },
   "2827": {
     "name": "Svedka Vodka",
     "score": 5,
@@ -368,6 +431,13 @@
     "note": "Four botanicals, 94.6 proof, nothing wasted. The one to beat under thirty dollars.",
     "source": "draft"
   },
+  "3571": {
+    "name": "Aristocrat Peach Schnapps",
+    "score": 2.5,
+    "style": "fruit",
+    "note": "Bottom-shelf jug schnapps. Buy it for the price and nothing else.",
+    "source": "draft"
+  },
   "3589": {
     "name": "Caravella Limoncello",
     "score": 6.5,
@@ -387,6 +457,13 @@
     "score": 6.5,
     "style": "dark",
     "note": "Trinidad blend, smooth and a little vanilla-sweet. A good gift bottle.",
+    "source": "draft"
+  },
+  "3873": {
+    "name": "Jose Cuervo Golden Margarita",
+    "score": 5,
+    "style": "margarita",
+    "note": "The bottled-margarita default at every gas station. Thin tequila flavor, mostly sour mix.",
     "source": "draft"
   },
   "4034": {
@@ -415,6 +492,13 @@
     "note": "A real step up from standard Seagram's for two dollars more.",
     "source": "draft"
   },
+  "4206": {
+    "name": "Catdaddy Carolina Moonshine",
+    "score": 6,
+    "style": "novelty",
+    "note": "Spiced with cinnamon and vanilla rather than fruit — one of the more distinctive shines here.",
+    "source": "draft"
+  },
   "4461": {
     "name": "Aperol",
     "score": 7.5,
@@ -427,6 +511,13 @@
     "score": 4,
     "style": "flavored",
     "note": "Honey liqueur at 71 proof. Sweet, and not really whiskey any more.",
+    "source": "draft"
+  },
+  "4671": {
+    "name": "Dr. McGuillicuddy's Cherry Schnapps",
+    "score": 3.5,
+    "style": "fruit",
+    "note": "Cough-syrup cherry, but that is exactly the appeal at a shot bar.",
     "source": "draft"
   },
   "4737": {
@@ -463,6 +554,13 @@
     "note": "Sherry-finished, nutty and sweet. A good step past the entry level.",
     "source": "draft"
   },
+  "5098": {
+    "name": "Arrow Peppermint Schnapps",
+    "score": 3,
+    "style": "herbal",
+    "note": "A budget stand-in for Rumple Minze. Thinner, but cheap by the handle.",
+    "source": "draft"
+  },
   "5167": {
     "name": "New Amsterdam Straight Gin",
     "score": 4.5,
@@ -491,6 +589,20 @@
     "note": "French ginger liqueur, real ginger heat and depth. Excellent in cocktails.",
     "source": "draft"
   },
+  "5693": {
+    "name": "Captain Morgan Long Island Iced Tea",
+    "score": 4,
+    "style": "other",
+    "note": "A basic party-jug Long Island, more sweet than boozy-tasting.",
+    "source": "draft"
+  },
+  "5698": {
+    "name": "Jose Cuervo Authentic Mango Margarita",
+    "score": 4.5,
+    "style": "margarita",
+    "note": "Sweet and fruity, tequila character is an afterthought.",
+    "source": "draft"
+  },
   "5736": {
     "name": "Four Roses Single Barrel Bourbon",
     "score": 8.5,
@@ -517,6 +629,13 @@
     "score": 6.5,
     "style": "spiced",
     "note": "Spicier and less candied than Captain Morgan. The better spiced rum for nearly the same money.",
+    "source": "draft"
+  },
+  "5854": {
+    "name": "DeKuyper Island Punch Pucker",
+    "score": 3,
+    "style": "other",
+    "note": "Generic tropical-punch sweetness. Fine as a mixer, unremarkable neat.",
     "source": "draft"
   },
   "5963": {
@@ -611,6 +730,20 @@
     "note": "A good, cheaper stand-in for Cointreau.",
     "source": "draft"
   },
+  "7195": {
+    "name": "Twisted Shotz Sex On The Beach",
+    "score": 4,
+    "style": "shot",
+    "note": "A pre-mixed party shot. Sweet and one-note, exactly what the format promises.",
+    "source": "draft"
+  },
+  "7315": {
+    "name": "99 Whipped Cream",
+    "score": 3.5,
+    "style": "other",
+    "note": "Cake-batter sweet. Better poured over dessert than drunk neat.",
+    "source": "draft"
+  },
   "7351": {
     "name": "New Amsterdam Vodka",
     "score": 4.5,
@@ -623,6 +756,20 @@
     "score": 6.5,
     "style": "traditional",
     "note": "The softer Wild Turkey. Perfectly good; the 101 is better for five dollars more.",
+    "source": "draft"
+  },
+  "7376": {
+    "name": "Twisted Shotz Buttery Nipple",
+    "score": 4,
+    "style": "shot",
+    "note": "Butterscotch-cream shot, similar tier to the schnapps-based original.",
+    "source": "draft"
+  },
+  "7383": {
+    "name": "Twisted Shotz B52",
+    "score": 4,
+    "style": "shot",
+    "note": "Coffee-cream-orange shot, does the classic layered drink in one pour.",
     "source": "draft"
   },
   "7393": {
@@ -666,6 +813,13 @@
     "note": "Berry Bros bottling. Six botanicals, nothing wasted, textbook London dry.",
     "source": "draft"
   },
+  "7878": {
+    "name": "Skinnygirl White Peach Margarita",
+    "score": 4.5,
+    "style": "margarita",
+    "note": "Lower-calorie marketing, but the flavor is thin compared to a real tequila margarita.",
+    "source": "draft"
+  },
   "7911": {
     "name": "Jefferson's Rye",
     "score": 7,
@@ -678,6 +832,20 @@
     "score": 7.5,
     "style": "standard",
     "note": "Spanish brandy de Jerez, aged in sherry casks. One of the best brandies in the store outside of cognac.",
+    "source": "draft"
+  },
+  "8296": {
+    "name": "Firefly Cherry Moonshine",
+    "score": 5,
+    "style": "fruit",
+    "note": "Sweet cherry, similar tier to the other mass-market fruit shines.",
+    "source": "draft"
+  },
+  "8297": {
+    "name": "Firefly White Lightning Moonshine",
+    "score": 5,
+    "style": "original",
+    "note": "From the sweet-tea vodka people. A basic unflavored moonshine, nothing special.",
     "source": "draft"
   },
   "8317": {
@@ -745,6 +913,13 @@
     "name": "Jose Cuervo Especial Silver Tequila",
     "score": 3.5,
     "note": "Mixto. Buy Tradicional for three dollars more.",
+    "source": "draft"
+  },
+  "9124": {
+    "name": "Georgia Moon Fruit Jar 100 Proof",
+    "score": 5.5,
+    "style": "original",
+    "note": "Higher-proof version of the standard Georgia Moon, sold in the mason-jar bottle.",
     "source": "draft"
   },
   "9157": {
@@ -836,6 +1011,13 @@
     "note": "As basic as it gets. Buy it for the price.",
     "source": "draft"
   },
+  "10342": {
+    "name": "Jose Cuervo Lime Margaritas (plastic)",
+    "score": 5,
+    "style": "margarita",
+    "note": "The party-size jug version. Same flavor profile as the glass bottle, cheaper by volume.",
+    "source": "draft"
+  },
   "10350": {
     "name": "Seagram's Extra Dry Gin (plastic)",
     "score": 5,
@@ -874,6 +1056,48 @@
     "score": 6,
     "style": "gold",
     "note": "Orange-forward and sweet. Divisive — great in a punch, odd on its own.",
+    "source": "draft"
+  },
+  "10421": {
+    "name": "Midnight Moon Apple Pie Moonshine",
+    "score": 6,
+    "style": "fruit",
+    "note": "Ole Smoky's Apple Pie has more name recognition, but this one is just as good and often cheaper.",
+    "source": "draft"
+  },
+  "10423": {
+    "name": "Midnight Moon Strawberry Moonshine",
+    "score": 5,
+    "style": "fruit",
+    "note": "Straightforward strawberry, similar tier to the Ole Smoky equivalent.",
+    "source": "draft"
+  },
+  "10424": {
+    "name": "Midnight Moon Blackberry Moonshine",
+    "score": 5.5,
+    "style": "fruit",
+    "note": "Solid blackberry flavor on Midnight Moon's cleaner base.",
+    "source": "draft"
+  },
+  "10427": {
+    "name": "Midnight Moon Moonshine 100 Proof",
+    "score": 6,
+    "style": "original",
+    "note": "Junior Johnson's unflavored shine, quadruple-distilled. Smoother than Ole Smoky's Original.",
+    "source": "draft"
+  },
+  "10433": {
+    "name": "Georgia Moon Peach Moonshine",
+    "score": 5,
+    "style": "fruit",
+    "note": "Georgia Moon's flavored entry. Fine, but the unflavored corn whiskey is the more interesting bottle.",
+    "source": "draft"
+  },
+  "10435": {
+    "name": "Virginia Lightning Apple Pie Moonshine",
+    "score": 5.5,
+    "style": "fruit",
+    "note": "A fair budget alternative to Ole Smoky or Midnight Moon's apple pie.",
     "source": "draft"
   },
   "10451": {
@@ -1116,6 +1340,20 @@
     "note": "The peatiest of the approachable Islays, and superb. Not a beginner bottle.",
     "source": "draft"
   },
+  "11691": {
+    "name": "Aristocrat Southern Style Peach Schnapps",
+    "score": 2.5,
+    "style": "fruit",
+    "note": "Same tier as Aristocrat's other schnapps. A mixer, not a sipper.",
+    "source": "draft"
+  },
+  "11713": {
+    "name": "Barton Peach Schnapks",
+    "score": 2.5,
+    "style": "fruit",
+    "note": "Barton-tier everything: cheap, thin, does the minimum.",
+    "source": "draft"
+  },
   "11719": {
     "name": "Benchmark No. 8",
     "score": 5,
@@ -1135,6 +1373,13 @@
     "score": 7,
     "style": "barrel-aged",
     "note": "American gin finished in used bourbon barrels. Vanilla and oak layered over juniper — different, and it works.",
+    "source": "draft"
+  },
+  "11736": {
+    "name": "Bondurant Brother's Moonshine",
+    "score": 6,
+    "style": "original",
+    "note": "Named for the real Franklin County, VA bootlegging family the movie Lawless was based on. Clean, unflavored, worth trying for the history alone.",
     "source": "draft"
   },
   "11749": {
@@ -1219,6 +1464,20 @@
     "score": 5,
     "style": "blended",
     "note": "Light and thin. For highballs.",
+    "source": "draft"
+  },
+  "11864": {
+    "name": "Dekuyper Buttershots Schnapps",
+    "score": 4,
+    "style": "other",
+    "note": "The Buttery Nipple base. Butterscotch is convincing; a shot-bar staple for a reason.",
+    "source": "draft"
+  },
+  "11865": {
+    "name": "Dekuyper Grape Pucker Schnapks",
+    "score": 3,
+    "style": "fruit",
+    "note": "Sour grape candy, aggressively so. Does what \"Pucker\" promises.",
     "source": "draft"
   },
   "11868": {
@@ -1327,6 +1586,13 @@
     "note": "Aged in charred barrels. Drinks more like whiskey than tequila.",
     "source": "draft"
   },
+  "11968": {
+    "name": "Ice 101 Peppermint Schnapps",
+    "score": 4,
+    "style": "herbal",
+    "note": "101 proof peppermint. Strong enough that bartenders actually reach for it.",
+    "source": "draft"
+  },
   "11978": {
     "name": "Jack Daniel's Single Barrel Tennessee Whiskey",
     "score": 7.5,
@@ -1379,6 +1645,20 @@
     "score": 5.5,
     "style": "blended",
     "note": "Harsh neat, fine in a highball.",
+    "source": "draft"
+  },
+  "12155": {
+    "name": "Virginia Lightning Butterscotch",
+    "score": 5,
+    "style": "novelty",
+    "note": "A budget butterscotch shine, fine for the price.",
+    "source": "draft"
+  },
+  "12156": {
+    "name": "Virginia Lightning Peach",
+    "score": 5,
+    "style": "fruit",
+    "note": "Straightforward peach, priced well below the Tennessee brands.",
     "source": "draft"
   },
   "12179": {
@@ -1486,6 +1766,20 @@
     "name": "Sauza Hornitos Tequila Reposado",
     "score": 6.5,
     "note": "Reliable, a bit sweet.",
+    "source": "draft"
+  },
+  "12925": {
+    "name": "Ole Smoky Mountain Java Moonshine",
+    "score": 5,
+    "style": "novelty",
+    "note": "Coffee-flavored, sweet rather than bitter. A dessert-drink base.",
+    "source": "draft"
+  },
+  "12953": {
+    "name": "Ole Smoky Blackberry Moonshine",
+    "score": 5.5,
+    "style": "fruit",
+    "note": "Solid blackberry flavor, sweeter than a real fruit liqueur.",
     "source": "draft"
   },
   "13142": {
@@ -1597,6 +1891,13 @@
     "note": "Cough-syrup cherry.",
     "source": "draft"
   },
+  "13583": {
+    "name": "Belle Isle Ruby Red Grapefruit Moonshine",
+    "score": 6,
+    "style": "fruit",
+    "note": "Real grapefruit character on a clean base. One of the better flavored shines here.",
+    "source": "draft"
+  },
   "13594": {
     "name": "Jack Daniel's Tennessee Fire Whiskey",
     "score": 3,
@@ -1668,11 +1969,32 @@
     "note": "Distinctive, slightly floral. The tall blue bottle.",
     "source": "draft"
   },
+  "13679": {
+    "name": "Dekuyper Hot Damn! Cinnamon Schnapps",
+    "score": 3.5,
+    "style": "spice",
+    "note": "A Fireball competitor without the whiskey base. Cinnamon-candy hot, does the shot-bar job.",
+    "source": "draft"
+  },
+  "13715": {
+    "name": "1800 Ultimate Watermelon Margarita",
+    "score": 5.5,
+    "style": "margarita",
+    "note": "Sweet and fruity rather than tequila-forward.",
+    "source": "draft"
+  },
   "13737": {
     "name": "Metaxa 5 Stars Greek Brandy",
     "score": 6,
     "style": "standard",
     "note": "Greek brandy blended with wine and botanicals. Sweet and distinct — not trying to be cognac.",
+    "source": "draft"
+  },
+  "13767": {
+    "name": "Belle Isle Blood Orange Moonshine",
+    "score": 6,
+    "style": "fruit",
+    "note": "Tart citrus over the clean corn base. Mixes well with soda.",
     "source": "draft"
   },
   "13801": {
@@ -1694,6 +2016,27 @@
     "score": 7,
     "style": "cachaca",
     "note": "Brazilian sugarcane spirit, not aged rum. The standard for a proper caipirinha.",
+    "source": "draft"
+  },
+  "13870": {
+    "name": "99 Oranges Schnapps",
+    "score": 3,
+    "style": "fruit",
+    "note": "Orange soda syrup with proof behind it. Shot-bar standard.",
+    "source": "draft"
+  },
+  "13992": {
+    "name": "Jose Cuervo Authentic Pink Lemonade Margarita",
+    "score": 4.5,
+    "style": "margarita",
+    "note": "Tastes more like spiked lemonade than a margarita.",
+    "source": "draft"
+  },
+  "14013": {
+    "name": "1800 Ultimate Margarita",
+    "score": 6,
+    "style": "margarita",
+    "note": "A real tequila base, but the mix leans sweeter than a bar-made margarita.",
     "source": "draft"
   },
   "14042": {
@@ -1811,11 +2154,25 @@
     "note": "Sweet, artificial.",
     "source": "draft"
   },
+  "14927": {
+    "name": "Ole Smoky Moonshine Pickles",
+    "score": 4.5,
+    "style": "novelty",
+    "note": "Their pickle gimmick. Convincingly briny; a novelty shot, not much more.",
+    "source": "draft"
+  },
   "15033": {
     "name": "English Harbour 5 Year Rum",
     "score": 7,
     "style": "dark",
     "note": "Antigua, sherry-cask sweetness. Overlooked and worth a look at this price.",
+    "source": "draft"
+  },
+  "15064": {
+    "name": "Georgia Moon Corn Whiskey",
+    "score": 5.5,
+    "style": "original",
+    "note": "Heaven Hill's unaged corn whiskey. A real, historically-labeled corn whiskey rather than a novelty flavor line.",
     "source": "draft"
   },
   "15065": {
@@ -1920,6 +2277,27 @@
     "note": "Virginia craft, soft profile.",
     "source": "draft"
   },
+  "15267": {
+    "name": "Ole Smoky Blue Flame Moonshine",
+    "score": 5.5,
+    "style": "original",
+    "note": "109 proof, unflavored. Harsher and hotter than the standard Original.",
+    "source": "draft"
+  },
+  "15268": {
+    "name": "Ole Smoky Hunch Punch Moonshine",
+    "score": 5,
+    "style": "fruit",
+    "note": "Fruit-punch sweetness, built for a party bowl.",
+    "source": "draft"
+  },
+  "15271": {
+    "name": "Ole Smoky Original Moonshine",
+    "score": 5.5,
+    "style": "original",
+    "note": "Unaged corn whiskey, sharper than Belle Isle. The base every flavor here starts from.",
+    "source": "draft"
+  },
   "15286": {
     "name": "Ragged Branch Signature",
     "score": 7,
@@ -1947,11 +2325,25 @@
     "note": "Rich, oaky cognac between VSOP and XO in style. A favorite among cognac drinkers.",
     "source": "draft"
   },
+  "15329": {
+    "name": "Tim Smith Climax Moonshine",
+    "score": 6,
+    "style": "original",
+    "note": "From the Moonshiners TV personality's own Virginia operation. Solidly made, unflavored corn whiskey.",
+    "source": "draft"
+  },
   "15332": {
     "name": "Tinkerman's Gin",
     "score": 6.5,
     "style": "contemporary",
     "note": "Bright and busy, as the name promises.",
+    "source": "draft"
+  },
+  "15346": {
+    "name": "Twin Creeks 1st Sugar Moonshine",
+    "score": 5.5,
+    "style": "original",
+    "note": "Virginia craft moonshine, clean and straightforward.",
     "source": "draft"
   },
   "15486": {
@@ -2007,6 +2399,20 @@
     "score": 7,
     "style": "contemporary",
     "note": "Vermont, raw honey added after distillation. Soft and rounded, unlike anything else on this list.",
+    "source": "draft"
+  },
+  "15541": {
+    "name": "Belle Isle Premium Honey Habanero Moonshine",
+    "score": 6,
+    "style": "novelty",
+    "note": "Real heat behind the honey sweetness. More interesting than most flavored shine.",
+    "source": "draft"
+  },
+  "15542": {
+    "name": "Belle Isle Premium Moonshine",
+    "score": 6.5,
+    "style": "original",
+    "note": "Virginia, organic corn, unaged. Cleaner and less harsh than the Tennessee mass brands.",
     "source": "draft"
   },
   "15556": {
@@ -2106,10 +2512,31 @@
     "note": "Louisville craft, high-rye mashbill. More refined than most in this price band.",
     "source": "draft"
   },
+  "15969": {
+    "name": "Ole Smoky Buckeye Moonshine",
+    "score": 5.5,
+    "style": "cream",
+    "note": "Peanut butter and chocolate. Tastes like the candy, unapologetically.",
+    "source": "draft"
+  },
+  "16043": {
+    "name": "Dashfire Old Fashioned RTD Can",
+    "score": 7,
+    "style": "old-fashioned",
+    "note": "Small-format, bar-quality Old Fashioned in a can. Great for one serving without opening a bottle.",
+    "source": "draft"
+  },
   "16058": {
     "name": "Laird's 10th Gen Apple Brandy Bottled In Bond 5 Yr",
     "score": 8,
     "note": "Bonded five-year apple brandy. Superb and still under forty.",
+    "source": "draft"
+  },
+  "16121": {
+    "name": "Dashfire Fig & Cascara Manhattan RTD Can",
+    "score": 6.5,
+    "style": "old-fashioned",
+    "note": "An unusual, fruit-forward twist on a Manhattan. Worth trying if the standard version bores you.",
     "source": "draft"
   },
   "16136": {
@@ -2126,11 +2553,39 @@
     "note": "100 proof, big rye spice. Underrated.",
     "source": "draft"
   },
+  "16206": {
+    "name": "The Copper Can Moscow Mule",
+    "score": 6,
+    "style": "mule-highball",
+    "note": "A solid canned Moscow Mule, real ginger bite rather than just sweet.",
+    "source": "draft"
+  },
+  "16211": {
+    "name": "Bold Rock Copper Mug Mule",
+    "score": 5.5,
+    "style": "mule-highball",
+    "note": "Fair canned mule, real ginger presence.",
+    "source": "draft"
+  },
+  "16212": {
+    "name": "Bold Rock Bold Fashioned Cocktail",
+    "score": 5.5,
+    "style": "old-fashioned",
+    "note": "A canned Old Fashioned from a cider company -- decent, if lighter-bodied than a whiskey-forward version.",
+    "source": "draft"
+  },
   "16236": {
     "name": "Conniption American Dry Gin",
     "score": 6.5,
     "style": "contemporary",
     "note": "Durham, NC. Approachable and citrus-forward, a safe crowd-pleaser.",
+    "source": "draft"
+  },
+  "16240": {
+    "name": "Ole Smoky Apple Pie Moonshine",
+    "score": 6.5,
+    "style": "fruit",
+    "note": "Ole Smoky's best-known flavor for a reason — cinnamon and apple actually taste like pie.",
     "source": "draft"
   },
   "16263": {
@@ -2161,11 +2616,39 @@
     "note": "White label plus a glass. Buy it for the glass.",
     "source": "draft"
   },
+  "16343": {
+    "name": "Cape Charles Apple Pie Moonshine",
+    "score": 5,
+    "style": "fruit",
+    "note": "Virginia apple pie shine at a premium price — decent, but Ole Smoky and Midnight Moon do it for less.",
+    "source": "draft"
+  },
+  "16344": {
+    "name": "Cape Charles Blackberry Moonshine",
+    "score": 5,
+    "style": "fruit",
+    "note": "Same story as their Apple Pie: fine flavor, priced ahead of the category norm.",
+    "source": "draft"
+  },
   "16379": {
     "name": "Old Tub",
     "score": 7,
     "style": "bottled-in-bond",
     "note": "Unfiltered bonded Beam. Rougher and more interesting than the white label.",
+    "source": "draft"
+  },
+  "16382": {
+    "name": "99 Root Beer Schnapps",
+    "score": 4.5,
+    "style": "other",
+    "note": "Genuinely tastes like a root beer float. The best of the 99 lineup by a wide margin.",
+    "source": "draft"
+  },
+  "16383": {
+    "name": "99 Watermelon Schnapps",
+    "score": 3,
+    "style": "fruit",
+    "note": "Jolly Rancher in liquid form. Exactly as advertised.",
     "source": "draft"
   },
   "16390": {
@@ -2215,11 +2698,25 @@
     "note": "Organic wheat vodka, smooth. A reliable mid-tier choice.",
     "source": "draft"
   },
+  "16449": {
+    "name": "Sugarlands Shine Pina Colada Moonshine",
+    "score": 5,
+    "style": "fruit",
+    "note": "Coconut and pineapple, straightforward tropical flavor.",
+    "source": "draft"
+  },
   "16453": {
     "name": "Edinburgh Classic Gin",
     "score": 7,
     "style": "london-dry",
     "note": "Traditional Scottish dry gin, heather honey among the botanicals. Solid, unshowy.",
+    "source": "draft"
+  },
+  "16455": {
+    "name": "Firefly Strawberry Moonshine",
+    "score": 5,
+    "style": "fruit",
+    "note": "Straightforward strawberry sweetness.",
     "source": "draft"
   },
   "16456": {
@@ -2250,6 +2747,27 @@
     "note": "Grapefruit, gentle. Pretty, not serious.",
     "source": "draft"
   },
+  "16468": {
+    "name": "Ole Smoky Butter Pecan Moonshine Cream",
+    "score": 5.5,
+    "style": "cream",
+    "note": "One of the better cream flavors in the lineup — actually reads as butter pecan.",
+    "source": "draft"
+  },
+  "16469": {
+    "name": "Ole Smoky Butterscotch Moonshine",
+    "score": 5,
+    "style": "novelty",
+    "note": "Convincing butterscotch, sweet enough to work as a dessert shot.",
+    "source": "draft"
+  },
+  "16471": {
+    "name": "Ole Smoky Tennessee Peach Moonshine",
+    "score": 5.5,
+    "style": "fruit",
+    "note": "Their most \"Southern\" flavor. Peach comes through clearly.",
+    "source": "draft"
+  },
   "16491": {
     "name": "Plymouth Navy Strength Gin",
     "score": 7.5,
@@ -2269,6 +2787,69 @@
     "score": 6,
     "style": "contemporary",
     "note": "Bright yellow, Arctic botanicals. Novel; the novelty wears off.",
+    "source": "draft"
+  },
+  "16543": {
+    "name": "Koloa Hawaiian Mai Tai",
+    "score": 5.5,
+    "style": "tropical",
+    "note": "Made with real Hawaiian rum, a decent bottled Mai Tai.",
+    "source": "draft"
+  },
+  "16546": {
+    "name": "Sugarlands Blueberry Muffin Moonshine",
+    "score": 5,
+    "style": "novelty",
+    "note": "Baked-good sweetness rather than straight blueberry. A dessert flavor.",
+    "source": "draft"
+  },
+  "16547": {
+    "name": "Sugarlands Maple Bacon Moonshine",
+    "score": 5,
+    "style": "novelty",
+    "note": "Sweet maple dominates; the bacon note is more marketing than flavor.",
+    "source": "draft"
+  },
+  "16548": {
+    "name": "Sugarlands Shine Mark Rogers Peach Moonshine",
+    "score": 5.5,
+    "style": "fruit",
+    "note": "Celebrity-branded peach shine. Genuinely decent flavor behind the marketing.",
+    "source": "draft"
+  },
+  "16549": {
+    "name": "Sugarlands Shine Appalachian Apple Pie Moonshine",
+    "score": 6,
+    "style": "fruit",
+    "note": "Their answer to Ole Smoky Apple Pie. Comparable quality, worth it if it is on sale instead.",
+    "source": "draft"
+  },
+  "16550": {
+    "name": "Sugarlands Shine Butterscotch Gold Moonshine",
+    "score": 5,
+    "style": "novelty",
+    "note": "Convincing butterscotch, similar tier to the Ole Smoky version.",
+    "source": "draft"
+  },
+  "16570": {
+    "name": "Sugarlands Shine Peanut Butter & Jelly Moonshine",
+    "score": 4.5,
+    "style": "novelty",
+    "note": "Novelty flavor that mostly delivers on the concept. A conversation piece more than a regular pour.",
+    "source": "draft"
+  },
+  "16574": {
+    "name": "Sugarlands Shine Blockader Blackberry Moonshine",
+    "score": 5,
+    "style": "fruit",
+    "note": "Standard blackberry flavor, unremarkable next to the Belle Isle version.",
+    "source": "draft"
+  },
+  "16576": {
+    "name": "Sugarlands Shine Root Beer Moonshine",
+    "score": 5,
+    "style": "novelty",
+    "note": "Decent root beer float flavor, though the 99 Brand version is sharper.",
     "source": "draft"
   },
   "16686": {
@@ -2306,6 +2887,34 @@
     "note": "Spanish brandy de Jerez, sherry-cask aged. Real depth for the price.",
     "source": "draft"
   },
+  "16775": {
+    "name": "Schoolcrafts Original Wondermint Schnapps Liqueur",
+    "score": 3.5,
+    "style": "herbal",
+    "note": "Virginia-made peppermint schnapps. Regional novelty more than a category leader.",
+    "source": "draft"
+  },
+  "16792": {
+    "name": "99 Black Cherry Schnapps",
+    "score": 3,
+    "style": "fruit",
+    "note": "Shot-bar novelty. One-note cherry candy, nothing to sip.",
+    "source": "draft"
+  },
+  "16860": {
+    "name": "Ole Smoky Moonshine Peaches",
+    "score": 5,
+    "style": "fruit",
+    "note": "Peach-forward, less spiced than the Tennessee Peach bottle.",
+    "source": "draft"
+  },
+  "16868": {
+    "name": "Ole Smoky Moonshine Cherries",
+    "score": 5,
+    "style": "fruit",
+    "note": "Sweet maraschino-adjacent cherry. A dessert pour more than a mixer.",
+    "source": "draft"
+  },
   "16907": {
     "name": "Mi Campo Tequila Blanco",
     "score": 6.5,
@@ -2317,6 +2926,20 @@
     "score": 8,
     "style": "wheated",
     "note": "101 proof Maker's. Same wheated recipe with more punch and more flavor to back it up.",
+    "source": "draft"
+  },
+  "16960": {
+    "name": "Jose Cuervo Sparkling Paloma",
+    "score": 5.5,
+    "style": "margarita",
+    "note": "Grapefruit and soda -- one of the more drinkable things in the Cuervo RTD lineup.",
+    "source": "draft"
+  },
+  "16961": {
+    "name": "Jose Cuervo Sparkling Lime Margarita",
+    "score": 5,
+    "style": "margarita",
+    "note": "The carbonation makes it more refreshing than the still bottled version, at least.",
     "source": "draft"
   },
   "16987": {
@@ -2412,6 +3035,20 @@
     "note": "100 proof and rough. More attitude than whiskey.",
     "source": "draft"
   },
+  "17308": {
+    "name": "Virginia Lightning Moonshine 90 Proof",
+    "score": 5.5,
+    "style": "original",
+    "note": "A real Virginia corn whiskey, not just a flavored novelty label. Honest and unpretentious.",
+    "source": "draft"
+  },
+  "17309": {
+    "name": "Virginia Lightning Moonshine 100 Proof",
+    "score": 5.5,
+    "style": "original",
+    "note": "Same lineage as the 90 proof, more heat. Good value for an actual Virginia-distilled shine.",
+    "source": "draft"
+  },
   "17339": {
     "name": "Leadslingers Napalm Cinnamon",
     "score": 2,
@@ -2437,6 +3074,13 @@
     "score": 6.5,
     "style": "blended",
     "note": "The default Canadian whisky. Soft and easy — inoffensive rather than exciting.",
+    "source": "draft"
+  },
+  "17387": {
+    "name": "Ole Smoky Dill Pickle Moonshine",
+    "score": 4.5,
+    "style": "novelty",
+    "note": "Their bulk-size pickle shine. Same gimmick as the standard bottle, bigger jug.",
     "source": "draft"
   },
   "17401": {
@@ -2549,6 +3193,13 @@
     "note": "Traditional and expressive.",
     "source": "draft"
   },
+  "17851": {
+    "name": "Sugarlands Mark & Diggers Rye Apple Moonshine",
+    "score": 5.5,
+    "style": "fruit",
+    "note": "Rye spice under the apple sweetness — more interesting than the straight apple pie flavors.",
+    "source": "draft"
+  },
   "17853": {
     "name": "Fernet Branca Liqueur",
     "score": 7.5,
@@ -2590,6 +3241,48 @@
     "note": "Blackberry Sapphire. Sweet and a bit thin.",
     "source": "draft"
   },
+  "18160": {
+    "name": "Cutwater Long Island Ice Tea",
+    "score": 6,
+    "style": "other",
+    "note": "A real multi-spirit base rather than a single neutral spirit -- noticeably better than jug versions.",
+    "source": "draft"
+  },
+  "18162": {
+    "name": "Cutwater Lime Margarita",
+    "score": 6.5,
+    "style": "margarita",
+    "note": "Cutwater's tequila-based margarita, well-balanced and one of the better canned versions.",
+    "source": "draft"
+  },
+  "18164": {
+    "name": "Cutwater Mai Tai",
+    "score": 6,
+    "style": "tropical",
+    "note": "More balanced and rum-forward than the Bacardi/Captain Morgan jug versions.",
+    "source": "draft"
+  },
+  "18178": {
+    "name": "Coastal Cocktails Cranberry Vodka 4pk",
+    "score": 5,
+    "style": "other",
+    "note": "Straightforward vodka cranberry in a can.",
+    "source": "draft"
+  },
+  "18183": {
+    "name": "Ole Smoky Sour Apple Moonshine",
+    "score": 5,
+    "style": "fruit",
+    "note": "Sour candy apple rather than pie spice. Different lane from their Apple Pie.",
+    "source": "draft"
+  },
+  "18184": {
+    "name": "Ole Smoky Sour Watermelon Moonshine",
+    "score": 4.5,
+    "style": "fruit",
+    "note": "Candy watermelon, sour rather than sweet.",
+    "source": "draft"
+  },
   "18246": {
     "name": "Empress 1908 Gin",
     "score": 7,
@@ -2597,10 +3290,24 @@
     "note": "Butterfly pea flower turns it violet-blue; a splash of tonic turns it pink. Gimmick aside, the juniper holds up.",
     "source": "draft"
   },
+  "18253": {
+    "name": "Belle Isle Lemon Lavender Moonshine",
+    "score": 6,
+    "style": "fruit",
+    "note": "Floral and bright rather than candy-sweet. Distinctive among flavored moonshines.",
+    "source": "draft"
+  },
   "18279": {
     "name": "Sauza Hacienda Silver",
     "score": 3.5,
     "note": "Mixto, not 100% agave. It shows.",
+    "source": "draft"
+  },
+  "18280": {
+    "name": "Captain Morgan Mai Tai",
+    "score": 4,
+    "style": "tropical",
+    "note": "Similar tier to the Bacardi jugs -- cheap, sweet, functional for a cookout.",
     "source": "draft"
   },
   "18290": {
@@ -2617,6 +3324,34 @@
     "note": "Finished for extra sweetness. Pleasant dessert pour, not a serious sipping upgrade.",
     "source": "draft"
   },
+  "18327": {
+    "name": "1800 Ultimate Black Cherry Margarita",
+    "score": 5.5,
+    "style": "margarita",
+    "note": "Similar sweetness profile to the rest of the 1800 Ultimate line.",
+    "source": "draft"
+  },
+  "18330": {
+    "name": "Midnight Moon Watermelon Moonshine",
+    "score": 5,
+    "style": "fruit",
+    "note": "Candy watermelon on the smoother Midnight Moon base.",
+    "source": "draft"
+  },
+  "18331": {
+    "name": "Midnight Moon Lightning Lemonade Moonshine",
+    "score": 5.5,
+    "style": "fruit",
+    "note": "Tart lemonade, refreshing over ice in the summer.",
+    "source": "draft"
+  },
+  "18332": {
+    "name": "Ole Smoky White Chocolate Strawberry Cream",
+    "score": 5,
+    "style": "cream",
+    "note": "White chocolate dominates over the strawberry. A dessert shot.",
+    "source": "draft"
+  },
   "18367": {
     "name": "Howler Head Banana",
     "score": 2.5,
@@ -2629,6 +3364,13 @@
     "score": 6,
     "style": "contemporary",
     "note": "Norfolk-made. Solid local pour.",
+    "source": "draft"
+  },
+  "18465": {
+    "name": "99 Blue Raspberries",
+    "score": 3,
+    "style": "fruit",
+    "note": "Mini-only novelty shot. Tastes like the candy, not much else.",
     "source": "draft"
   },
   "18505": {
@@ -2658,6 +3400,13 @@
     "note": "More balanced and less sweet than the No. 23. The better Zacapa if you can find the extra twenty-five dollars.",
     "source": "draft"
   },
+  "18598": {
+    "name": "Bold Rock Blue Ridge Mtn Rita",
+    "score": 5.5,
+    "style": "margarita",
+    "note": "Hard-cider-adjacent margarita from the Virginia cidery -- light and easy-drinking.",
+    "source": "draft"
+  },
   "18637": {
     "name": "Revel Stoke Nutcrusher",
     "score": 2,
@@ -2665,10 +3414,66 @@
     "note": "Peanut butter whiskey. It exists.",
     "source": "draft"
   },
+  "18642": {
+    "name": "Batch & Bottle Glenfiddich Scotch Manhattan",
+    "score": 7,
+    "style": "old-fashioned",
+    "note": "Real Glenfiddich behind it. A genuinely different, whisky-forward Manhattan.",
+    "source": "draft"
+  },
+  "18644": {
+    "name": "Batch & Bottle Monkey Shoulder Lazy Old Fashioned",
+    "score": 6.5,
+    "style": "old-fashioned",
+    "note": "Scotch-based Old Fashioned, a different profile from the usual bourbon/rye versions.",
+    "source": "draft"
+  },
+  "18645": {
+    "name": "Batch & Bottle Hendrick's Gin Martini",
+    "score": 7,
+    "style": "martini",
+    "note": "Made with actual Hendrick's. Tastes like a real martini, not a gin-flavored cooler.",
+    "source": "draft"
+  },
   "18659": {
     "name": "Mezcal Union Uno Joven",
     "score": 7,
     "note": "Blended espadín and cirial. Balanced.",
+    "source": "draft"
+  },
+  "18674": {
+    "name": "South Mountain Distilling Moonarita Moonshine",
+    "score": 5,
+    "style": "novelty",
+    "note": "Pre-flavored for a margarita. Convenient, not distinctive.",
+    "source": "draft"
+  },
+  "18675": {
+    "name": "South Mountain Distilling Jbs 103 Moonshine",
+    "score": 5,
+    "style": "original",
+    "note": "Their higher-proof unflavored bottle. Honest and unrefined, as the name promises.",
+    "source": "draft"
+  },
+  "18676": {
+    "name": "South Mountain Distilling Cherry Bounce Moonshine",
+    "score": 5.5,
+    "style": "fruit",
+    "note": "A real Appalachian cherry-bounce recipe rather than candy cherry. More character than most fruit shines here.",
+    "source": "draft"
+  },
+  "18677": {
+    "name": "South Mountain Distillery Sin A Shine Moonshine",
+    "score": 5,
+    "style": "fruit",
+    "note": "Sweet fruit-forward shine, on par with the rest of the South Mountain line.",
+    "source": "draft"
+  },
+  "18680": {
+    "name": "Jb Raders Honeycrisp Apple Moonshine",
+    "score": 5,
+    "style": "fruit",
+    "note": "Honeycrisp apple flavor, sweet and easy-drinking.",
     "source": "draft"
   },
   "18703": {
@@ -2692,11 +3497,60 @@
     "note": "Excellent aged Jamaican. Complex without losing the funk that makes Appleton distinctive.",
     "source": "draft"
   },
+  "18788": {
+    "name": "Cutwater Pina Colada",
+    "score": 5.5,
+    "style": "tropical",
+    "note": "Genuinely creamy and coconut-forward, a fair canned pina colada.",
+    "source": "draft"
+  },
+  "18791": {
+    "name": "Cutwater Mango Margarita",
+    "score": 6,
+    "style": "margarita",
+    "note": "Sweet mango over the same solid Cutwater base.",
+    "source": "draft"
+  },
+  "18818": {
+    "name": "Loyal 9 Lemonade And Iced Tea RTD",
+    "score": 5,
+    "style": "other",
+    "note": "Half-and-half format, same flavor profile as their standard lemonade.",
+    "source": "draft"
+  },
+  "18820": {
+    "name": "Loyal 9 Lemonade RTD",
+    "score": 5,
+    "style": "other",
+    "note": "A basic vodka lemonade, easy-drinking and unremarkable.",
+    "source": "draft"
+  },
+  "18853": {
+    "name": "Ole Smoky Banana Pudding Cream Moonshine",
+    "score": 5,
+    "style": "cream",
+    "note": "Sweet and dessert-like. A Jell-O-shot flavor more than a sipper.",
+    "source": "draft"
+  },
   "18860": {
     "name": "Evan Williams Spiced Cider",
     "score": 2.5,
     "style": "flavored",
     "note": "34 proof. Barely a spirit.",
+    "source": "draft"
+  },
+  "18902": {
+    "name": "Bulleit Manhattan Cocktail",
+    "score": 7,
+    "style": "old-fashioned",
+    "note": "Bulleit rye gives it real spice. A dependable bottled Manhattan from a name you trust.",
+    "source": "draft"
+  },
+  "18903": {
+    "name": "Bulleit Old Fashioned Cocktail",
+    "score": 7,
+    "style": "old-fashioned",
+    "note": "Same bones as their Manhattan. Solid, no surprises, does the job well.",
     "source": "draft"
   },
   "18905": {
@@ -2711,10 +3565,24 @@
     "note": "Honest 100% agave for twenty-two dollars.",
     "source": "draft"
   },
+  "18962": {
+    "name": "Ole Smoky Pineapples With Pina Colada",
+    "score": 5,
+    "style": "fruit",
+    "note": "Pina colada flavor, sweet and coconut-forward.",
+    "source": "draft"
+  },
   "18971": {
     "name": "Xicaru Silver Mezcal",
     "score": 7,
     "note": "Straightforward espadín at a fair price.",
+    "source": "draft"
+  },
+  "18992": {
+    "name": "Bacardi Pineapple Mai Tai",
+    "score": 4.5,
+    "style": "tropical",
+    "note": "Pineapple-forward, sweet rather than balanced like a real Mai Tai.",
     "source": "draft"
   },
   "19052": {
@@ -2765,10 +3633,38 @@
     "note": "Underrated. Bright agave, well made.",
     "source": "draft"
   },
+  "19202": {
+    "name": "Belle Isle Blackberry Vanilla Moonshine",
+    "score": 5.5,
+    "style": "fruit",
+    "note": "Sweet dessert profile, blackberry more background than forward.",
+    "source": "draft"
+  },
+  "19291": {
+    "name": "Ole Smoky Pumpkin Spice Cream Moonshine",
+    "score": 5,
+    "style": "cream",
+    "note": "Seasonal pumpkin spice, sweet and heavy on cinnamon.",
+    "source": "draft"
+  },
   "19300": {
     "name": "George Dickel Bourbon Whisky 8yr",
     "score": 7.5,
     "note": "Dickel’s bourbon, eight years old, thirty dollars. Quietly excellent.",
+    "source": "draft"
+  },
+  "19314": {
+    "name": "Ole Smoky Some Beach Moonshine",
+    "score": 5,
+    "style": "fruit",
+    "note": "Tropical pineapple-coconut blend. A summer cooler flavor.",
+    "source": "draft"
+  },
+  "19330": {
+    "name": "Bacardi Hurricane Cocktails",
+    "score": 4.5,
+    "style": "tropical",
+    "note": "Same tier as the rest of the Bacardi cocktail jugs -- sweet, fruity, forgettable.",
     "source": "draft"
   },
   "19339": {
@@ -2853,6 +3749,13 @@
     "note": "Barrel-proof, no two batches identical. Excellent value for cask-strength rye.",
     "source": "draft"
   },
+  "19553": {
+    "name": "Hill Top Blackberry Gooch Hooch Moonshine",
+    "score": 5,
+    "style": "fruit",
+    "note": "Blackberry moonshine at a premium price for the category — flavor doesn't quite justify the jump.",
+    "source": "draft"
+  },
   "19627": {
     "name": "Jose Cuervo Tradicional Reposado Tequila",
     "score": 6,
@@ -2864,6 +3767,55 @@
     "score": 6.5,
     "style": "flavored",
     "note": "Stone fruit version. Nice, but the standard Citadelle is the better bottle.",
+    "source": "draft"
+  },
+  "19680": {
+    "name": "Luxardo Aperitivo Spritz",
+    "score": 6.5,
+    "style": "spritz",
+    "note": "Real Italian aperitivo character, less syrupy than the domestic canned spritzes.",
+    "source": "draft"
+  },
+  "19681": {
+    "name": "Luxardo Bitter Bianco Spritz",
+    "score": 6.5,
+    "style": "spritz",
+    "note": "A lighter, less bitter spritz than the Aperitivo version. Good gateway spritz.",
+    "source": "draft"
+  },
+  "19686": {
+    "name": "Bold Rock Vodka Orange Crush",
+    "score": 5,
+    "style": "other",
+    "note": "A Virginia-Beach-boardwalk classic in a can. Sweet, easy, does the job.",
+    "source": "draft"
+  },
+  "19698": {
+    "name": "Dekuyper Peachtree Schnapps PET",
+    "score": 4,
+    "style": "fruit",
+    "note": "Same peach schnapps as the glass bottle, plastic for the cookout cooler.",
+    "source": "draft"
+  },
+  "19715": {
+    "name": "Pineapple Upside Down Cake Moonshine",
+    "score": 5,
+    "style": "novelty",
+    "note": "Sweet and caramelized, tastes like the cake. A dessert pour.",
+    "source": "draft"
+  },
+  "19716": {
+    "name": "Pattis Peach Pie Moonshine",
+    "score": 5,
+    "style": "fruit",
+    "note": "Peach pie flavor in the crowded dessert-moonshine field. Fine, not distinctive.",
+    "source": "draft"
+  },
+  "19717": {
+    "name": "Pennys Pecan Pie Moonshine",
+    "score": 5,
+    "style": "novelty",
+    "note": "Pecan pie flavor — one of the more unusual dessert shines on the shelf.",
     "source": "draft"
   },
   "19757": {
@@ -2879,11 +3831,39 @@
     "note": "Organic espadín, herbal and restrained.",
     "source": "draft"
   },
+  "19819": {
+    "name": "Cutwater White Russian",
+    "score": 6,
+    "style": "other",
+    "note": "Cutwater's vodka base makes this a decent canned White Russian -- creamy without being cloying.",
+    "source": "draft"
+  },
   "19825": {
     "name": "Pinhook Kentucky Straight Bourbon",
     "score": 7,
     "style": "traditional",
     "note": "Sourced but well chosen and consistently bottled. A safe pick in the thirty-five dollar range.",
+    "source": "draft"
+  },
+  "19842": {
+    "name": "Ole Smoky Strawberry Moonshine",
+    "score": 5,
+    "style": "fruit",
+    "note": "Straightforward strawberry candy sweetness.",
+    "source": "draft"
+  },
+  "19864": {
+    "name": "Shoe Crazy Broken Heel Mango Moonshine",
+    "score": 5,
+    "style": "fruit",
+    "note": "Tropical mango, straightforward and sweet.",
+    "source": "draft"
+  },
+  "19881": {
+    "name": "Shoe Crazy Broken Heel Coffee Moonshine",
+    "score": 5,
+    "style": "novelty",
+    "note": "Coffee-flavored shine, sweet rather than bitter.",
     "source": "draft"
   },
   "19891": {
@@ -2925,6 +3905,20 @@
     "note": "From the team that built Uncle Nearest 1856. Well-made, well-reviewed, worth the price.",
     "source": "draft"
   },
+  "20069": {
+    "name": "99 Grapes Schnapps",
+    "score": 3,
+    "style": "fruit",
+    "note": "Purple candy in a bottle. Does the one job it has.",
+    "source": "draft"
+  },
+  "20070": {
+    "name": "99 Coconut Schnapps",
+    "score": 3.5,
+    "style": "fruit",
+    "note": "Actually reads as coconut rather than generic sweet. Fine in a shot round.",
+    "source": "draft"
+  },
   "20110": {
     "name": "Oban 14 Year Scotch",
     "score": 7.5,
@@ -2964,6 +3958,76 @@
     "note": "Competent, a little sweet.",
     "source": "draft"
   },
+  "20241": {
+    "name": "On The Rocks The Espresso Martini",
+    "score": 6.5,
+    "style": "martini",
+    "note": "One of the more reliable widely-available bottled espresso martinis.",
+    "source": "draft"
+  },
+  "20242": {
+    "name": "On The Rocks The Manhattan",
+    "score": 6.5,
+    "style": "old-fashioned",
+    "note": "Similar quality tier to their Old Fashioned -- solid and consistent.",
+    "source": "draft"
+  },
+  "20253": {
+    "name": "Belle Isle Blood Orange & Soda Cocktail",
+    "score": 6,
+    "style": "mule-highball",
+    "note": "Light, low-sugar, and refreshing -- a good session option.",
+    "source": "draft"
+  },
+  "20254": {
+    "name": "Belle Isle Ruby Red & Soda Cocktail",
+    "score": 6,
+    "style": "mule-highball",
+    "note": "Similar light, low-sugar profile to the Blood Orange version.",
+    "source": "draft"
+  },
+  "20255": {
+    "name": "Belle Isle Honey Habanero & Pineapple Cocktail",
+    "score": 6,
+    "style": "tropical",
+    "note": "Real heat behind the sweetness -- more interesting than most canned tropical drinks.",
+    "source": "draft"
+  },
+  "20256": {
+    "name": "Belle Isle Cold Brew Coffee Moonshine",
+    "score": 5.5,
+    "style": "novelty",
+    "note": "Coffee liqueur dressed as moonshine. Fine over ice, not distinctive.",
+    "source": "draft"
+  },
+  "20261": {
+    "name": "Bols Peach Liqueur",
+    "score": 5.5,
+    "style": "fruit",
+    "note": "Dutch liqueur house, noticeably more balanced than the Dekuyper/Arrow tier of peach schnapps.",
+    "source": "draft"
+  },
+  "20266": {
+    "name": "Delola Spritz Lorange",
+    "score": 6,
+    "style": "spritz",
+    "note": "Orange-forward and easy-drinking. Solid warm-weather option.",
+    "source": "draft"
+  },
+  "20267": {
+    "name": "Delola Spritz Bella Berry",
+    "score": 6,
+    "style": "spritz",
+    "note": "Kyle Richards' spritz line. Fruity and easy-drinking, more approachable than assertive.",
+    "source": "draft"
+  },
+  "20268": {
+    "name": "Delola Spritz Paloma Rosa",
+    "score": 6,
+    "style": "spritz",
+    "note": "Grapefruit-forward, refreshing, similar tier to the rest of the Delola line.",
+    "source": "draft"
+  },
   "20279": {
     "name": "Familia Camarena Reposado Tequila",
     "score": 6,
@@ -2975,6 +4039,48 @@
     "score": 7,
     "style": "blended",
     "note": "Jon Pardi's blend of bourbon, rye and single malt. Better than most celebrity whiskey.",
+    "source": "draft"
+  },
+  "20281": {
+    "name": "Coastal Cocktails Blackberry Bramble 4pk",
+    "score": 5.5,
+    "style": "other",
+    "note": "A decent Virginia-made canned cocktail, fruity and balanced.",
+    "source": "draft"
+  },
+  "20285": {
+    "name": "Belle Isle Transfusion 4pk",
+    "score": 6,
+    "style": "other",
+    "note": "A grape-and-ginger-ale classic done well in a can.",
+    "source": "draft"
+  },
+  "20301": {
+    "name": "Chi Chis Cosmopolitan",
+    "score": 4,
+    "style": "martini",
+    "note": "Budget party jug, sweet and thin -- interchangeable with the rest of the Chi-Chi's line.",
+    "source": "draft"
+  },
+  "20302": {
+    "name": "Chi Chis Long Island Iced Tea",
+    "score": 4,
+    "style": "other",
+    "note": "Bottom-shelf party jug. Cheap, sweet, gets the job done for a crowd.",
+    "source": "draft"
+  },
+  "20308": {
+    "name": "Chi Chis Margarita",
+    "score": 4,
+    "style": "margarita",
+    "note": "Same tier as the rest of the Chi-Chi's line -- a budget party jug.",
+    "source": "draft"
+  },
+  "20309": {
+    "name": "Chi Chis Peach Margarita",
+    "score": 4,
+    "style": "margarita",
+    "note": "Bottom-shelf bottled margarita. Cheap and sweet, nothing more.",
     "source": "draft"
   },
   "20312": {
@@ -3032,6 +4138,13 @@
     "note": "Newer Kentucky distillery finding its feet. Decent.",
     "source": "draft"
   },
+  "20572": {
+    "name": "Lairds Old Fashioned Apple Brandy Cocktail",
+    "score": 6.5,
+    "style": "old-fashioned",
+    "note": "An apple brandy Old Fashioned from an actual apple brandy house -- distinctive and well made.",
+    "source": "draft"
+  },
   "20581": {
     "name": "Woodinville Straight Bourbon Whiskey",
     "score": 7.5,
@@ -3067,16 +4180,72 @@
     "note": "Uncut at 116 proof for thirty dollars. Blended from good stock; add water.",
     "source": "draft"
   },
+  "20603": {
+    "name": "Grey Goose Classic Martini Rts",
+    "score": 7,
+    "style": "martini",
+    "note": "Genuinely well-proportioned, a real gin-and-vermouth-adjacent martini rather than a sweetened cocktail.",
+    "source": "draft"
+  },
+  "20638": {
+    "name": "Arrow Butterscotch Schnapps",
+    "score": 3,
+    "style": "other",
+    "note": "Cheaper and thinner than Dekuyper Buttershots. Gets the job done in a pinch.",
+    "source": "draft"
+  },
   "20668": {
     "name": "Cenote Blanco Tequila",
     "score": 6.5,
     "note": "Soft and approachable.",
     "source": "draft"
   },
+  "20685": {
+    "name": "On The Rocks The Old Fashioned",
+    "score": 6.5,
+    "style": "old-fashioned",
+    "note": "A dependable bottled Old Fashioned, real bourbon behind it, widely available.",
+    "source": "draft"
+  },
+  "20686": {
+    "name": "On The Rocks The Cosmopolitan",
+    "score": 6,
+    "style": "martini",
+    "note": "A fair bottled cosmo, balanced rather than syrup-sweet.",
+    "source": "draft"
+  },
+  "20687": {
+    "name": "On The Rocks The Margarita",
+    "score": 6.5,
+    "style": "margarita",
+    "note": "On The Rocks generally uses real name-brand spirits -- one of the better mainstream bottled margaritas.",
+    "source": "draft"
+  },
   "20712": {
     "name": "Suntory Toki Japanese Whisky",
     "score": 6.5,
     "note": "Light and clean. Built for highballs, priced above its weight.",
+    "source": "draft"
+  },
+  "20716": {
+    "name": "Oakside Cocktail Rye Old Fashioned",
+    "score": 7.5,
+    "style": "old-fashioned",
+    "note": "Genuinely bar-quality bottled Old Fashioned. A fair price for what it delivers.",
+    "source": "draft"
+  },
+  "20717": {
+    "name": "Oakside Cocktail Negroni",
+    "score": 7,
+    "style": "other",
+    "note": "A real Negroni bitterness, not dumbed down for a wider audience.",
+    "source": "draft"
+  },
+  "20718": {
+    "name": "Oakside Cocktail Manhattan",
+    "score": 7.5,
+    "style": "old-fashioned",
+    "note": "Balanced and boozy rather than sweet -- one of the better bottled Manhattans available.",
     "source": "draft"
   },
   "20721": {
@@ -3093,6 +4262,27 @@
     "note": "Vermont-finished Canadian rye, single barrel. Excellent, if pricey for the category.",
     "source": "draft"
   },
+  "20767": {
+    "name": "Ketel One Espresso Martini Cocktail",
+    "score": 7,
+    "style": "martini",
+    "note": "One of the better bottled espresso martinis -- Ketel One's vodka keeps it from tasting like syrup.",
+    "source": "draft"
+  },
+  "20774": {
+    "name": "Ketel One Cosmopolitan Cocktail",
+    "score": 6.5,
+    "style": "martini",
+    "note": "Balanced and not overly sweet, a fair bottled cosmo.",
+    "source": "draft"
+  },
+  "20853": {
+    "name": "Cutwater Margarita Variety 12 Pack",
+    "score": 6.5,
+    "style": "margarita",
+    "note": "A good way to sample the Cutwater margarita flavors without committing to one.",
+    "source": "draft"
+  },
   "20856": {
     "name": "Cutwater Black Skimmer Bourbon",
     "score": 6.5,
@@ -3107,11 +4297,39 @@
     "note": "Serviceable at 100 proof.",
     "source": "draft"
   },
+  "20917": {
+    "name": "Dr. Stoners Ginger Whiskey Lemonade RTD",
+    "score": 5.5,
+    "style": "mule-highball",
+    "note": "Whiskey-based rather than vodka, gives it a bit more character than the average canned lemonade.",
+    "source": "draft"
+  },
+  "20957": {
+    "name": "Zing Zang Blazing Bloody Mary Rts Cocktail",
+    "score": 6,
+    "style": "other",
+    "note": "Spicier version of their standard Bloody Mary, real heat rather than just black pepper.",
+    "source": "draft"
+  },
   "20959": {
     "name": "London No. 1 Gin",
     "score": 6.5,
     "style": "contemporary",
     "note": "The blue bottle gin. Juniper-forward and better than the novelty packaging suggests.",
+    "source": "draft"
+  },
+  "20966": {
+    "name": "Pussers Rum Painkiller RTD 4pk",
+    "score": 6.5,
+    "style": "tropical",
+    "note": "Pusser's actual navy rum in the classic Painkiller formula. A cut above the typical canned tiki drink.",
+    "source": "draft"
+  },
+  "20974": {
+    "name": "Zing Zang Bloody Mary Rts Cocktail",
+    "score": 6,
+    "style": "other",
+    "note": "A genuinely well-regarded Bloody Mary mix pre-mixed with vodka. Better tomato character than most canned versions.",
     "source": "draft"
   },
   "21064": {
@@ -3135,6 +4353,13 @@
     "note": "Bardstown's house style applied to rye. Solid, consistent, a fair every-day pour.",
     "source": "draft"
   },
+  "21198": {
+    "name": "Handy & Schiller Manhattan",
+    "score": 8,
+    "style": "old-fashioned",
+    "note": "Same careful approach as their Old Fashioned. One of the best bottled Manhattans on this shelf.",
+    "source": "draft"
+  },
   "21200": {
     "name": "Traveller Whiskey Blend #40",
     "score": 7,
@@ -3142,10 +4367,38 @@
     "note": "Chris Stapleton's blend with Buffalo Trace. Smooth and well-made — better than the celebrity tie-in suggests.",
     "source": "draft"
   },
+  "21201": {
+    "name": "Handy & Schiller Old Fashioned",
+    "score": 8,
+    "style": "old-fashioned",
+    "note": "Barrel-finished, actually tastes like a bar-made Old Fashioned rather than a syrupy RTD.",
+    "source": "draft"
+  },
   "21252": {
     "name": "El Jimador Tequila Reposado",
     "score": 6.5,
     "note": "Same, lightly oaked.",
+    "source": "draft"
+  },
+  "21335": {
+    "name": "Navy Hill Tequila Soda Blood Orange",
+    "score": 6,
+    "style": "mule-highball",
+    "note": "Low-sugar tequila soda, a good option if the sweet margarita cans are too much.",
+    "source": "draft"
+  },
+  "21336": {
+    "name": "Navy Hill Tequila Soda Grapefruit",
+    "score": 6,
+    "style": "mule-highball",
+    "note": "Grapefruit variant, consistent quality with the rest of the lineup.",
+    "source": "draft"
+  },
+  "21337": {
+    "name": "Navy Hill Tequila Soda Hint Of Lime",
+    "score": 6,
+    "style": "mule-highball",
+    "note": "Same clean, low-sugar approach as the rest of the Navy Hill line.",
     "source": "draft"
   },
   "21348": {
@@ -3162,11 +4415,25 @@
     "note": "Virginia, law-enforcement themed with a charitable angle. Decent bourbon, buy it for the cause as much as the pour.",
     "source": "draft"
   },
+  "21443": {
+    "name": "On The Rocks The Strawberry Daiquiri",
+    "score": 5.5,
+    "style": "tropical",
+    "note": "Sweet and fruity, a fine poolside pour without much rum character.",
+    "source": "draft"
+  },
   "21479": {
     "name": "Dingle Vodka",
     "score": 6.5,
     "style": "standard",
     "note": "Irish craft vodka. Clean and well-made, priced for the craft-distillery premium.",
+    "source": "draft"
+  },
+  "21484": {
+    "name": "On The Rocks Blue Hawaiian",
+    "score": 5.5,
+    "style": "tropical",
+    "note": "Bright blue novelty tiki drink. Sweet, does the job for a beach theme.",
     "source": "draft"
   },
   "21489": {
@@ -3194,6 +4461,20 @@
     "name": "El Silencio Mezcal Black (espadin)",
     "score": 7,
     "note": "Approachable and smoky. The black bottle.",
+    "source": "draft"
+  },
+  "21576": {
+    "name": "Midnight Moon Moonshake Chocolate Brownie",
+    "score": 5,
+    "style": "cream",
+    "note": "Dessert-in-a-bottle chocolate. Sweet, one-note.",
+    "source": "draft"
+  },
+  "21577": {
+    "name": "Midnight Moon Moonshake Cookies And Cream",
+    "score": 5,
+    "style": "cream",
+    "note": "Reads like the cookie, milky-sweet. A novelty dessert shot.",
     "source": "draft"
   },
   "21618": {
@@ -3229,10 +4510,38 @@
     "note": "Same, in plastic.",
     "source": "draft"
   },
+  "21705": {
+    "name": "Ole Smoky Key Lime Moonshine Cream",
+    "score": 5.5,
+    "style": "cream",
+    "note": "Tart-and-sweet key lime pie in a bottle. Better balanced than most of their cream line.",
+    "source": "draft"
+  },
   "21724": {
     "name": "400 Conejos Mezcal Joven",
     "score": 6.5,
     "note": "Entry-level mezcal. Smoky, a bit rough.",
+    "source": "draft"
+  },
+  "21753": {
+    "name": "On The Rocks Carbonated Mango Mint Mojito",
+    "score": 5.5,
+    "style": "mule-highball",
+    "note": "Fruity mojito twist, refreshing over ice.",
+    "source": "draft"
+  },
+  "21755": {
+    "name": "On The Rocks Carbonated Cucumber Lemongrass Mule",
+    "score": 6,
+    "style": "mule-highball",
+    "note": "A refreshing, less-sweet take on the canned mule format.",
+    "source": "draft"
+  },
+  "21774": {
+    "name": "Cutwater Espresso Martini",
+    "score": 6.5,
+    "style": "martini",
+    "note": "A reliable, widely available canned espresso martini -- real coffee character.",
     "source": "draft"
   },
   "21776": {
@@ -3240,6 +4549,34 @@
     "score": 6.5,
     "style": "high-rye",
     "note": "Young but competent.",
+    "source": "draft"
+  },
+  "21797": {
+    "name": "Sugarlands Banana Pudding Sippin Cream",
+    "score": 6,
+    "style": "sippin-cream",
+    "note": "Sugarlands' cream line is a genuine step up from their flavored shine — this one nails banana pudding.",
+    "source": "draft"
+  },
+  "21798": {
+    "name": "Sugarlands Butter Pecan Sippin Cream",
+    "score": 6,
+    "style": "sippin-cream",
+    "note": "Rich and nutty, one of the better cream shines on the shelf.",
+    "source": "draft"
+  },
+  "21799": {
+    "name": "Sugarlands Chocolate Coffee Sippin Cream",
+    "score": 5.5,
+    "style": "sippin-cream",
+    "note": "Mocha-forward, sweet enough to work as an after-dinner pour.",
+    "source": "draft"
+  },
+  "21800": {
+    "name": "Sugarlands Orange Dream Sippin Cream",
+    "score": 5.5,
+    "style": "sippin-cream",
+    "note": "Creamsicle in a bottle. Tastes exactly like the popsicle.",
     "source": "draft"
   },
   "21803": {
@@ -3263,6 +4600,13 @@
     "note": "Light-bodied and low proof for the price. Easy to drink, easy to outgrow.",
     "source": "draft"
   },
+  "21872": {
+    "name": "Belle Isle Lemon Drop",
+    "score": 6.5,
+    "style": "martini",
+    "note": "Belle Isle's real moonshine base makes this a cut above the typical canned lemon drop.",
+    "source": "draft"
+  },
   "21887": {
     "name": "Ole Smoky Blackberry",
     "score": 3,
@@ -3283,6 +4627,34 @@
     "note": "Single-barrel Larceny at 92 proof. Better than the standard bottle when you find it.",
     "source": "draft"
   },
+  "21938": {
+    "name": "Buzzballz Tequila Rita Cocktail",
+    "score": 5,
+    "style": "margarita",
+    "note": "Same tier as the rest of the line -- more sugar than tequila character, but reliably potent.",
+    "source": "draft"
+  },
+  "21939": {
+    "name": "Buzzballz Strawberry Rita Cocktail",
+    "score": 5,
+    "style": "margarita",
+    "note": "The archetypal BuzzBallz flavor -- sweet, potent, and fine for exactly what it is: a party ball, not a cocktail.",
+    "source": "draft"
+  },
+  "21942": {
+    "name": "Buzzballz Lotta Colada Cocktail",
+    "score": 4.5,
+    "style": "tropical",
+    "note": "Sweet coconut-pineapple, same value tier as the rest of the line.",
+    "source": "draft"
+  },
+  "21944": {
+    "name": "Buzzballz Espresso Martini Cocktail",
+    "score": 5,
+    "style": "martini",
+    "note": "Sweeter and less coffee-forward than the craft bottled versions, but cheap and convenient.",
+    "source": "draft"
+  },
   "21949": {
     "name": "W L Weller Special Reserve",
     "score": 8,
@@ -3290,11 +4662,39 @@
     "note": "Wheated and soft. Genuinely hard to find at shelf price — take it if the count says any.",
     "source": "draft"
   },
+  "21972": {
+    "name": "Belle Isle Aged Honey Habanero Moonshine",
+    "score": 6.5,
+    "style": "novelty",
+    "note": "Barrel-aged version of the Honey Habanero. Rounder, less harsh, worth the upgrade.",
+    "source": "draft"
+  },
+  "21980": {
+    "name": "Karahiyo Espresso Martini RTD",
+    "score": 6,
+    "style": "martini",
+    "note": "Virginia-made espresso martini, solid coffee flavor.",
+    "source": "draft"
+  },
+  "21987": {
+    "name": "Buzzballz Horchata Cocktail",
+    "score": 5,
+    "style": "other",
+    "note": "Genuinely tastes like horchata. One of the more distinctive flavors in the BuzzBallz lineup.",
+    "source": "draft"
+  },
   "21991": {
     "name": "Highlands Dragon Navy Strength",
     "score": 7,
     "style": "navy-strength",
     "note": "114 proof. Stands up to strong mixers and doesn't vanish in a negroni.",
+    "source": "draft"
+  },
+  "22005": {
+    "name": "On The Rocks Hornitos Margarita PET",
+    "score": 6,
+    "style": "margarita",
+    "note": "A real Hornitos tequila base in a convenient single-serve bottle.",
     "source": "draft"
   },
   "22017": {
@@ -3324,6 +4724,13 @@
     "note": "Seasonal Beam. Fine.",
     "source": "draft"
   },
+  "22187": {
+    "name": "Crown Royal Whisky Sour Cocktail Black Cherry",
+    "score": 6,
+    "style": "other",
+    "note": "Fruity and easy-drinking, not trying to be a classic sour.",
+    "source": "draft"
+  },
   "22193": {
     "name": "Crown Royal Reserve 12yr",
     "score": 7,
@@ -3331,11 +4738,60 @@
     "note": "More oak and depth than the base bottle. A real step up for the extra twenty-two dollars.",
     "source": "draft"
   },
+  "22224": {
+    "name": "Midnight Moon Peppermint With 2 Shot Glasses",
+    "score": 5,
+    "style": "novelty",
+    "note": "Holiday peppermint shine, comes with shot glasses for the gift angle.",
+    "source": "draft"
+  },
   "22256": {
     "name": "Black Tot Finest Caribbean Rum",
     "score": 7.5,
     "style": "dark",
     "note": "A tribute blend to the old Royal Navy tot. Rich and historic, priced like it.",
+    "source": "draft"
+  },
+  "22259": {
+    "name": "High West Manhattan Barrel Finished Cocktail",
+    "score": 7.5,
+    "style": "old-fashioned",
+    "note": "High West's actual whiskey behind the mix, not a neutral base. One of the stronger bottled Manhattans.",
+    "source": "draft"
+  },
+  "22302": {
+    "name": "Belle Isle Ginger Ginger Moonshine",
+    "score": 5.5,
+    "style": "novelty",
+    "note": "Real ginger bite. Good base for a moonshine mule.",
+    "source": "draft"
+  },
+  "22317": {
+    "name": "Cutwater Lemon Drop Martini",
+    "score": 6,
+    "style": "martini",
+    "note": "Balanced citrus, one of the more drinkable canned lemon drops.",
+    "source": "draft"
+  },
+  "22349": {
+    "name": "Ole Smoky Chocolate Peanut Butter Cream Moonshine",
+    "score": 5,
+    "style": "cream",
+    "note": "Rich and sweet, a dessert pour over ice.",
+    "source": "draft"
+  },
+  "22382": {
+    "name": "Astral Ready To Serve Margarita Cocktail",
+    "score": 6,
+    "style": "margarita",
+    "note": "Astral is a real, well-regarded tequila -- this punches above the typical bottled margarita.",
+    "source": "draft"
+  },
+  "22399": {
+    "name": "Fore Craft Cocktails Transfusion RTD 4 Pk",
+    "score": 5.5,
+    "style": "other",
+    "note": "A fair canned transfusion, grape and ginger ale balance is decent.",
     "source": "draft"
   },
   "22416": {
@@ -3349,6 +4805,34 @@
     "score": 6,
     "style": "flavored",
     "note": "Uncle Val's with extra citrus zest. Fine in a gin and tonic, unremarkable neat.",
+    "source": "draft"
+  },
+  "22476": {
+    "name": "On The Rocks The Lemon Drop Martini",
+    "score": 6,
+    "style": "martini",
+    "note": "Tart and sweet in the right proportion, better than most bottled lemon drops.",
+    "source": "draft"
+  },
+  "22515": {
+    "name": "Absolut Cocktails Espresso Martini",
+    "score": 6.5,
+    "style": "martini",
+    "note": "Solid mid-tier bottled espresso martini, a step below the craft options but reliable.",
+    "source": "draft"
+  },
+  "22516": {
+    "name": "Absolut Cocktails Classic Cosmopolitan",
+    "score": 6,
+    "style": "martini",
+    "note": "A fine everyday cosmo, nothing that stands out.",
+    "source": "draft"
+  },
+  "22549": {
+    "name": "The Copper Can Peach Mule",
+    "score": 5.5,
+    "style": "mule-highball",
+    "note": "Peach and ginger combination, a fair seasonal variant.",
     "source": "draft"
   },
   "22590": {
@@ -3370,6 +4854,13 @@
     "score": 6.5,
     "style": "contemporary",
     "note": "Maui, light and tropical-leaning.",
+    "source": "draft"
+  },
+  "22656": {
+    "name": "Midnight Moon Moonshake Peanut Butter Cup",
+    "score": 5,
+    "style": "cream",
+    "note": "Candy-bar sweet. Same lane as Ole Smoky Buckeye.",
     "source": "draft"
   },
   "22657": {
@@ -3399,6 +4890,20 @@
     "note": "Cask-strength High West blend. Bold and well-regarded among whiskey enthusiasts.",
     "source": "draft"
   },
+  "22804": {
+    "name": "Open Road Distilling Maple Old Fashioned",
+    "score": 6,
+    "style": "old-fashioned",
+    "note": "Virginia craft distillery, maple sweetness is prominent but not overwhelming.",
+    "source": "draft"
+  },
+  "22823": {
+    "name": "Lairds American Mule",
+    "score": 6,
+    "style": "mule-highball",
+    "note": "Laird's apple brandy gives this mule real depth beyond straight vodka or whiskey versions.",
+    "source": "draft"
+  },
   "22846": {
     "name": "Greenalls London Dry Gin",
     "score": 6.5,
@@ -3406,11 +4911,46 @@
     "note": "Honest, unfussy London dry. Nothing to complain about.",
     "source": "draft"
   },
+  "22870": {
+    "name": "Buzzballz Berry Cherry Limeade",
+    "score": 4.5,
+    "style": "other",
+    "note": "Standard BuzzBallz sweetness, berry and lime flavor comes through clearly.",
+    "source": "draft"
+  },
   "22885": {
     "name": "Buckhorn Peach",
     "score": 2.5,
     "style": "flavored",
     "note": "65 proof peach. Sweet.",
+    "source": "draft"
+  },
+  "22911": {
+    "name": "Casamigos Margarita Variety Pack",
+    "score": 7,
+    "style": "margarita",
+    "note": "Single-serve cans of the same good tequila base. Convenient for a cookout.",
+    "source": "draft"
+  },
+  "22913": {
+    "name": "Yellowstone Cocktails Espresso -rts",
+    "score": 7,
+    "style": "martini",
+    "note": "Bourbon-adjacent branding aside, this is a genuinely well-made bottled espresso martini.",
+    "source": "draft"
+  },
+  "22914": {
+    "name": "Yellowstone Cocktails Gold Rush -rts",
+    "score": 6.5,
+    "style": "other",
+    "note": "Honey and lemon over bourbon. Simple and it works.",
+    "source": "draft"
+  },
+  "22915": {
+    "name": "Yellowstone Cocktails Old Fashioned Rts",
+    "score": 7,
+    "style": "old-fashioned",
+    "note": "A real bourbon base gives it more backbone than most bottled Old Fashioneds at this price.",
     "source": "draft"
   },
   "22917": {
@@ -3431,6 +4971,27 @@
     "score": 6,
     "style": "contemporary",
     "note": "Mild and inoffensive.",
+    "source": "draft"
+  },
+  "23005": {
+    "name": "Olmeca Altos Classic Lime Margarita",
+    "score": 6.5,
+    "style": "margarita",
+    "note": "A genuine agave-forward tequila margarita, a step above the syrupy mass brands.",
+    "source": "draft"
+  },
+  "23006": {
+    "name": "Olmeca Altos Strawberry Margarita",
+    "score": 6,
+    "style": "margarita",
+    "note": "Same solid tequila base with strawberry sweetness added.",
+    "source": "draft"
+  },
+  "23012": {
+    "name": "Midnight Bean Espresso Martini",
+    "score": 5.5,
+    "style": "martini",
+    "note": "Decent mass-market espresso martini, sweeter than the craft options.",
     "source": "draft"
   },
   "23077": {
@@ -3461,6 +5022,55 @@
     "note": "Tequila brand's orange liqueur. Fine in a margarita, not distinctive on its own.",
     "source": "draft"
   },
+  "23166": {
+    "name": "Jose Cuervo Authentic Double Strength Margarita",
+    "score": 5,
+    "style": "margarita",
+    "note": "More alcohol than the standard Authentic line, still mostly sour-mix flavor.",
+    "source": "draft"
+  },
+  "23199": {
+    "name": "Bold Rock Vodka Bay Crush",
+    "score": 5,
+    "style": "other",
+    "note": "Same easy-drinking crush format, different fruit profile.",
+    "source": "draft"
+  },
+  "23267": {
+    "name": "Ketel One Cocktails Lemon Drop Martini",
+    "score": 6,
+    "style": "martini",
+    "note": "Balanced citrus and vodka, a fair bottled lemon drop.",
+    "source": "draft"
+  },
+  "23268": {
+    "name": "Bulleit Whiskey Sour Cocktail",
+    "score": 6.5,
+    "style": "other",
+    "note": "A fair bottled Whiskey Sour, more balanced than most of the cheaper competition.",
+    "source": "draft"
+  },
+  "23334": {
+    "name": "Penelope Cocktails Black Walnut Old Fashioned",
+    "score": 6.5,
+    "style": "old-fashioned",
+    "note": "An unusual, nutty spin on the Old Fashioned. Distinctive among the bottled versions.",
+    "source": "draft"
+  },
+  "23338": {
+    "name": "Via Carota Craft Cocktail Espresso Martini",
+    "score": 7,
+    "style": "martini",
+    "note": "Real espresso bitterness instead of coffee-liqueur sweetness. A cut above the mass-market versions.",
+    "source": "draft"
+  },
+  "23339": {
+    "name": "Via Carota Craft Cocktail Old Fashioned",
+    "score": 7.5,
+    "style": "old-fashioned",
+    "note": "From the NYC restaurant's cocktail program. Polished and well-balanced.",
+    "source": "draft"
+  },
   "23350": {
     "name": "Opihr Spiced London Dry Gin",
     "score": 7,
@@ -3489,11 +5099,39 @@
     "note": "Heather-honey with a wisp of smoke. Beautifully balanced, and sixty dollars.",
     "source": "draft"
   },
+  "23477": {
+    "name": "Penelope Cocktails Apple Cinnamon Old Fashioned",
+    "score": 6.5,
+    "style": "old-fashioned",
+    "note": "Penelope's actual bourbon gives this real depth beyond the apple-cinnamon flavoring.",
+    "source": "draft"
+  },
   "23486": {
     "name": "Bardstown Bourbon Collaborative Ferrand",
     "score": 8,
     "style": "blended",
     "note": "A genuine collaboration with a French cognac house. One of the more ambitious blends on the shelf.",
+    "source": "draft"
+  },
+  "23493": {
+    "name": "Devils Due Distillery Candy Cane Moonshine",
+    "score": 4.5,
+    "style": "novelty",
+    "note": "Seasonal peppermint-candy shine. A holiday novelty, not a year-round pour.",
+    "source": "draft"
+  },
+  "23534": {
+    "name": "Boyd & Blair Blood Orange Cosmo",
+    "score": 6.5,
+    "style": "martini",
+    "note": "Tart and citrus-forward, less cloying than most bottled cosmos.",
+    "source": "draft"
+  },
+  "23625": {
+    "name": "The Copper Can Huckleberry Mule",
+    "score": 5.5,
+    "style": "mule-highball",
+    "note": "Fruity twist on their standard mule, sweeter than the original.",
     "source": "draft"
   },
   "23631": {
@@ -3509,11 +5147,67 @@
     "note": "Made for cocktails and excellent in them. The thinking sazerac.",
     "source": "draft"
   },
+  "23657": {
+    "name": "El Condor Grapefruit Lime Margarita",
+    "score": 5,
+    "style": "margarita",
+    "note": "A budget option, decent for the price but not distinctive.",
+    "source": "draft"
+  },
+  "23663": {
+    "name": "On The Rocks The Tequila Espresso Martini",
+    "score": 6,
+    "style": "martini",
+    "note": "An unusual tequila twist on the espresso martini formula. Works better than it sounds.",
+    "source": "draft"
+  },
   "23733": {
     "name": "Wyoming Whiskey Outryder Whiskey",
     "score": 7.5,
     "style": "blended",
     "note": "A blend of bourbons from a well-regarded craft distillery. Rich and worth the price.",
+    "source": "draft"
+  },
+  "23735": {
+    "name": "Boyd & Blair The Espresso Martini",
+    "score": 7,
+    "style": "martini",
+    "note": "Made with an actual craft vodka base rather than a neutral filler. Noticeably smoother.",
+    "source": "draft"
+  },
+  "23757": {
+    "name": "On The Rocks Passion Fruit Margarita",
+    "score": 5.5,
+    "style": "margarita",
+    "note": "Tropical fruit variant on their standard formula.",
+    "source": "draft"
+  },
+  "23759": {
+    "name": "Shottys Green Tea Shot",
+    "score": 4,
+    "style": "shot",
+    "note": "Sweet citrus-and-whiskey flavor rather than actual green tea. A party staple regardless.",
+    "source": "draft"
+  },
+  "23806": {
+    "name": "Shottys Lemon Drop Shots Vodka",
+    "score": 4,
+    "style": "shot",
+    "note": "Tart and sweet, a functional party shot.",
+    "source": "draft"
+  },
+  "23822": {
+    "name": "Cutwater Pineapple Margarita",
+    "score": 6,
+    "style": "margarita",
+    "note": "Tropical fruit variant, consistent with the rest of the Cutwater margarita line.",
+    "source": "draft"
+  },
+  "23823": {
+    "name": "Cutwater Strawberry Margarita",
+    "score": 6,
+    "style": "margarita",
+    "note": "Straightforward strawberry margarita, reliably decent.",
     "source": "draft"
   },
   "23833": {
@@ -3544,6 +5238,13 @@
     "note": "Fifteen years in the bottle for sixty dollars. Genuinely excellent value for aged Canadian whisky.",
     "source": "draft"
   },
+  "23891": {
+    "name": "Belle Isle Mango Tangerine Moonshine",
+    "score": 5.5,
+    "style": "fruit",
+    "note": "Tropical and sweet, straightforward fruit shine.",
+    "source": "draft"
+  },
   "23902": {
     "name": "Catoctin Creek Shenandoah Pink Gin",
     "score": 6.5,
@@ -3558,10 +5259,52 @@
     "note": "Sweet blackberry. Not a whiskey decision.",
     "source": "draft"
   },
+  "24031": {
+    "name": "On The Rocks Sparkling Watermelon Margarita",
+    "score": 5.5,
+    "style": "margarita",
+    "note": "Sweet and fruity, fine for a poolside can.",
+    "source": "draft"
+  },
+  "24032": {
+    "name": "Hochstadters Slow & Low Maple Old Fashioned",
+    "score": 7,
+    "style": "old-fashioned",
+    "note": "Maple leans sweet but the rye backbone keeps it from tipping into syrup.",
+    "source": "draft"
+  },
+  "24034": {
+    "name": "Hochstadters Slow & Low Cherry Old Fashioned",
+    "score": 7,
+    "style": "old-fashioned",
+    "note": "Rye-based, real bitters character. A reliable pick from the bottled Old Fashioned field.",
+    "source": "draft"
+  },
+  "24047": {
+    "name": "Ole Smoky Mandarin Moonshine",
+    "score": 5,
+    "style": "fruit",
+    "note": "Bright citrus, less cloying than some of their fruit flavors.",
+    "source": "draft"
+  },
   "24072": {
     "name": "Lot No. 40 Canadian Rye Whisky",
     "score": 8,
     "note": "100% rye, bold and spicy. The best Canadian whisky on the shelf.",
+    "source": "draft"
+  },
+  "24103": {
+    "name": "Buzzbox Perfect Margarita",
+    "score": 5,
+    "style": "margarita",
+    "note": "A juice-box format margarita. Convenient and sweet, not a serious tequila drink.",
+    "source": "draft"
+  },
+  "24108": {
+    "name": "Buzzbox Vodka Lemonade",
+    "score": 5,
+    "style": "other",
+    "note": "Simple and sweet vodka lemonade in the same juice-box format.",
     "source": "draft"
   },
   "24114": {
@@ -3569,6 +5312,13 @@
     "score": 7,
     "style": "blended",
     "note": "Rum-cask finished, a little sweeter and rounder than standard Crown Royal. Underrated.",
+    "source": "draft"
+  },
+  "24127": {
+    "name": "On The Rocks Sparkling Lime Margarita",
+    "score": 6,
+    "style": "margarita",
+    "note": "Carbonated version of their standard margarita, lighter and more sessionable.",
     "source": "draft"
   },
   "24145": {
@@ -3583,6 +5333,20 @@
     "score": 7.5,
     "style": "blended",
     "note": "Barrel-proof version of the Stapleton blend. Bolder and more interesting than the standard bottling.",
+    "source": "draft"
+  },
+  "24186": {
+    "name": "Casamigos Classic Lime Margarita",
+    "score": 7.5,
+    "style": "margarita",
+    "note": "Real Casamigos tequila behind it -- noticeably better tequila character than the mass-market bottled margaritas.",
+    "source": "draft"
+  },
+  "24187": {
+    "name": "Casamigos Spicy Margarita",
+    "score": 7,
+    "style": "margarita",
+    "note": "Same quality tequila base with real jalapeno heat, not an artificial burn.",
     "source": "draft"
   },
   "24220": {
@@ -3606,11 +5370,46 @@
     "note": "Irish, botanicals foraged from the Erne estuary. Competent, not essential.",
     "source": "draft"
   },
+  "24318": {
+    "name": "Handy & Schiller Paper Plane",
+    "score": 7.5,
+    "style": "other",
+    "note": "A well-executed bottled version of the modern classic -- bitter, balanced, not oversweetened.",
+    "source": "draft"
+  },
   "24323": {
     "name": "Engine Gin",
     "score": 6.5,
     "style": "contemporary",
     "note": "Italian, organic, sold in a motor-oil can. Light and citrusy; the can is half the appeal.",
+    "source": "draft"
+  },
+  "24379": {
+    "name": "Belle Isle Rocket Pop",
+    "score": 5.5,
+    "style": "other",
+    "note": "A novelty red-white-and-blue popsicle flavor -- fun for a summer cookout.",
+    "source": "draft"
+  },
+  "24384": {
+    "name": "Belle Isle Dill Pickle Moonshine",
+    "score": 4.5,
+    "style": "novelty",
+    "note": "Pickle-brine gimmick. Genuinely tastes like a dill pickle — a novelty, not a sipper.",
+    "source": "draft"
+  },
+  "24401": {
+    "name": "Ole Smoky White Lightnin Moonshine",
+    "score": 5,
+    "style": "original",
+    "note": "Their high-proof unflavored bottle. Rough, as advertised — closer to the old moonshine reputation.",
+    "source": "draft"
+  },
+  "24405": {
+    "name": "Ole Smoky Moonshine Lemon Drop",
+    "score": 5,
+    "style": "fruit",
+    "note": "Tart lemon candy. Works well over ice with a splash of soda.",
     "source": "draft"
   },
   "24426": {
@@ -3626,6 +5425,48 @@
     "note": "Decent. You are paying for the television show.",
     "source": "draft"
   },
+  "24549": {
+    "name": "Virginia Distillery Co. Whisky Cherry Bounce",
+    "score": 6,
+    "style": "other",
+    "note": "A real Virginia single malt behind a cherry-forward cocktail. Distinctive regional option.",
+    "source": "draft"
+  },
+  "24550": {
+    "name": "Virginia Distillery Co. Whisky Espresso Martini",
+    "score": 6.5,
+    "style": "martini",
+    "note": "Made with Virginia Distillery Co.'s own whisky rather than a neutral base. A cut above average.",
+    "source": "draft"
+  },
+  "24551": {
+    "name": "Murlarkey Perfect Old Fashioned Rtd",
+    "score": 6.5,
+    "style": "old-fashioned",
+    "note": "Virginia distillery, real bourbon base. A solid regional bottled Old Fashioned.",
+    "source": "draft"
+  },
+  "24552": {
+    "name": "Murlarkey Smoked Old Fashioned Rtd",
+    "score": 7,
+    "style": "old-fashioned",
+    "note": "Smoked twist on their standard Old Fashioned -- more interesting than most bottled versions.",
+    "source": "draft"
+  },
+  "24567": {
+    "name": "Hennessy VS Cocktails Henny Berry",
+    "score": 5.5,
+    "style": "other",
+    "note": "Cognac base gives it a bit more depth than the average canned cocktail.",
+    "source": "draft"
+  },
+  "24568": {
+    "name": "Hennessy VS Cocktails Henny Rita",
+    "score": 5.5,
+    "style": "margarita",
+    "note": "A cognac-margarita crossover. Interesting more than essential.",
+    "source": "draft"
+  },
   "24576": {
     "name": "Atheling Gin",
     "score": 6,
@@ -3637,6 +5478,27 @@
     "name": "Jose Cuervo Tradicional Blanco Tequila",
     "score": 6,
     "note": "The real Cuervo — 100% agave, unlike the gold. Fine and cheap.",
+    "source": "draft"
+  },
+  "24628": {
+    "name": "Penelope Cocktails Blackberry Old Fashioned",
+    "score": 6,
+    "style": "old-fashioned",
+    "note": "Fruity twist on their Old Fashioned line, sweeter than the classic.",
+    "source": "draft"
+  },
+  "24646": {
+    "name": "Belle Isle Spiced Apple Moonshine",
+    "score": 5.5,
+    "style": "fruit",
+    "note": "Apple pie in a bottle, on the sweeter end even for this category.",
+    "source": "draft"
+  },
+  "24696": {
+    "name": "Cutwater Banana Mudslide",
+    "score": 5.5,
+    "style": "other",
+    "note": "Dessert-like and sweet, a fair canned mudslide.",
     "source": "draft"
   },
   "24749": {
@@ -3667,6 +5529,13 @@
     "note": "Lighter and thinner than Bulleit's bourbon. A step down from the brand's usual quality.",
     "source": "draft"
   },
+  "24911": {
+    "name": "Coastal Cocktails Cucumber Collins 4pk",
+    "score": 5.5,
+    "style": "mule-highball",
+    "note": "Light and refreshing, a fair summer session can.",
+    "source": "draft"
+  },
   "24923": {
     "name": "Tincup 4 Year",
     "score": 6,
@@ -3681,11 +5550,25 @@
     "note": "Peruvian pisco, clean and grape-forward. The real thing for a proper pisco sour.",
     "source": "draft"
   },
+  "24974": {
+    "name": "Hill Top Distillery Lemon Drop Moonshine",
+    "score": 5,
+    "style": "fruit",
+    "note": "Tart lemon candy flavor, priced like a step above the mass brands without tasting like one.",
+    "source": "draft"
+  },
   "24981": {
     "name": "Four Roses Bourbon 100 Proof",
     "score": 8,
     "style": "high-rye",
     "note": "The yellow label with the volume turned up. Floral, high-rye, very good.",
+    "source": "draft"
+  },
+  "24982": {
+    "name": "Aperol Spritz Ready To Serve Cocktail",
+    "score": 6.5,
+    "style": "spritz",
+    "note": "The real Aperol behind it, pre-mixed with prosecco and soda. Convenient and true to the original.",
     "source": "draft"
   },
   "24999": {
@@ -3701,11 +5584,32 @@
     "note": "Spicier and more characterful than Jameson, and usually cheaper.",
     "source": "draft"
   },
+  "25015": {
+    "name": "Buzzballz Cocktail Dirty Shirley",
+    "score": 5,
+    "style": "other",
+    "note": "A canned take on the viral Dirty Shirley. Sweet, cherry-forward, does the trend justice for the price.",
+    "source": "draft"
+  },
   "25023": {
     "name": "Boondocks 6 Year",
     "score": 6.5,
     "style": "traditional",
     "note": "Six-year age statement at thirty dollars. Fair.",
+    "source": "draft"
+  },
+  "25073": {
+    "name": "Belle Isle Moonshine Cream",
+    "score": 6,
+    "style": "cream",
+    "note": "Belle Isle's cream entry. Smoother than Ole Smoky's cream line, less cloying.",
+    "source": "draft"
+  },
+  "25223": {
+    "name": "Crown Royal Salted Caramel Old Fashioned",
+    "score": 6,
+    "style": "old-fashioned",
+    "note": "Sweeter and more dessert-like than a classic Old Fashioned, but well made for what it is.",
     "source": "draft"
   },
   "_readme": "Jeff's ratings. Keyed on labelId (a product family, e.g. all five sizes of Tanqueray). score 0-10. style: london-dry | contemporary | navy-strength | barrel-aged | flavored | genever. source 'draft' = Claude's first pass from general consensus; change to 'jeff' once you've confirmed or overridden it. This file is the only thing here that can't be regenerated."
