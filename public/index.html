@@ -8,7 +8,7 @@
 <title>Best Under — Virginia ABC</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=IBM+Plex+Mono:wght@400;500;600&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=IBM+Plex+Mono:wght@400;500;600&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
 /* ── Palette ─────────────────────────────────────────────────────────────
    Bottle green, store white, copper. The ground is a cool green-grey rather
@@ -727,6 +727,292 @@ input[type="range"].dim { opacity: .42; }
 .exportbtn.warn { color: var(--copper); }
 .myown-said { margin: 9px 0 0; font-size: 12.5px; color: var(--ink-3); min-height: 1.2em; }
 
+/* ── Shelf tags ───────────────────────────────────────────────────────────
+   The aisle vernacular: a printed price talker. Price is the biggest mark on
+   the row because it is the biggest mark on the shelf, and the score is
+   stamped at the right edge the way a unit price is. Notes move behind the
+   tap, which is what buys the density — seven bottles a screen, not three.
+
+   These rules sit after the `.tag` block on purpose: `.sftag` matches it for
+   specificity, so later wins, while `.tag[data-state="out"]` still outranks
+   both and keeps hiding sold-out rows. */
+.sftag {
+  display: grid;
+  grid-template-columns: 70px minmax(0, 1fr) 46px;
+  padding: 0;
+  border-bottom: 1px solid var(--rule);
+}
+.showout .sftag[data-state="out"] { display: grid; }
+.showout .sftag[data-state="out"] .sf-dollars,
+.showout .sftag[data-state="out"] .name { color: var(--ink-2); }
+
+.sf-price {
+  border-right: 1px solid var(--rule-soft);
+  padding: 9px 8px 9px 16px;
+  font-family: "Barlow Condensed", "Arial Narrow", system-ui, sans-serif;
+  line-height: .84;
+}
+.sf-dollars {
+  display: block;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: -.01em;
+  font-variant-numeric: tabular-nums;
+}
+/* The rule under the dollars is the shelf-label tell: cents sit below it,
+   small, the way a printed talker sets them. */
+.sf-cents {
+  display: block;
+  width: 2.1em;
+  margin-top: 2px;
+  padding-top: 3px;
+  border-top: 2px solid var(--ink);
+  font-size: 15px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+.sf-per {
+  display: block;
+  margin-top: 6px;
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 9px;
+  font-weight: 500;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+  line-height: 1.3;
+}
+
+.sf-body { padding: 9px 10px 9px 11px; min-width: 0; }
+.sftag .name { font-size: 15.5px; line-height: 1.16; }
+.sf-spec {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 7px;
+  margin: 5px 0 0;
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 9.5px;
+  font-weight: 500;
+  letter-spacing: .09em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+}
+.sf-spec .sf-sep { width: 1px; height: 9px; background: var(--rule); }
+.sf-spec .sf-st { color: var(--slate); font-weight: 600; }
+.sf-spec .sf-va { color: var(--copper); font-weight: 600; }
+.sf-spec .sf-val { color: var(--in-stock); font-weight: 600; }
+.sftag .foot { margin-top: 7px; font-size: 11px; }
+
+/* The stamp. A boxed numeral at the right edge, captioned with where the
+   number came from — shipped, a draft, or yours. */
+.sf-score {
+  border-left: 1px solid var(--rule-soft);
+  display: grid;
+  place-content: center;
+  text-align: center;
+  padding: 4px 2px;
+  font-family: "Barlow Condensed", "Arial Narrow", system-ui, sans-serif;
+}
+.sf-score b {
+  display: block;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+.sf-score span {
+  display: block;
+  margin-top: 4px;
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 7.5px;
+  font-weight: 500;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+}
+.sf-score.none b { font-size: 19px; color: var(--ink-3); font-weight: 600; }
+.sf-score.mine { background: var(--juniper); }
+.sf-score.mine b { color: var(--head-ink); }
+.sf-score.mine span { color: var(--head-dim); }
+
+/* ── Value frontier ───────────────────────────────────────────────────────
+   Score against price, plotted. Because ratings land on half-points the
+   answer comes out as a staircase: the cheapest bottle that reaches each
+   tier. Everything above the line costs more than one of those without
+   scoring better, which is the one thing a ranked list cannot say. */
+.fr { display: block; padding: 0; }
+.fr-read {
+  padding: 13px 16px 14px;
+  background: var(--paper);
+  border-bottom: 1px solid var(--rule);
+  font-size: 13.5px;
+  line-height: 1.5;
+  color: var(--ink-2);
+}
+.fr-read b { color: var(--ink); font-weight: 600; }
+.fr-plot { padding: 8px 8px 0; background: var(--paper); }
+.fr-plot svg { display: block; width: 100%; max-width: 440px; margin: 0 auto; height: auto; }
+.fr-grid { stroke: var(--rule-soft); stroke-width: 1; }
+.fr-axis { stroke: var(--rule); stroke-width: 1; }
+.fr-tick {
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 8.5px;
+  font-weight: 500;
+  letter-spacing: .05em;
+  fill: var(--ink-3);
+}
+.fr-dot { fill: var(--ink-3); fill-opacity: .42; stroke: transparent; stroke-width: 11px; }
+.fr-line { fill: none; stroke: var(--copper); stroke-width: 2; }
+.fr-key { fill: var(--copper); stroke: transparent; stroke-width: 11px; }
+.fr-lbl {
+  font-family: "Instrument Sans", system-ui, sans-serif;
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: -.005em;
+  fill: var(--ink);
+}
+.fr-lbl-p {
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 8px;
+  font-weight: 600;
+  letter-spacing: .04em;
+  fill: var(--copper);
+}
+
+.fr-head {
+  padding: 14px 16px 7px;
+  background: var(--paper);
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+}
+.fr-step {
+  display: grid;
+  grid-template-columns: 38px minmax(0, 1fr) auto;
+  gap: 11px;
+  align-items: center;
+  padding: 11px 16px;
+  background: var(--paper);
+  border-top: 1px solid var(--rule-soft);
+  cursor: pointer;
+}
+.fr-sc {
+  font-family: "Bricolage Grotesque", system-ui, sans-serif;
+  font-variation-settings: "opsz" 24;
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: -.03em;
+  font-variant-numeric: tabular-nums;
+  color: var(--copper);
+}
+.fr-step[data-mine="yes"] .fr-sc { color: var(--juniper-up); }
+.fr-n {
+  min-width: 0;
+  font-family: "Bricolage Grotesque", system-ui, sans-serif;
+  font-variation-settings: "opsz" 24;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.18;
+  letter-spacing: -.012em;
+}
+.fr-n small {
+  display: block;
+  margin-top: 3px;
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 9.5px;
+  font-weight: 500;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+}
+.fr-p {
+  text-align: right;
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-variant-numeric: tabular-nums;
+  font-size: 15px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.fr-p .stock {
+  justify-content: flex-end;
+  margin-top: 4px;
+  font-size: 10px;
+  letter-spacing: .03em;
+}
+.fr-foot {
+  padding: 14px 16px 24px;
+  font-size: 12.5px;
+  line-height: 1.5;
+  color: var(--ink-3);
+}
+
+/* ── Settings ─────────────────────────────────────────────────────────────
+   One choice, so it is one segmented control rather than a screen of rows.
+   Which way the shelf gets read is a standing preference, not an aisle
+   decision, so it lives here and not in the dock beside the thumb. */
+.gear {
+  flex: 0 0 36px;
+  width: 36px;
+  height: 36px;
+  display: grid;
+  place-items: center;
+  margin: -7px -8px -7px 0;
+  padding: 0;
+  border: none;
+  border-radius: 15px;
+  background: transparent;
+  color: var(--head-dim);
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+.gear svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
+.brandline .origin { margin-left: auto; }
+
+.seg { display: grid; gap: 8px; margin-top: 10px; }
+.segbtn {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 12px 14px;
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  background: var(--ground);
+  color: var(--ink);
+  font-family: "Instrument Sans", system-ui, sans-serif;
+  cursor: pointer;
+}
+.segbtn b {
+  display: block;
+  font-size: 15.5px;
+  font-weight: 600;
+  letter-spacing: -.01em;
+}
+.segbtn span {
+  display: block;
+  margin-top: 3px;
+  font-size: 13px;
+  line-height: 1.42;
+  color: var(--ink-2);
+}
+.segbtn[aria-pressed="true"] {
+  border-color: var(--juniper-up);
+  box-shadow: inset 0 0 0 1px var(--juniper-up);
+  background: var(--paper);
+}
+.segbtn[aria-pressed="true"] b::after {
+  content: "";
+  display: inline-block;
+  width: 7px; height: 7px;
+  margin-left: 8px;
+  border-radius: 50%;
+  background: var(--juniper-up);
+  vertical-align: middle;
+}
+
 @media (min-width: 620px) {
   .masthead, .strip, .dock {
     padding-left: max(16px, calc(50vw - 310px));
@@ -759,6 +1045,12 @@ input[type="range"].dim { opacity: .42; }
   <div class="brandline">
     <h1 class="wordmark">Best Under</h1>
     <span class="origin">Virginia ABC</span>
+    <button class="gear" type="button" id="gear" aria-label="Settings">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <circle cx="12" cy="12" r="3.2"></circle>
+        <path d="M19.4 14.2a1.6 1.6 0 0 0 .33 1.78l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.6 1.6 0 0 0-1.78-.33 1.6 1.6 0 0 0-1 1.47V20a2 2 0 1 1-4 0v-.1a1.6 1.6 0 0 0-1.05-1.46 1.6 1.6 0 0 0-1.78.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.6 1.6 0 0 0 .33-1.78 1.6 1.6 0 0 0-1.47-1H4a2 2 0 1 1 0-4h.1a1.6 1.6 0 0 0 1.46-1.05 1.6 1.6 0 0 0-.33-1.78l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.6 1.6 0 0 0 1.78.33H10a1.6 1.6 0 0 0 1-1.47V4a2 2 0 1 1 4 0v.1a1.6 1.6 0 0 0 1 1.47 1.6 1.6 0 0 0 1.78-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.6 1.6 0 0 0-.33 1.78V10a1.6 1.6 0 0 0 1.47 1H20a2 2 0 1 1 0 4h-.1a1.6 1.6 0 0 0-1.47 1z"></path>
+      </svg>
+    </button>
   </div>
   <div class="storerow">
     <div class="storefield select">
@@ -808,6 +1100,37 @@ input[type="range"].dim { opacity: .42; }
   </div>
   <div class="chipwrap"><div class="chips" id="styles"></div></div>
 </div>
+
+<!-- Settings. One standing preference: how the shelf gets read. -->
+<dialog class="sheet" id="settings" aria-labelledby="setTitle">
+  <div class="sheet-in">
+    <div class="sheet-head">
+      <div class="sheet-titles">
+        <h2 class="sheet-name" id="setTitle">Settings</h2>
+        <p class="sheet-sub">Kept on this phone</p>
+      </div>
+      <button class="sheet-x" type="button" id="setClose" aria-label="Close settings">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"></path></svg>
+      </button>
+    </div>
+
+    <div class="sheet-block">
+      <span class="label" id="viewLabel">How to read the shelf</span>
+      <div class="seg" role="group" aria-labelledby="viewLabel">
+        <button class="segbtn" type="button" data-view="shelf" aria-pressed="true">
+          <b>Shelf tags</b>
+          <span>Every bottle as a printed price talker, best first. Seven on a
+            screen. Tap one for the tasting note.</span>
+        </button>
+        <button class="segbtn" type="button" data-view="frontier" aria-pressed="false">
+          <b>Value frontier</b>
+          <span>Score plotted against price. Shows the cheapest bottle that
+            reaches each tier, and what the next tier costs.</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</dialog>
 
 <!-- Score and note editor. Opened by tapping any row. -->
 <dialog class="sheet" id="editor" aria-labelledby="edName">
@@ -883,7 +1206,15 @@ const ed = {
   close: document.getElementById('edClose'),
 };
 
+/** Settings. One standing preference, so one sheet and one control. */
+const set = {
+  box: document.getElementById('settings'),
+  open: document.getElementById('gear'),
+  close: document.getElementById('setClose'),
+};
+
 let shelf = null;
+let view = 'shelf';    // 'shelf' = price talkers, 'frontier' = score against price
 let activeStyles = new Set();
 let showOut = false;
 let showAll = false;   // include bottles with no rating yet
@@ -904,6 +1235,12 @@ const esc = (s) =>
 
 const money = (n) => '$' + n.toFixed(2);
 const dollars = (n) => '$' + Math.round(n);
+/** A price difference. Shelf prices end in .99, so most gaps are whole
+    dollars and "+$7.00" would be two characters of noise. */
+const gap = (hi, lo) => {
+  const d = Math.round((hi - lo) * 100) / 100;
+  return Number.isInteger(d) ? '$' + d : money(d);
+};
 const slug = (c) => c.toLowerCase().replace(/[^a-z0-9]+/g, '-');
 const title = (s) => s.charAt(0).toUpperCase() + s.slice(1);
 
@@ -1508,11 +1845,14 @@ function mineActions(act) {
   }
 }
 
-// One listener for the whole list: rows open the editor, export buttons don't.
+// One listener for the whole list: rows and chart dots open the editor,
+// export buttons don't.
 el.results.addEventListener('click', (e) => {
   const act = e.target.closest('[data-act]');
   if (act) return mineActions(act.dataset.act);
-  const row = e.target.closest('.tag');
+  const dot = e.target.closest('[data-dot]');
+  if (dot) return openEditor(rendered.get(dot.dataset.dot));
+  const row = e.target.closest('[data-code]');
   if (row) openEditor(rendered.get(row.dataset.code));
 });
 
@@ -1531,14 +1871,26 @@ function candidates() {
     .sort((a, b) => (b.s ?? -1) - (a.s ?? -1) || a.p - b.p);
 }
 
-function render(list, total) {
+/** Writes a built list into the page and runs the one build-in animation. */
+function paint(html) {
+  el.results.innerHTML = html;
+  tuneTiers();
+  if (!painted) {
+    painted = true;
+    document.body.classList.add('firstpaint');
+    setTimeout(() => document.body.classList.remove('firstpaint'), 800);
+  }
+}
+
+const nothingHere = () =>
+  `<li class="empty"><strong>No ${el.category.value.toLowerCase()} under ${dollars(Number(el.price.value))}.</strong>` +
+  `Raise the ceiling, allow any size, or switch on “Everything on the shelf” to include bottles nobody has rated yet.</li>`;
+
+function renderShelf(list, total) {
   rendered = new Map(list.map((p) => [p.c, p]));
 
   if (!list.length) {
-    el.results.innerHTML =
-      `<li class="empty"><strong>No ${el.category.value.toLowerCase()} under ${dollars(Number(el.price.value))}.</strong>` +
-      `Raise the ceiling, allow any size, or switch on “Everything on the shelf” to include bottles nobody has rated yet.</li>` +
-      exportHtml();
+    paint(nothingHere() + exportHtml());
     return;
   }
 
@@ -1571,48 +1923,42 @@ function render(list, total) {
   };
 
   let html = '';
-  let tier = null;
-  let tierId = 0;
 
   for (const p of list) {
     const isRated = typeof p.s === 'number';
-    const band = isRated ? p.s.toFixed(1) : 'unrated';
-    if (band !== tier) {
-      tier = band;
-      tierId++;
-      html += `<li class="tier" data-tier="${tierId}">
-        <span class="tier-score${isRated ? '' : ' unrated'}">${isRated ? band : 'Not rated yet'}</span>
-        <span class="tier-rule"></span>
-        <span class="tier-count"></span>
-      </li>`;
-    }
+    // The caption under the stamped numeral says where the number came from,
+    // which is the one thing a bare score hides.
+    const from = p.mine === 'score' ? 'Yours'
+      : !isRated ? 'No score'
+      : !allDraft && p.src === 'draft' ? 'Draft'
+      : 'Score';
+    const spec = [
+      p.pf ? `${p.pf}° proof` : '',
+      p.st ? `<span class="sf-st">${p.st.replaceAll('-', ' ')}</span>` : '',
+      p.va ? `<span class="sf-va">Virginia</span>` : '',
+      isRated && isGreatValue(p) ? `<span class="sf-val">Great value</span>` : '',
+      p.mine === 'note' ? `<span class="sf-va">Your note</span>` : '',
+    ].filter(Boolean).join('<span class="sf-sep"></span>');
+    const [whole, cents] = p.p.toFixed(2).split('.');
+
     html += `
-    <li class="tag" data-code="${p.c}" data-tier="${tierId}" data-state="checking" data-rated="${isRated ? 'yes' : 'no'}" data-mine="${p.mine ? 'yes' : 'no'}">
-      <div class="head">
+    <li class="tag sftag" data-code="${p.c}" data-state="checking" data-rated="${isRated ? 'yes' : 'no'}" data-mine="${p.mine ? 'yes' : 'no'}">
+      <div class="sf-price">
+        <b class="sf-dollars">${whole}</b><b class="sf-cents">${cents}</b>
+        <small class="sf-per">${p.ml} ml${p.ml !== 750 ? `<br>${money(p.p750)} per 750` : ''}</small>
+      </div>
+      <div class="sf-body">
         <h2 class="name">${p.n}</h2>
-        <span class="price">${money(p.p)}</span>
+        ${spec ? `<p class="sf-spec">${spec}</p>` : ''}
+        <div class="foot">
+          <span class="footfacts">
+            <span class="stock" data-level="unknown"><i class="dot"></i>Checking</span>
+            <span class="code">${p.c}</span>
+          </span>
+        </div>
       </div>
-      <div class="meta">
-        ${p.mine === 'score' ? `<span class="mine">Your score</span>` : ''}
-        ${p.mine === 'note' ? `<span class="mine">Your note</span>` : ''}
-        ${isRated && isGreatValue(p) ? `<span class="value">Great value</span>` : ''}
-        ${p.st ? `<span class="style">${p.st.replaceAll('-', ' ')}</span>` : ''}
-        ${p.va ? `<span class="va">Virginia</span>` : ''}
-        <span class="dat">${p.ml} ml</span>
-        ${p.pf ? `<span class="dat">${p.pf}° proof</span>` : ''}
-        ${p.ml !== 750 ? `<span class="dat per">${money(p.p750)} per 750</span>` : ''}
-        ${isRated && !allDraft && p.src === 'draft' ? `<span class="draft">Draft</span>` : ''}
-      </div>
-      ${p.note ? `<p class="note">${esc(p.note)}</p>` : ''}
-      <div class="foot">
-        <span class="footfacts">
-          <span class="stock" data-level="unknown"><i class="dot"></i>Checking</span>
-          <span class="code">${p.c}</span>
-        </span>
-        ${p.l ? `<button class="rate" type="button" aria-label="Your score and note for ${esc(p.n)}">
-          <svg class="rate-i" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20h4L19.5 8.5a2.1 2.1 0 0 0-3-3L5 17v3z"></path></svg>
-          ${p.mine === 'score' ? p.s.toFixed(1) : p.mine === 'note' ? 'Noted' : 'Rate'}
-        </button>` : ''}
+      <div class="sf-score ${p.mine === 'score' ? 'mine' : isRated ? '' : 'none'}">
+        <b>${isRated ? p.s.toFixed(1) : '—'}</b><span>${from}</span>
       </div>
     </li>`;
   }
@@ -1623,22 +1969,193 @@ function render(list, total) {
     total > list.length
       ? `Showing the top ${list.length} of ${total} matches. Narrow the price or style to see further down the shelf.`
       : '',
-    Object.keys(mine).length ? '' : 'Tap any bottle to score it yourself or leave a note.',
+    'Tap a tag for the tasting note, or to score it yourself.',
     allDraft ? 'Ratings are drafts' : '',
   ].filter(Boolean);
   if (footnotes.length) {
     html += `<li class="colophon">${footnotes.map((t) => `<span>${t}</span>`).join('')}</li>`;
   }
   html += exportHtml();
+  paint(html);
+}
 
-  el.results.innerHTML = html;
-  tuneTiers();
+/* ── Value frontier ───────────────────────────────────────────────────────
+ *
+ * Ratings land on half-points, so a plot of score against price is a set of
+ * horizontal bands and the useful answer falls out as a staircase: for each
+ * score, the cheapest bottle that reaches it, kept only where nothing better
+ * costs the same or less. Four or five bottles out of several hundred.
+ *
+ * This is the one claim a ranked list cannot make. A list says "these are in
+ * order"; the staircase says "everything above this line is beaten on both
+ * score and price by something else on this shelf".
+ */
+function frontierSteps(list) {
+  const rated = list.filter((p) => typeof p.s === 'number');
+  if (!rated.length) return [];
 
-  if (!painted) {
-    painted = true;
-    document.body.classList.add('firstpaint');
-    setTimeout(() => document.body.classList.remove('firstpaint'), 800);
+  // The cheapest bottle at each distinct score.
+  const champion = new Map();
+  for (const p of rated) {
+    const held = champion.get(p.s);
+    if (!held || p.p < held.p) champion.set(p.s, p);
   }
+
+  // Walking down from the best score, keep a champion only where it is
+  // strictly cheaper than everything that scores higher — otherwise there is
+  // no reason on this shelf to ever buy it.
+  const steps = [];
+  let floor = Infinity;
+  for (const score of [...champion.keys()].sort((a, b) => b - a)) {
+    const p = champion.get(score);
+    if (p.p < floor) {
+      steps.push(p);
+      floor = p.p;
+    }
+  }
+  return steps; // best score first
+}
+
+/** The plot. Scales are derived from the data, not assumed. */
+function frontierChart(rated, steps) {
+  const W = 360, H = 292, L = 40, R = 348, T = 22, B = 240;
+
+  let pLo = Math.max(0, Math.floor(Math.min(...rated.map((p) => p.p)) / 5) * 5);
+  let pHi = Math.ceil(Math.max(...rated.map((p) => p.p)) / 5) * 5;
+  if (pHi - pLo < 5) pHi = pLo + 5;
+
+  const scores = rated.map((p) => p.s);
+  let sLo = Math.min(...scores) - 0.25;
+  let sHi = Math.max(...scores) + 0.25;
+  if (sHi - sLo < 1) { sLo -= 0.375; sHi += 0.375; }
+
+  const x = (p) => L + ((p - pLo) / (pHi - pLo)) * (R - L);
+  const y = (s) => B - ((s - sLo) / (sHi - sLo)) * (B - T);
+  const r1 = (n) => Math.round(n * 10) / 10;
+
+  // Price ticks: whatever round step gives about five of them.
+  const step = [5, 10, 20, 25, 50, 100, 250].find((s) => (pHi - pLo) / s <= 5) || 500;
+  const xticks = [];
+  for (let v = Math.ceil(pLo / step) * step; v <= pHi + 0.001; v += step) xticks.push(v);
+
+  // Score lines: the finest step that still leaves them far enough apart to
+  // set a label between. A $30 ceiling spans 2.5 to 8.0, which is thirteen
+  // half-point bands — too many to read and too close to label.
+  const sStep = [0.5, 1, 2].find((s) => (sHi - sLo) / s <= 6) || 5;
+  const yticks = [];
+  for (let v = Math.ceil(sLo / sStep) * sStep; v <= sHi + 0.001; v += sStep) yticks.push(r1(v));
+
+  const keys = new Set(steps.map((p) => p.c));
+  const bits = [];
+
+  for (const v of yticks) {
+    bits.push(`<line class="fr-grid" x1="${L}" y1="${r1(y(v))}" x2="${R}" y2="${r1(y(v))}"></line>`);
+    bits.push(`<text class="fr-tick" x="${L - 6}" y="${r1(y(v) + 3)}" text-anchor="end">${v.toFixed(1)}</text>`);
+  }
+  bits.push(`<line class="fr-axis" x1="${L}" y1="${B}" x2="${R}" y2="${B}"></line>`);
+  for (const v of xticks) {
+    bits.push(`<text class="fr-tick" x="${r1(x(v))}" y="${B + 15}" text-anchor="middle">$${v}</text>`);
+  }
+  bits.push(`<text class="fr-tick" x="${L}" y="${B + 34}" text-anchor="start">PRICE AS SOLD</text>`);
+  bits.push(`<text class="fr-tick" x="${R}" y="${B + 34}" text-anchor="end">SCORE ON THE Y</text>`);
+
+  // Every rated candidate, the beaten ones dimmed.
+  for (const p of rated) {
+    if (keys.has(p.c)) continue;
+    bits.push(`<circle class="fr-dot" data-dot="${p.c}" cx="${r1(x(p.p))}" cy="${r1(y(p.s))}" r="3.4"></circle>`);
+  }
+
+  // The staircase, drawn cheapest first so each tread is a real price step.
+  const rising = [...steps].reverse();
+  if (rising.length) {
+    let d = `M ${r1(x(rising[0].p))} ${r1(y(rising[0].s))}`;
+    for (const p of rising.slice(1)) d += ` H ${r1(x(p.p))} V ${r1(y(p.s))}`;
+    d += ` H ${R}`;
+    bits.push(`<path class="fr-line" d="${d}"></path>`);
+  }
+
+  for (const p of steps) {
+    bits.push(`<circle class="fr-key" data-dot="${p.c}" cx="${r1(x(p.p))}" cy="${r1(y(p.s))}" r="5"></circle>`);
+  }
+
+  // Labels go above and to the LEFT of their step, which is the one region
+  // the frontier guarantees is empty: a dot up there would be cheaper and
+  // score higher, so it would have been the step instead. One line, so two
+  // steps close in score still clear each other.
+  //
+  // Where a step sits too far left to fit a label beside it, it goes
+  // unlabelled rather than being dropped into the dot field — it is still
+  // named in the list underneath. The top step is the exception: nothing is
+  // plotted above the highest score, so it can hang off either side.
+  steps.slice(0, 6).forEach((p, i) => {
+    const px = x(p.p), py = y(p.s);
+    const left = px - L > 104;
+    if (!left && i > 0) return;
+    const tx = r1(left ? px - 8 : px + 8);
+    const name = p.n.length > 18 ? p.n.slice(0, 17).trimEnd() + '…' : p.n;
+    bits.push(
+      `<text class="fr-lbl" x="${tx}" y="${r1(py - 8)}" text-anchor="${left ? 'end' : 'start'}">` +
+        (left
+          ? `${esc(name)} <tspan class="fr-lbl-p">${money(p.p)}</tspan>`
+          : `<tspan class="fr-lbl-p">${money(p.p)}</tspan> ${esc(name)}`) +
+      `</text>`
+    );
+  });
+
+  return `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(chartAlt(steps))}">${bits.join('')}</svg>`;
+}
+
+function chartAlt(steps) {
+  if (!steps.length) return 'No rated bottles to plot.';
+  return 'Score plotted against price. The cheapest bottle at each score: ' +
+    steps.map((p) => `${p.n} at ${money(p.p)} scoring ${p.s.toFixed(1)}`).join('; ') + '.';
+}
+
+function renderFrontier(all) {
+  const rated = all.filter((p) => typeof p.s === 'number');
+  const steps = frontierSteps(all);
+  rendered = new Map(all.map((p) => [p.c, p]));
+
+  if (!rated.length) {
+    paint(
+      `<li class="empty"><strong>Nothing rated under ${dollars(Number(el.price.value))}.</strong>` +
+      `The frontier is drawn from scores, so it needs at least one. Raise the ceiling, or switch to shelf tags to see what is there.</li>` +
+      exportHtml()
+    );
+    return;
+  }
+
+  const beaten = rated.length - steps.length;
+  const climb = steps.length > 1
+    ? ` The step from ${steps[1].s.toFixed(1)} to ${steps[0].s.toFixed(1)} costs <b>${gap(steps[0].p, steps[1].p)}</b>.`
+    : '';
+
+  let html = `<li class="fr">
+    <p class="fr-read"><b>${steps.length} ${steps.length === 1 ? 'bottle sits' : 'bottles sit'} on the frontier.</b>
+      ${beaten === 0 ? 'Nothing else here is matched or beaten by one of them.'
+        : `The other ${beaten} ${beaten === 1 ? 'is' : 'are'} matched or beaten on both price and score by one of them.`}${climb}</p>
+    <div class="fr-plot">${frontierChart(rated, steps)}</div>
+    <p class="fr-head">The ${steps.length === 1 ? 'one step' : `${steps.length} steps`}</p>`;
+
+  steps.forEach((p, i) => {
+    const under = steps[i + 1];
+    const step = under
+      ? `+${gap(p.p, under.p)} over the ${under.s.toFixed(1)} step`
+      : 'Cheapest rated bottle here';
+    html += `<div class="fr-step" data-code="${p.c}" data-state="checking" data-mine="${p.mine ? 'yes' : 'no'}">
+      <b class="fr-sc">${p.s.toFixed(1)}</b>
+      <span class="fr-n">${p.n}<small>${step}</small></span>
+      <span class="fr-p">${money(p.p)}<span class="stock" data-level="unknown"><i class="dot"></i>Checking</span></span>
+    </div>`;
+  });
+
+  const unrated = all.length - rated.length;
+  html += `<p class="fr-foot">Dimmed dots are bottles something else beats on
+    both score and price. Tap any dot or step to open it.${
+      unrated ? ` ${unrated} unrated ${unrated === 1 ? 'bottle is' : 'bottles are'} not plotted.` : ''
+    }</p></li>`;
+
+  paint(html + exportHtml());
 }
 
 /**
@@ -1656,9 +2173,12 @@ function tuneTiers() {
 }
 
 function paintStock(code, qty) {
-  const row = el.results.querySelector(`.tag[data-code="${code}"]`);
+  // Both views carry the count on the row that owns the code: a shelf tag, or
+  // a step on the frontier. Chart dots use `data-dot`, so they never match.
+  const row = el.results.querySelector(`[data-code="${code}"]`);
   if (!row) return;
   const cell = row.querySelector('.stock');
+  if (!cell) return;
   const write = (level, text) => {
     cell.dataset.level = level;
     cell.innerHTML = `<i class="dot"></i>${text}`;
@@ -1718,15 +2238,48 @@ async function checkStock(list) {
 function run() {
   savePrefs();
   const all = candidates();
-  const list = all.slice(0, MAX_CHECK);
   const cap = dollars(Number(el.price.value));
   setScope(all.length
     ? `<b>${all.length}</b> ${all.length === 1 ? 'bottle' : 'bottles'} under <b>${cap}</b>`
     : `Nothing under <b>${cap}</b>`);
-  render(list, all.length);
+
+  // The frontier plots every candidate locally but only ever needs counts for
+  // the handful of bottles on the staircase, so it spends a fraction of the
+  // fan-out the list does.
+  if (view === 'frontier') {
+    renderFrontier(all);
+    const steps = frontierSteps(all);
+    if (steps.length) checkStock(steps);
+    else setStatus('');
+    return;
+  }
+
+  const list = all.slice(0, MAX_CHECK);
+  renderShelf(list, all.length);
   if (list.length) checkStock(list);
   else setStatus('');
 }
+
+/** Switching how the shelf is read is a re-render, not a reload. */
+function setView(next) {
+  if (next !== 'shelf' && next !== 'frontier') return;
+  for (const b of set.box.querySelectorAll('.segbtn')) {
+    b.setAttribute('aria-pressed', String(b.dataset.view === next));
+  }
+  if (next === view) return;
+  view = next;
+  if (shelf) run();
+}
+
+set.open.addEventListener('click', () => set.box.showModal());
+set.close.addEventListener('click', () => set.box.close());
+set.box.addEventListener('click', (e) => {
+  if (e.target === set.box) set.box.close();
+});
+set.box.addEventListener('click', (e) => {
+  const b = e.target.closest('.segbtn');
+  if (b) setView(b.dataset.view);
+});
 
 /**
  * Reopen where you left off. You're usually in the same store looking for the
@@ -1742,6 +2295,7 @@ function savePrefs() {
         category: el.category.value,
         size: el.size.value,
         price: el.price.value,
+        view,
       })
     );
   } catch {}
@@ -1753,6 +2307,7 @@ function restorePrefs() {
     p = JSON.parse(localStorage.getItem('prefs') || 'null');
   } catch {}
   if (!p) return;
+  if (p.view === 'shelf' || p.view === 'frontier') view = p.view;
   const has = (sel, v) => [...sel.options].some((o) => o.value === v);
   if (p.store && has(el.store, p.store)) el.store.value = p.store;
   if (p.category && has(el.category, p.category)) el.category.value = p.category;
@@ -1798,6 +2353,7 @@ window.addEventListener('orientationchange', measureDock);
   loadMine(); // before anything reads the shelf through them
   buildControls();
   restorePrefs();
+  setView(view);  // sync the settings control to the remembered choice
   renderStyles(); // after restore, so the chips match the remembered category
   el.ceiling.textContent = '$' + el.price.value;
   measureDock();
